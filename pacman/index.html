@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Pac-Man 💕 - Coding Blog</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/responsive.css">
+  <style>
+    body.pacman-page {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .pacman-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .game-header {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .game-header h1 {
+      font-size: 2.5em;
+      margin: 15px 0;
+      color: #FF6B6B;
+      text-shadow: 0 0 20px rgba(255, 107, 107, 0.5), 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .game-header p {
+      font-size: 1.1em;
+      color: #ecf0f1;
+      margin: 10px 0;
+    }
+
+    .game-stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-align: center;
+      border: 2px solid rgba(255, 107, 107, 0.3);
+    }
+
+    .stat-label {
+      font-size: 0.9em;
+      color: #FFB6C1;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .stat-value {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 5px;
+    }
+
+    .canvas-wrapper {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 15px;
+      padding: 20px;
+      border: 3px solid #FF6B6B;
+      box-shadow: 0 0 40px rgba(255, 107, 107, 0.4), inset 0 0 60px rgba(255, 107, 107, 0.1);
+    }
+
+    #gameCanvas {
+      border: 2px solid #FFB6C1;
+      background: #000;
+      display: block;
+      border-radius: 5px;
+    }
+
+    .controls {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      padding: 25px;
+      margin: 25px 0;
+      border-left: 4px solid #FF6B6B;
+    }
+
+    .controls h2 {
+      color: #FF6B6B;
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 1.4em;
+    }
+
+    .controls-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .control-item {
+      display: flex;
+      align-items: center;
+      color: #ecf0f1;
+      font-size: 1em;
+    }
+
+    .key {
+      display: inline-block;
+      background: linear-gradient(135deg, #FF6B6B 0%, #E74C3C 100%);
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-right: 15px;
+      min-width: 70px;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+      box-shadow: 0 3px 0 #c0392b;
+    }
+
+    .game-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin: 25px 0;
+    }
+
+    .info-card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      border: 2px solid rgba(255, 107, 107, 0.2);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .info-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(255, 107, 107, 0.5);
+    }
+
+    .info-icon {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .info-title {
+      color: #FF6B6B;
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 8px;
+    }
+
+    .info-desc {
+      color: #bdc3c7;
+      font-size: 0.95em;
+      line-height: 1.4;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #FFB6C1;
+      text-decoration: none;
+      font-size: 1em;
+      padding: 10px 0;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: #FF6B6B;
+    }
+
+    @media (max-width: 850px) {
+      #gameCanvas {
+        width: 100%;
+        height: auto;
+      }
+      
+      .game-header h1 {
+        font-size: 1.8em;
+      }
+
+      .game-stats {
+        gap: 15px;
+      }
+
+      .stat-item {
+        padding: 10px 15px;
+      }
+    }
+  </style>
+</head>
+<body class="pacman-page">
+  <div class="pacman-container">
+    <a href="../index.html" class="back-link">← Back to Home</a>
+
+    <header class="game-header">
+      <h1>💕 Valentine's Pac-Man 💕</h1>
+      <p>Collect pellets, grab roses, and shoot hearts to defeat the ghosts!</p>
+    </header>
+
+    <div class="game-stats">
+      <div class="stat-item">
+        <div class="stat-label">Score</div>
+        <div class="stat-value" id="score">0</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-label">Lives</div>
+        <div class="stat-value" id="lives">❤️❤️❤️</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-label">Level</div>
+        <div class="stat-value" id="level">1</div>
+      </div>
+    </div>
+
+    <div class="canvas-wrapper">
+      <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+
+    <section class="controls">
+      <h2>🎮 Controls</h2>
+      <div class="controls-grid">
+        <div class="control-item">
+          <span class="key">↑ ↓ ← →</span>
+          <span>Move Pac-Man</span>
+        </div>
+        <div class="control-item">
+          <span class="key">W A S D</span>
+          <span>Alternative movement</span>
+        </div>
+        <div class="control-item">
+          <span class="key">SPACE</span>
+          <span>Pause / Resume</span>
+        </div>
+        <div class="control-item">
+          <span class="key">R</span>
+          <span>Restart game</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="game-info">
+      <div class="info-card">
+        <div class="info-icon">🟡</div>
+        <div class="info-title">Pellets (+10 pts)</div>
+        <div class="info-desc">Eat all the pellets to complete each level. Don't let the ghosts catch you!</div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">🌹</div>
+        <div class="info-title">Rose Power-Up (+50 pts)</div>
+        <div class="info-desc">Collect the rose to activate heart-shooting mode for 8 seconds!</div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">💕</div>
+        <div class="info-title">Heart Projectiles</div>
+        <div class="info-desc">While powered up, automatically shoot hearts in the direction you're facing.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">👻</div>
+        <div class="info-title">Ghosts (+200 pts)</div>
+        <div class="info-desc">Hit ghosts with hearts to eliminate them! They'll respawn at the center.</div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Load game scripts in order -->
+  <script src="../js/maze.js"></script>
+  <script src="../js/entities.js"></script>
+  <script src="../js/effects.js"></script>
+  <script src="../js/game.js"></script>
+</body>
+</html>

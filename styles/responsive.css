@@ -1,0 +1,390 @@
+/* ==============================================
+   RESPONSIVE STYLESHEET
+   Mobile-first breakpoints for responsiveness
+   ============================================== */
+
+/* ============================================
+   TABLET (481px - 768px)
+   ============================================ */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav-container {
+        padding: 0 12px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .hero {
+        min-height: 350px;
+        padding: 32px 16px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .hero-content h2 {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .hero-buttons {
+        gap: 12px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .project-icon {
+        font-size: 64px;
+        margin-bottom: 12px;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .about-content {
+        padding: 24px;
+    }
+
+    .footer-content {
+        gap: 16px;
+        justify-content: center;
+    }
+}
+
+/* ============================================
+   MOBILE (≤480px)
+   ============================================ */
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 8px 12px;
+    }
+
+    .nav-container {
+        padding: 0 8px;
+    }
+
+    .nav-logo a {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .nav-links a {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .hero {
+        min-height: 300px;
+        padding: 24px 16px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .hero-buttons {
+        gap: 8px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        padding: 10px 16px;
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .projects-section {
+        padding: 24px 12px;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .project-card {
+        padding: 16px;
+    }
+
+    .project-icon {
+        font-size: 48px;
+        margin-bottom: 8px;
+    }
+
+    .project-title {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .project-description {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .about-section {
+        padding: 24px 12px;
+    }
+
+    .about-content {
+        padding: 16px;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .footer {
+        padding: 20px 12px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}
+
+/* ============================================
+   SMALL PHONES (≤360px)
+   ============================================ */
+
+@media (max-width: 360px) {
+    .nav-logo a {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 22px;
+    }
+
+    .hero-content h2 {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .project-icon {
+        font-size: 40px;
+    }
+
+    .project-title {
+        font-size: 16px;
+    }
+
+    .about-content h2 {
+        font-size: 22px;
+    }
+}
+
+/* ============================================
+   LARGE DESKTOP (1400px+)
+   ============================================ */
+
+@media (min-width: 1400px) {
+    .nav-container,
+    .projects-container,
+    .about-content,
+    .footer-content {
+        max-width: 1400px;
+    }
+
+    .hero {
+        min-height: 450px;
+    }
+
+    .hero-content h1 {
+        font-size: 56px;
+    }
+
+    .projects-section {
+        padding: 60px 16px;
+    }
+
+    .projects-container {
+        gap: 32px;
+    }
+
+    .project-card {
+        padding: 32px;
+    }
+
+    .project-icon {
+        font-size: 96px;
+    }
+}
+
+/* ============================================
+   TOUCH DEVICE OPTIMIZATION
+   ============================================ */
+
+@media (hover: none) and (pointer: coarse) {
+    /* Larger touch targets for mobile */
+    .btn {
+        min-height: 48px;
+        min-width: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Reduce hover effects on touch devices */
+    .project-card:hover {
+        transform: none;
+    }
+
+    a:active {
+        opacity: 0.8;
+    }
+}
+
+/* ============================================
+   HIGH DPI DISPLAYS (RETINA)
+   ============================================ */
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .project-card {
+        border: 0.5px solid rgba(189, 195, 199, 0.5);
+    }
+}
+
+/* ============================================
+   LANDSCAPE ORIENTATION
+   ============================================ */
+
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        min-height: 200px;
+        padding: 20px 16px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .hero-buttons {
+        gap: 8px;
+    }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+    .navbar,
+    .footer {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    .project-card {
+        page-break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+    }
+}

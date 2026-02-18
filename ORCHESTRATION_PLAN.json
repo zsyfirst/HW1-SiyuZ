@@ -1,0 +1,294 @@
+{
+  "project": "GitHub Pages Coding Blog with Game & Data Feed",
+  "course": "Harvard BST236 Computing",
+  "created": "2025-02-17",
+  "total_tasks": 12,
+  "critical_path": ["P0", "P1a", "P1b", "P2a", "P3a"],
+  "parallelization_waves": [
+    ["P0"],
+    ["P1a", "P2a", "P3a"],
+    ["P1b", "P2b", "P3b"],
+    ["P1c", "P2c", "P3c"],
+    ["P2d", "P3d"],
+    ["P2e"],
+    ["P4"]
+  ],
+  "tasks": [
+    {
+      "task_id": "P0",
+      "title": "Initialize GitHub Pages Repository & Structure",
+      "agent_type": "devops",
+      "complexity": "Low",
+      "inputs": ["GitHub repo URL", "GitHub Pages config requirements"],
+      "outputs": [
+        ".github/",
+        ".gitignore",
+        "README.md (initial)",
+        "index.html (placeholder)"
+      ],
+      "dependencies": [],
+      "rationale": "Foundation for all other tasks; enables subsequent file creation and Pages deployment.",
+      "risk_flags": ["Ensure GitHub Pages is enabled in repo settings (Settings > Pages > main branch)"]
+    },
+    {
+      "task_id": "P1a",
+      "title": "Design Homepage Layout & Information Architecture",
+      "agent_type": "architect",
+      "complexity": "Low",
+      "inputs": ["Project requirements", "coding blog best practices"],
+      "outputs": [
+        "homepage-wireframe.md (ASCII/textual wireframe)",
+        "design-spec.json (colors, typography, spacing)"
+      ],
+      "dependencies": ["P0"],
+      "rationale": "Define visual structure before coding; enables parallel CSS/content creation; expandable for future assignments.",
+      "risk_flags": ["Ensure navigation scalability (design for 5+ future pages)"]
+    },
+    {
+      "task_id": "P1b",
+      "title": "Implement Homepage HTML & Base CSS Framework",
+      "agent_type": "code-generator",
+      "complexity": "Low",
+      "inputs": ["homepage-wireframe.md", "design-spec.json"],
+      "outputs": [
+        "index.html (complete homepage with semantic HTML)",
+        "styles/main.css (responsive grid, typography, colors)",
+        "styles/responsive.css (mobile breakpoints)"
+      ],
+      "dependencies": ["P1a", "P0"],
+      "rationale": "Creates the main landing page with responsive design; foundation for navigation links.",
+      "risk_flags": ["Use semantic HTML5; ensure CSS is vendor-prefixed for cross-browser compatibility"]
+    },
+    {
+      "task_id": "P1c",
+      "title": "Build Navigation Component & Content Sections",
+      "agent_type": "code-generator",
+      "complexity": "Low",
+      "inputs": ["index.html", "Problem 1 requirements"],
+      "outputs": [
+        "components/navbar.html (reusable navigation)",
+        "index.html (updated with links to /pacman/index.html, /arxiv.html)",
+        "styles/components.css (navbar styling)"
+      ],
+      "dependencies": ["P1b"],
+      "rationale": "Adds navigation links to Pac-Man game and arXiv feed; enables user access to all content.",
+      "risk_flags": ["Links must be relative paths: href='/pacman/index.html' and href='/arxiv.html'"]
+    },
+    {
+      "task_id": "P2a",
+      "title": "Design Pac-Man Game Architecture & State Management",
+      "agent_type": "architect",
+      "complexity": "Medium",
+      "inputs": ["Problem 2 requirements", "Canvas game design patterns"],
+      "outputs": [
+        "game-architecture.md (pseudocode & design document)",
+        "entity-hierarchy.json (Pac-Man, Ghost, Rose, Heart classes structure)"
+      ],
+      "dependencies": ["P0"],
+      "rationale": "Define game module boundaries (entities, maze, collision, AI, projectiles) before coding to ensure smooth implementation.",
+      "risk_flags": [
+        "Rose spawn timing must be random but frequent enough to test power-ups",
+        "Heart-ghost collision detection is critical for power-up gameplay"
+      ]
+    },
+    {
+      "task_id": "P2b",
+      "title": "Implement Core Game Engine (Maze, Collision, Movement)",
+      "agent_type": "code-generator",
+      "complexity": "High",
+      "inputs": ["game-architecture.md", "entity-hierarchy.json"],
+      "outputs": [
+        "js/maze.js (maze layout, wall collision, pellet system)",
+        "js/entities.js (Pac-Man, Ghost, Rose, Heart class definitions)",
+        "js/collision.js (AABB collision detection, pellet/wall/power-up checks)",
+        "js/input.js (keyboard controls: arrow keys, game start/pause)"
+      ],
+      "dependencies": ["P2a"],
+      "rationale": "Core game loop foundation; must complete before Pac-Man movement & AI logic.",
+      "risk_flags": [
+        "Maze layout should be a 2D array; consider making it configurable",
+        "Collision detection needs to handle both entity-wall and entity-entity cases"
+      ]
+    },
+    {
+      "task_id": "P2c",
+      "title": "Implement Pac-Man Movement & Ghost AI Behavior",
+      "agent_type": "code-generator",
+      "complexity": "High",
+      "inputs": ["js/entities.js", "js/collision.js", "game-architecture.md"],
+      "outputs": [
+        "js/pacman.js (Pac-Man movement, animation, live tracking)",
+        "js/ghost-ai.js (simple pathfinding/chase algorithm for each ghost)",
+        "js/game-loop.js (main update/render loop, game state management)"
+      ],
+      "dependencies": ["P2b"],
+      "rationale": "Implements playable Pac-Man mechanics and ghost coordination; prerequisite for power-ups.",
+      "risk_flags": [
+        "Ghost AI: consider simple A* or Manhattan distance chase; avoid complex algorithms",
+        "Game loop timing: use requestAnimationFrame for smooth 60fps"
+      ]
+    },
+    {
+      "task_id": "P2d",
+      "title": "Implement Power-Up System (Rose & Heart Projectiles)",
+      "agent_type": "code-generator",
+      "complexity": "High",
+      "inputs": ["js/game-loop.js", "js/entities.js", "js/collision.js"],
+      "outputs": [
+        "js/powerups.js (Rose spawn/collection, powered-up state tracking)",
+        "js/projectiles.js (Heart entities, trajectory, lifetime, ghost elimination)",
+        "js/scoring.js (score tracking, bonus points for hearts/ghosts)"
+      ],
+      "dependencies": ["P2c"],
+      "rationale": "Implements Valentine's-themed core features (roses, hearts); fulfills Problem 2 unique requirement.",
+      "risk_flags": [
+        "Rose spawn should be time-based + random location (not on walls/pellets)",
+        "Heart projectiles must travel in Pac-Man's facing direction continuously during power-up",
+        "Power-up duration must be balanced (suggest 5-8 seconds)"
+      ]
+    },
+    {
+      "task_id": "P2e",
+      "title": "Create Pac-Man Game HTML Page & Visual Styling",
+      "agent_type": "code-generator",
+      "complexity": "Medium",
+      "inputs": ["P2 requirements", "design-spec.json"],
+      "outputs": [
+        "pacman/index.html (game canvas, controls instructions, score display)",
+        "pacman/styles.css (Valentine's theme: pink/red colors, heart emojis, responsive)",
+        "pacman/Valentine's-theme.css (optional: animated backgrounds, special fonts)"
+      ],
+      "dependencies": ["P2d", "P1c"],
+      "rationale": "Creates playable web page for game; links from homepage (P1c dependency).",
+      "risk_flags": [
+        "Canvas must be responsive but maintain aspect ratio",
+        "Include game over screen with restart button",
+        "Display lives, score, power-up timer"
+      ]
+    },
+    {
+      "task_id": "P3a",
+      "title": "Design arXiv Data Pipeline Architecture",
+      "agent_type": "architect",
+      "complexity": "Medium",
+      "inputs": ["Problem 3 requirements", "arXiv API documentation", "GitHub Actions docs"],
+      "outputs": [
+        "arxiv-pipeline.md (data flow: API → fetch script → JSON → HTML → deploy)",
+        "workflow-design.yaml (GitHub Actions structure, triggers, jobs)"
+      ],
+      "dependencies": ["P0"],
+      "rationale": "Define data pipeline (fetch → transform → generate → deploy) before implementation; clarifies script responsibilities.",
+      "risk_flags": [
+        "arXiv API: rate limit ~1 req/3 sec; use search_query parameter effectively",
+        "Midnight trigger: use cron='0 0 * * *' in GitHub Actions (UTC)",
+        "Error handling: workflow must not fail silently; add logging"
+      ]
+    },
+    {
+      "task_id": "P3b",
+      "title": "Implement arXiv Fetcher & Data Pipeline Scripts",
+      "agent_type": "api-integration",
+      "complexity": "High",
+      "inputs": ["arxiv-pipeline.md", "Node.js best practices"],
+      "outputs": [
+        "scripts/fetchArxiv.js (Query arXiv API by keyword, parse XML, extract metadata)",
+        "scripts/generateFeedHTML.js (Transform papers.json → arxiv.html with card layout)",
+        "data/papers.json (structured paper data: title, authors, abstract, pdf_url, date)",
+        "package.json (dependencies: node-fetch, xml2js or similar)"
+      ],
+      "dependencies": ["P3a"],
+      "rationale": "Core data fetching & transformation; must complete before GitHub Actions workflow.",
+      "risk_flags": [
+        "arXiv API returns XML; use parser library or regex carefully",
+        "Handle errors: timeout (30s), no results, malformed data",
+        "Store papers.json for GitOps workflow (commit to repo)"
+      ]
+    },
+    {
+      "task_id": "P3c",
+      "title": "Create GitHub Actions Workflow for Auto-Update",
+      "agent_type": "devops",
+      "complexity": "Medium",
+      "inputs": ["scripts/fetchArxiv.js", "scripts/generateFeedHTML.js", "workflow-design.yaml"],
+      "outputs": [
+        ".github/workflows/update-arxiv-feed.yml (daily cron job, fetch + generate + commit)",
+        ".github/workflows/README.md (documentation on customizing the workflow)"
+      ],
+      "dependencies": ["P3b", "P0"],
+      "rationale": "Automates nightly paper updates; enables hands-off deployment to GitHub Pages.",
+      "risk_flags": [
+        "GitHub Actions token: use GITHUB_TOKEN (auto-provided) for commits",
+        "Skip CI on workflow commits: add [skip ci] in git commit message or use immutable workflow trigger",
+        "Test workflow locally with act tool before deploying"
+      ]
+    },
+    {
+      "task_id": "P3d",
+      "title": "Create arXiv Feed Display Page",
+      "agent_type": "code-generator",
+      "complexity": "Medium",
+      "inputs": ["data/papers.json", "design-spec.json", "Problem 3 requirements"],
+      "outputs": [
+        "arxiv.html (paper cards, expandable abstracts, PDF links, back-to-home link)",
+        "styles/arxiv.css (responsive grid, card styling, dark theme alignment)",
+        "js/arxiv-utils.js (optional: search/filter, sorting by date)"
+      ],
+      "dependencies": ["P3c", "P1c"],
+      "rationale": "Displays fetched papers in user-friendly format; links from homepage.",
+      "risk_flags": [
+        "Page must work with dynamically updated papers.json",
+        "Include metadata: fetch timestamp, paper count, last update time",
+        "PDF links should target arXiv.org directly (don't host PDFs)"
+      ]
+    },
+    {
+      "task_id": "P4",
+      "title": "Integration Testing & Final README Documentation",
+      "agent_type": "code-generator",
+      "complexity": "Medium",
+      "inputs": [
+        "All deliverables from P1-P3",
+        "Copilot CLI prompts used",
+        "Problem 3 requirements for documentation"
+      ],
+      "outputs": [
+        "README.md (complete: project overview, setup instructions, Copilot CLI usage, file structure)",
+        "DEPLOYMENT.md (steps to enable GitHub Pages, test locally, customize arXiv keywords)",
+        ".github/WORKFLOW_NOTES.md (GitHub Actions configuration details)"
+      ],
+      "dependencies": ["P1c", "P2e", "P3d"],
+      "rationale": "Documentation for graders + future maintainability; validates all components work together.",
+      "risk_flags": [
+        "README must list ALL Copilot CLI prompts used and what worked/required iteration",
+        "Include screenshots or gifs of game & paper feed if possible",
+        "Add troubleshooting section (common issues: GitHub Pages not deploying, cron job not triggering)"
+      ]
+    }
+  ],
+  "execution_notes": {
+    "parallelization": "Wave 2 (P1a, P2a, P3a) can all run in parallel after P0 completes. These are architectural tasks that don't depend on each other. Similarly, Wave 3 (P1b, P2b, P3b) are all parallel implementations.",
+    "critical_path": "P0 → P1a → P1b → P1c → P2a → P2b → P2c → P2d → P2e is the longest chain. However, P3 pipeline can run in parallel.",
+    "agent_sequencing": "Start with all architects (P1a, P2a, P3a), then distribute code-generators (P1b, P1c, P2b, P2c, P2d, P3c, P3d) and devops tasks (P0, P3b).",
+    "human_checkpoints": [
+      "After P1a: Review homepage wireframe with course requirements",
+      "After P2a: Test game architecture pseudocode for feasibility",
+      "After P3a: Validate workflow design with GitHub Actions documentation",
+      "After P2e: Play game locally to verify core mechanics before submission"
+    ]
+  },
+  "risk_summary": {
+    "high_risk": [
+      "P2c: Ghost AI pathfinding must be performant (avoid infinite loops)",
+      "P3b: arXiv API rate limiting; ensure scripts respect request throttling",
+      "P3c: GitHub Actions workflow token permissions; ensure safe commit practices"
+    ],
+    "medium_risk": [
+      "P2d: Power-up duration balance; may require playtesting iteration",
+      "P3a: Cron scheduling in UTC; verify midnight trigger matches user timezone expectations"
+    ],
+    "low_risk": [
+      "P1b: CSS cross-browser compatibility (use standard properties)",
+      "P4: Documentation completeness"
+    ]
+  }
+}

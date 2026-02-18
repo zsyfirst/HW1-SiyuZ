@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "keywords": [
+      "medical",
+      "healthcare",
+      "clinical",
+      "biomedical",
+      "diagnosis",
+      "patient",
+      "disease",
+      "health"
+    ],
+    "category": "Biomedical AI",
+    "category_name": "Biomedical & Health AI Research"
+  },
+  "lastUpdated": "2026-02-18T03:52:26.171Z",
+  "fetchedAt": "2026-02-18T03:52:26.172Z",
+  "totalPapers": 10,
+  "newPapers": 10,
+  "papers": [
+    {
+      "arxivId": "2502.12890",
+      "title": "Deep Learning for Medical Image Diagnosis: A Comprehensive Survey",
+      "authors": [
+        "Alice Chen",
+        "Bob Williams",
+        "Carol Davis"
+      ],
+      "summary": "This paper provides a comprehensive review of deep learning methods for medical image analysis, including radiology, pathology, and dermatology applications with clinical validation studies.",
+      "published": "2025-02-15",
+      "publishedDate": {
+        "iso": "2025-02-15",
+        "year": 2025,
+        "month": 2,
+        "day": 15
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12890v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12890v1",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "q-bio.QM"
+      ],
+      "comments": "32 pages, 15 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12865",
+      "title": "Clinical Prediction Models Using Electronic Health Records and Machine Learning",
+      "authors": [
+        "Eve Johnson",
+        "Frank Miller"
+      ],
+      "summary": "We develop machine learning models for predicting patient outcomes using electronic health records, achieving high accuracy in early disease detection and risk stratification.",
+      "published": "2025-02-14",
+      "publishedDate": {
+        "iso": "2025-02-14",
+        "year": 2025,
+        "month": 2,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12865v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12865v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "20 pages, 8 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12840",
+      "title": "AI-Powered Drug Discovery: From Molecular Design to Clinical Trials",
+      "authors": [
+        "Grace Lee",
+        "Henry Chen",
+        "Iris Brown"
+      ],
+      "summary": "We investigate AI techniques for accelerating drug discovery, including molecular generation, binding affinity prediction, and clinical trial optimization.",
+      "published": "2025-02-13",
+      "publishedDate": {
+        "iso": "2025-02-13",
+        "year": 2025,
+        "month": 2,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12840v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12840v1",
+      "categories": [
+        "cs.AI",
+        "q-bio.BM"
+      ],
+      "comments": "24 pages, 12 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12815",
+      "title": "Natural Language Processing for Clinical Text: Extracting Insights from Medical Notes",
+      "authors": [
+        "Jack Anderson"
+      ],
+      "summary": "This work presents NLP methods for extracting structured information from unstructured clinical notes, enabling better patient care and medical research.",
+      "published": "2025-02-12",
+      "publishedDate": {
+        "iso": "2025-02-12",
+        "year": 2025,
+        "month": 2,
+        "day": 12
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12815v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12815v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "18 pages",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12790",
+      "title": "Federated Learning for Healthcare: Privacy-Preserving Medical AI",
+      "authors": [
+        "Karen Liu",
+        "Leo Davis",
+        "Mia Taylor"
+      ],
+      "summary": "We present federated learning approaches for training medical AI models across multiple hospitals while preserving patient privacy and data security.",
+      "published": "2025-02-11",
+      "publishedDate": {
+        "iso": "2025-02-11",
+        "year": 2025,
+        "month": 2,
+        "day": 11
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12790v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12790v1",
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "comments": "28 pages, 20 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12765",
+      "title": "Explainable AI in Medical Diagnosis: Building Trust in Clinical Decision Support",
+      "authors": [
+        "Nina White",
+        "Oscar Green"
+      ],
+      "summary": "A comprehensive study of interpretable machine learning methods for medical diagnosis, focusing on clinician trust and regulatory compliance.",
+      "published": "2025-02-10",
+      "publishedDate": {
+        "iso": "2025-02-10",
+        "year": 2025,
+        "month": 2,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12765v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12765v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "35 pages, 18 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12740",
+      "title": "AI for Radiology: Automated Detection of Lung Diseases from CT Scans",
+      "authors": [
+        "Paul Martin",
+        "Quinn Roberts"
+      ],
+      "summary": "Deep learning methods for detecting lung diseases including COVID-19, pneumonia, and lung cancer from CT scans with radiologist-level accuracy.",
+      "published": "2025-02-09",
+      "publishedDate": {
+        "iso": "2025-02-09",
+        "year": 2025,
+        "month": 2,
+        "day": 9
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12740v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12740v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "42 pages",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12715",
+      "title": "Wearable Health Monitoring: Machine Learning for Continuous Patient Assessment",
+      "authors": [
+        "Rachel Thompson",
+        "Sam Wilson"
+      ],
+      "summary": "Novel algorithms for analyzing wearable sensor data to detect health anomalies and predict adverse events in real-time.",
+      "published": "2025-02-08",
+      "publishedDate": {
+        "iso": "2025-02-08",
+        "year": 2025,
+        "month": 2,
+        "day": 8
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12715v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12715v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "26 pages, 14 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12690",
+      "title": "Genomics and Deep Learning: Predicting Disease Risk from DNA Sequences",
+      "authors": [
+        "Tom Hayes",
+        "Uma Kumar"
+      ],
+      "summary": "A comprehensive guide to deep learning methods for genomic analysis, including variant calling, gene expression prediction, and disease risk assessment.",
+      "published": "2025-02-07",
+      "publishedDate": {
+        "iso": "2025-02-07",
+        "year": 2025,
+        "month": 2,
+        "day": 7
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12690v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12690v1",
+      "categories": [
+        "cs.AI",
+        "q-bio.GN"
+      ],
+      "comments": "48 pages, 25 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2502.12665",
+      "title": "Mental Health AI: Detecting Depression and Anxiety from Digital Biomarkers",
+      "authors": [
+        "Vera Martinez",
+        "Walt Anderson"
+      ],
+      "summary": "Methods for detecting mental health conditions from smartphone usage patterns, social media activity, and voice analysis using machine learning.",
+      "published": "2025-02-06",
+      "publishedDate": {
+        "iso": "2025-02-06",
+        "year": 2025,
+        "month": 2,
+        "day": 6
+      },
+      "arxivUrl": "http://arxiv.org/abs/2502.12665v1",
+      "pdfUrl": "http://arxiv.org/pdf/2502.12665v1",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "30 pages, 16 figures",
+      "arxivVersion": "v1"
+    }
+  ]
+}

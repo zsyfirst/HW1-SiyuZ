@@ -1,0 +1,32 @@
+{
+  "name": "coding-blog",
+  "version": "1.0.0",
+  "description": "Harvard BST236 Computing - Coding Blog with Pac-Man Game & arXiv Feed",
+  "main": "scripts/fetchArxiv.js",
+  "scripts": {
+    "fetch-arxiv": "node scripts/fetchArxiv.js",
+    "generate-feed": "node scripts/generateFeedHTML.js",
+    "update-feed": "npm run fetch-arxiv && npm run generate-feed",
+    "test": "echo 'Tests not yet implemented'",
+    "dev": "echo 'Development server instructions here'"
+  },
+  "keywords": [
+    "coding-blog",
+    "github-pages",
+    "pac-man",
+    "arxiv",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "Student",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/coding-blog"
+  }
+}

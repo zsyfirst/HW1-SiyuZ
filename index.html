@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Blog - Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" aria-label="Home">💻 Coding Blog</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" aria-label="Home page">Home</a></li>
+                <li><a href="pacman/index.html" aria-label="Pac-Man game">Pac-Man Game</a></li>
+                <li><a href="papers/index.html" aria-label="arXiv paper feed">arXiv Feed</a></li>
+                <li><a href="#about" aria-label="About section">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Harvard BST236 Computing!</h1>
+                <h2>Explore AI, Games, and Data Science</h2>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore Projects ↓</a>
+                    <a href="https://github.com/zsyfirst/homework-1-zsyfirst" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">🎮</div>
+                    <h3 class="project-title">Pac-Man Game</h3>
+                    <p class="project-description">A thrilling Valentine's-themed maze game with power-ups, ghost AI, and heart projectiles!</p>
+                    <a href="pacman/index.html" class="btn btn-primary">Play Game →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">📊</div>
+                    <h3 class="project-title">arXiv Feed</h3>
+                    <p class="project-description">Latest Biomedical & Health AI research papers delivered daily through automated data pipelines.</p>
+                    <a href="papers/index.html" class="btn btn-primary">Browse Feed →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">❤️</div>
+                    <h3 class="project-title">More Projects</h3>
+                    <p class="project-description">Expandable space for future assignments and coursework from BST236.</p>
+                    <a href="#" class="btn btn-primary" disabled>View →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>About This Blog</h2>
+                <p>This blog showcases coursework from Harvard's BST236 Computing class. Each project demonstrates core CS concepts: game engines, web APIs, and automated data pipelines. Built with vanilla HTML, CSS, and JavaScript, deployed on GitHub Pages.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Coding Blog</p>
+            <div class="footer-links">
+                <a href="https://github.com/zsyfirst/homework-1-zsyfirst" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span>•</span>
+                <a href="#" title="Contact">Contact</a>
+                <span>•</span>
+                <a href="#" title="RSS Feed">RSS</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/nav-utils.js"></script>
+</body>
+</html>

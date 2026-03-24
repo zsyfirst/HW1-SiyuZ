@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Research Workflow Tutorial — Coding Blog</title>
+  <style>
+    /* ── Design tokens ── */
+    :root {
+      --bg:        #0d1117;
+      --surface:   #161b22;
+      --surface2:  #21262d;
+      --surface3:  #2d333b;
+      --border:    #30363d;
+      --text:      #e6edf3;
+      --muted:     #8b949e;
+      --blue:      #58a6ff;
+      --green:     #3fb950;
+      --yellow:    #d29922;
+      --red:       #f85149;
+      --purple:    #bc8cff;
+      --orange:    #ffa657;
+      --code-bg:   #0d1117;
+      --blog-red:  #E74C3C;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 15.5px;
+    }
+
+    /* ── Blog top bar (matches HW1 blog style) ── */
+    .blog-bar {
+      background: #2C3E50;
+      padding: 0 24px;
+      display: flex; align-items: center; height: 52px; gap: 20px;
+      border-bottom: 3px solid var(--blog-red);
+    }
+    .blog-logo { font-family: Georgia, serif; font-weight: 700; font-size: .95rem; color: #fff; text-decoration: none; }
+    .blog-nav  { display: flex; gap: 18px; list-style: none; margin-left: auto; }
+    .blog-nav a { color: rgba(255,255,255,.8); text-decoration: none; font-size: .85rem; transition: color .2s; }
+    .blog-nav a:hover { color: #fff; }
+    .blog-nav .active { color: var(--blog-red); font-weight: 600; }
+
+    /* ── Tutorial nav ── */
+    nav.tut-nav {
+      position: sticky; top: 0; z-index: 200;
+      background: rgba(13,17,23,.92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex; align-items: center; height: 46px; gap: 22px;
+      overflow-x: auto;
+    }
+    .tut-nav-brand { font-weight: 700; font-size: .82rem; color: var(--blue); white-space: nowrap; }
+    .tut-nav-links { display: flex; gap: 16px; list-style: none; }
+    .tut-nav-links a { color: var(--muted); text-decoration: none; font-size: .8rem; white-space: nowrap; transition: color .2s; }
+    .tut-nav-links a:hover { color: var(--text); }
+
+    /* ── Layout ── */
+    .wrap { max-width: 920px; margin: 0 auto; padding: 0 24px 96px; }
+
+    /* ── Hero ── */
+    .hero { padding: 62px 0 48px; border-bottom: 1px solid var(--border); margin-bottom: 52px; }
+    .pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: .74rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--green); background: rgba(63,185,80,.12);
+      border: 1px solid rgba(63,185,80,.3); border-radius: 999px; padding: 3px 12px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 5vw, 2.7rem);
+      font-weight: 800; letter-spacing: -.03em; line-height: 1.12; margin-bottom: 18px;
+      background: linear-gradient(130deg, #e6edf3 30%, var(--blue));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 14px; color: var(--muted); font-size: .84rem; margin-bottom: 24px; }
+    .hero-desc { max-width: 720px; color: var(--muted); font-size: 1.02rem; line-height: 1.75; }
+    .hero-desc strong { color: var(--text); }
+
+    .tldr {
+      background: linear-gradient(135deg, rgba(88,166,255,.07), rgba(63,185,80,.05));
+      border: 1px solid rgba(88,166,255,.22); border-radius: 12px;
+      padding: 18px 22px; margin: 26px 0;
+    }
+    .tldr-lbl { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--blue); margin-bottom: 8px; }
+    .tldr p { color: var(--muted); margin: 0; }
+    .tldr strong { color: var(--text); }
+
+    /* ── Sections ── */
+    section { margin-bottom: 58px; }
+    h2 {
+      font-size: 1.4rem; font-weight: 700; letter-spacing: -.02em;
+      margin-bottom: 6px; color: var(--text);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .sec-num {
+      width: 30px; height: 30px; border-radius: 7px; flex-shrink: 0;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: .8rem; font-weight: 800;
+      background: rgba(88,166,255,.12); border: 1px solid rgba(88,166,255,.28); color: var(--blue);
+    }
+    .sec-sub { color: var(--muted); font-size: .87rem; margin-bottom: 20px; }
+    h3 { font-size: 1.03rem; font-weight: 600; color: var(--text); margin: 22px 0 9px; }
+    p { color: var(--muted); margin-bottom: 12px; }
+    p strong { color: var(--text); }
+    ul, ol { color: var(--muted); padding-left: 22px; margin-bottom: 12px; }
+    li { margin-bottom: 5px; }
+    li strong { color: var(--text); }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── You vs Auto ── */
+    .you-vs-auto { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 18px 0; }
+    .yva-col { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .yva-head { padding: 10px 14px; font-size: .77rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; }
+    .yva-you .yva-head  { background: rgba(88,166,255,.1); color: var(--blue); }
+    .yva-auto .yva-head { background: rgba(63,185,80,.1);  color: var(--green); }
+    .yva-row { display: flex; align-items: flex-start; gap: 8px; padding: 8px 14px; border-top: 1px solid var(--border); font-size: .84rem; color: var(--muted); }
+    .yva-row .ic { flex-shrink: 0; margin-top: 2px; }
+    .yva-row strong { color: var(--text); }
+
+    /* ── Pipeline ── */
+    .pipeline { display: flex; align-items: stretch; overflow-x: auto; margin: 20px 0; gap: 0; padding-bottom: 2px; }
+    .pipe-node { flex: 1; min-width: 105px; }
+    .pipe-box { height: 100%; background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px 7px; text-align: center; transition: border-color .2s, transform .15s; }
+    .pipe-box:hover { border-color: var(--blue); transform: translateY(-2px); }
+    .pipe-icon { font-size: 1.3rem; margin-bottom: 4px; }
+    .pipe-phase { font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 3px; }
+    .pipe-name  { font-size: .78rem; font-weight: 600; color: var(--text); line-height: 1.25; }
+    .pipe-time  { font-size: .66rem; color: var(--muted); margin-top: 4px; }
+    .pipe-arrow { display: flex; align-items: center; padding: 0 3px; color: var(--border); flex-shrink: 0; font-size: 1rem; }
+
+    /* ── Three components ── */
+    .comp-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin: 16px 0; }
+    .comp-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 15px; }
+    .comp-icon  { font-size: 1.3rem; margin-bottom: 6px; }
+    .comp-title { font-weight: 700; font-size: .92rem; color: var(--text); margin-bottom: 6px; }
+    .comp-desc  { font-size: .8rem; color: var(--muted); line-height: 1.5; }
+    .comp-file  { font-family: "SFMono-Regular", Consolas, monospace; font-size: .73rem; color: var(--blue); background: rgba(88,166,255,.08); border: 1px solid rgba(88,166,255,.18); border-radius: 4px; padding: 2px 6px; display: inline-block; margin-top: 6px; }
+
+    /* ── Folder structure ── */
+    .folder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+    .folder-panel { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .folder-head { padding: 9px 14px; font-size: .77rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; display: flex; align-items: center; gap: 6px; }
+    .fp-generic .folder-head { background: rgba(88,166,255,.1); color: var(--blue); border-bottom: 1px solid var(--border); }
+    .fp-run .folder-head    { background: rgba(63,185,80,.1);  color: var(--green); border-bottom: 1px solid var(--border); }
+    .folder-desc { font-size: .78rem; color: var(--muted); padding: 7px 14px; border-bottom: 1px solid var(--border); }
+    .tree-inner { padding: 10px 14px; }
+    .tr { display: flex; gap: 5px; font-family: "SFMono-Regular", Consolas, monospace; font-size: .76rem; line-height: 1.9; }
+    .tr-pre { color: var(--muted); flex-shrink: 0; }
+    .tr-dir { color: var(--blue); font-weight: 600; }
+    .tr-name { color: var(--text); }
+    .tr-ann  { color: var(--muted); font-style: italic; font-size: .7rem; }
+
+    /* ── Skill anatomy ── */
+    .anatomy {
+      background: var(--code-bg); border: 1px solid var(--border); border-radius: 10px;
+      padding: 16px; margin: 16px 0; font-family: "SFMono-Regular", Consolas, monospace; font-size: .8rem; line-height: 1.8;
+    }
+    .an-section { display: flex; gap: 12px; align-items: flex-start; padding: 4px 0; border-bottom: 1px dashed var(--border); }
+    .an-section:last-child { border-bottom: none; }
+    .an-label { width: 120px; flex-shrink: 0; font-weight: 700; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; padding-top: 2px; }
+    .an-role     { color: var(--blue); }
+    .an-in       { color: var(--yellow); }
+    .an-out      { color: var(--green); }
+    .an-steps    { color: var(--purple); }
+    .an-gate     { color: var(--red); }
+    .an-pitfalls { color: var(--orange); }
+    .an-content  { color: var(--muted); font-size: .78rem; line-height: 1.6; }
+    .an-content strong { color: var(--text); }
+
+    /* ── Skill cards ── */
+    .skill-card { border: 1px solid var(--border); border-radius: 12px; margin-bottom: 10px; overflow: hidden; }
+    .skill-header { display: flex; align-items: center; gap: 13px; padding: 12px 15px; background: var(--surface2); cursor: pointer; user-select: none; transition: background .2s; }
+    .skill-header:hover { background: var(--surface3); }
+    .skill-num { width: 32px; height: 32px; border-radius: 8px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: .86rem; }
+    .s1 { background:rgba(88,166,255,.15);  color:#58a6ff; }
+    .s2 { background:rgba(63,185,80,.15);   color:#3fb950; }
+    .s3 { background:rgba(210,153,34,.15);  color:#d29922; }
+    .s4 { background:rgba(188,140,255,.15); color:#bc8cff; }
+    .s5 { background:rgba(248,81,73,.15);   color:#f85149; }
+    .s6 { background:rgba(255,166,87,.15);  color:#ffa657; }
+    .skill-meta { flex: 1; }
+    .skill-title { font-weight: 600; font-size: .95rem; color: var(--text); }
+    .skill-sub   { font-size: .78rem; color: var(--muted); }
+    .skill-badge { font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; flex-shrink: 0; background: rgba(88,166,255,.1); color: var(--blue); border: 1px solid rgba(88,166,255,.25); }
+    .skill-chevron { margin-left: auto; color: var(--muted); transition: transform .25s; font-size: .78rem; flex-shrink: 0; }
+    .skill-header.open .skill-chevron { transform: rotate(90deg); }
+    .skill-body { display: none; padding: 16px; border-top: 1px solid var(--border); background: var(--surface); }
+    .skill-body.open { display: block; }
+
+    .io-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 11px 0; }
+    .io-box { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 10px; }
+    .io-lbl { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; margin-bottom: 6px; }
+    .io-in .io-lbl  { color: var(--yellow); }
+    .io-out .io-lbl { color: var(--green); }
+    .io-f { font-size: .76rem; font-family: "SFMono-Regular", Consolas, monospace; color: var(--muted); padding: 2px 0; border-bottom: 1px solid var(--border); }
+    .io-f:last-child { border-bottom: none; }
+    .io-f em { color: var(--blue); font-style: normal; }
+
+    /* ── Adversarial loop ── */
+    .adv-loop { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin: 14px 0; }
+    .adv-step { display: flex; align-items: flex-start; gap: 11px; padding: 9px 0; border-bottom: 1px solid var(--border); }
+    .adv-step:last-child { border-bottom: none; }
+    .adv-icon  { font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; }
+    .adv-label { font-weight: 600; font-size: .86rem; color: var(--text); margin-bottom: 2px; }
+    .adv-desc  { font-size: .8rem; color: var(--muted); }
+
+    /* ── Code / callout ── */
+    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px; overflow-x: auto; font-size: .79rem; line-height: 1.65; font-family: "SFMono-Regular",Consolas,monospace; color: #c9d1d9; margin: 11px 0; }
+    code { background: rgba(88,166,255,.1); padding: 1px 5px; border-radius: 4px; font-family: "SFMono-Regular",Consolas,monospace; font-size:.87em; color: var(--blue); }
+    .kw  { color: #ff7b72; }
+    .str { color: #a5d6ff; }
+    .cmt { color: #6e7781; font-style: italic; }
+    .num { color: #f8c555; }
+    .key { color: #7ee787; }
+    .hdr { color: #ffa657; font-weight: bold; }
+
+    .callout { border-radius: 8px; padding: 12px 15px; margin: 13px 0; font-size: .87rem; }
+    .c-tip  { background: rgba(63,185,80,.07);   border-left: 3px solid var(--green);  border: 1px solid rgba(63,185,80,.22);  border-left: 3px solid var(--green); }
+    .c-warn { background: rgba(210,153,34,.07);  border-left: 3px solid var(--yellow); border: 1px solid rgba(210,153,34,.22); border-left: 3px solid var(--yellow); }
+    .c-info { background: rgba(88,166,255,.07);  border-left: 3px solid var(--blue);   border: 1px solid rgba(88,166,255,.22); border-left: 3px solid var(--blue); }
+    .c-key  { background: rgba(188,140,255,.07); border-left: 3px solid var(--purple); border: 1px solid rgba(188,140,255,.22); border-left: 3px solid var(--purple); }
+    .c-lbl  { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; margin-bottom: 5px; }
+    .c-tip .c-lbl  { color: var(--green); }
+    .c-warn .c-lbl { color: var(--yellow); }
+    .c-info .c-lbl { color: var(--blue); }
+    .c-key .c-lbl  { color: var(--purple); }
+    .callout p { margin: 0; }
+
+    /* ── Stats strip ── */
+    .stats-strip { display: grid; grid-template-columns: repeat(auto-fit,minmax(125px,1fr)); gap: 10px; margin: 16px 0; }
+    .stat-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; text-align: center; }
+    .stat-val  { font-size: 1.45rem; font-weight: 800; letter-spacing: -.02em; color: var(--blue); line-height: 1; margin-bottom: 4px; }
+    .stat-lbl  { font-size: .71rem; color: var(--muted); line-height: 1.3; }
+
+    /* ── Principle grid ── */
+    .prin-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(185px,1fr)); gap: 10px; margin: 14px 0; }
+    .prin-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 13px; }
+    .prin-icon  { font-size: 1.25rem; margin-bottom: 5px; }
+    .prin-title { font-weight: 700; font-size: .86rem; color: var(--text); margin-bottom: 4px; }
+    .prin-desc  { font-size: .78rem; color: var(--muted); line-height: 1.5; }
+
+    /* ── Timeline ── */
+    .timeline { position: relative; margin: 16px 0; padding-left: 24px; }
+    .timeline::before { content:""; position:absolute; left:6px; top:0; bottom:0; width:2px; background:var(--border); }
+    .tl-item { position: relative; margin-bottom: 16px; }
+    .tl-dot { position: absolute; left: -20px; top: 5px; width: 11px; height: 11px; border-radius: 50%; background: var(--blue); border: 2px solid var(--bg); box-shadow: 0 0 0 2px var(--blue); }
+    .tl-title { font-weight: 600; font-size: .9rem; color: var(--text); margin-bottom: 2px; }
+    .tl-body  { font-size: .83rem; color: var(--muted); }
+
+    /* ── Footer ── */
+    .blog-footer { background: #2C3E50; border-top: 3px solid var(--blog-red); padding: 22px 24px; text-align: center; color: rgba(255,255,255,.6); font-size: .83rem; margin-top: 60px; }
+    .blog-footer a { color: rgba(255,255,255,.8); }
+    .blog-footer p + p { margin-top: 6px; }
+
+    /* ── Responsive ── */
+    @media (max-width:700px) {
+      .comp-grid,.folder-grid,.io-row,.you-vs-auto { grid-template-columns:1fr; }
+      .tut-nav-links { display:none; }
+      .pipeline { flex-direction:column; }
+      .pipe-arrow { display:none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Blog top bar -->
+<header class="blog-bar">
+  <a class="blog-logo" href="../index.html">💻 Coding Blog</a>
+  <ul class="blog-nav">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../pacman/index.html">Pac-Man</a></li>
+    <li><a href="../papers/index.html">arXiv Feed</a></li>
+    <li><a href="index.html" class="active">Tutorial</a></li>
+    <li><a href="../index.html#about">About</a></li>
+  </ul>
+</header>
+
+<!-- Tutorial section nav -->
+<nav class="tut-nav">
+  <span class="tut-nav-brand">AI Research Workflow · BST236</span>
+  <ul class="tut-nav-links">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#components">Components</a></li>
+    <li><a href="#structure">Structure</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#example">Example</a></li>
+    <li><a href="#gates">Gates</a></li>
+    <li><a href="#tips">Tips</a></li>
+  </ul>
+</nav>
+
+<div class="wrap">
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<div class="hero">
+  <div class="pill">📄 Tutorial · Automated Multi-Agent Research Workflow</div>
+  <h1>From Raw Data to a<br>JAMA Paper in 90 Minutes</h1>
+  <div class="hero-meta">
+    <span>📅 March 2026</span>
+    <span>⏱ ~20 min read</span>
+    <span>🎯 Beginner-friendly</span>
+    <span>🤖 Claude Code + 6 Specialized Agents</span>
+  </div>
+  <p class="hero-desc">
+    This tutorial explains how to design a fully automated, multi-agent pipeline that
+    takes any folder of public health data and produces a publication-ready JAMA Network Open
+    paper — with <strong>zero human intervention</strong> after one trigger sentence.
+    We use a real exam example: <strong>5,419 disrupted NIH grants, $17.18 billion in jeopardy,
+    one 90-minute pipeline.</strong>
+  </p>
+
+  <div class="tldr">
+    <div class="tldr-lbl">TL;DR</div>
+    <p>You define <strong>6 specialist skill files</strong> (one per phase).
+    A master <strong>CLAUDE.md orchestrator</strong> reads them in strict order,
+    with <strong>bash quality-gate scripts</strong> after each phase.
+    You type one sentence — the pipeline does the rest.
+    This tutorial explains what to build, how to build it, and why each design decision matters.</p>
+  </div>
+</div>
+
+<!-- ═══════════════ 1. OVERVIEW ═══════════════ -->
+<section id="overview">
+  <h2><span class="sec-num">1</span> What Problem Are We Solving?</h2>
+  <p class="sec-sub">Why a multi-agent workflow, not one giant prompt?</p>
+
+  <p>
+    In the BST236 midterm exam, you're handed a data folder at 9:00 AM and must submit a
+    <strong>peer-review-ready paper by 10:30 AM</strong>. One giant prompt doesn't work:
+    the model loses context, skips steps, and mixes up numbers across sections.
+  </p>
+  <p>
+    The solution is <strong>agentic decomposition</strong>: split the task into phases,
+    give each phase to a specialist agent with a clear input/output contract,
+    and connect them with hard quality gates.
+    Each phase writes files to disk; the next phase reads those files —
+    nothing is passed through the context window between phases.
+  </p>
+
+  <h3>What you type vs. what happens automatically</h3>
+  <div class="you-vs-auto">
+    <div class="yva-col yva-you">
+      <div class="yva-head">🧑 What You Do (1 action)</div>
+      <div class="yva-row"><span class="ic">💬</span><div>Type: <strong>"Write a paper using the data in exam_paper/data/"</strong></div></div>
+      <div class="yva-row"><span class="ic">✅</span><div>Approve the plan if prompted</div></div>
+      <div class="yva-row"><span class="ic">📄</span><div>Retrieve <code>paper.pdf</code> from <code>exam_paper/output/</code></div></div>
+    </div>
+    <div class="yva-col yva-auto">
+      <div class="yva-head">🤖 What Happens Automatically (90 min)</div>
+      <div class="yva-row"><span class="ic">🔭</span><div>Phase 1 · Data Explorer: profile data, pick research question, write analysis plan</div></div>
+      <div class="yva-row"><span class="ic">✔</span><div>Gate: check_phase1.sh exits 0</div></div>
+      <div class="yva-row"><span class="ic">📊</span><div>Phase 2 · Stats Modeler: run Python models, produce figures, write all numbers</div></div>
+      <div class="yva-row"><span class="ic">✔</span><div>Gate: check_phase2.sh exits 0</div></div>
+      <div class="yva-row"><span class="ic">📚</span><div>Phase 3 · Lit Reviewer: find real DOI-backed references</div></div>
+      <div class="yva-row"><span class="ic">✔</span><div>Gate: check_phase3.sh exits 0</div></div>
+      <div class="yva-row"><span class="ic">✍️</span><div>Phase 4 · Paper Writer: fill LaTeX template, compile PDF</div></div>
+      <div class="yva-row"><span class="ic">✔</span><div>Gate: check_phase4.sh exits 0</div></div>
+      <div class="yva-row"><span class="ic">🔍</span><div>Phase 5 · Reviewer: adversarial review → fix AI artifacts and number mismatches</div></div>
+      <div class="yva-row"><span class="ic">✔</span><div>Gate: check_phase5.sh exits 0</div></div>
+      <div class="yva-row"><span class="ic">🚀</span><div>Phase 6 · Post-paper: slides + interactive website</div></div>
+    </div>
+  </div>
+
+  <h3>The pipeline at a glance</h3>
+  <div class="pipeline">
+    <div class="pipe-node"><div class="pipe-box"><div class="pipe-icon">🔭</div><div class="pipe-phase">Phase 1</div><div class="pipe-name">Data Explorer</div><div class="pipe-time">~10 min</div></div></div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-node"><div class="pipe-box"><div class="pipe-icon">📊</div><div class="pipe-phase">Phase 2</div><div class="pipe-name">Stats Modeler</div><div class="pipe-time">~20 min</div></div></div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-node"><div class="pipe-box"><div class="pipe-icon">📚</div><div class="pipe-phase">Phase 3</div><div class="pipe-name">Lit Reviewer</div><div class="pipe-time">~10 min</div></div></div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-node"><div class="pipe-box"><div class="pipe-icon">✍️</div><div class="pipe-phase">Phase 4</div><div class="pipe-name">Paper Writer</div><div class="pipe-time">~25 min</div></div></div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-node"><div class="pipe-box"><div class="pipe-icon">🔍</div><div class="pipe-phase">Phase 5</div><div class="pipe-name">Reviewer</div><div class="pipe-time">~15 min</div></div></div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-node"><div class="pipe-box"><div class="pipe-icon">🚀</div><div class="pipe-phase">Phase 6</div><div class="pipe-name">Post-Paper</div><div class="pipe-time">~10 min</div></div></div>
+  </div>
+</section>
+
+<!-- ═══════════════ 2. THREE COMPONENTS ═══════════════ -->
+<section id="components">
+  <h2><span class="sec-num">2</span> Three Building Blocks</h2>
+  <p class="sec-sub">Every automated research workflow needs exactly these three things.</p>
+
+  <div class="comp-grid">
+    <div class="comp-card">
+      <div class="comp-icon">🧠</div>
+      <div class="comp-title">Orchestrator</div>
+      <div class="comp-desc">Reads the trigger prompt, sequences phases, calls gate scripts, handles failures, and stops after 3 retries. The only thing the user talks to.</div>
+      <div><span class="comp-file">workflow/CLAUDE.md</span></div>
+    </div>
+    <div class="comp-card">
+      <div class="comp-icon">🎯</div>
+      <div class="comp-title">Skill Files</div>
+      <div class="comp-desc">Markdown instruction manuals for each specialist agent. Each skill declares its role, reads specific inputs, does one job, writes specific outputs.</div>
+      <div><span class="comp-file">workflow/skills/01–06_*.md</span></div>
+    </div>
+    <div class="comp-card">
+      <div class="comp-icon">🔒</div>
+      <div class="comp-title">Gate Scripts</div>
+      <div class="comp-desc">Bash scripts that verify each phase produced correct output. Exit non-zero → pipeline stops. Catches empty files, missing p-values, PDFs under 6 pages.</div>
+      <div><span class="comp-file">workflow/scripts/check_phase*.sh</span></div>
+    </div>
+  </div>
+
+  <div class="callout c-info">
+    <div class="c-lbl">Key Insight</div>
+    <p><strong>You never call skills directly.</strong> You talk to the orchestrator in plain English. It loads the right skill file, the skill instructs the agent, the gate script validates the output. Agents and scripts run automatically — you never think about them.</p>
+  </div>
+
+  <div class="prin-grid">
+    <div class="prin-card"><div class="prin-icon">📋</div><div class="prin-title">A · Contract-First</div><div class="prin-desc">Every skill declares inputs and outputs up front. If an input doesn't exist, the skill halts loudly.</div></div>
+    <div class="prin-card"><div class="prin-icon">🎯</div><div class="prin-title">B · Single Responsibility</div><div class="prin-desc">Each skill does one job. Data explorer doesn't write. Paper writer doesn't analyze.</div></div>
+    <div class="prin-card"><div class="prin-icon">🔒</div><div class="prin-title">C · Hard Quality Gates</div><div class="prin-desc">A bash script runs after every phase. If it exits non-zero, the pipeline stops.</div></div>
+    <div class="prin-card"><div class="prin-icon">⏱</div><div class="prin-title">D · Graceful Degradation</div><div class="prin-desc">If a causal model fails, fall back to descriptive analysis. A complete honest paper beats a broken causal claim.</div></div>
+  </div>
+</section>
+
+<!-- ═══════════════ 3. FOLDER STRUCTURE ═══════════════ -->
+<section id="structure">
+  <h2><span class="sec-num">3</span> Folder Structure</h2>
+  <p class="sec-sub">A clean, predictable layout is the foundation of a reliable pipeline.</p>
+
+  <p><strong><code>workflow/</code> is generic and reusable</strong> — build it once, use it for any dataset.
+  <strong><code>exam_paper/</code> is run-specific</strong> — created fresh per run, fully reproducible.
+  All paths are hardcoded; no phase ever guesses a filename.</p>
+
+  <div class="folder-grid">
+    <div class="folder-panel fp-generic">
+      <div class="folder-head">🔵 workflow/ — Generic &amp; Reusable</div>
+      <div class="folder-desc">Commit once. Works for any dataset.</div>
+      <div class="tree-inner">
+        <div class="tr"><span class="tr-pre">📄</span><span class="tr-dir">CLAUDE.md</span><span class="tr-ann"> orchestrator</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">skills/</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">01_data_explorer.md</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">02_stats_modeler.md</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">03_lit_reviewer.md</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">04_paper_writer.md</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">05_reviewer_reviser.md</span></div>
+        <div class="tr"><span class="tr-pre">│ └</span><span class="tr-name">06_postpaper_products.md</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">scripts/</span></div>
+        <div class="tr"><span class="tr-pre">│ └</span><span class="tr-name">check_phase1–5.sh</span><span class="tr-ann"> quality gates</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">templates/</span></div>
+        <div class="tr"><span class="tr-pre">  └</span><span class="tr-name">template.tex</span><span class="tr-ann"> JAMA template</span></div>
+      </div>
+    </div>
+    <div class="folder-panel fp-run">
+      <div class="folder-head">🟢 exam_paper/ — Run-Specific Output</div>
+      <div class="folder-desc">Created fresh per run. All outputs land here.</div>
+      <div class="tree-inner">
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">data/</span><span class="tr-ann"> input data</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">results/</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">data_profile.md</span><span class="tr-ann"> Phase 1</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">research_question.md</span><span class="tr-ann"> Phase 1</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">analysis_plan.md</span><span class="tr-ann"> Phase 1</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">results.md</span><span class="tr-ann"> ⭐ Phase 2 source of truth</span></div>
+        <div class="tr"><span class="tr-pre">│ ├</span><span class="tr-name">lit_notes.md</span><span class="tr-ann"> Phase 3</span></div>
+        <div class="tr"><span class="tr-pre">│ └</span><span class="tr-name">review_round1.md</span><span class="tr-ann"> Phase 5</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">figures/</span><span class="tr-ann"> PNGs 300 DPI</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">tex/</span><span class="tr-ann"> paper.tex + references.bib</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">output/</span></div>
+        <div class="tr"><span class="tr-pre">  └</span><span class="tr-name">paper.pdf</span><span class="tr-ann"> ⭐ final deliverable</span></div>
+        <div class="tr"><span class="tr-pre">📂</span><span class="tr-dir">slides/</span><span class="tr-ann"> + website/</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ 4. SKILLS DEEP DIVE ═══════════════ -->
+<section id="skills">
+  <h2><span class="sec-num">4</span> Skills: The Heart of the System</h2>
+  <p class="sec-sub">How specialist agent instructions are written and organized.</p>
+
+  <p>
+    A <strong>skill file</strong> is a markdown instruction manual for one specialist agent.
+    It tells the agent: who it is, what files to read, exactly what to do step-by-step,
+    what files to write, and what to check before exiting.
+  </p>
+
+  <div class="callout c-info">
+    <div class="c-lbl">Skill vs. CLAUDE.md</div>
+    <p>
+      <strong>CLAUDE.md (orchestrator)</strong>: knows <em>when</em> to run each skill, handles retries, runs gate scripts.
+      <strong>Skill files</strong>: know the <em>how</em> — each is a domain expert in its phase.
+      The orchestrator never does the actual work; skills never know about the other phases.
+    </p>
+  </div>
+
+  <h3>Anatomy of a skill file — every skill has these 6 sections</h3>
+  <div class="anatomy">
+    <div class="an-section">
+      <div class="an-label an-role">## Role</div>
+      <div class="an-content">Agent persona and mandate. What downstream phases depend on it.<br><strong>Example:</strong> "You are the Statistical Modeler. The Paper Writer copies your numbers directly — every stat must be formatted correctly the first time."</div>
+    </div>
+    <div class="an-section">
+      <div class="an-label an-in">## Inputs</div>
+      <div class="an-content">Exact file paths this skill reads. If a file is missing, halt and report — never infer or hallucinate.</div>
+    </div>
+    <div class="an-section">
+      <div class="an-label an-out">## Outputs</div>
+      <div class="an-content">Exact file paths this skill must write. The gate script checks these. Write all outputs even if results are weak.</div>
+    </div>
+    <div class="an-section">
+      <div class="an-label an-steps">## Steps 1–N</div>
+      <div class="an-content">Detailed, numbered, actionable steps with example code, column names, and bash commands — not vague goals like "analyze the data".</div>
+    </div>
+    <div class="an-section">
+      <div class="an-label an-gate">## Quality Check</div>
+      <div class="an-content">Run the gate script: <code>bash workflow/scripts/check_phaseN.sh</code> — must exit 0 before handing off.</div>
+    </div>
+    <div class="an-section">
+      <div class="an-label an-pitfalls">## Common Pitfalls</div>
+      <div class="an-content">Known failure modes and their exact fixes. Prevents the agent from taking wrong paths on edge cases.</div>
+    </div>
+  </div>
+
+  <h3>The six skills and their contracts</h3>
+
+  <!-- Skill 1 -->
+  <div class="skill-card">
+    <div class="skill-header" onclick="tog(this)">
+      <div class="skill-num s1">01</div>
+      <div class="skill-meta">
+        <div class="skill-title">🔭 Data Explorer</div>
+        <div class="skill-sub">Profile data, generate research question, write analysis plan</div>
+      </div>
+      <span class="skill-badge">Phase 1 · ~10 min</span>
+      <span class="skill-chevron">▶</span>
+    </div>
+    <div class="skill-body">
+      <p>Runs blind — no prior knowledge of the data. The research question must come from the data, not from assumptions. Generates 3 candidate questions at different inferential ambitions, scores them, and selects the most defensible option.</p>
+      <pre><span class="cmt"># Scoring rubric for question selection</span>
+<span class="hdr">Candidate A:</span> strongest defensible (e.g. quasi-causal DiD)
+<span class="hdr">Candidate B:</span> moderate (e.g. associational regression)   ← usually wins
+<span class="hdr">Candidate C:</span> conservative fallback (e.g. descriptive only)
+
+Score 1–5 on: answerability · design fit · inference strength · relevance · feasibility</pre>
+      <div class="io-row">
+        <div class="io-box io-in"><div class="io-lbl">Reads</div>
+          <div class="io-f">exam_paper/data/*.csv</div>
+          <div class="io-f">exam_paper/data/Data_Description.md</div>
+        </div>
+        <div class="io-box io-out"><div class="io-lbl">Writes (required before gate)</div>
+          <div class="io-f">results/data_profile.md</div>
+          <div class="io-f">results/research_question.md</div>
+          <div class="io-f">results/analysis_plan.md</div>
+        </div>
+      </div>
+      <div class="callout c-warn">
+        <div class="c-lbl">Key pitfall</div>
+        <p>Assuming the data supports DiD because the sample paper used DiD. Check the actual data structure: is there a pre/post period? An unexposed group? Panel structure? If not — use descriptive or associational methods.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 2 -->
+  <div class="skill-card">
+    <div class="skill-header" onclick="tog(this)">
+      <div class="skill-num s2">02</div>
+      <div class="skill-meta">
+        <div class="skill-title">📊 Statistical Modeler</div>
+        <div class="skill-sub">Execute the analysis plan, produce figures, write all numbers in JAMA format</div>
+      </div>
+      <span class="skill-badge">Phase 2 · ~20 min</span>
+      <span class="skill-chevron">▶</span>
+    </div>
+    <div class="skill-body">
+      <p>Reads <code>analysis_plan.md</code> and executes it. Does not improvise. Writes every computed number to <code>results.md</code> in JAMA format — this becomes the <strong>single source of truth</strong> for the entire paper.</p>
+      <pre><span class="cmt"># JAMA number format</span>
+coefficient = <span class="num">0.30</span> (<span class="num">95%</span> CI, <span class="num">0.19</span>–<span class="num">0.41</span>; P &lt; .001)  <span class="cmt"># ✓</span>
+p=0.03                                                     <span class="cmt"># ✗ three errors</span></pre>
+      <div class="io-row">
+        <div class="io-box io-in"><div class="io-lbl">Reads</div>
+          <div class="io-f">results/analysis_plan.md</div>
+          <div class="io-f">exam_paper/data/*.csv</div>
+        </div>
+        <div class="io-box io-out"><div class="io-lbl">Writes</div>
+          <div class="io-f">results/results.md <em>← ⭐ source of truth</em></div>
+          <div class="io-f">figures/figure1.png (300 DPI)</div>
+          <div class="io-f">figures/figure2.png (300 DPI)</div>
+          <div class="io-f">figures/table1_data.csv</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 3 -->
+  <div class="skill-card">
+    <div class="skill-header" onclick="tog(this)">
+      <div class="skill-num s3">03</div>
+      <div class="skill-meta">
+        <div class="skill-title">📚 Literature Reviewer</div>
+        <div class="skill-sub">Find real, DOI-verifiable references and write citation placement notes</div>
+      </div>
+      <span class="skill-badge">Phase 3 · ~10 min</span>
+      <span class="skill-chevron">▶</span>
+    </div>
+    <div class="skill-body">
+      <p>No fabricated DOIs — the #1 reason AI papers get immediately rejected. Every citation must be a real, verifiable source. Skill 03 also writes <code>lit_notes.md</code>: one sentence per reference telling Phase 4 <em>where</em> in the paper each citation belongs.</p>
+      <div class="io-row">
+        <div class="io-box io-in"><div class="io-lbl">Reads</div>
+          <div class="io-f">results/research_question.md</div>
+          <div class="io-f">results/results.md</div>
+        </div>
+        <div class="io-box io-out"><div class="io-lbl">Writes (≥10 refs)</div>
+          <div class="io-f">tex/references.bib</div>
+          <div class="io-f">results/lit_notes.md</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 4 -->
+  <div class="skill-card">
+    <div class="skill-header" onclick="tog(this)">
+      <div class="skill-num s4">04</div>
+      <div class="skill-meta">
+        <div class="skill-title">✍️ Paper Writer</div>
+        <div class="skill-sub">Fill the LaTeX template, compile PDF — never invent numbers</div>
+      </div>
+      <span class="skill-badge">Phase 4 · ~25 min</span>
+      <span class="skill-chevron">▶</span>
+    </div>
+    <div class="skill-body">
+      <p>Every statistic is copied verbatim from <code>results.md</code>. Runs pdflatex 3× to resolve citations and cross-references. If compilation fails, reads the <code>.log</code> file and fixes the error (max 3 retries).</p>
+      <pre>pdflatex paper.tex   <span class="cmt"># pass 1</span>
+bibtex paper         <span class="cmt"># resolve citations</span>
+pdflatex paper.tex   <span class="cmt"># pass 2</span>
+pdflatex paper.tex   <span class="cmt"># pass 3 — final</span></pre>
+      <div class="io-row">
+        <div class="io-box io-in"><div class="io-lbl">Reads</div>
+          <div class="io-f">results/results.md</div>
+          <div class="io-f">tex/references.bib</div>
+          <div class="io-f">figures/figure*.png</div>
+          <div class="io-f">workflow/templates/template.tex</div>
+        </div>
+        <div class="io-box io-out"><div class="io-lbl">Writes</div>
+          <div class="io-f">tex/paper.tex</div>
+          <div class="io-f">output/paper.pdf <em>← ≥6 pages required</em></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 5 -->
+  <div class="skill-card">
+    <div class="skill-header" onclick="tog(this)">
+      <div class="skill-num s5">05</div>
+      <div class="skill-meta">
+        <div class="skill-title">🔍 Reviewer &amp; Reviser</div>
+        <div class="skill-sub">Adversarial critic-fixer loop — the paper must pass a Turing test</div>
+      </div>
+      <span class="skill-badge">Phase 5 · ~15 min</span>
+      <span class="skill-chevron">▶</span>
+    </div>
+    <div class="skill-body">
+      <p>Embodies the <strong>adversarial critic-fixer pattern</strong>. First acts as a ruthless peer reviewer, then as a diligent reviser. Goal: a grader cannot tell the paper was written by AI.</p>
+      <div class="adv-loop">
+        <div class="adv-step"><div class="adv-icon">🔴</div><div><div class="adv-label">Critic: read the paper adversarially</div><div class="adv-desc">Check every statistic against results.md. Flag AI-isms. Verify limitations are specific to this data.</div></div></div>
+        <div class="adv-step"><div class="adv-icon">📝</div><div><div class="adv-label">Write review_roundN.md</div><div class="adv-desc">Every issue categorized by section. This is also a QA log.</div></div></div>
+        <div class="adv-step"><div class="adv-icon">🔵</div><div><div class="adv-label">Reviser: fix every flagged issue</div><div class="adv-desc">Apply fixes to paper.tex. Do not remove correct content — only revise presentation.</div></div></div>
+        <div class="adv-step"><div class="adv-icon">🟢</div><div><div class="adv-label">Recompile and verify</div><div class="adv-desc">Run full LaTeX sequence. Max 3 cycles total, 15 min budget.</div></div></div>
+      </div>
+      <div class="io-row">
+        <div class="io-box io-in"><div class="io-lbl">Reads</div>
+          <div class="io-f">output/paper.pdf</div>
+          <div class="io-f">tex/paper.tex</div>
+          <div class="io-f">results/results.md</div>
+        </div>
+        <div class="io-box io-out"><div class="io-lbl">Writes</div>
+          <div class="io-f">results/review_round1.md</div>
+          <div class="io-f">tex/paper.tex (revised)</div>
+          <div class="io-f">output/paper.pdf (recompiled)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 6 -->
+  <div class="skill-card">
+    <div class="skill-header" onclick="tog(this)">
+      <div class="skill-num s6">06</div>
+      <div class="skill-meta">
+        <div class="skill-title">🚀 Post-Paper Products</div>
+        <div class="skill-sub">Slides, interactive website, narration script — run after submission</div>
+      </div>
+      <span class="skill-badge">Phase 6 · ~10 min</span>
+      <span class="skill-chevron">▶</span>
+    </div>
+    <div class="skill-body">
+      <p>Generates complementary products from the same source files — no new analysis, no new numbers.</p>
+      <ul>
+        <li><strong>Slides</strong>: 8–12 slides covering background, data, methods, main results, conclusions</li>
+        <li><strong>Website</strong>: single-file HTML with key findings (this tutorial lives here)</li>
+        <li><strong>Script</strong>: narration script for recording a tutorial video</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ 5. LIVE EXAMPLE ═══════════════ -->
+<section id="example">
+  <h2><span class="sec-num">5</span> Live Example: NIH Grant Terminations, 2025</h2>
+  <p class="sec-sub">What the pipeline actually produced with the March 2026 exam data.</p>
+
+  <div class="stats-strip">
+    <div class="stat-card"><div class="stat-val">5,419</div><div class="stat-lbl">Grant records</div></div>
+    <div class="stat-card"><div class="stat-val">$17.2B</div><div class="stat-lbl">Disrupted funding</div></div>
+    <div class="stat-card"><div class="stat-val">$1.63M</div><div class="stat-lbl">Median award</div></div>
+    <div class="stat-card"><div class="stat-val">56.1%</div><div class="stat-lbl">Grants to Schools of Medicine</div></div>
+    <div class="stat-card"><div class="stat-val">&lt;0.2%</div><div class="stat-lbl">Missing award data</div></div>
+    <div class="stat-card"><div class="stat-val">~90 min</div><div class="stat-lbl">Total pipeline runtime</div></div>
+  </div>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-title">Skill 01 — correctly chose associational design, not DiD</div>
+      <div class="tl-body">Data was a single-point snapshot with no panel structure. Skill 01 rejected staggered DiD (the sample paper's method) and selected descriptive + multivariable regression. It scored 3 candidates and documented why Candidate B ranked highest.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-title">Skill 02 — key result in JAMA format</div>
+      <div class="tl-body">Schools of Medicine: coefficient = 0.30 (95% CI, 0.19–0.41; P &lt; .001). T32 training grants: coefficient = 1.43 (95% CI, 1.21–1.65; P &lt; .001). All values written to results.md before any LaTeX was touched.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-title">Skill 05 — caught three issue categories</div>
+      <div class="tl-body">AI-isms removed ("It is worth noting"). Limitations strengthened from generic to data-specific. One rounding discrepancy found via systematic cross-check against results.md — invisible to human proofreading.</div>
+    </div>
+  </div>
+
+  <div class="callout c-warn">
+    <div class="c-lbl">Lesson learned</div>
+    <p>Do not force a method on bad data. The sample paper used staggered DiD; our data did not support it. <strong>Skill 01's job is to choose the right method for the data it finds, not to replicate the sample paper.</strong></p>
+  </div>
+</section>
+
+<!-- ═══════════════ 6. QUALITY GATES ═══════════════ -->
+<section id="gates">
+  <h2><span class="sec-num">6</span> Quality Gate Scripts</h2>
+  <p class="sec-sub">The mechanism that stops bad output from propagating forward.</p>
+
+  <pre><span class="cmt">#!/bin/bash  — check_phase2.sh (runs after Phase 2)</span>
+
+RESULTS=<span class="str">"exam_paper/results/results.md"</span>
+FIG1=<span class="str">"exam_paper/figures/figure1.png"</span>
+
+<span class="cmt"># 1. File must exist AND have enough content (catches empty-file silent failures)</span>
+[[ -f <span class="str">"$RESULTS"</span> ]] || { echo <span class="str">"FAIL: results.md missing"</span>; exit 1; }
+[[ $(wc -c &lt; <span class="str">"$RESULTS"</span>) -gt 500 ]] || { echo <span class="str">"FAIL: results.md too small"</span>; exit 1; }
+
+<span class="cmt"># 2. Must contain at least one p-value</span>
+grep -qi <span class="str">"P ="</span> <span class="str">"$RESULTS"</span> || grep -qi <span class="str">"P &lt;"</span> <span class="str">"$RESULTS"</span> || \
+  { echo <span class="str">"FAIL: no p-value in results.md"</span>; exit 1; }
+
+<span class="cmt"># 3. Figures must exist and be real PNGs (&gt;50 KB)</span>
+[[ -f <span class="str">"$FIG1"</span> ]] &amp;&amp; [[ $(wc -c &lt; <span class="str">"$FIG1"</span>) -gt 50000 ]] || \
+  { echo <span class="str">"FAIL: figure1.png missing or empty"</span>; exit 1; }
+
+echo <span class="str">"✓ Phase 2 passed"</span>; exit 0</pre>
+
+  <div class="callout c-tip">
+    <div class="c-lbl">Always check content, not just existence</div>
+    <p>A phase can create a file but write only an error message. <code>-f "$FILE"</code> passes. <code>wc -c &gt; 500</code> catches the failure. Both checks are required.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 7. TIPS ═══════════════ -->
+<section id="tips">
+  <h2><span class="sec-num">7</span> Exam-Day Tips</h2>
+  <div class="timeline">
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-title">Test on a different dataset before the exam</div><div class="tl-body">Find hardcoded assumptions and wrong fallback logic before they bite you at 9:15 AM.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-title">Pre-approve all tools in settings.json</div><div class="tl-body">Every manual confirmation breaks automation. Use <code>--dangerously-skip-permissions</code> and pre-approve all tools.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-title">Skill 01's design decision is the most critical</div><div class="tl-body">A wrong research question cascades through all 5 phases. Invest the most time writing Skill 01's selection logic.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-title">LaTeX: escape special characters proactively</div><div class="tl-body"><code>\%</code>, <code>\&amp;</code>, <code>\$</code>, <code>\_</code>. One unescaped character fails the entire PDF compilation.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-title">Minimum viable deliverable priority</div><div class="tl-body"><strong>(1)</strong> paper.pdf that compiles · <strong>(2)</strong> one defensible analysis · <strong>(3)</strong> one table + figure · <strong>(4)</strong> honest Methods + Limitations · <strong>(5)</strong> verified references. Slides are lower priority.</div></div>
+  </div>
+</section>
+
+<!-- ═══════════════ 8. FURTHER READING ═══════════════ -->
+<section id="reading">
+  <h2><span class="sec-num">8</span> Further Reading</h2>
+  <div class="prin-grid">
+    <div class="prin-card"><div class="prin-icon">📖</div><div class="prin-title">Sant'Anna (2026)</div><div class="prin-desc"><a href="https://psantanna.com/claude-code-my-workflow/" target="_blank">My Claude Code Setup</a> — CLAUDE.md as project constitution, skills as reusable commands, adversarial critic-fixer pattern.</div></div>
+    <div class="prin-card"><div class="prin-icon">🔬</div><div class="prin-title">Scientify</div><div class="prin-desc"><a href="https://github.com/tsingyuai/scientify" target="_blank">github.com/tsingyuai/scientify</a> — sequential phases with file-based contracts, verification before advancing.</div></div>
+    <div class="prin-card"><div class="prin-icon">📊</div><div class="prin-title">APE Project</div><div class="prin-desc"><a href="https://ape.socialcatalystlab.org/" target="_blank">ape.socialcatalystlab.org</a> — paper must pass Turing test, JAMA writing style, statistical rigor graded.</div></div>
+    <div class="prin-card"><div class="prin-icon">⚙️</div><div class="prin-title">Source Code</div><div class="prin-desc"><a href="https://github.com/zsyfirst/homework-1-zsyfirst" target="_blank">GitHub Repository</a> — full workflow, all skill files, and the exam paper produced by this pipeline.</div></div>
+  </div>
+</section>
+
+</div><!-- /wrap -->
+
+<footer class="blog-footer">
+  <p>BST236 Computing · Harvard T.H. Chan School of Public Health · March 2026</p>
+  <p style="margin-top:5px">
+    Live example: NIH grant terminations, 2025 — 5,419 grants · $17.18B disrupted
+  </p>
+  <p style="margin-top:8px">
+    <a href="../index.html">← Back to Coding Blog</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/zsyfirst/homework-1-zsyfirst" target="_blank">GitHub</a>
+  </p>
+</footer>
+
+<script>
+  function tog(hdr) {
+    hdr.classList.toggle('open');
+    hdr.nextElementSibling.classList.toggle('open');
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.skill-header');
+    if (cards[0]) tog(cards[0]);  // open Skill 01
+    if (cards[4]) tog(cards[4]);  // open Skill 05
+  });
+</script>
+</body>
+</html>

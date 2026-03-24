@@ -624,7 +624,7 @@ function generateHTML(data) {
         return;
       }
 
-      const keywords = query.split(/[\s,]+/).filter(k => k.length > 0);
+      const keywords = query.split(/[\\s,]+/).filter(k => k.length > 0);
       let matchCount = 0;
 
       allPaperCards.forEach(card => {

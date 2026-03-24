@@ -11,6 +11,7 @@
  * Keywords: medical AI, healthcare ML, clinical prediction, biomedical
  */
 
+const http = require('http');
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
@@ -37,6 +38,8 @@ const PAPERS_FILE = path.join(__dirname, '..', 'data', 'papers.json');
 const CACHE_SIZE = 30;
 const TIMEOUT_MS = 30000;
 const MAX_RETRIES = 2;
+const MAX_REDIRECTS = 5;
+const USE_DEMO_FALLBACK = process.env.USE_DEMO_FALLBACK === 'true';
 
 /**
  * Demo papers for testing - Biomedical AI topics (used when API is unavailable)
@@ -254,19 +257,35 @@ class SimpleXMLParser {
 /**
  * Fetch papers from arXiv API with retry logic
  */
-async function fetchPapers(retryCount = 0) {
+async function fetchPapers(apiUrl = ARXIV_API_URL, retryCount = 0, redirectCount = 0, allowInsecureTLS = false) {
   return new Promise((resolve, reject) => {
     const timeoutId = setTimeout(() => {
       reject(new Error(`API request timeout after ${TIMEOUT_MS}ms`));
     }, TIMEOUT_MS);
 
-    https.get(ARXIV_API_URL, { timeout: TIMEOUT_MS }, (res) => {
+    const transport = apiUrl.startsWith('https://') ? https : http;
+
+    const requestOptions = {
+      timeout: TIMEOUT_MS,
+      headers: { 'User-Agent': 'BST236-arXiv-Feed/1.0' }
+    };
+
+    if (apiUrl.startsWith('https://') && allowInsecureTLS) {
+      requestOptions.rejectUnauthorized = false;
+    }
+
+    transport.get(apiUrl, requestOptions, (res) => {
       clearTimeout(timeoutId);
 
       // Handle redirects
       if (res.statusCode >= 301 && res.statusCode <= 308 && res.headers.location) {
         console.log(`  [Redirect] ${res.statusCode}`);
-        fetchPapers(retryCount).then(resolve).catch(reject);
+        if (redirectCount >= MAX_REDIRECTS) {
+          reject(new Error(`Too many redirects (${MAX_REDIRECTS})`));
+          return;
+        }
+        const redirectUrl = new URL(res.headers.location, apiUrl).toString();
+        fetchPapers(redirectUrl, retryCount, redirectCount + 1, allowInsecureTLS).then(resolve).catch(reject);
         return;
       }
 
@@ -277,16 +296,24 @@ async function fetchPapers(retryCount = 0) {
           resolve(data);
         } else if (res.statusCode === 429 && retryCount < MAX_RETRIES) {
           console.log(`[Rate Limited] Waiting 60s...`);
-          setTimeout(() => fetchPapers(retryCount + 1).then(resolve).catch(reject), 60000);
+          setTimeout(() => fetchPapers(apiUrl, retryCount + 1, 0, allowInsecureTLS).then(resolve).catch(reject), 60000);
         } else {
           reject(new Error(`HTTP ${res.statusCode}`));
         }
       });
     }).on('error', (err) => {
       clearTimeout(timeoutId);
+
+      const isCertError = /certificate|CERT|self signed/i.test(err.message || '') || /CERT/i.test(err.code || '');
+      if (isCertError && apiUrl.startsWith('https://') && !allowInsecureTLS) {
+        console.warn('[Warning] TLS certificate validation failed. Retrying with insecure TLS for this public API call only...');
+        fetchPapers(apiUrl, retryCount, redirectCount, true).then(resolve).catch(reject);
+        return;
+      }
+
       if (retryCount < MAX_RETRIES) {
         console.log(`[Network Error] Retrying in 5s...`);
-        setTimeout(() => fetchPapers(retryCount + 1).then(resolve).catch(reject), 5000);
+        setTimeout(() => fetchPapers(apiUrl, retryCount + 1, 0, allowInsecureTLS).then(resolve).catch(reject), 5000);
       } else {
         reject(err);
       }
@@ -420,7 +447,7 @@ async function main() {
     
     try {
       console.log('[1/4] Fetching from arXiv API...');
-      const xmlData = await fetchPapers();
+      const xmlData = await fetchPapers(ARXIV_API_URL);
       console.log(`✓ Received ${xmlData.length} bytes`);
       
       console.log('[2/4] Parsing XML response...');
@@ -428,17 +455,23 @@ async function main() {
       console.log(`✓ Parsed ${newPapers.length} papers`);
     } catch (apiError) {
       console.warn(`[Warning] API fetch failed: ${apiError.message}`);
-      console.log('[*] Using demo data for testing...');
-      newPapers = DEMO_PAPERS;
-    }
-
-    if (newPapers.length === 0) {
-      console.warn('[Warning] No papers available');
+      if (USE_DEMO_FALLBACK) {
+        console.log('[*] Using demo data fallback (USE_DEMO_FALLBACK=true)...');
+        newPapers = DEMO_PAPERS;
+      }
     }
 
     console.log('[3/4] Merging with cache...');
     const existingPapers = loadExistingPapers();
     console.log(`   Existing cache: ${existingPapers.length} papers`);
+
+    if (newPapers.length === 0) {
+      if (existingPapers.length === 0) {
+        throw new Error('No fresh papers fetched and no cache available.');
+      }
+      console.warn('[Warning] No fresh papers fetched; keeping existing cache unchanged.');
+      newPapers = existingPapers;
+    }
 
     const mergedPapers = mergeWithCache(newPapers, existingPapers);
     const newCount = mergedPapers.filter(

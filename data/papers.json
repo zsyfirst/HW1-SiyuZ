@@ -14,11 +14,432 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-03-24T14:45:08.742Z",
-  "fetchedAt": "2026-03-24T14:45:08.743Z",
-  "totalPapers": 25,
-  "newPapers": 0,
+  "lastUpdated": "2026-03-25T01:51:11.179Z",
+  "fetchedAt": "2026-03-25T01:51:11.179Z",
+  "totalPapers": 30,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2603.23134",
+      "title": "A Bayesian Learning Approach for Drone Coverage Network: A Case Study on Cardiac Arrest in Scotland",
+      "authors": [
+        "Tathagata Basu",
+        "Edoardo Patelli",
+        "Gianluca Filippi",
+        "Ben Parsonage",
+        "Christy Maddock",
+        "Massimiliano Vasile",
+        "Marco Fossati",
+        "Adam Loyd",
+        "Shaun Marshall",
+        "Paul Gowens"
+      ],
+      "summary": "Drones are becoming popular as a complementary system for \\ac{ems}. Although several pilot studies and flight trials have shown the feasibility of drone-assisted \\ac{aed} delivery, running a full-scale operational network remains challenging due to high capital expenditure and environmental uncertainties. In this paper, we formulate a reliability-informed Bayesian learning framework for designing drone-assisted \\ac{aed} delivery networks under environmental and operational uncertainty. We propos",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23134v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23134v1",
+      "categories": [
+        "cs.LG",
+        "stat.AP"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23085",
+      "title": "MedCausalX: Adaptive Causal Reasoning with Self-Reflection for Trustworthy Medical Vision-Language Models",
+      "authors": [
+        "Jianxin Lin",
+        "Chunzheng Zhu",
+        "Peter J. Kneuertz",
+        "Yunfei Bai",
+        "Yuan Xue"
+      ],
+      "summary": "Vision-Language Models (VLMs) have enabled interpretable medical diagnosis by integrating visual perception with linguistic reasoning. Yet, existing medical chain-of-thought (CoT) models lack explicit mechanisms to represent and enforce causal reasoning, leaving them vulnerable to spurious correlations and limiting their clinical reliability. We pinpoint three core challenges in medical CoT reasoning: how to adaptively trigger causal correction, construct high-quality causal-spurious contrastive",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23085v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23085v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23041",
+      "title": "HUydra: Full-Range Lung CT Synthesis via Multiple HU Interval Generative Modelling",
+      "authors": [
+        "António Cardoso",
+        "Pedro Sousa",
+        "Tania Pereira",
+        "Hélder P. Oliveira"
+      ],
+      "summary": "Currently, a central challenge and bottleneck in the deployment and validation of computer-aided diagnosis (CAD) models within the field of medical imaging is data scarcity. For lung cancer, one of the most prevalent types worldwide, limited datasets can delay diagnosis and have an impact on patient outcome. Generative AI offers a promising solution for this issue, but dealing with the complex distribution of full Hounsfield Unit (HU) range lung CT scans is challenging and remains as a highly co",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23041v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23041v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "Submitted to iEEE TPAMI (Transactions on Pattern Analysis and Machine Intelligence)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22954",
+      "title": "Privacy-Preserving EHR Data Transformation via Geometric Operators: A Human-AI Co-Design Technical Report",
+      "authors": [
+        "Maolin Wang",
+        "Beining Bao",
+        "Gan Yuan",
+        "Hongyu Chen",
+        "Bingkun Zhao",
+        "Baoshuo Kan",
+        "Jiming Xu",
+        "Qi Shi",
+        "Yinggong Zhao",
+        "Yao Wang",
+        "Wei Ying Ma",
+        "Jun Yan"
+      ],
+      "summary": "Electronic health records (EHRs) and other real-world clinical data are essential for clinical research, medical artificial intelligence, and life science, but their sharing is severely limited by privacy, governance, and interoperability constraints. These barriers create persistent data silos that hinder multi-center studies, large-scale model development, and broader biomedical discovery. Existing privacy-preserving approaches, including multi-party computation and related cryptographic techn",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22954v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22954v1",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22939",
+      "title": "FixationFormer: Direct Utilization of Expert Gaze Trajectories for Chest X-Ray Classification",
+      "authors": [
+        "Daniel Beckmann",
+        "Benjamin Risse"
+      ],
+      "summary": "Expert eye movements provide a rich, passive source of domain knowledge in radiology, offering a powerful cue for integrating diagnostic reasoning into computer-aided analysis. However, direct integration into CNN-based systems, which historically have dominated the medical image analysis domain, is challenging: gaze recordings are sequential, temporally dense yet spatially sparse, noisy, and variable across experts. As a consequence, most existing image-based models utilize reduced representati",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22939v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22939v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22935",
+      "title": "Ran Score: a LLM-based Evaluation Score for Radiology Report Generation",
+      "authors": [
+        "Ran Zhang",
+        "Yucong Lin",
+        "Zhaoli Su",
+        "Bowen Liu",
+        "Danni Ai",
+        "Tianyu Fu",
+        "Deqiang Xiao",
+        "Jingfan Fan",
+        "Yuanyuan Wang",
+        "Mingwei Gao",
+        "Yuwan Hu",
+        "Shuya Gao",
+        "Jingtao Li",
+        "Jian Yang",
+        "Hong Song",
+        "Hongliang Sun"
+      ],
+      "summary": "Chest X-ray report generation and automated evaluation are limited by poor recognition of low-prevalence abnormalities and inadequate handling of clinically important language, including negation and ambiguity. We develop a clinician-guided framework combining human expertise and large language models for multi-label finding extraction from free-text chest X-ray reports and use it to define Ran Score, a finding-level metric for report evaluation. Using three non-overlapping MIMIC-CXR-EN cohorts ",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22935v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22935v1",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "4 pages, 5 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22904",
+      "title": "Separating Diagnosis from Control: Auditable Policy Adaptation in Agent-Based Simulations with LLM-Based Diagnostics",
+      "authors": [
+        "Shaoxin Zhong",
+        "Yuchen Su",
+        "Michael Witbrock"
+      ],
+      "summary": "Mitigating elderly loneliness requires policy interventions that achieve both adaptability and auditability. Existing methods struggle to reconcile these objectives: traditional agent-based models suffer from static rigidity, while direct large language model (LLM) controllers lack essential traceability. This work proposes a three-layer framework that separates diagnosis from control to achieve both properties simultaneously. LLMs operate strictly as diagnostic instruments that assess populatio",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22904v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22904v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "This paper has been accepted at AAMAS 2026 Workshop MABS",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22900",
+      "title": "Off-Policy Evaluation and Learning for Survival Outcomes under Censoring",
+      "authors": [
+        "Kohsuke Kubota",
+        "Mitsuhiro Takahashi",
+        "Yuta Saito"
+      ],
+      "summary": "Optimizing survival outcomes, such as patient survival or customer retention, is a critical objective in data-driven decision-making. Off-Policy Evaluation~(OPE) provides a powerful framework for assessing such decision-making policies using logged data alone, without the need for costly or risky online experiments in high-stakes applications. However, typical estimators are not designed to handle right-censored survival outcomes, as they ignore unobserved survival times beyond the censoring tim",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22900v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22900v1",
+      "categories": [
+        "stat.ME",
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "comments": "Preprint",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22885",
+      "title": "Balancing Safety and Efficiency in Aircraft Health Diagnosis: A Task Decomposition Framework with Heterogeneous Long-Micro Scale Cascading and Knowledge Distillation-based Interpretability",
+      "authors": [
+        "Xinhang Chen",
+        "Zhihuan Wei",
+        "Yang Hu",
+        "Zhiguo Zeng",
+        "Kang Zeng",
+        "Suili Yang"
+      ],
+      "summary": "Whole-aircraft diagnosis for general aviation faces threefold challenges: data uncertainty, task heterogeneity, and computational inefficiency. Existing end-to-end approaches uniformly model health discrimination and fault characterization, overlooking intrinsic receptive field conflicts between global context modeling and local feature extraction, while incurring prohibitive training costs under severe class imbalance. To address these, this study proposes the Diagnosis Decomposition Framework ",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22885v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22885v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Submitted to Reliability Engineering &amp; System Safety (RESS)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22879",
+      "title": "Confidence Calibration under Ambiguous Ground Truth",
+      "authors": [
+        "Linwei Tao",
+        "Haoyang Luo",
+        "Minjing Dong",
+        "Chang Xu"
+      ],
+      "summary": "Confidence calibration assumes a unique ground-truth label per input, yet this assumption fails wherever annotators genuinely disagree. Post-hoc calibrators fitted on majority-voted labels, the standard single-label targets used in practice, can appear well-calibrated under conventional evaluation yet remain substantially miscalibrated against the underlying annotator distribution. We show that this failure is structural: under simplifying assumptions, Temperature Scaling is biased toward temper",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22879v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22879v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22844",
+      "title": "PhySe-RPO: Physics and Semantics Guided Relative Policy Optimization for Diffusion-Based Surgical Smoke Removal",
+      "authors": [
+        "Zining Fang",
+        "Cheng Xue",
+        "Chunhui Liu",
+        "Bin Xu",
+        "Ming Chen",
+        "Xiaowei Hu"
+      ],
+      "summary": "Surgical smoke severely degrades intraoperative video quality, obscuring anatomical structures and limiting surgical perception. Existing learning-based desmoking approaches rely on scarce paired supervision and deterministic restoration pipelines, making it difficult to perform exploration or reinforcement-driven refinement under real surgical conditions. We propose PhySe-RPO, a diffusion restoration framework optimized through Physics- and Semantics-Guided Relative Policy Optimization. The cor",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22844v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22844v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "12 pages,7figures,published to CVPR",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22840",
+      "title": "URA-Net: Uncertainty-Integrated Anomaly Perception and Restoration Attention Network for Unsupervised Anomaly Detection",
+      "authors": [
+        "Wei Luo",
+        "Peng Xing",
+        "Yunkang Cao",
+        "Haiming Yao",
+        "Weiming Shen",
+        "Zechao Li"
+      ],
+      "summary": "Unsupervised anomaly detection plays a pivotal role in industrial defect inspection and medical image analysis, with most methods relying on the reconstruction framework. However, these methods may suffer from over-generalization, enabling them to reconstruct anomalies well, which leads to poor detection performance. To address this issue, instead of focusing solely on normality reconstruction, we propose an innovative Uncertainty-Integrated Anomaly Perception and Restoration Attention Network (",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22840v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22840v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "Accepted by IEEE TCSVT",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22816",
+      "title": "When AI Shows Its Work, Is It Actually Working? Step-Level Evaluation Reveals Frontier Language Models Frequently Bypass Their Own Reasoning",
+      "authors": [
+        "Abhinaba Basu",
+        "Pavan Chakraborty"
+      ],
+      "summary": "Language models increasingly \"show their work\" by writing step-by-step reasoning before answering. But are these reasoning steps genuinely used, or decorative narratives generated after the model has already decided? Consider: a medical AI writes \"The patient's eosinophilia and livedo reticularis following catheterization suggest cholesterol embolization syndrome. Answer: B.\" If we remove the eosinophilia observation, does the diagnosis change? For most frontier models, the answer is no - the st",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22816v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22816v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22785",
+      "title": "Exposure-Normalized Bed and Chair Fall Rates via Continuous AI Monitoring",
+      "authors": [
+        "Paolo Gabriel",
+        "Peter Rehani",
+        "Zack Drumm",
+        "Tyler Troy",
+        "Tiffany Wyatt",
+        "Narinder Singh"
+      ],
+      "summary": "This retrospective cohort study used continuous AI monitoring to estimate fall rates by exposure time rather than occupied bed-days. From August 2024 to December 2025, 3,980 eligible monitoring units contributed 292,914 hourly rows, yielding probability-weighted rates of 17.8 falls per 1,000 chair exposure-hours and 4.3 per 1,000 bed exposure-hours. Within the study window, 43 adjudicated falls matched the monitoring pipeline, and 40 linked to eligible exposure hours for the primary Poisson mode",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22785v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22785v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "23 pages, 6 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.22767",
+      "title": "Can LLM Agents Generate Real-World Evidence? Evaluating Observational Studies in Medical Databases",
+      "authors": [
+        "Dubai Li",
+        "Yuxiang He",
+        "Yan Hu",
+        "Yu Tian",
+        "Jingsong Li"
+      ],
+      "summary": "Observational studies can yield clinically actionable evidence at scale, but executing them on real-world databases is open-ended and requires coherent decisions across cohort construction, analysis, and reporting. Prior evaluations of LLM agents emphasize isolated steps or single answers, missing the integrity and internal structure of the resulting evidence bundle. To address this gap, we introduce RWE-bench, a benchmark grounded in MIMIC-IV and derived from peer-reviewed observational studies",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.22767v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.22767v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2603.22179",
       "title": "MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management",
@@ -416,250 +837,6 @@
         "cs.AI"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12890",
-      "title": "Deep Learning for Medical Image Diagnosis: A Comprehensive Survey",
-      "authors": [
-        "Alice Chen",
-        "Bob Williams",
-        "Carol Davis"
-      ],
-      "summary": "This paper provides a comprehensive review of deep learning methods for medical image analysis, including radiology, pathology, and dermatology applications with clinical validation studies.",
-      "published": "2025-02-15",
-      "publishedDate": {
-        "iso": "2025-02-15",
-        "year": 2025,
-        "month": 2,
-        "day": 15
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12890v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12890v1",
-      "categories": [
-        "cs.AI",
-        "cs.CV",
-        "q-bio.QM"
-      ],
-      "comments": "32 pages, 15 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12865",
-      "title": "Clinical Prediction Models Using Electronic Health Records and Machine Learning",
-      "authors": [
-        "Eve Johnson",
-        "Frank Miller"
-      ],
-      "summary": "We develop machine learning models for predicting patient outcomes using electronic health records, achieving high accuracy in early disease detection and risk stratification.",
-      "published": "2025-02-14",
-      "publishedDate": {
-        "iso": "2025-02-14",
-        "year": 2025,
-        "month": 2,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12865v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12865v1",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "20 pages, 8 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12840",
-      "title": "AI-Powered Drug Discovery: From Molecular Design to Clinical Trials",
-      "authors": [
-        "Grace Lee",
-        "Henry Chen",
-        "Iris Brown"
-      ],
-      "summary": "We investigate AI techniques for accelerating drug discovery, including molecular generation, binding affinity prediction, and clinical trial optimization.",
-      "published": "2025-02-13",
-      "publishedDate": {
-        "iso": "2025-02-13",
-        "year": 2025,
-        "month": 2,
-        "day": 13
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12840v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12840v1",
-      "categories": [
-        "cs.AI",
-        "q-bio.BM"
-      ],
-      "comments": "24 pages, 12 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12815",
-      "title": "Natural Language Processing for Clinical Text: Extracting Insights from Medical Notes",
-      "authors": [
-        "Jack Anderson"
-      ],
-      "summary": "This work presents NLP methods for extracting structured information from unstructured clinical notes, enabling better patient care and medical research.",
-      "published": "2025-02-12",
-      "publishedDate": {
-        "iso": "2025-02-12",
-        "year": 2025,
-        "month": 2,
-        "day": 12
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12815v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12815v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "18 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12790",
-      "title": "Federated Learning for Healthcare: Privacy-Preserving Medical AI",
-      "authors": [
-        "Karen Liu",
-        "Leo Davis",
-        "Mia Taylor"
-      ],
-      "summary": "We present federated learning approaches for training medical AI models across multiple hospitals while preserving patient privacy and data security.",
-      "published": "2025-02-11",
-      "publishedDate": {
-        "iso": "2025-02-11",
-        "year": 2025,
-        "month": 2,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12790v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12790v1",
-      "categories": [
-        "cs.AI",
-        "cs.CR",
-        "cs.LG"
-      ],
-      "comments": "28 pages, 20 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12765",
-      "title": "Explainable AI in Medical Diagnosis: Building Trust in Clinical Decision Support",
-      "authors": [
-        "Nina White",
-        "Oscar Green"
-      ],
-      "summary": "A comprehensive study of interpretable machine learning methods for medical diagnosis, focusing on clinician trust and regulatory compliance.",
-      "published": "2025-02-10",
-      "publishedDate": {
-        "iso": "2025-02-10",
-        "year": 2025,
-        "month": 2,
-        "day": 10
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12765v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12765v1",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "35 pages, 18 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12740",
-      "title": "AI for Radiology: Automated Detection of Lung Diseases from CT Scans",
-      "authors": [
-        "Paul Martin",
-        "Quinn Roberts"
-      ],
-      "summary": "Deep learning methods for detecting lung diseases including COVID-19, pneumonia, and lung cancer from CT scans with radiologist-level accuracy.",
-      "published": "2025-02-09",
-      "publishedDate": {
-        "iso": "2025-02-09",
-        "year": 2025,
-        "month": 2,
-        "day": 9
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12740v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12740v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "42 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12715",
-      "title": "Wearable Health Monitoring: Machine Learning for Continuous Patient Assessment",
-      "authors": [
-        "Rachel Thompson",
-        "Sam Wilson"
-      ],
-      "summary": "Novel algorithms for analyzing wearable sensor data to detect health anomalies and predict adverse events in real-time.",
-      "published": "2025-02-08",
-      "publishedDate": {
-        "iso": "2025-02-08",
-        "year": 2025,
-        "month": 2,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12715v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12715v1",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "26 pages, 14 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12690",
-      "title": "Genomics and Deep Learning: Predicting Disease Risk from DNA Sequences",
-      "authors": [
-        "Tom Hayes",
-        "Uma Kumar"
-      ],
-      "summary": "A comprehensive guide to deep learning methods for genomic analysis, including variant calling, gene expression prediction, and disease risk assessment.",
-      "published": "2025-02-07",
-      "publishedDate": {
-        "iso": "2025-02-07",
-        "year": 2025,
-        "month": 2,
-        "day": 7
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12690v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12690v1",
-      "categories": [
-        "cs.AI",
-        "q-bio.GN"
-      ],
-      "comments": "48 pages, 25 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2502.12665",
-      "title": "Mental Health AI: Detecting Depression and Anxiety from Digital Biomarkers",
-      "authors": [
-        "Vera Martinez",
-        "Walt Anderson"
-      ],
-      "summary": "Methods for detecting mental health conditions from smartphone usage patterns, social media activity, and voice analysis using machine learning.",
-      "published": "2025-02-06",
-      "publishedDate": {
-        "iso": "2025-02-06",
-        "year": 2025,
-        "month": 2,
-        "day": 6
-      },
-      "arxivUrl": "http://arxiv.org/abs/2502.12665v1",
-      "pdfUrl": "http://arxiv.org/pdf/2502.12665v1",
-      "categories": [
-        "cs.AI",
-        "cs.HC"
-      ],
-      "comments": "30 pages, 16 figures",
       "arxivVersion": "v1"
     }
   ]

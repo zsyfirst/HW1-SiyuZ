@@ -14,11 +14,407 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-03-25T01:51:11.179Z",
-  "fetchedAt": "2026-03-25T01:51:11.179Z",
+  "lastUpdated": "2026-03-26T01:57:22.930Z",
+  "fetchedAt": "2026-03-26T01:57:22.930Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2603.24213",
+      "title": "Uncovering Memorization in Timeseries Imputation models: LBRM Membership Inference and its link to attribute Leakage",
+      "authors": [
+        "Faiz Taleb",
+        "Ivan Gazeau",
+        "Maryline Laurent"
+      ],
+      "summary": "Deep learning models for time series imputation are now essential in fields such as healthcare, the Internet of Things (IoT), and finance. However, their deployment raises critical privacy concerns. Beyond the well-known issue of unintended memorization, which has been extensively studied in generative models, we demonstrate that time series models are vulnerable to inference attacks in a black-box setting. In this work, we introduce a two-stage attack framework comprising: (1) a novel membershi",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.24213v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.24213v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.24132",
+      "title": "MedAidDialog: A Multilingual Multi-Turn Medical Dialogue Dataset for Accessible Healthcare",
+      "authors": [
+        "Shubham Kumar Nigam",
+        "Suparnojit Sarkar",
+        "Piyush Patel"
+      ],
+      "summary": "Conversational artificial intelligence has the potential to assist users in preliminary medical consultations, particularly in settings where access to healthcare professionals is limited. However, many existing medical dialogue systems operate in a single-turn question--answering paradigm or rely on template-based datasets, limiting conversational realism and multilingual applicability. In this work, we introduce MedAidDialog, a multilingual multi-turn medical dialogue dataset designed to simul",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.24132v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.24132v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.24124",
+      "title": "The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation",
+      "authors": [
+        "Mingyi Liu"
+      ],
+      "summary": "RLHF-aligned language models exhibit response homogenization: on TruthfulQA (n=790), 40-79% of questions produce a single semantic cluster across 10 i.i.d. samples. On affected questions, sampling-based uncertainty methods have zero discriminative power (AUROC=0.500), while free token entropy retains signal (0.603). This alignment tax is task-dependent: on GSM8K (n=500), token entropy achieves 0.724 (Cohen's d=0.81). A base-vs-instruct ablation confirms the causal role of alignment: the base mod",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.24124v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.24124v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "23 pages, 3 figures, 10 tables, 22 experiments across 5 benchmarks. Code: https://github.com/DigitLion/ucbd-experiment",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.24058",
+      "title": "Mitigating Object Hallucinations in LVLMs via Attention Imbalance Rectification",
+      "authors": [
+        "Han Sun",
+        "Qin Li",
+        "Peixin Wang",
+        "Min Zhang"
+      ],
+      "summary": "Object hallucination in Large Vision-Language Models (LVLMs) severely compromises their reliability in real-world applications, posing a critical barrier to their deployment in high-stakes scenarios such as autonomous driving and medical image analysis. Through systematic empirical investigation, we identify that the imbalanced attention allocation, both across modalities (i.e., vision and language) and within modalities (among individual tokens), exhibits a strong causal correlation with the oc",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.24058v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.24058v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "CVPR 2026(Findings)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.24041",
+      "title": "Minimal Sufficient Representations for Self-interpretable Deep Neural Networks",
+      "authors": [
+        "Zhiyao Tan",
+        "Liu Li",
+        "Huazhen Lin"
+      ],
+      "summary": "Deep neural networks (DNNs) achieve remarkable predictive performance but remain difficult to interpret, largely due to overparameterization that obscures the minimal structure required for interpretation. Here we introduce DeepIn, a self-interpretable neural network framework that adaptively identifies and learns the minimal representation necessary for preserving the full expressive capacity of standard DNNs. We show that DeepIn can correctly identify the minimal representation dimension, sele",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.24041v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.24041v1",
+      "categories": [
+        "stat.ME",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23987",
+      "title": "Can we generate portable representations for clinical time series data using LLMs?",
+      "authors": [
+        "Zongliang Ji",
+        "Yifei Sun",
+        "Andre Amaral",
+        "Anna Goldenberg",
+        "Rahul G. Krishnan"
+      ],
+      "summary": "Deploying clinical ML is slow and brittle: models that work at one hospital often degrade under distribution shifts at the next. In this work, we study a simple question -- can large language models (LLMs) create portable patient embeddings i.e. representations of patients enable a downstream predictor built on one hospital to be used elsewhere with minimal-to-no retraining and fine-tuning. To do so, we map from irregular ICU time series onto concise natural language summaries using a frozen LLM",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23987v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23987v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Accepted to the 14th International Conference on Learning Representations (ICLR 2026)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23937",
+      "title": "Dialogue to Question Generation for Evidence-based Medical Guideline Agent Development",
+      "authors": [
+        "Zongliang Ji",
+        "Ziyang Zhang",
+        "Xincheng Tan",
+        "Matthew Thompson",
+        "Anna Goldenberg",
+        "Carl Yang",
+        "Rahul G. Krishnan",
+        "Fan Zhang"
+      ],
+      "summary": "Evidence-based medicine (EBM) is central to high-quality care, but remains difficult to implement in fast-paced primary care settings. Physicians face short consultations, increasing patient loads, and lengthy guideline documents that are impractical to consult in real time. To address this gap, we investigate the feasibility of using large language models (LLMs) as ambient assistants that surface targeted, evidence-based questions during physician-patient encounters. Our study focuses on questi",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23937v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23937v1",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "9 pages. To appear in Proceedings of Machine Learning Research (PMLR), Machine Learning for Health (ML4H) Symposium 2025",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23910",
+      "title": "AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents",
+      "authors": [
+        "Zhixuan Bao",
+        "Zhuoyi Lin",
+        "Jiageng Wang",
+        "Jinhai Hu",
+        "Yuan Gao",
+        "Yaoxin Wu",
+        "Xiaoli Li",
+        "Xun Xu"
+      ],
+      "summary": "Recent advances in large language models (LLMs) suggest strong potential for automating analog circuit design. Yet most LLM-based approaches rely on a single-model loop of generation, diagnosis, and correction, which favors succinct summaries over domain-specific insight and suffers from context attrition that erases critical technical details. To address these limitations, we propose AnalogAgent, a training-free agentic framework that integrates an LLM-based multi-agent system (MAS) with self-e",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23910v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23910v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "16 pages, 6 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23799",
+      "title": "Resolving gradient pathology in physics-informed epidemiological models",
+      "authors": [
+        "Nickson Golooba",
+        "Woldegebriel Assefa Woldegerima"
+      ],
+      "summary": "Physics-informed neural networks (PINNs) are increasingly used in mathematical epidemiology to bridge the gap between noisy clinical data and compartmental models, such as the susceptible-exposed-infected-removed (SEIR) model. However, training these hybrid networks is often unstable due to competing optimization objectives. As established in recent literature on ``gradient pathology,\" the gradient vectors derived from the data loss and the physical residual often point in conflicting directions",
+      "published": "2026-03-25",
+      "publishedDate": {
+        "iso": "2026-03-25",
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23799v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23799v1",
+      "categories": [
+        "cs.LG",
+        "math.NA",
+        "math.OC"
+      ],
+      "comments": "16 pages, 4 figures. Submitted to Neural Networks",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23794",
+      "title": "Sparse Autoencoders for Interpretable Medical Image Representation Learning",
+      "authors": [
+        "Philipp Wesp",
+        "Robbie Holland",
+        "Vasiliki Sideri-Lampretsa",
+        "Sergios Gatidis"
+      ],
+      "summary": "Vision foundation models (FMs) achieve state-of-the-art performance in medical imaging. However, they encode information in abstract latent representations that clinicians cannot interrogate or verify. The goal of this study is to investigate Sparse Autoencoders (SAEs) for replacing opaque FM image representations with human-interpretable, sparse features. We train SAEs on embeddings from BiomedParse (biomedical) and DINOv3 (general-purpose) using 909,873 CT and MRI 2D image slices from the Tota",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23794v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23794v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "11 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23785",
+      "title": "Retinal Disease Classification from Fundus Images using CNN Transfer Learning",
+      "authors": [
+        "Ali Akram"
+      ],
+      "summary": "Retinal diseases remain among the leading preventable causes of visual impairment worldwide. Automated screening based on fundus image analysis has the potential to expand access to early detection, particularly in underserved populations. This paper presents a reproducible deep learning pipeline for binary retinal disease risk classification from publicly available fundus photographs. We implement and compare a baseline convolutional neural network with a transfer learning approach using a pret",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23785v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23785v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23719",
+      "title": "CDMT-EHR: A Continuous-Time Diffusion Framework for Generating Mixed-Type Time-Series Electronic Health Records",
+      "authors": [
+        "Shaonan Liu",
+        "Yuichiro Iwashita",
+        "Soichiro Nakako",
+        "Masakazu Iwamura",
+        "Koichi Kise"
+      ],
+      "summary": "Electronic health records (EHRs) are invaluable for clinical research, yet privacy concerns severely restrict data sharing. Synthetic data generation offers a promising solution, but EHRs present unique challenges: they contain both numerical and categorical features that evolve over time. While diffusion models have demonstrated strong performance in EHR synthesis, existing approaches predominantly rely on discrete-time formulations, which suffer from finite-step approximation errors and couple",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23719v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23719v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23679",
+      "title": "Learning What Can Be Picked: Active Reachability Estimation for Efficient Robotic Fruit Harvesting",
+      "authors": [
+        "Nur Afsa Syeda",
+        "Mohamed Elmahallawy",
+        "Luis Fernando de la Torre",
+        "John Miller"
+      ],
+      "summary": "Agriculture remains a cornerstone of global health and economic sustainability, yet labor-intensive tasks such as harvesting high-value crops continue to face growing workforce shortages. Robotic harvesting systems offer a promising solution; however, their deployment in unstructured orchard environments is constrained by inefficient perception-to-action pipelines. In particular, existing approaches often rely on exhaustive inverse kinematics or motion planning to determine whether a target frui",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23679v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23679v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23678",
+      "title": "PLACID: Privacy-preserving Large language models for Acronym Clinical Inference and Disambiguation",
+      "authors": [
+        "Manjushree B. Aithal",
+        "Ph. D.",
+        "Alexander Kotz",
+        "James Mitchell",
+        "Ph. D"
+      ],
+      "summary": "Large Language Models (LLMs) offer transformative solutions across many domains, but healthcare integration is hindered by strict data privacy constraints. Clinical narratives are dense with ambiguous acronyms, misinterpretation these abbreviations can precipitate severe outcomes like life-threatening medication errors. While cloud-dependent LLMs excel at Acronym Disambiguation, transmitting Protected Health Information to external servers violates privacy frameworks. To bridge this gap, this st",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23678v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23678v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "10 pages, 2 figures, Under review AMIA Symposium",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.23625",
+      "title": "Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework",
+      "authors": [
+        "Zeinab Dehghani",
+        "Rameez Raja Kureshi",
+        "Koorosh Aslansefat",
+        "Faezeh Alsadat Abedi",
+        "Dhavalkumar Thakker",
+        "Lisa Greaves",
+        "Bhupesh Kumar Mishra",
+        "Baseer Ahmad",
+        "Tanaya Maslekar"
+      ],
+      "summary": "Artificial intelligence (AI) is increasingly being explored in health and social care to reduce administrative workload and allow staff to spend more time on patient care. This paper evaluates a voice-enabled Care Home Smart Speaker designed to support everyday activities in residential care homes, including spoken access to resident records, reminders, and scheduling tasks. A safety-focused evaluation framework is presented that examines the system end-to-end, combining Whisper-based speech rec",
+      "published": "2026-03-24",
+      "publishedDate": {
+        "iso": "2026-03-24",
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.23625v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.23625v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2603.23134",
       "title": "A Bayesian Learning Approach for Drone Coverage Network: A Case Study on Cardiac Arrest in Scotland",
@@ -436,405 +832,6 @@
       "categories": [
         "cs.AI",
         "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.22179",
-      "title": "MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management",
-      "authors": [
-        "Jack W O'Sullivan",
-        "Mohammad Asadi",
-        "Lennart Elbe",
-        "Akshay Chaudhari",
-        "Tahoura Nedaee",
-        "Francois Haddad",
-        "Michael Salerno",
-        "Li Fe-Fei",
-        "Ehsan Adeli",
-        "Rima Arnaout",
-        "Euan A Ashley"
-      ],
-      "summary": "Cardiovascular disease remains the leading cause of global mortality, with progress hindered by human interpretation of complex cardiac tests. Current AI vision-language models are limited to single-modality inputs and are non-interactive. We present MARCUS (Multimodal Autonomous Reasoning and Chat for Ultrasound and Signals), an agentic vision-language system for end-to-end interpretation of electrocardiograms (ECGs), echocardiograms, and cardiac magnetic resonance imaging (CMR) independently a",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.22179v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.22179v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.22158",
-      "title": "Multimodal Survival Analysis with Locally Deployable Large Language Models",
-      "authors": [
-        "Moritz Gögl",
-        "Christopher Yau"
-      ],
-      "summary": "We study multimodal survival analysis integrating clinical text, tabular covariates, and genomic profiles using locally deployable large language models (LLMs). As many institutions face tight computational and privacy constraints, this setting motivates the use of lightweight, on-premises models. Our approach jointly estimates calibrated survival probabilities and generates concise, evidence-grounded prognosis text via teacher-student distillation and principled multimodal fusion. On a TCGA coh",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.22158v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.22158v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "NeurIPS 2025 Workshop on Multi-modal Foundation Models and Large Language Models for Life Sciences",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.22097",
-      "title": "SpecTM: Spectral Targeted Masking for Trustworthy Foundation Models",
-      "authors": [
-        "Syed Usama Imtiaz",
-        "Mitra Nasr Azadani",
-        "Nasrin Alamdari"
-      ],
-      "summary": "Foundation models are now increasingly being developed for Earth observation (EO), yet they often rely on stochastic masking that do not explicitly enforce physics constraints; a critical trustworthiness limitation, in particular for predictive models that guide public health decisions. In this work, we propose SpecTM (Spectral Targeted Masking), a physics-informed masking design that encourages the reconstruction of targeted bands from cross-spectral context during pretraining. To achieve this,",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.22097v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.22097v1",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "Accepted to IEEE IGARSS 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.22096",
-      "title": "GSEM: Graph-based Self-Evolving Memory for Experience Augmented Clinical Reasoning",
-      "authors": [
-        "Xiao Han",
-        "Yuzheng Fan",
-        "Sendong Zhao",
-        "Haochun Wang",
-        "Bing Qin"
-      ],
-      "summary": "Clinical decision-making agents can benefit from reusing prior decision experience. However, many memory-augmented methods store experiences as independent records without explicit relational structure, which may introduce noisy retrieval, unreliable reuse, and in some cases even hurt performance compared to direct LLM inference. We propose GSEM (Graph-based Self-Evolving Memory), a clinical memory framework that organizes clinical experiences into a dual-layer memory graph, capturing both the d",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.22096v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.22096v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.22002",
-      "title": "SegMaFormer: A Hybrid State-Space and Transformer Model for Efficient Segmentation",
-      "authors": [
-        "Duy D. Nguyen",
-        "Phat T. Tran-Truong"
-      ],
-      "summary": "The advent of Transformer and Mamba-based architectures has significantly advanced 3D medical image segmentation by enabling global contextual modeling, a capability traditionally limited in Convolutional Neural Networks (CNNs). However, state-of-the-art Transformer models often entail substantial computational complexity and parameter counts, which is particularly prohibitive for volumetric data and further exacerbated by the limited availability of annotated medical imaging datasets. To addres",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.22002v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.22002v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21970",
-      "title": "Parameter-Efficient Fine-Tuning for Medical Text Summarization: A Comparative Study of Lora, Prompt Tuning, and Full Fine-Tuning",
-      "authors": [
-        "Ulugbek Shernazarov",
-        "Rostislav Svitsov",
-        "Bin Shi"
-      ],
-      "summary": "Fine-tuning large language models for domain-specific tasks such as medical text summarization demands substantial computational resources. Parameter-efficient fine-tuning (PEFT) methods offer promising alternatives by updating only a small fraction of parameters. This paper compares three adaptation approaches-Low-Rank Adaptation (LoRA), Prompt Tuning, and Full Fine-Tuning-across the Flan-T5 model family on the PubMed medical summarization dataset. Through experiments with multiple random seeds",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21970v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21970v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "9 pages, 5 figures, presented at 6th International Conference on NLP &amp; Text Mining (NLTM 2026), March 21-22, Sydney, Australia. Published in Computer Science &amp; Information Technology (CS &amp; IT), pp. 01-09, 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21935",
-      "title": "Chronological Contrastive Learning: Few-Shot Progression Assessment in Irreversible Diseases",
-      "authors": [
-        "Clemens Watzenböck",
-        "Daniel Aletaha",
-        "Michaël Deman",
-        "Thomas Deimel",
-        "Jana Eder",
-        "Ivana Janickova",
-        "Robert Janiczek",
-        "Peter Mandl",
-        "Philipp Seeböck",
-        "Gabriela Supp",
-        "Paul Weiser",
-        "Georg Langs"
-      ],
-      "summary": "Quantitative disease severity scoring in medical imaging is costly, time-consuming, and subject to inter-reader variability. At the same time, clinical archives contain far more longitudinal imaging data than expert-annotated severity scores. Existing self-supervised methods typically ignore this chronological structure. We introduce ChronoCon, a contrastive learning approach that replaces label-based ranking losses with rankings derived solely from the visitation order of a patient's longitudin",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21935v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21935v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted for MIDL 2026; Reviews available at https://openreview.net/forum?id=c1UkGC3MVq",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21925",
-      "title": "Guideline-grounded retrieval-augmented generation for ophthalmic clinical decision support",
-      "authors": [
-        "Shuying Chen",
-        "Sen Cui",
-        "Zhong Cao"
-      ],
-      "summary": "In this work, we propose Oph-Guid-RAG, a multimodal visual RAG system for ophthalmology clinical question answering and decision support. We treat each guideline page as an independent evidence unit and directly retrieve page images, preserving tables, flowcharts, and layout information. We further design a controllable retrieval framework with routing and filtering, which selectively introduces external evidence and reduces noise. The system integrates query decomposition, query rewriting, retr",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21925v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21925v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21904",
-      "title": "SHAPE: Structure-aware Hierarchical Unsupervised Domain Adaptation with Plausibility Evaluation for Medical Image Segmentation",
-      "authors": [
-        "Linkuan Zhou",
-        "Yinghao Xia",
-        "Yufei Shen",
-        "Xiangyu Li",
-        "Wenjie Du",
-        "Cong Cong",
-        "Leyi Wei",
-        "Ran Su",
-        "Qiangguo Jin"
-      ],
-      "summary": "Unsupervised Domain Adaptation (UDA) is essential for deploying medical segmentation models across diverse clinical environments. Existing methods are fundamentally limited, suffering from semantically unaware feature alignment that results in poor distributional fidelity and from pseudo-label validation that disregards global anatomical constraints, thus failing to prevent the formation of globally implausible structures. To address these issues, we propose SHAPE (Structure-aware Hierarchical U",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21904v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21904v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21832",
-      "title": "Deriving Health Metrics from the Photoplethysmogram: Benchmarks and Insights from MIMIC-III-Ext-PPG",
-      "authors": [
-        "Mohammad Moulaeifard",
-        "Philip J. Aston",
-        "Peter H. Charlton",
-        "Nils Strodthoff"
-      ],
-      "summary": "Photoplethysmography (PPG) is one of the most widely captured biosignals for clinical prediction tasks, yet PPG-based algorithms are typically trained on small-scale datasets of uncertain quality, which hinders meaningful algorithm comparisons. We present a comprehensive benchmark for PPG-based clinical prediction using the \\dbname~dataset, establishing baselines across the full spectrum of clinically relevant applications: multi-class heart rhythm classification, and regression of physiological",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21832v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21832v1",
-      "categories": [
-        "cs.LG",
-        "eess.SP"
-      ],
-      "comments": "22 pages, 1 figure",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21782",
-      "title": "Show Me What You Don't Know: Efficient Sampling from Invariant Sets for Model Validation",
-      "authors": [
-        "Armand Rousselot",
-        "Joran Wendebourg",
-        "Ullrich Köthe"
-      ],
-      "summary": "The performance of machine learning models is determined by the quality of their learned features. They should be invariant under irrelevant data variation but sensitive to task-relevant details. To visualize whether this is the case, we propose a method to analyze feature extractors by sampling from their fibers -- equivalence classes defined by their invariances -- given an arbitrary representative. Unlike existing work where a dedicated generative model is trained for each feature detector, o",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21782v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21782v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "19 pages, 19 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21760",
-      "title": "Cycle Inverse-Consistent TransMorph: A Balanced Deep Learning Framework for Brain MRI Registration",
-      "authors": [
-        "Jiaqi Shang",
-        "Haojin Wu",
-        "Yinyi Lai",
-        "Zongyu Li",
-        "Chenghao Zhang",
-        "Jia Guo"
-      ],
-      "summary": "Deformable image registration plays a fundamental role in medical image analysis by enabling spatial alignment of anatomical structures across subjects. While recent deep learning-based approaches have significantly improved computational efficiency, many existing methods remain limited in capturing long-range anatomical correspondence and maintaining deformation consistency. In this work, we present a cycle inverse-consistent transformer-based framework for deformable brain MRI registration. Th",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21760v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21760v1",
-      "categories": [
-        "eess.IV",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21745",
-      "title": "The Presupposition Problem in Representation Genesis",
-      "authors": [
-        "Yiling Wu"
-      ],
-      "summary": "Large language models are the first systems to achieve high cognitive performance without clearly undergoing representation genesis: the transition from a non-representing physical system to one whose states guide behavior in a content-sensitive way. Prior cognitive systems had already made this transition before we could examine it, and philosophy of mind treated genesis as a background condition rather than an explanatory target. LLMs provide a case that does not clearly involve this transitio",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21745v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21745v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21717",
-      "title": "Uncertainty Quantification for Distribution-to-Distribution Flow Matching in Scientific Imaging",
-      "authors": [
-        "Dongxia Wu",
-        "Yuhui Zhang",
-        "Serena Yeung-Levy",
-        "Emma Lundberg",
-        "Emily B. Fox"
-      ],
-      "summary": "Distribution-to-distribution generative models support scientific imaging tasks ranging from modeling cellular perturbation responses to translating medical images across conditions. Trustworthy generation requires both reliability (generalization across labs, devices, and experimental conditions) and accountability (detecting out-of-distribution cases where predictions may be unreliable). Uncertainty quantification (UQ) based approaches serve as promising candidates for these tasks, yet UQ for ",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21717v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21717v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.21693",
-      "title": "Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain",
-      "authors": [
-        "Mohammad Asadi",
-        "Tahoura Nedaee",
-        "Jack W. O'Sullivan",
-        "Euan Ashley",
-        "Ehsan Adeli"
-      ],
-      "summary": "Multimodal large language models (MLLMs) have shown strong potential for medical Visual Question Answering (VQA), yet they remain prone to hallucinations, defined as generating responses that contradict the input image, posing serious risks in clinical settings. Current hallucination detection methods, such as Semantic Entropy (SE) and Vision-Amplified Semantic Entropy (VASE), require 10 to 20 stochastic generations per sample together with an external natural language inference model for semant",
-      "published": "2026-03-23",
-      "publishedDate": {
-        "iso": "2026-03-23",
-        "year": 2026,
-        "month": 3,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.21693v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.21693v1",
-      "categories": [
-        "cs.AI"
       ],
       "comments": "",
       "arxivVersion": "v1"

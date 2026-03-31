@@ -14,11 +14,537 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-03-30T02:05:21.701Z",
-  "fetchedAt": "2026-03-30T02:05:21.701Z",
+  "lastUpdated": "2026-03-31T01:59:05.859Z",
+  "fetchedAt": "2026-03-31T01:59:05.859Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2603.27589",
+      "title": "An Energy-Efficient Spiking Neural Network Architecture for Predictive Insulin Delivery",
+      "authors": [
+        "Sahil Shrivastava"
+      ],
+      "summary": "Diabetes mellitus affects over 537 million adults worldwide. Insulin-dependent patients require continuous glucose monitoring and precise dose calculation while operating under strict power budgets on wearable devices. This paper presents PDDS - an in-silico, software-complete research prototype of an event-driven computational pipeline for predictive insulin dose calculation. Motivated by neuromorphic computing principles for ultra-low-power wearable edge devices, the core contribution is a thr",
+      "published": "2026-03-29",
+      "publishedDate": {
+        "iso": "2026-03-29",
+        "year": 2026,
+        "month": 3,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27589v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27589v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "10 pages, 6 figures, 12 tables. IEEE conference format. Independent Research",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27552",
+      "title": "BLOSSOM: Block-wise Federated Learning Over Shared and Sparse Observed Modalities",
+      "authors": [
+        "Pranav M R",
+        "Jayant Chandwani",
+        "Ahmed M. Abdelmoniem",
+        "Arnab K. Paul"
+      ],
+      "summary": "Multimodal federated learning (FL) is essential for real-world applications such as autonomous systems and healthcare, where data is distributed across heterogeneous clients with varying and often missing modalities. However, most existing FL approaches assume uniform modality availability, limiting their applicability in practice. We introduce BLOSSOM, a task-agnostic framework for multimodal FL designed to operate under shared and sparsely observed modality conditions. BLOSSOM supports clients",
+      "published": "2026-03-29",
+      "publishedDate": {
+        "iso": "2026-03-29",
+        "year": 2026,
+        "month": 3,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27552v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27552v1",
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "comments": "6 pages, 2 figures, 3 tables. Accepted to the International Joint Conference on Neural Networks (IJCNN) 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27460",
+      "title": "Project Imaging-X: A Survey of 1000+ Open-Access Medical Imaging Datasets for Foundation Model Development",
+      "authors": [
+        "Zhongying Deng",
+        "Cheng Tang",
+        "Ziyan Huang",
+        "Jiashi Lin",
+        "Ying Chen",
+        "Junzhi Ning",
+        "Chenglong Ma",
+        "Jiyao Liu",
+        "Wei Li",
+        "Yinghao Zhu",
+        "Shujian Gao",
+        "Yanyan Huang",
+        "Sibo Ju",
+        "Yanzhou Su",
+        "Pengcheng Chen",
+        "Wenhao Tang",
+        "Tianbin Li",
+        "Haoyu Wang",
+        "Yuanfeng Ji",
+        "Hui Sun",
+        "Shaobo Min",
+        "Liang Peng",
+        "Feilong Tang",
+        "Haochen Xue",
+        "Rulin Zhou",
+        "Chaoyang Zhang",
+        "Wenjie Li",
+        "Shaohao Rui",
+        "Weijie Ma",
+        "Xingyue Zhao",
+        "Yibin Wang",
+        "Kun Yuan",
+        "Zhaohui Lu",
+        "Shujun Wang",
+        "Jinjie Wei",
+        "Lihao Liu",
+        "Dingkang Yang",
+        "Lin Wang",
+        "Yulong Li",
+        "Haolin Yang",
+        "Yiqing Shen",
+        "Lequan Yu",
+        "Xiaowei Hu",
+        "Yun Gu",
+        "Yicheng Wu",
+        "Benyou Wang",
+        "Minghui Zhang",
+        "Angelica I. Aviles-Rivero",
+        "Qi Gao",
+        "Hongming Shan",
+        "Xiaoyu Ren",
+        "Fang Yan",
+        "Hongyu Zhou",
+        "Haodong Duan",
+        "Maosong Cao",
+        "Shanshan Wang",
+        "Bin Fu",
+        "Xiaomeng Li",
+        "Zhi Hou",
+        "Chunfeng Song",
+        "Lei Bai",
+        "Yuan Cheng",
+        "Yuandong Pu",
+        "Xiang Li",
+        "Wenhai Wang",
+        "Hao Chen",
+        "Jiaxin Zhuang",
+        "Songyang Zhang",
+        "Huiguang He",
+        "Mengzhang Li",
+        "Bohan Zhuang",
+        "Zhian Bai",
+        "Rongshan Yu",
+        "Liansheng Wang",
+        "Yukun Zhou",
+        "Xiaosong Wang",
+        "Xin Guo",
+        "Guanbin Li",
+        "Xiangru Lin",
+        "Dakai Jin",
+        "Mianxin Liu",
+        "Wenlong Zhang",
+        "Qi Qin",
+        "Conghui He",
+        "Yuqiang Li",
+        "Ye Luo",
+        "Nanqing Dong",
+        "Jie Xu",
+        "Wenqi Shao",
+        "Bo Zhang",
+        "Qiujuan Yan",
+        "Yihao Liu",
+        "Jun Ma",
+        "Zhi Lu",
+        "Yuewen Cao",
+        "Zongwei Zhou",
+        "Jianming Liang",
+        "Shixiang Tang",
+        "Qi Duan",
+        "Dongzhan Zhou",
+        "Chen Jiang",
+        "Yuyin Zhou",
+        "Yanwu Xu",
+        "Jiancheng Yang",
+        "Shaoting Zhang",
+        "Xiaohong Liu",
+        "Siqi Luo",
+        "Yi Xin",
+        "Chaoyu Liu",
+        "Haochen Wen",
+        "Xin Chen",
+        "Alejandro Lozano",
+        "Min Woo Sun",
+        "Yuhui Zhang",
+        "Yue Yao",
+        "Xiaoxiao Sun",
+        "Serena Yeung-Levy",
+        "Xia Li",
+        "Jing Ke",
+        "Chunhui Zhang",
+        "Zongyuan Ge",
+        "Ming Hu",
+        "Jin Ye",
+        "Zhifeng Li",
+        "Yirong Chen",
+        "Yu Qiao",
+        "Junjun He"
+      ],
+      "summary": "Foundation models have demonstrated remarkable success across diverse domains and tasks, primarily due to the thrive of large-scale, diverse, and high-quality datasets. However, in the field of medical imaging, the curation and assembling of such medical datasets are highly challenging due to the reliance on clinical expertise and strict ethical and privacy constraints, resulting in a scarcity of large-scale unified medical datasets and hindering the development of powerful medical foundation mo",
+      "published": "2026-03-29",
+      "publishedDate": {
+        "iso": "2026-03-29",
+        "year": 2026,
+        "month": 3,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27460v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27460v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "157 pages, 19 figures, 26 tables. Project repo: \\url{https://github.com/uni-medical/Project-Imaging-X}",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27416",
+      "title": "Agent-Driven Autonomous Reinforcement Learning Research: Iterative Policy Improvement for Quadruped Locomotion",
+      "authors": [
+        "Nimesh Khandelwal",
+        "Shakti S. Gupta"
+      ],
+      "summary": "This paper documents a case study in agent-driven autonomous reinforcement learning research for quadruped locomotion. The setting was not a fully self-starting research system. A human provided high-level directives through an agentic coding environment, while an agent carried out most of the execution loop: reading code, diagnosing failures, editing reward and terrain configurations, launching and monitoring jobs, analyzing intermediate metrics, and proposing the next wave of experiments. Acro",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27416v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27416v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27357",
+      "title": "Guided Lensless Polarization Imaging",
+      "authors": [
+        "Noa Kraicer",
+        "Erez Yosef",
+        "Raja Giryes"
+      ],
+      "summary": "Polarization imaging captures the polarization state of light, revealing information invisible to the human eye yet valuable in domains such as biomedical diagnostics, autonomous driving, and remote sensing. However, conventional polarization cameras are often expensive, bulky, or both, limiting their practical use. Lensless imaging offers a compact, low-cost alternative by replacing the lens with a simple optical element like a diffuser and performing computational reconstruction, but existing ",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27357v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27357v1",
+      "categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27341",
+      "title": "A Comparative Study in Surgical AI: Datasets, Foundation Models, and Barriers to Med-AGI",
+      "authors": [
+        "Kirill Skobelev",
+        "Eric Fithian",
+        "Yegor Baranovski",
+        "Jack Cook",
+        "Sandeep Angara",
+        "Shauna Otto",
+        "Zhuang-Fang Yi",
+        "John Zhu",
+        "Daniel A. Donoho",
+        "X. Y. Han",
+        "Neeraj Mainkar",
+        "Margaux Masson-Forsythe"
+      ],
+      "summary": "Recent Artificial Intelligence (AI) models have matched or exceeded human experts in several benchmarks of biomedical task performance, but have lagged behind on surgical image-analysis benchmarks. Since surgery requires integrating disparate tasks -- including multimodal data integration, human interaction, and physical effects -- generally-capable AI models could be particularly attractive as a collaborative tool if performance could be improved. On the one hand, the canonical approach of scal",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27341v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27341v1",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27325",
+      "title": "Improving Automated Wound Assessment Using Joint Boundary Segmentation and Multi-Class Classification Models",
+      "authors": [
+        "Mehedi Hasan Tusar",
+        "Fateme Fayyazbakhsh",
+        "Igor Melnychuk",
+        "Ming C. Leu"
+      ],
+      "summary": "Accurate wound classification and boundary segmentation are essential for guiding clinical decisions in both chronic and acute wound management. However, most existing AI models are limited, focusing on a narrow set of wound types or performing only a single task (segmentation or classification), which reduces their clinical applicability. This study presents a deep learning model based on YOLOv11 that simultaneously performs wound boundary segmentation (WBS) and wound classification (WC) across",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27325v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27325v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27254",
+      "title": "Amalgam: Hybrid LLM-PGM Synthesis Algorithm for Accuracy and Realism",
+      "authors": [
+        "Antheas Kapenekakis",
+        "Bent Thomsen",
+        "Katja Hose",
+        "Michele Albano"
+      ],
+      "summary": "To generate synthetic datasets, e.g., in domains such as healthcare, the literature proposes approaches of two main types: Probabilistic Graphical Models (PGMs) and Deep Learning models, such as LLMs. While PGMs produce synthetic data that can be used for advanced analytics, they do not support complex schemas and datasets. LLMs on the other hand, support complex schemas but produce skewed dataset distributions, which are less useful for advanced analytics. In this paper, we therefore present Am",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27254v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27254v1",
+      "categories": [
+        "cs.DB",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27186",
+      "title": "Hybrid Deep Learning with Temporal Data Augmentation for Accurate Remaining Useful Life Prediction of Lithium-Ion Batteries",
+      "authors": [
+        "Yun Tian",
+        "Guili Wang",
+        "Jian Bi",
+        "Kaixin Han",
+        "Chenglu Wu",
+        "Zhiyi Lu",
+        "Chenhao Li",
+        "Liangwang Sun",
+        "Minyu Zhou",
+        "Chenchen Xu"
+      ],
+      "summary": "Accurate prediction of lithium-ion battery remaining useful life (RUL) is essential for reliable health monitoring and data-driven analysis of battery degradation. However, the robustness and generalization capabilities of existing RUL prediction models are significantly challenged by complex operating conditions and limited data availability. To address these limitations, this study proposes a hybrid deep learning model, CDFormer, which integrates convolutional neural networks, deep residual sh",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27186v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27186v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27150",
+      "title": "MediHive: A Decentralized Agent Collective for Medical Reasoning",
+      "authors": [
+        "Xiaoyang Wang",
+        "Christopher C. Yang"
+      ],
+      "summary": "Large language models (LLMs) have revolutionized medical reasoning tasks, yet single-agent systems often falter on complex, interdisciplinary problems requiring robust handling of uncertainty and conflicting evidence. Multi-agent systems (MAS) leveraging LLMs enable collaborative intelligence, but prevailing centralized architectures suffer from scalability bottlenecks, single points of failure, and role confusion in resource-constrained environments. Decentralized MAS (D-MAS) promise enhanced a",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27150v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27150v1",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "comments": "Accepted to the 14th IEEE International Conference on Healthcare Informatics (IEEE ICHI 2026)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27145",
+      "title": "Pan-Cancer Mapping of the Tumor Immune Landscape through Metagene Clustering and Predictive Modeling",
+      "authors": [
+        "Soham Chatterjee"
+      ],
+      "summary": "As immunotherapies become standard cancer treatments, it is increasingly important to identify a patient's immune profile, which encompasses the activity of immune cells within the tumor microenvironment and the presence of specific biomarkers. However, we lack mechanistic explanations drivers of immune phenotypes. Despite advances in immune profiling with high-throughput sequencing, the mechanisms driving them remain unclear. This study aimed to identify novel, robust immune-related gene cluste",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27145v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27145v1",
+      "categories": [
+        "q-bio.GN",
+        "cs.LG"
+      ],
+      "comments": "21 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27143",
+      "title": "Follow Your Heart: Landmark-Guided Transducer Pose Scoring for Point-of-Care Echocardiography",
+      "authors": [
+        "Zaiyang Guo",
+        "Jessie N. Dong",
+        "Filippos Bellos",
+        "Jilei Hao",
+        "Emily J. MacKay",
+        "Trevor Chan",
+        "Shir Goldfinger",
+        "Sethu Reddy",
+        "Steven Vance",
+        "Jason J. Corso",
+        "Alison M. Pouch"
+      ],
+      "summary": "Point-of-care transthoracic echocardiography (TTE) makes it possible to assess a patient's cardiac function in almost any setting. A critical step in the TTE exam is acquisition of the apical 4-chamber (A4CH) view, which is used to evaluate clinically impactful measurements such as left ventricular ejection fraction (LVEF). However, optimizing transducer pose for high-quality image acquisition and subsequent measurement is a challenging task, particularly for novice users. In this work, we prese",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27143v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27143v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "Accepted for oral presentation at the International Symposium on Biomedical Imaging 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27142",
+      "title": "Bayes-MICE: A Bayesian Approach to Multiple Imputation for Time Series Data",
+      "authors": [
+        "Amuche Ibenegbu",
+        "Pierre Lafaye de Micheaux",
+        "Rohitash Chandra"
+      ],
+      "summary": "Time-series analysis is often affected by missing data, a common problem across several fields, including healthcare and environmental monitoring. Multiple Imputation by Chained Equations (MICE) has been prominent for imputing missing values through \"fully conditional specification\". We extend MICE using the Bayesian framework (Bayes-MICE), utilising Bayesian inference to impute missing values via Markov Chain Monte Carlo (MCMC) sampling to account for uncertainty in MICE model parameters and im",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27142v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27142v1",
+      "categories": [
+        "stat.ML",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27114",
+      "title": "Maximin Learning of Individualized Treatment Effect on Multi-Domain Outcomes",
+      "authors": [
+        "Yuying Lu",
+        "Wenbo Fei",
+        "Yuanjia Wang",
+        "Molei Liu"
+      ],
+      "summary": "Precision mental health requires treatment decisions that account for heterogeneous symptoms reflecting multiple clinical domains. However, existing methods for estimating individualized treatment effects (ITE) rely on a single summary outcome or a specific set of observed symptoms or measures, which are sensitive to symptom selection and limit generalizability to unmeasured yet clinically relevant domains. We propose DRIFT, a new maximin framework for estimating robust ITEs from high-dimensiona",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27114v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27114v1",
+      "categories": [
+        "cs.LG",
+        "stat.ME"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2603.27104",
+      "title": "Autonomous Agent-Orchestrated Digital Twins (AADT): Leveraging the OpenClaw Framework for State Synchronization in Rare Genetic Disorders",
+      "authors": [
+        "Hongzhuo Chen",
+        "Zhanliang Wang",
+        "Quan M. Nguyen",
+        "Gongbo Zhang",
+        "Chunhua Weng",
+        "Kai Wang"
+      ],
+      "summary": "Background: Medical Digital Twins (MDTs) are computational representations of individual patients that integrate clinical, genomic, and physiological data to support diagnosis, treatment planning, and outcome prediction. However, most MDTs remain static or passively updated, creating a critical synchronization gap, especially in rare genetic disorders where phenotypes, genomic interpretations, and care guidelines evolve over time. Methods: We propose an agent-orchestrated digital twin framework ",
+      "published": "2026-03-28",
+      "publishedDate": {
+        "iso": "2026-03-28",
+        "year": 2026,
+        "month": 3,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2603.27104v1",
+      "pdfUrl": "https://arxiv.org/pdf/2603.27104v1",
+      "categories": [
+        "q-bio.QM",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2603.26592",
       "title": "Evaluating Interactive 2D Visualization as a Sample Selection Strategy for Biomedical Time-Series Data Annotation",
@@ -426,457 +952,6 @@
         "cs.AI"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25633",
-      "title": "Is Mathematical Problem-Solving Expertise in Large Language Models Associated with Assessment Performance?",
-      "authors": [
-        "Liang Zhang",
-        "Yu Fu",
-        "Xinyi Jin"
-      ],
-      "summary": "Large Language Models (LLMs) are increasingly used in math education not only as problem solvers but also as assessors of learners' reasoning. However, it remains unclear whether stronger math problem-solving ability is associated with stronger step-level assessment performance. This study examines that relationship using the GSM8K and MATH subsets of PROCESSBENCH, a human-annotated benchmark for identifying the earliest erroneous step in mathematical reasoning. We evaluate two LLM-based math tu",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25633v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25633v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25607",
-      "title": "DeepFAN, a transformer-based deep learning model for human-artificial intelligence collaborative assessment of incidental pulmonary nodules in CT scans: a multi-reader, multi-case trial",
-      "authors": [
-        "Zhenchen Zhu",
-        "Ge Hu",
-        "Weixiong Tan",
-        "Kai Gao",
-        "Chao Sun",
-        "Zhen Zhou",
-        "Kepei Xu",
-        "Wei Han",
-        "Meixia Shang",
-        "Xiaoming Qiu",
-        "Yiqing Tan",
-        "Jinhua Wang",
-        "Zhoumeng Ying",
-        "Li Peng",
-        "Wei Song",
-        "Lan Song",
-        "Zhengyu Jin",
-        "Nan Hong",
-        "Yizhou Yu"
-      ],
-      "summary": "The widespread adoption of CT has notably increased the number of detected lung nodules. However, current deep learning methods for classifying benign and malignant nodules often fail to comprehensively integrate global and local features, and most of them have not been validated through clinical trials. To address this, we developed DeepFAN, a transformer-based model trained on over 10K pathology-confirmed nodules and further conducted a multi-reader, multi-case clinical trial to evaluate its e",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25607v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25607v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "28 pages for main text and 37 pages for supplementary information, 7 figures in main text and 9 figures in supplementary information",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25570",
-      "title": "TAAC: A gate into Trustable Audio Affective Computing",
-      "authors": [
-        "Xintao Hu",
-        "Feng-Qi Cui"
-      ],
-      "summary": "With the emergence of AI techniques for depression diagnosis, the conflict between high demand and limited supply for depression screening has been significantly alleviated. Among various modal data, audio-based depression diagnosis has received increasing attention from both academia and industry since audio is the most common carrier of emotion transmission. Unfortunately, audio data also contains User-sensitive Identity Information (ID), which is extremely vulnerable and may be maliciously us",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25570v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25570v1",
-      "categories": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25495",
-      "title": "Interpretable PM2.5 Forecasting for Urban Air Quality: A Comparative Study of Operational Time-Series Models",
-      "authors": [
-        "Moazzam Umer Gondal",
-        "Hamad ul Qudous",
-        "Asma Ahmad Farhan",
-        "Sultan Alamri"
-      ],
-      "summary": "Accurate short-term air-quality forecasting is essential for public health protection and urban management, yet many recent forecasting frameworks rely on complex, data-intensive, and computationally demanding models. This study investigates whether lightweight and interpretable forecasting approaches can provide competitive performance for hourly PM2.5 prediction in Beijing, China. Using multi-year pollutant and meteorological time-series data, we developed a leakage-aware forecasting workflow ",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25495v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25495v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "Submitted to PLOS ONE",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25455",
-      "title": "A Bayesian Gamma-power-mixture survival regression model: predicting the recurrence of prostate cancer post-prostatectomy",
-      "authors": [
-        "Tommy Walker Mackay",
-        "Mingtong Xu",
-        "Shahrokh F. Shariat",
-        "Roger Sewell"
-      ],
-      "summary": "In a dataset of 423 patients who had had radical prostatectomy for localised prostate cancer we estimated the apparent Shannon information (ASI) about time to biochemical recurrence in various subsets of the available pre-op variables using a Bayesian Gamma-power-mixture survival regression model. In all the subsets examined the ASI was positive with posterior probability greater than 0.975 . Using only age and results of pre-operative blood tests (PSA and biomarkers) we achieved 0.232 (0.180 to",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25455v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25455v1",
-      "categories": [
-        "stat.AP",
-        "q-bio.QM"
-      ],
-      "comments": "19 pages, 13 figures, 3 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25403",
-      "title": "Shape and Substance: Dual-Layer Side-Channel Attacks on Local Vision-Language Models",
-      "authors": [
-        "Eyal Hadad",
-        "Mordechai Guri"
-      ],
-      "summary": "On-device Vision-Language Models (VLMs) promise data privacy via local execution. However, we show that the architectural shift toward Dynamic High-Resolution preprocessing (e.g., AnyRes) introduces an inherent algorithmic side-channel. Unlike static models, dynamic preprocessing decomposes images into a variable number of patches based on their aspect ratio, creating workload-dependent inputs. We demonstrate a dual-layer attack framework against local VLMs. In Tier 1, an unprivileged attacker c",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25403v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25403v1",
-      "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "13 pages, 8 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25397",
-      "title": "A Causal Framework for Evaluating ICU Discharge Strategies",
-      "authors": [
-        "Sagar Nagaraj Simha",
-        "Juliette Ortholand",
-        "Dave Dongelmans",
-        "Jessica D. Workum",
-        "Olivier W. M. Thijssens",
-        "Ameen Abu-Hanna",
-        "Giovanni Cinà"
-      ],
-      "summary": "In this applied paper, we address the difficult open problem of when to discharge patients from the Intensive Care Unit. This can be conceived as an optimal stopping scenario with three added challenges: 1) the evaluation of a stopping strategy from observational data is itself a complex causal inference problem, 2) the composite objective is to minimize the length of intervention and maximize the outcome, but the two cannot be collapsed to a single dimension, and 3) the recording of variables s",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25397v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25397v1",
-      "categories": [
-        "stat.ME",
-        "cs.AI",
-        "cs.LG",
-        "stat.ML"
-      ],
-      "comments": "8 pages, 2 figures, 2 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25326",
-      "title": "Evaluating Language Models for Harmful Manipulation",
-      "authors": [
-        "Canfer Akbulut",
-        "Rasmi Elasmar",
-        "Abhishek Roy",
-        "Anthony Payne",
-        "Priyanka Suresh",
-        "Lujain Ibrahim",
-        "Seliem El-Sayed",
-        "Charvi Rastogi",
-        "Ashyana Kachra",
-        "Will Hawkins",
-        "Kristian Lum",
-        "Laura Weidinger"
-      ],
-      "summary": "Interest in the concept of AI-driven harmful manipulation is growing, yet current approaches to evaluating it are limited. This paper introduces a framework for evaluating harmful AI manipulation via context-specific human-AI interaction studies. We illustrate the utility of this framework by assessing an AI model with 10,101 participants spanning interactions in three AI use domains (public policy, finance, and health) and three locales (US, UK, and India). Overall, we find that that the tested",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25326v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25326v1",
-      "categories": [
-        "cs.AI",
-        "cs.CY"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25322",
-      "title": "AD-CARE: A Guideline-grounded, Modality-agnostic LLM Agent for Real-world Alzheimer's Disease Diagnosis with Multi-cohort Assessment, Fairness Analysis, and Reader Study",
-      "authors": [
-        "Wenlong Hou",
-        "Sheng Bi",
-        "Guangqian Yang",
-        "Lihao Liu",
-        "Ye Du",
-        "Hanxiao Xue",
-        "Juncheng Wang",
-        "Yuxiang Feng",
-        "Yue Xun",
-        "Nanxi Yu",
-        "Ning Mao",
-        "Mo Yang",
-        "Yi Wah Eva Cheung",
-        "Ling Long",
-        "Kay Chen Tan",
-        "Lequan Yu",
-        "Xiaomeng Ma",
-        "Shaozhen Yan",
-        "Shujun Wang"
-      ],
-      "summary": "Alzheimer's disease (AD) is a growing global health challenge as populations age, and timely, accurate diagnosis is essential to reduce individual and societal burden. However, real-world AD assessment is hampered by incomplete, heterogeneous multimodal data and variability across sites and patient demographics. Although large language models (LLMs) have shown promise in biomedicine, their use in AD has largely been confined to answering narrow, disease-specific questions rather than generating ",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25322v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25322v1",
-      "categories": [
-        "cs.MA",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25283",
-      "title": "A Gait Foundation Model Predicts Multi-System Health Phenotypes from 3D Skeletal Motion",
-      "authors": [
-        "Adam Gabet",
-        "Sarah Kohn",
-        "Guy Lutsker",
-        "Shira Gelman",
-        "Anastasia Godneva",
-        "Gil Sasson",
-        "Arad Zulti",
-        "David Krongauz",
-        "Rotem Shaulitch",
-        "Assaf Rotem",
-        "Ohad Doron",
-        "Yuval Brodsky",
-        "Adina Weinberger",
-        "Eran Segal"
-      ],
-      "summary": "Gait is increasingly recognized as a vital sign, yet current approaches treat it as a symptom of specific pathologies rather than a systemic biomarker. We developed a gait foundation model for 3D skeletal motion from 3,414 deeply phenotyped adults, recorded via a depth camera during five motor tasks. Learned embeddings outperformed engineered features, predicting age (Pearson r = 0.69), BMI (r = 0.90), and visceral adipose tissue area (r = 0.82). Embeddings significantly predicted 1,980 of 3,210",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25283v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25283v1",
-      "categories": [
-        "cs.AI",
-        "q-bio.QM"
-      ],
-      "comments": "Preprint. Under review",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25247",
-      "title": "FEAST: Fully Connected Expressive Attention for Spatial Transcriptomics",
-      "authors": [
-        "Taejin Jeong",
-        "Joohyeok Kim",
-        "Jinyeong Kim",
-        "Chanyoung Kim",
-        "Seong Jae Hwang"
-      ],
-      "summary": "Spatial Transcriptomics (ST) provides spatially-resolved gene expression, offering crucial insights into tissue architecture and complex diseases. However, its prohibitive cost limits widespread adoption, leading to significant attention on inferring spatial gene expression from readily available whole slide images. While graph neural networks have been proposed to model interactions between tissue regions, their reliance on pre-defined sparse graphs prevents them from considering potentially in",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25247v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25247v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25229",
-      "title": "An Image Dataset of Common Skin Diseases of Bangladesh and Benchmarking Performance with Machine Learning Models",
-      "authors": [
-        "Sazzad Hossain",
-        "Saiful Islam",
-        "Muhammad Ibrahim",
-        "Md. Rasel Ahmed",
-        "Md Shuayb",
-        "Ahmedul Kabir"
-      ],
-      "summary": "Skin diseases are a major public health concern worldwide, and their detection is often challenging without access to dermatological expertise. In countries like Bangladesh, which is highly populated, the number of qualified skin specialists and diagnostic instruments is insufficient to meet the demand. Due to the lack of proper detection and treatment of skin diseases, that may lead to severe health consequences including death. Common properties of skin diseases are, changing the color, textur",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25229v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25229v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "14 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25196",
-      "title": "A Decade-Scale Benchmark Evaluating LLMs' Clinical Practice Guidelines Detection and Adherence in Multi-turn Conversations",
-      "authors": [
-        "Andong Tan",
-        "Shuyu Dai",
-        "Jinglu Wang",
-        "Fengtao Zhou",
-        "Yan Lu",
-        "Xi Wang",
-        "Yingcong Chen",
-        "Can Yang",
-        "Shujie Liu",
-        "Hao Chen"
-      ],
-      "summary": "Clinical practice guidelines (CPGs) play a pivotal role in ensuring evidence-based decision-making and improving patient outcomes. While Large Language Models (LLMs) are increasingly deployed in healthcare scenarios, it is unclear to which extend LLMs could identify and adhere to CPGs during conversations. To address this gap, we introduce CPGBench, an automated framework benchmarking the clinical guideline detection and adherence capabilities of LLMs in multi-turn conversations. We collect 3,41",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25196v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25196v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25186",
-      "title": "Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric Data: Privacy Preserving Synthetic Data Generation",
-      "authors": [
-        "Adam Jakobsen",
-        "Sushant Gautam",
-        "Hugo Lewi Hammer",
-        "Susanne Olofsdotter",
-        "Miriam S Johanson",
-        "Pål Halvorsen",
-        "Vajira Thambawita"
-      ],
-      "summary": "AI systems in healthcare research have shown potential to increase patient throughput and assist clinicians, yet progress is constrained by limited access to real patient data. To address this issue, we present a zero-shot, knowledge-guided framework for psychiatric tabular data in which large language models (LLMs) are steered via Retrieval-Augmented Generation using the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) and the International Classification of Diseases (ICD-10). We c",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25186v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25186v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Submitted to CBMS 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.25155",
-      "title": "Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models",
-      "authors": [
-        "Chengyu Fang",
-        "Heng Guo",
-        "Zheng Jiang",
-        "Chunming He",
-        "Xiu Li",
-        "Minfeng Xu"
-      ],
-      "summary": "Multimodal large language models are promising for clinical visual question answering tasks, but scaling to 3D imaging is hindered by high computational costs. Prior methods often rely on 2D slices or fixed-length token compression, disrupting volumetric continuity and obscuring subtle findings. We present Photon, a framework that represents 3D medical volumes with token sequences of variable length. Photon introduces instruction-conditioned token scheduling and surrogate gradient propagation to",
-      "published": "2026-03-26",
-      "publishedDate": {
-        "iso": "2026-03-26",
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.25155v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25155v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted by ICLR 2026",
       "arxivVersion": "v1"
     }
   ]

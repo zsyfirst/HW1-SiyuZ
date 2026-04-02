@@ -14,11 +14,456 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-04-01T02:10:18.459Z",
-  "fetchedAt": "2026-04-01T02:10:18.459Z",
+  "lastUpdated": "2026-04-02T01:55:25.242Z",
+  "fetchedAt": "2026-04-02T01:55:25.242Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2604.00931",
+      "title": "PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor",
+      "authors": [
+        "Yutao Yang",
+        "Junsong Li",
+        "Qianjun Pan",
+        "Jie Zhou",
+        "Kai Chen",
+        "Qin Chen",
+        "Jingyuan Zhao",
+        "Ningning Zhou",
+        "Xin Li",
+        "Liang He"
+      ],
+      "summary": "Existing methods for AI psychological counselors predominantly rely on supervised fine-tuning using static dialogue datasets. However, this contrasts with human experts, who continuously refine their proficiency through clinical practice and accumulated experience. To bridge this gap, we propose an Experience-Driven Lifelong Learning Agent (\\texttt{PsychAgent}) for psychological counseling. First, we establish a Memory-Augmented Planning Engine tailored for longitudinal multi-session interaction",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00931v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00931v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00871",
+      "title": "Analytical characterisation of the Mi- and To-phases in HeMiTo dynamics: exponential growth and logistic saturation of toxic prion-like proteins",
+      "authors": [
+        "Johannes G. Borgqvist"
+      ],
+      "summary": "Prion-like propagation of misfolded proteins is a key mechanism underlying the progression of neurodegenerative diseases such as Alzheimer's disease. In previous work, we introduced the HeMiTo framework, describing these prion-like dynamics for a class of heterodimer models in terms of three phases: the healthy (He), mixed (Mi), and toxic (To) phases. While the He-phase was characterised analytically, the Mi-phase was described numerically and the To-phase was inferred from linear stability argu",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00871v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00871v1",
+      "categories": [
+        "q-bio.QM",
+        "math.DS",
+        "q-bio.MN"
+      ],
+      "comments": "21 pages, 3 figures. Submitted to Mathematical Medicine and Biology: A Journal of the IMA",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00739",
+      "title": "BioCOMPASS: Integrating Biomarkers into Transformer-Based Immunotherapy Response Prediction",
+      "authors": [
+        "Sayed Hashim",
+        "Frank Soboczenski",
+        "Paul Cairns"
+      ],
+      "summary": "Datasets used in immunotherapy response prediction are typically small in size, as well as diverse in cancer type, drug administered, and sequencer used. Models often drop in performance when tested on patient cohorts that are not included in the training process. Recent work has shown that transformer-based models along with self-supervised learning show better generalisation performance than threshold-based biomarkers, but is still suboptimal. We present BioCOMPASS, an extension of a transform",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00739v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00739v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00730",
+      "title": "A CEFR-Inspired Classification Framework with Fuzzy C-Means To Automate Assessment of Programming Skills in Scratch",
+      "authors": [
+        "Ricardo Hidalgo-Aragón",
+        "Jesús M. González-Barahona",
+        "Gregorio Robles"
+      ],
+      "summary": "Context: Schools, training platforms, and technology firms increasingly need to assess programming proficiency at scale with transparent, reproducible methods that support personalized learning pathways. Objective: This study introduces a pedagogical framework for Scratch project assessment, aligned with the Common European Framework of Reference (CEFR), providing universal competency levels for students and teachers alongside actionable insights for curriculum design. Method: We apply Fuzzy C-M",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00730v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00730v1",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "comments": "Paper accepted at CSEDU 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00555",
+      "title": "Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems: A Neurosymbolic Architecture for Domain-Grounded AI Agents",
+      "authors": [
+        "Thanh Luong Tuan"
+      ],
+      "summary": "Enterprise adoption of Large Language Models (LLMs) is constrained by hallucination, domain drift, and the inability to enforce regulatory compliance at the reasoning level. We present a neurosymbolic architecture implemented within the Foundation AgenticOS (FAOS) platform that addresses these limitations through ontology-constrained neural reasoning. Our approach introduces a three-layer ontological framework--Role, Domain, and Interaction ontologies--that provides formal semantic grounding for",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00555v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00555v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "comments": "23 pages, 7 tables, 4 figures, 33 references. Empirical evaluation: 600 runs across 5 regulated industries including Vietnamese-language domains",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00537",
+      "title": "MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy",
+      "authors": [
+        "Kyeonghun Kim",
+        "Jaehyung Park",
+        "Youngung Han",
+        "Anna Jung",
+        "Seongbin Park",
+        "Sumin Lee",
+        "Jiwon Yang",
+        "Jiyoon Han",
+        "Subeen Lee",
+        "Junsu Lim",
+        "Hyunsu Go",
+        "Eunseob Choi",
+        "Hyeonseok Jung",
+        "Soo Yong Kim",
+        "Woo Kyoung Jeong",
+        "Won Jae Lee",
+        "Pa Hong",
+        "Hyuk-Jae Lee",
+        "Ken Ying-Kai Liao",
+        "Nam-Joon Kim"
+      ],
+      "summary": "Dental diagnosis from Orthopantomograms (OPGs) requires coordination of tooth detection, caries segmentation (CarSeg), anomaly detection (AD), and dental developmental staging (DDS). We propose Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy (MATHENA), a unified framework leveraging Mamba's linear-complexity State Space Models (SSM) to address all four tasks. MATHENA integrates MATHE, a multi-resolution SSM-driven detector with four-directional ",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00537v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00537v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "10 pages, 3 figures, 4 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00517",
+      "title": "Toward Optimal Sampling Rate Selection and Unbiased Classification for Precise Animal Activity Recognition",
+      "authors": [
+        "Axiu Mao",
+        "Meilu Zhu",
+        "Lei Shen",
+        "Xiaoshuai Wang",
+        "Tomas Norton",
+        "Kai Liu"
+      ],
+      "summary": "With the rapid advancements in deep learning techniques, wearable sensor-aided animal activity recognition (AAR) has demonstrated promising performance, thereby improving livestock management efficiency as well as animal health and welfare monitoring. However, existing research often prioritizes overall performance, overlooking the fact that classification accuracies for specific animal behavioral categories may remain unsatisfactory. This issue typically stems from suboptimal sampling rates or ",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00517v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00517v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "26 pages, 14 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00514",
+      "title": "MAESIL: Masked Autoencoder for Enhanced Self-supervised Medical Image Learning",
+      "authors": [
+        "Kyeonghun Kim",
+        "Hyeonseok Jung",
+        "Youngung Han",
+        "Junsu Lim",
+        "YeonJu Jean",
+        "Seongbin Park",
+        "Eunseob Choi",
+        "Hyunsu Go",
+        "SeoYoung Ju",
+        "Seohyoung Park",
+        "Gyeongmin Kim",
+        "MinJu Kwon",
+        "KyungSeok Yuh",
+        "Soo Yong Kim",
+        "Ken Ying-Kai Liao",
+        "Nam-Joon Kim",
+        "Hyuk-Jae Lee"
+      ],
+      "summary": "Training deep learning models for three-dimensional (3D) medical imaging, such as Computed Tomography (CT), is fundamentally challenged by the scarcity of labeled data. While pre-training on natural images is common, it results in a significant domain shift, limiting performance. Self-Supervised Learning (SSL) on unlabeled medical data has emerged as a powerful solution, but prominent frameworks often fail to exploit the inherent 3D nature of CT scans. These methods typically process 3D scans as",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00514v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00514v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "5 pages, 3 figures. Accepted at ICEIC 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00493",
+      "title": "A Reasoning-Enabled Vision-Language Foundation Model for Chest X-ray Interpretation",
+      "authors": [
+        "Yabin Zhang",
+        "Chong Wang",
+        "Yunhe Gao",
+        "Jiaming Liu",
+        "Maya Varma",
+        "Justin Xu",
+        "Sophie Ostmeier",
+        "Jin Long",
+        "Sergios Gatidis",
+        "Seena Dehkharghani",
+        "Arne Michalson",
+        "Eun Kyoung Hong",
+        "Christian Bluethgen",
+        "Haiwei Henry Guo",
+        "Alexander Victor Ortiz",
+        "Stephan Altmayer",
+        "Sandhya Bodapati",
+        "Joseph David Janizek",
+        "Ken Chang",
+        "Jean-Benoit Delbrouck",
+        "Akshay S. Chaudhari",
+        "Curtis P. Langlotz"
+      ],
+      "summary": "Chest X-rays (CXRs) are among the most frequently performed imaging examinations worldwide, yet rising imaging volumes increase radiologist workload and the risk of diagnostic errors. Although artificial intelligence (AI) systems have shown promise for CXR interpretation, most generate only final predictions, without making explicit how visual evidence is translated into radiographic findings and diagnostic predictions. We present CheXOne, a reasoning-enabled vision-language model for CXR interp",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00493v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00493v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "Codes: https://github.com/YBZh/CheXOne Models: https://huggingface.co/StanfordAIMI/CheXOne",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00397",
+      "title": "Improving Generalization of Deep Learning for Brain Metastases Segmentation Across Institutions",
+      "authors": [
+        "Yuchen Yang",
+        "Shuangyang Zhong",
+        "Haijun Yu",
+        "Langcuomu Suo",
+        "Hongbin Han",
+        "Florian Putz",
+        "Yixing Huang"
+      ],
+      "summary": "Background: Deep learning has demonstrated significant potential for automated brain metastases (BM) segmentation; however, models trained at a singular institution often exhibit suboptimal performance at various sites due to disparities in scanner hardware, imaging protocols, and patient demographics. The goal of this work is to create a domain adaptation framework that will allow for BM segmentation to be used across multiple institutions. Methods: We propose a VAE-MMD preprocessing pipeline t",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00397v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00397v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "5 figures and 1 table",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00392",
+      "title": "EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts",
+      "authors": [
+        "Alibek T. Kaliyev",
+        "Artem Maryanskyy"
+      ],
+      "summary": "Modern LLM agents increasingly create their own tools at runtime -- from Python functions to API clients -- yet existing benchmarks evaluate them almost exclusively by downstream task completion. This is analogous to judging a software engineer only by whether their code runs, ignoring redundancy, regression, and safety. We introduce EvolveTool-Bench, a diagnostic benchmark for LLM-generated tool libraries in software engineering workflows. Across three domains requiring actual tool execution (p",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00392v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00392v1",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "comments": "4 pages, 2 figures, 4 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00385",
+      "title": "GUIDE: Reinforcement Learning for Behavioral Action Support in Type 1 Diabetes",
+      "authors": [
+        "Saman Khamesian",
+        "Sri Harini Balaji",
+        "Di Yang Shi",
+        "Stephanie M. Carpenter",
+        "Daniel E. Rivera",
+        "W. Bradley Knox",
+        "Peter Stone",
+        "Hassan Ghasemzadeh"
+      ],
+      "summary": "Type 1 Diabetes (T1D) management requires continuous adjustment of insulin and lifestyle behaviors to maintain blood glucose within a safe target range. Although automated insulin delivery (AID) systems have improved glycemic outcomes, many patients still fail to achieve recommended clinical targets, warranting new approaches to improve glucose control in patients with T1D. While reinforcement learning (RL) has been utilized as a promising approach, current RL-based methods focus primarily on in",
+      "published": "2026-04-01",
+      "publishedDate": {
+        "iso": "2026-04-01",
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00385v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00385v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00319",
+      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
+      "authors": [
+        "Syed Eqbal Alam",
+        "Zhan Shu"
+      ],
+      "summary": "We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents and critics collaborate with a central server to complete multimodal tasks such as fault detection, severity, and cause analysis in a network telemetry system, text-to-image generation, video generation, healthcare diagnostics from medical images and",
+      "published": "2026-03-31",
+      "publishedDate": {
+        "iso": "2026-03-31",
+        "year": 2026,
+        "month": 3,
+        "day": 31
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00319v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00319v1",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00308",
+      "title": "Vocal Prognostic Digital Biomarkers in Monitoring Chronic Heart Failure: A Longitudinal Observational Study",
+      "authors": [
+        "Fan Wu",
+        "Matthias P. Nägele",
+        "Daryush D. Mehta",
+        "Elgar Fleisch",
+        "Frank Ruschitzka",
+        "Andreas J. Flammer",
+        "Filipe Barata"
+      ],
+      "summary": "Objective: This study aimed to evaluate which voice features can predict health deterioration in patients with chronic HF. Background: Heart failure (HF) is a chronic condition with progressive deterioration and acute decompensations, often requiring hospitalization and imposing substantial healthcare and economic burdens. Current standard-of-care (SoC) home monitoring, such as weight tracking, lacks predictive accuracy and requires high patient engagement. Voice is a promising non-invasive biom",
+      "published": "2026-03-31",
+      "publishedDate": {
+        "iso": "2026-03-31",
+        "year": 2026,
+        "month": 3,
+        "day": 31
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00308v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00308v1",
+      "categories": [
+        "cs.SD",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.00298",
+      "title": "SANA I2I: A Text Free Flow Matching Framework for Paired Image to Image Translation with a Case Study in Fetal MRI Artifact Reduction",
+      "authors": [
+        "Italo Felix Santos",
+        "Gilson Antonio Giraldi",
+        "Heron Werner Junior"
+      ],
+      "summary": "We propose SANA-I2I, a text-free high-resolution image-to-image generation framework that extends the SANA family by removing textual conditioning entirely. In contrast to SanaControlNet, which combines text and image-based control, SANA-I2I relies exclusively on paired source-target images to learn a conditional flow-matching model in latent space. The model learns a conditional velocity field that maps a target image distribution to another one, enabling supervised image translation without re",
+      "published": "2026-03-31",
+      "publishedDate": {
+        "iso": "2026-03-31",
+        "year": 2026,
+        "month": 3,
+        "day": 31
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.00298v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.00298v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2603.27589",
       "title": "An Energy-Efficient Spiking Neural Network Architecture for Predictive Insulin Delivery",
@@ -541,415 +986,6 @@
         "q-bio.QM",
         "cs.AI",
         "cs.IR"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26592",
-      "title": "Evaluating Interactive 2D Visualization as a Sample Selection Strategy for Biomedical Time-Series Data Annotation",
-      "authors": [
-        "Einari Vaaras",
-        "Manu Airaksinen",
-        "Okko Räsänen"
-      ],
-      "summary": "Reliable machine-learning models in biomedical settings depend on accurate labels, yet annotating biomedical time-series data remains challenging. Algorithmic sample selection may support annotation, but evidence from studies involving real human annotators is scarce. Consequently, we compare three sample selection methods for annotation: random sampling (RND), farthest-first traversal (FAFT), and a graphical user interface-based method enabling exploration of complementary 2D visualizations (2D",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26592v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26592v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26588",
-      "title": "From Synthetic Data to Real Restorations: Diffusion Model for Patient-specific Dental Crown Completion",
-      "authors": [
-        "Dávid Pukanec",
-        "Tibor Kubík",
-        "Michal Španěl"
-      ],
-      "summary": "We present ToothCraft, a diffusion-based model for the contextual generation of tooth crowns, trained on artificially created incomplete teeth. Building upon recent advancements in conditioned diffusion models for 3D shapes, we developed a model capable of an automated tooth crown completion conditioned on local anatomical context. To address the lack of training data for this task, we designed an augmentation pipeline that generates incomplete tooth geometries from a publicly available dataset ",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26588v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26588v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "VISAPP 2026 Conference",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26483",
-      "title": "EcoFair: Trustworthy and Energy-Aware Routing for Privacy-Preserving Vertically Partitioned Medical Inference",
-      "authors": [
-        "Mostafa Anoosha",
-        "Dhavalkumar Thakker",
-        "Kuniko Paxton",
-        "Koorosh Aslansefat",
-        "Bhupesh Kumar Mishra",
-        "Baseer Ahmad",
-        "Rameez Raja Kureshi"
-      ],
-      "summary": "Privacy-preserving medical inference must balance data locality, diagnostic reliability, and deployment efficiency. This paper presents EcoFair, a simulated vertically partitioned inference framework for dermatological diagnosis in which raw image and tabular data remain local and only modality-specific embeddings are transmitted for server-side multimodal fusion. EcoFair introduces a lightweight-first routing mechanism that selectively activates a heavier image encoder when local uncertainty or",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26483v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26483v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "16 pages, 4 figures, 4 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26475",
-      "title": "Foundation Model for Cardiac Time Series via Masked Latent Attention",
-      "authors": [
-        "Moritz Vandenhirtz",
-        "Samuel Ruipérez-Campillo",
-        "Simon Böhi",
-        "Sonia Laguna",
-        "Irene Cannistraci",
-        "Andrea Agostini",
-        "Ece Ozkan",
-        "Thomas M. Sutter",
-        "Julia E. Vogt"
-      ],
-      "summary": "Electrocardiograms (ECGs) are among the most widely available clinical signals and play a central role in cardiovascular diagnosis. While recent foundation models (FMs) have shown promise for learning transferable ECG representations, most existing pretraining approaches treat leads as independent channels and fail to explicitly leverage their strong structural redundancy. We introduce the latent attention masked autoencoder (LAMAE) FM that directly exploits this structure by learning cross-lead",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26475v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26475v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "eess.SP",
-        "math.RT"
-      ],
-      "comments": "First two authors are co-first. Last two authors are co-senior",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26458",
-      "title": "Can AI Models Direct Each Other? Organizational Structure as a Probe into Training Limitations",
-      "authors": [
-        "Rui Liu"
-      ],
-      "summary": "Can an expensive AI model effectively direct a cheap one to solve software engineering tasks? We study this question by introducing ManagerWorker, a two-agent pipeline where an expensive \"manager\" model (text-only, no code execution) analyzes issues, dispatches exploration tasks, and reviews implementations, while a cheap \"worker\" model (with full repo access) executes code changes. We evaluate on 200 instances from SWE-bench Lite across five configurations that vary the manager-worker relations",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26458v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26458v1",
-      "categories": [
-        "cs.SE",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26415",
-      "title": "KMM-CP: Practical Conformal Prediction under Covariate Shift via Selective Kernel Mean Matching",
-      "authors": [
-        "Siddhartha Laghuvarapu",
-        "Rohan Deb",
-        "Jimeng Sun"
-      ],
-      "summary": "Uncertainty quantification is essential for deploying machine learning models in high-stakes domains such as scientific discovery and healthcare. Conformal Prediction (CP) provides finite-sample coverage guarantees under exchangeability, an assumption often violated in practice due to distribution shift. Under covariate shift, restoring validity requires importance weighting, yet accurate density-ratio estimation becomes unstable when training and test distributions exhibit limited support overl",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26415v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26415v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "stat.AP"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26351",
-      "title": "DuSCN-FusionNet: An Interpretable Dual-Channel Structural Covariance Fusion Framework for ADHD Classification Using Structural MRI",
-      "authors": [
-        "Qurat Ul Ain",
-        "Alptekin Temizel",
-        "Soyiba Jawed"
-      ],
-      "summary": "Attention Deficit Hyperactivity Disorder (ADHD) is a highly prevalent neurodevelopmental condition; however, its neurobiological diagnosis remains challenging due to the lack of reliable imaging-based biomarkers, particularly anatomical markers. Structural MRI (sMRI) provides a non-invasive modality for investigating brain alterations associated with ADHD; nevertheless, most deep learning approaches function as black-box systems, limiting clinical trust and interpretability. In this work, we pro",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26351v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26351v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "5 pages, 5 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26324",
-      "title": "PRISMA: Toward a Normative Information Infrastructure for Responsible Pharmaceutical Knowledge Management",
-      "authors": [
-        "Eugenio Rodrigo Zimmer Neves",
-        "Amanda Vanon Correa",
-        "Camila Campioni",
-        "Gabielli Pare Guglielmi",
-        "Bruno Morelli"
-      ],
-      "summary": "Most existing approaches to AI in pharmacy collapse three epistemologically distinct operations into a single technical layer: document preservation, semantic interpretation, and contextual presentation. This conflation is a root cause of recurring fragilities including loss of provenance, interpretive opacity, alert fatigue, and erosion of accountability. This paper proposes the PATOS--Lector--PRISMA (PLP) infrastructure as a normative information architecture for responsible pharmaceutical kno",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26324v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26324v1",
-      "categories": [
-        "cs.DL",
-        "cs.AI",
-        "cs.CY"
-      ],
-      "comments": "52 pages, 3 figures, 71 references",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26308",
-      "title": "D-GATNet: Interpretable Temporal Graph Attention Learning for ADHD Identification Using Dynamic Functional Connectivity",
-      "authors": [
-        "Qurat Ul Ain",
-        "Alptekin Temizel",
-        "Soyiba Jawed"
-      ],
-      "summary": "Attention Deficit Hyperactivity Disorder (ADHD) is a prevalent neurodevelopmental disorder whose neuroimaging-based diagnosis remains challenging due to complex time-varying disruptions in brain connectivity. Functional MRI (fMRI) provides a powerful non-invasive modality for identifying functional alterations. Existing deep learning (DL) studies employ diverse neuroimaging features; however, static functional connectivity remains widely used, whereas dynamic connectivity modeling is comparative",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26308v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26308v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "5 pages , 4 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26254",
-      "title": "Improving Risk Stratification in Hypertrophic Cardiomyopathy: A Novel Score Combining Echocardiography, Clinical, and Medication Data",
-      "authors": [
-        "Marion Taconné",
-        "Valentina D. A. Corino",
-        "Annamaria Del Franco",
-        "Sara Giovani",
-        "Iacopo Olivotto",
-        "Adrien Al Wazzan",
-        "Erwan Donal",
-        "Pietro Cerveri",
-        "Luca Mainardi"
-      ],
-      "summary": "Hypertrophic cardiomyopathy (HCM) requires accurate risk stratification to inform decisions regarding ICD therapy and follow-up management. Current established models, such as the European Society of Cardiology (ESC) score, exhibit moderate discriminative performance. This study develops a robust, explainable machine learning (ML) risk score leveraging routinely collected echocardiographic, clinical, and medication data, typically contained within Electronic Health Records (EHRs), to predict a 5",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26254v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26254v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26186",
-      "title": "Progressive Learning with Anatomical Priors for Reliable Left Atrial Scar Segmentation from Late Gadolinium Enhancement MRI",
-      "authors": [
-        "Jing Zhang",
-        "Bastien Bergere",
-        "Emilie Bollache",
-        "Jonas Leite",
-        "Mikaël Laredo",
-        "Alban Redheuil",
-        "Nadjia Kachenoura"
-      ],
-      "summary": "Cardiac MRI late gadolinium enhancement (LGE) enables non-invasive identification of left atrial (LA) scar, whose spatial distribution is strongly associated with atrial fibrillation (AF) severity and recurrence. However, automatic LA scar segmentation remains challenging due to low contrast, annotation variability, and the lack of anatomical constraints, often leading to non-reliable predictions. Accordingly, our aim was to propose a progressive learning strategy to segment LA scar from LGE ima",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26186v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26186v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "16 pages, 3 figures, 3 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26122",
-      "title": "SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis",
-      "authors": [
-        "Zhangtianyi Chen",
-        "Yuhao Shen",
-        "Florensia Widjaja",
-        "Yan Xu",
-        "Liyuan Sun",
-        "Zijian Wang",
-        "Hongyi Chen",
-        "Wufei Dai",
-        "Juexiao Zhou"
-      ],
-      "summary": "While recent advancements in Large Language Models have significantly advanced dermatological diagnosis, monolithic LLMs frequently struggle with fine-grained, large-scale multi-class diagnostic tasks and rare skin disease diagnosis owing to training data sparsity, while also lacking the interpretability and traceability essential for clinical reasoning. Although multi-agent systems can offer more transparent and explainable diagnostics, existing frameworks are primarily concentrated on Visual Q",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26122v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26122v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26071",
-      "title": "MUST: Modality-Specific Representation-Aware Transformer for Diffusion-Enhanced Survival Prediction with Missing Modality",
-      "authors": [
-        "Kyungwon Kim",
-        "Dosik Hwang"
-      ],
-      "summary": "Accurate survival prediction from multimodal medical data is essential for precision oncology, yet clinical deployment faces a persistent challenge: modalities are frequently incomplete due to cost constraints, technical limitations, or retrospective data availability. While recent methods attempt to address missing modalities through feature alignment or joint distribution learning, they fundamentally lack explicit modeling of the unique contributions of each modality as opposed to the informat",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26071v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26071v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "Accepted to CVPR 2026. 10 pages, 5 figures, supplementary included",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26049",
-      "title": "Seeing Like Radiologists: Context- and Gaze-Guided Vision-Language Pretraining for Chest X-rays",
-      "authors": [
-        "Kang Liu",
-        "Zhuoqi Ma",
-        "Siyu Liang",
-        "Yunan Li",
-        "Xiyue Gao",
-        "Chao Liang",
-        "Kun Xie",
-        "Qiguang Miao"
-      ],
-      "summary": "Despite recent advances in medical vision-language pretraining, existing models still struggle to capture the diagnostic workflow: radiographs are typically treated as context-agnostic images, while radiologists' gaze -- a crucial cue for visual reasoning -- remains largely underexplored by existing methods. These limitations hinder the modeling of disease-specific patterns and weaken cross-modal alignment. To bridge this gap, we introduce CoGaze, a Context- and Gaze-guided vision-language pretr",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26049v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26049v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Code: https://github.com/mk-runner/CoGaze",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.26019",
-      "title": "Unlabeled Cross-Center Automatic Analysis for TAAD: An Integrated Framework from Segmentation to Clinical Features",
-      "authors": [
-        "Mengdi Liu",
-        "Qiang Li",
-        "Weizhi Nie",
-        "Shaopeng Zhang",
-        "Yuting Su"
-      ],
-      "summary": "Type A Aortic Dissection (TAAD) is a life-threatening cardiovascular emergency that demands rapid and precise preoperative evaluation. While key anatomical and pathological features are decisive for surgical planning, current research focuses predominantly on improving segmentation accuracy, leaving the reliable, quantitative extraction of clinically actionable features largely under-explored. Furthermore, constructing comprehensive TAAD datasets requires labor-intensive, expert level pixel-wise",
-      "published": "2026-03-27",
-      "publishedDate": {
-        "iso": "2026-03-27",
-        "year": 2026,
-        "month": 3,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.26019v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26019v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
       ],
       "comments": "",
       "arxivVersion": "v1"

@@ -14,11 +14,427 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-04-02T01:55:25.242Z",
-  "fetchedAt": "2026-04-02T01:55:25.242Z",
+  "lastUpdated": "2026-04-03T01:56:48.278Z",
+  "fetchedAt": "2026-04-03T01:56:48.278Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2604.02207",
+      "title": "Blinded Radiologist and LLM-Based Evaluation of LLM-Generated Japanese Translations of Chest CT Reports: Comparative Study",
+      "authors": [
+        "Yosuke Yamagishi",
+        "Atsushi Takamatsu",
+        "Yasunori Hamaguchi",
+        "Tomohiro Kikuchi",
+        "Shouhei Hanaoka",
+        "Takeharu Yoshikawa",
+        "Osamu Abe"
+      ],
+      "summary": "Background: Accurate translation of radiology reports is important for multilingual research, clinical communication, and radiology education, but the validity of LLM-based evaluation remains unclear. Objective: To evaluate the educational suitability of LLM-generated Japanese translations of chest CT reports and compare radiologist assessments with LLM-as-a-judge evaluations. Methods: We analyzed 150 chest CT reports from the CT-RATE-JPN validation set. For each English report, a human-edited J",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02207v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02207v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "25 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.02031",
+      "title": "Rare-Aware Autoencoding: Reconstructing Spatially Imbalanced Data",
+      "authors": [
+        "Alejandro Castañeda Garcia",
+        "Jan van Gemert",
+        "Daan Brinks",
+        "Nergis Tömen"
+      ],
+      "summary": "Autoencoders can be challenged by spatially non-uniform sampling of image content. This is common in medical imaging, biology, and physics, where informative patterns occur rarely at specific image coordinates, as background dominates these locations in most samples, biasing reconstructions toward the majority appearance. In practice, autoencoders are biased toward dominant patterns resulting in the loss of fine-grained detail and causing blurred reconstructions for rare spatial inputs especiall",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02031v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02031v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.02022",
+      "title": "ATBench: A Diverse and Realistic Trajectory Benchmark for Long-Horizon Agent Safety",
+      "authors": [
+        "Yu Li",
+        "Haoyu Luo",
+        "Yuejin Xie",
+        "Yuqian Fu",
+        "Zhonghao Yang",
+        "Shuai Shao",
+        "Qihan Ren",
+        "Wanying Qu",
+        "Yanwei Fu",
+        "Yujiu Yang",
+        "Jing Shao",
+        "Xia Hu",
+        "Dongrui Liu"
+      ],
+      "summary": "Evaluating the safety of LLM-based agents is increasingly important because risks in realistic deployments often emerge over multi-step interactions rather than isolated prompts or final responses. Existing trajectory-level benchmarks remain limited by insufficient interaction diversity, coarse observability of safety failures, and weak long-horizon realism. We introduce ATBench, a trajectory-level benchmark for structured, diverse, and realistic evaluation of agent safety. ATBench organizes age",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02022v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02022v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.02016",
+      "title": "Optimizing Interventions for Agent-Based Infectious Disease Simulations",
+      "authors": [
+        "Anja Wolpers",
+        "Johannes Ponge",
+        "Adelinde M. Uhrmacher"
+      ],
+      "summary": "Non-pharmaceutical interventions (NPIs) are commonly used tools for controlling infectious disease transmission when pharmaceutical options are unavailable. Yet, identifying effective interventions that minimize societal disruption remains challenging. Agent-based simulation is a popular tool for analyzing the impact of possible interventions in epidemiology. However, automatically optimizing NPIs using agent-based simulations poses a complex problem because, in agent-based epidemiological model",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02016v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02016v1",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.02002",
+      "title": "How and why does deep ensemble coupled with transfer learning increase performance in bipolar disorder and schizophrenia classification?",
+      "authors": [
+        "Sara Petiton",
+        "Antoine Grigis",
+        "Benoit Dufumier",
+        "Edouard Duchesnay"
+      ],
+      "summary": "Transfer learning (TL) and deep ensemble learning (DE) have recently been shown to outperform simple machine learning in classifying psychiatric disorders. However, there is still a lack of understanding as to why that is. This paper aims to understand how and why DE and TL reduce the variability of single-subject classification models in bipolar disorder (BD) and schizophrenia (SCZ). To this end, we investigated the training stability of TL and DE models. For the two classification tasks under ",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02002v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02002v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01997",
+      "title": "GenGait: A Transformer-Based Model for Human Gait Anomaly Detection and Normative Twin Generation",
+      "authors": [
+        "Elisa Motta",
+        "Marta Lorenzini",
+        "Clara Mouawad",
+        "Alberto Ranavolo",
+        "Mariano Serrao",
+        "Arash Ajoudani"
+      ],
+      "summary": "Gait analysis provides an objective characterization of locomotor function and is widely used to support diagnosis and rehabilitation monitoring across neurological and orthopedic disorders. Deep learning has been increasingly applied to this domain, yet most approaches rely on supervised classifiers trained on disease-labeled data, limiting generalization to heterogeneous pathological presentations. This work proposes a label-free framework for joint-level anomaly detection and kinematic correc",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01997v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01997v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "13 pages, 6 figures. Preprint submitted to a journal",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01987",
+      "title": "Curia-2: Scaling Self-Supervised Learning for Radiology Foundation Models",
+      "authors": [
+        "Antoine Saporta",
+        "Baptiste Callard",
+        "Corentin Dancette",
+        "Julien Khlaut",
+        "Charles Corbière",
+        "Leo Butsanets",
+        "Amaury Prat",
+        "Pierre Manceron"
+      ],
+      "summary": "The rapid growth of medical imaging has fueled the development of Foundation Models (FMs) to reduce the growing, unsustainable workload on radiologists. While recent FMs have shown the power of large-scale pre-training to CT and MRI analysis, there remains significant room to optimize how these models learn from complex radiological volumes. Building upon the Curia framework, this work introduces Curia-2, which significantly improves the original pre-training strategy and representation quality ",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01987v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01987v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01965",
+      "title": "Do We Need Bigger Models for Science? Task-Aware Retrieval with Small Language Models",
+      "authors": [
+        "Florian Kelber",
+        "Matthias Jobst",
+        "Yuni Susanti",
+        "Michael Färber"
+      ],
+      "summary": "Scientific knowledge discovery increasingly relies on large language models, yet many existing scholarly assistants depend on proprietary systems with tens or hundreds of billions of parameters. Such reliance limits reproducibility and accessibility for the research community. In this work, we ask a simple question: do we need bigger models for scientific applications? Specifically, we investigate to what extent carefully designed retrieval pipelines can compensate for reduced model scale in sci",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01965v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01965v1",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL",
+        "cs.DL"
+      ],
+      "comments": "Accepted at NSLP@LREC 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01962",
+      "title": "Abnormal Head Movements in Neurological Conditions: A Knowledge-Based Dataset with Application to Cervical Dystonia",
+      "authors": [
+        "Saja Al-Dabet",
+        "Sherzod Turaev",
+        "Nazar Zaki"
+      ],
+      "summary": "Abnormal head movements (AHMs) manifest across a broad spectrum of neurological disorders; however, the absence of a multi-condition resource integrating kinematic measurements, clinical severity scores, and patient demographics constitutes a persistent barrier to the development of AI-driven diagnostic tools. To address this gap, this study introduces NeuroPose-AHM, a knowledge-based dataset of neurologically induced AHMs constructed through a multi-LLM extraction framework applied to 1,430 pee",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01962v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01962v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01930",
+      "title": "Quantum-Inspired Geometric Classification with Correlation Group Structures and VQC Decision Modeling",
+      "authors": [
+        "Nishikanta Mohanty",
+        "Arya Ansuman Priyadarshi",
+        "Bikash K. Behera",
+        "Badshah Mukherjee"
+      ],
+      "summary": "We propose a geometry-driven quantum-inspired classification framework that integrates Correlation Group Structures (CGR), compact SWAP-test-based overlap estimation, and selective variational quantum decision modelling. Rather than directly approximating class posteriors, the method adopts a geometry-first paradigm in which samples are evaluated relative to class medoids using overlap-derived Euclidean-like and angular similarity channels. CGR organizes features into anchor-centered correlation",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01930v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01930v1",
+      "categories": [
+        "quant-ph",
+        "cs.AI"
+      ],
+      "comments": "34 Pages, 19 Algorithms , 8 Tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01898",
+      "title": "Enhancing the Reliability of Medical AI through Expert-guided Uncertainty Modeling",
+      "authors": [
+        "Aleksei Khalin",
+        "Ekaterina Zaychenkova",
+        "Aleksandr Yugay",
+        "Andrey Goncharov",
+        "Sergey Korchagin",
+        "Alexey Zaytsev",
+        "Egor Ershov"
+      ],
+      "summary": "Artificial intelligence (AI) systems accelerate medical workflows and improve diagnostic accuracy in healthcare, serving as second-opinion systems. However, the unpredictability of AI errors poses a significant challenge, particularly in healthcare contexts, where mistakes can have severe consequences. A widely adopted safeguard is to pair predictions with uncertainty estimation, enabling human experts to focus on high-risk cases while streamlining routine verification. Current uncertainty estim",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01898v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01898v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01896",
+      "title": "Bayesian Elicitation with LLMs: Model Size Helps, Extra \"Reasoning\" Doesn't Always",
+      "authors": [
+        "Luka Hobor",
+        "Mario Brcic",
+        "Mihael Kovac",
+        "Kristijan Poje"
+      ],
+      "summary": "Large language models (LLMs) have been proposed as alternatives to human experts for estimating unknown quantities with associated uncertainty, a process known as Bayesian elicitation. We test this by asking eleven LLMs to estimate population statistics, such as health prevalence rates, personality trait distributions, and labor market figures, and to express their uncertainty as 95\\% credible intervals. We vary each model's reasoning effort (low, medium, high) to test whether more \"thinking\" im",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01896v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01896v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "6 pages, 3 figures, 2 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01841",
+      "title": "Retrieval-aligned Tabular Foundation Models Enable Robust Clinical Risk Prediction in Electronic Health Records Under Real-world Constraints",
+      "authors": [
+        "Minh-Khoi Pham",
+        "Thang-Long Nguyen Ho",
+        "Thao Thi Phuong Dao",
+        "Tai Tan Mai",
+        "Minh-Triet Tran",
+        "Marie E. Ward",
+        "Una Geary",
+        "Rob Brennan",
+        "Nick McDonald",
+        "Martin Crane",
+        "Marija Bezbradica"
+      ],
+      "summary": "Clinical prediction from structured electronic health records (EHRs) is challenging due to high dimensionality, heterogeneity, class imbalance, and distribution shift. While tabular in-context learning (TICL) and retrieval-augmented methods perform well on generic benchmarks, their behavior in clinical settings remains unclear. We present a multi-cohort EHR benchmark comparing classical, deep tabular, and TICL models across varying data scale, feature dimensionality, outcome rarity, and cross-co",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01841v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01841v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "Not peer-reviewed",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01798",
+      "title": "A deep learning pipeline for PAM50 subtype classification using histopathology images and multi-objective patch selection",
+      "authors": [
+        "Arezoo Borji",
+        "Gernot Kronreif",
+        "Bernhard Angermayr",
+        "Francisco Mario Calisto",
+        "Wolfgang Birkfellner",
+        "Inna Servetnyk",
+        "Yinyin Yuan",
+        "Sepideh Hatamikia"
+      ],
+      "summary": "Breast cancer is a highly heterogeneous disease with diverse molecular profiles. The PAM50 gene signature is widely recognized as a standard for classifying breast cancer into intrinsic subtypes, enabling more personalized treatment strategies. In this study, we introduce a novel optimization-driven deep learning framework that aims to reduce reliance on costly molecular assays by directly predicting PAM50 subtypes from H&amp;E-stained whole-slide images (WSIs). Our method jointly optimizes patc",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01798v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01798v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.01734",
+      "title": "A Novel Multi-view Mixture Model Framework for Longitudinal Clustering with Application to ANCA-Associated Vasculitis",
+      "authors": [
+        "Shen Jia",
+        "David Selby",
+        "Mark A Little",
+        "Tin Lok James Ng"
+      ],
+      "summary": "Effectively modeling irregularly sampled longitudinal data is essential for understanding disease progression and improving risk prediction. We propose a two-view mixture model that integrates static baseline covariates and longitudinal biomarker trajectories within a unified probabilistic clustering framework. Temporal patterns are modeled using Neural Ordinary Differential Equations. Model training uses an EM algorithm with a sparsity-inducing log-penalty for interpretable subgroup discovery. ",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.01734v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.01734v1",
+      "categories": [
+        "q-bio.QM",
+        "stat.ME"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2604.00931",
       "title": "PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor",
@@ -460,532 +876,6 @@
       "categories": [
         "cs.CV",
         "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27589",
-      "title": "An Energy-Efficient Spiking Neural Network Architecture for Predictive Insulin Delivery",
-      "authors": [
-        "Sahil Shrivastava"
-      ],
-      "summary": "Diabetes mellitus affects over 537 million adults worldwide. Insulin-dependent patients require continuous glucose monitoring and precise dose calculation while operating under strict power budgets on wearable devices. This paper presents PDDS - an in-silico, software-complete research prototype of an event-driven computational pipeline for predictive insulin dose calculation. Motivated by neuromorphic computing principles for ultra-low-power wearable edge devices, the core contribution is a thr",
-      "published": "2026-03-29",
-      "publishedDate": {
-        "iso": "2026-03-29",
-        "year": 2026,
-        "month": 3,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27589v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27589v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "10 pages, 6 figures, 12 tables. IEEE conference format. Independent Research",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27552",
-      "title": "BLOSSOM: Block-wise Federated Learning Over Shared and Sparse Observed Modalities",
-      "authors": [
-        "Pranav M R",
-        "Jayant Chandwani",
-        "Ahmed M. Abdelmoniem",
-        "Arnab K. Paul"
-      ],
-      "summary": "Multimodal federated learning (FL) is essential for real-world applications such as autonomous systems and healthcare, where data is distributed across heterogeneous clients with varying and often missing modalities. However, most existing FL approaches assume uniform modality availability, limiting their applicability in practice. We introduce BLOSSOM, a task-agnostic framework for multimodal FL designed to operate under shared and sparsely observed modality conditions. BLOSSOM supports clients",
-      "published": "2026-03-29",
-      "publishedDate": {
-        "iso": "2026-03-29",
-        "year": 2026,
-        "month": 3,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27552v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27552v1",
-      "categories": [
-        "cs.LG",
-        "cs.DC"
-      ],
-      "comments": "6 pages, 2 figures, 3 tables. Accepted to the International Joint Conference on Neural Networks (IJCNN) 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27460",
-      "title": "Project Imaging-X: A Survey of 1000+ Open-Access Medical Imaging Datasets for Foundation Model Development",
-      "authors": [
-        "Zhongying Deng",
-        "Cheng Tang",
-        "Ziyan Huang",
-        "Jiashi Lin",
-        "Ying Chen",
-        "Junzhi Ning",
-        "Chenglong Ma",
-        "Jiyao Liu",
-        "Wei Li",
-        "Yinghao Zhu",
-        "Shujian Gao",
-        "Yanyan Huang",
-        "Sibo Ju",
-        "Yanzhou Su",
-        "Pengcheng Chen",
-        "Wenhao Tang",
-        "Tianbin Li",
-        "Haoyu Wang",
-        "Yuanfeng Ji",
-        "Hui Sun",
-        "Shaobo Min",
-        "Liang Peng",
-        "Feilong Tang",
-        "Haochen Xue",
-        "Rulin Zhou",
-        "Chaoyang Zhang",
-        "Wenjie Li",
-        "Shaohao Rui",
-        "Weijie Ma",
-        "Xingyue Zhao",
-        "Yibin Wang",
-        "Kun Yuan",
-        "Zhaohui Lu",
-        "Shujun Wang",
-        "Jinjie Wei",
-        "Lihao Liu",
-        "Dingkang Yang",
-        "Lin Wang",
-        "Yulong Li",
-        "Haolin Yang",
-        "Yiqing Shen",
-        "Lequan Yu",
-        "Xiaowei Hu",
-        "Yun Gu",
-        "Yicheng Wu",
-        "Benyou Wang",
-        "Minghui Zhang",
-        "Angelica I. Aviles-Rivero",
-        "Qi Gao",
-        "Hongming Shan",
-        "Xiaoyu Ren",
-        "Fang Yan",
-        "Hongyu Zhou",
-        "Haodong Duan",
-        "Maosong Cao",
-        "Shanshan Wang",
-        "Bin Fu",
-        "Xiaomeng Li",
-        "Zhi Hou",
-        "Chunfeng Song",
-        "Lei Bai",
-        "Yuan Cheng",
-        "Yuandong Pu",
-        "Xiang Li",
-        "Wenhai Wang",
-        "Hao Chen",
-        "Jiaxin Zhuang",
-        "Songyang Zhang",
-        "Huiguang He",
-        "Mengzhang Li",
-        "Bohan Zhuang",
-        "Zhian Bai",
-        "Rongshan Yu",
-        "Liansheng Wang",
-        "Yukun Zhou",
-        "Xiaosong Wang",
-        "Xin Guo",
-        "Guanbin Li",
-        "Xiangru Lin",
-        "Dakai Jin",
-        "Mianxin Liu",
-        "Wenlong Zhang",
-        "Qi Qin",
-        "Conghui He",
-        "Yuqiang Li",
-        "Ye Luo",
-        "Nanqing Dong",
-        "Jie Xu",
-        "Wenqi Shao",
-        "Bo Zhang",
-        "Qiujuan Yan",
-        "Yihao Liu",
-        "Jun Ma",
-        "Zhi Lu",
-        "Yuewen Cao",
-        "Zongwei Zhou",
-        "Jianming Liang",
-        "Shixiang Tang",
-        "Qi Duan",
-        "Dongzhan Zhou",
-        "Chen Jiang",
-        "Yuyin Zhou",
-        "Yanwu Xu",
-        "Jiancheng Yang",
-        "Shaoting Zhang",
-        "Xiaohong Liu",
-        "Siqi Luo",
-        "Yi Xin",
-        "Chaoyu Liu",
-        "Haochen Wen",
-        "Xin Chen",
-        "Alejandro Lozano",
-        "Min Woo Sun",
-        "Yuhui Zhang",
-        "Yue Yao",
-        "Xiaoxiao Sun",
-        "Serena Yeung-Levy",
-        "Xia Li",
-        "Jing Ke",
-        "Chunhui Zhang",
-        "Zongyuan Ge",
-        "Ming Hu",
-        "Jin Ye",
-        "Zhifeng Li",
-        "Yirong Chen",
-        "Yu Qiao",
-        "Junjun He"
-      ],
-      "summary": "Foundation models have demonstrated remarkable success across diverse domains and tasks, primarily due to the thrive of large-scale, diverse, and high-quality datasets. However, in the field of medical imaging, the curation and assembling of such medical datasets are highly challenging due to the reliance on clinical expertise and strict ethical and privacy constraints, resulting in a scarcity of large-scale unified medical datasets and hindering the development of powerful medical foundation mo",
-      "published": "2026-03-29",
-      "publishedDate": {
-        "iso": "2026-03-29",
-        "year": 2026,
-        "month": 3,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27460v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27460v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "157 pages, 19 figures, 26 tables. Project repo: \\url{https://github.com/uni-medical/Project-Imaging-X}",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27416",
-      "title": "Agent-Driven Autonomous Reinforcement Learning Research: Iterative Policy Improvement for Quadruped Locomotion",
-      "authors": [
-        "Nimesh Khandelwal",
-        "Shakti S. Gupta"
-      ],
-      "summary": "This paper documents a case study in agent-driven autonomous reinforcement learning research for quadruped locomotion. The setting was not a fully self-starting research system. A human provided high-level directives through an agentic coding environment, while an agent carried out most of the execution loop: reading code, diagnosing failures, editing reward and terrain configurations, launching and monitoring jobs, analyzing intermediate metrics, and proposing the next wave of experiments. Acro",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27416v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27416v1",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27357",
-      "title": "Guided Lensless Polarization Imaging",
-      "authors": [
-        "Noa Kraicer",
-        "Erez Yosef",
-        "Raja Giryes"
-      ],
-      "summary": "Polarization imaging captures the polarization state of light, revealing information invisible to the human eye yet valuable in domains such as biomedical diagnostics, autonomous driving, and remote sensing. However, conventional polarization cameras are often expensive, bulky, or both, limiting their practical use. Lensless imaging offers a compact, low-cost alternative by replacing the lens with a simple optical element like a diffuser and performing computational reconstruction, but existing ",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27357v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27357v1",
-      "categories": [
-        "eess.IV",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27341",
-      "title": "A Comparative Study in Surgical AI: Datasets, Foundation Models, and Barriers to Med-AGI",
-      "authors": [
-        "Kirill Skobelev",
-        "Eric Fithian",
-        "Yegor Baranovski",
-        "Jack Cook",
-        "Sandeep Angara",
-        "Shauna Otto",
-        "Zhuang-Fang Yi",
-        "John Zhu",
-        "Daniel A. Donoho",
-        "X. Y. Han",
-        "Neeraj Mainkar",
-        "Margaux Masson-Forsythe"
-      ],
-      "summary": "Recent Artificial Intelligence (AI) models have matched or exceeded human experts in several benchmarks of biomedical task performance, but have lagged behind on surgical image-analysis benchmarks. Since surgery requires integrating disparate tasks -- including multimodal data integration, human interaction, and physical effects -- generally-capable AI models could be particularly attractive as a collaborative tool if performance could be improved. On the one hand, the canonical approach of scal",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27341v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27341v1",
-      "categories": [
-        "cs.AI",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27325",
-      "title": "Improving Automated Wound Assessment Using Joint Boundary Segmentation and Multi-Class Classification Models",
-      "authors": [
-        "Mehedi Hasan Tusar",
-        "Fateme Fayyazbakhsh",
-        "Igor Melnychuk",
-        "Ming C. Leu"
-      ],
-      "summary": "Accurate wound classification and boundary segmentation are essential for guiding clinical decisions in both chronic and acute wound management. However, most existing AI models are limited, focusing on a narrow set of wound types or performing only a single task (segmentation or classification), which reduces their clinical applicability. This study presents a deep learning model based on YOLOv11 that simultaneously performs wound boundary segmentation (WBS) and wound classification (WC) across",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27325v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27325v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27254",
-      "title": "Amalgam: Hybrid LLM-PGM Synthesis Algorithm for Accuracy and Realism",
-      "authors": [
-        "Antheas Kapenekakis",
-        "Bent Thomsen",
-        "Katja Hose",
-        "Michele Albano"
-      ],
-      "summary": "To generate synthetic datasets, e.g., in domains such as healthcare, the literature proposes approaches of two main types: Probabilistic Graphical Models (PGMs) and Deep Learning models, such as LLMs. While PGMs produce synthetic data that can be used for advanced analytics, they do not support complex schemas and datasets. LLMs on the other hand, support complex schemas but produce skewed dataset distributions, which are less useful for advanced analytics. In this paper, we therefore present Am",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27254v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27254v1",
-      "categories": [
-        "cs.DB",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27186",
-      "title": "Hybrid Deep Learning with Temporal Data Augmentation for Accurate Remaining Useful Life Prediction of Lithium-Ion Batteries",
-      "authors": [
-        "Yun Tian",
-        "Guili Wang",
-        "Jian Bi",
-        "Kaixin Han",
-        "Chenglu Wu",
-        "Zhiyi Lu",
-        "Chenhao Li",
-        "Liangwang Sun",
-        "Minyu Zhou",
-        "Chenchen Xu"
-      ],
-      "summary": "Accurate prediction of lithium-ion battery remaining useful life (RUL) is essential for reliable health monitoring and data-driven analysis of battery degradation. However, the robustness and generalization capabilities of existing RUL prediction models are significantly challenged by complex operating conditions and limited data availability. To address these limitations, this study proposes a hybrid deep learning model, CDFormer, which integrates convolutional neural networks, deep residual sh",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27186v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27186v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27150",
-      "title": "MediHive: A Decentralized Agent Collective for Medical Reasoning",
-      "authors": [
-        "Xiaoyang Wang",
-        "Christopher C. Yang"
-      ],
-      "summary": "Large language models (LLMs) have revolutionized medical reasoning tasks, yet single-agent systems often falter on complex, interdisciplinary problems requiring robust handling of uncertainty and conflicting evidence. Multi-agent systems (MAS) leveraging LLMs enable collaborative intelligence, but prevailing centralized architectures suffer from scalability bottlenecks, single points of failure, and role confusion in resource-constrained environments. Decentralized MAS (D-MAS) promise enhanced a",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27150v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27150v1",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ],
-      "comments": "Accepted to the 14th IEEE International Conference on Healthcare Informatics (IEEE ICHI 2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27145",
-      "title": "Pan-Cancer Mapping of the Tumor Immune Landscape through Metagene Clustering and Predictive Modeling",
-      "authors": [
-        "Soham Chatterjee"
-      ],
-      "summary": "As immunotherapies become standard cancer treatments, it is increasingly important to identify a patient's immune profile, which encompasses the activity of immune cells within the tumor microenvironment and the presence of specific biomarkers. However, we lack mechanistic explanations drivers of immune phenotypes. Despite advances in immune profiling with high-throughput sequencing, the mechanisms driving them remain unclear. This study aimed to identify novel, robust immune-related gene cluste",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27145v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27145v1",
-      "categories": [
-        "q-bio.GN",
-        "cs.LG"
-      ],
-      "comments": "21 pages, 4 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27143",
-      "title": "Follow Your Heart: Landmark-Guided Transducer Pose Scoring for Point-of-Care Echocardiography",
-      "authors": [
-        "Zaiyang Guo",
-        "Jessie N. Dong",
-        "Filippos Bellos",
-        "Jilei Hao",
-        "Emily J. MacKay",
-        "Trevor Chan",
-        "Shir Goldfinger",
-        "Sethu Reddy",
-        "Steven Vance",
-        "Jason J. Corso",
-        "Alison M. Pouch"
-      ],
-      "summary": "Point-of-care transthoracic echocardiography (TTE) makes it possible to assess a patient's cardiac function in almost any setting. A critical step in the TTE exam is acquisition of the apical 4-chamber (A4CH) view, which is used to evaluate clinically impactful measurements such as left ventricular ejection fraction (LVEF). However, optimizing transducer pose for high-quality image acquisition and subsequent measurement is a challenging task, particularly for novice users. In this work, we prese",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27143v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27143v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "Accepted for oral presentation at the International Symposium on Biomedical Imaging 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27142",
-      "title": "Bayes-MICE: A Bayesian Approach to Multiple Imputation for Time Series Data",
-      "authors": [
-        "Amuche Ibenegbu",
-        "Pierre Lafaye de Micheaux",
-        "Rohitash Chandra"
-      ],
-      "summary": "Time-series analysis is often affected by missing data, a common problem across several fields, including healthcare and environmental monitoring. Multiple Imputation by Chained Equations (MICE) has been prominent for imputing missing values through \"fully conditional specification\". We extend MICE using the Bayesian framework (Bayes-MICE), utilising Bayesian inference to impute missing values via Markov Chain Monte Carlo (MCMC) sampling to account for uncertainty in MICE model parameters and im",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27142v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27142v1",
-      "categories": [
-        "stat.ML",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27114",
-      "title": "Maximin Learning of Individualized Treatment Effect on Multi-Domain Outcomes",
-      "authors": [
-        "Yuying Lu",
-        "Wenbo Fei",
-        "Yuanjia Wang",
-        "Molei Liu"
-      ],
-      "summary": "Precision mental health requires treatment decisions that account for heterogeneous symptoms reflecting multiple clinical domains. However, existing methods for estimating individualized treatment effects (ITE) rely on a single summary outcome or a specific set of observed symptoms or measures, which are sensitive to symptom selection and limit generalizability to unmeasured yet clinically relevant domains. We propose DRIFT, a new maximin framework for estimating robust ITEs from high-dimensiona",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27114v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27114v1",
-      "categories": [
-        "cs.LG",
-        "stat.ME"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2603.27104",
-      "title": "Autonomous Agent-Orchestrated Digital Twins (AADT): Leveraging the OpenClaw Framework for State Synchronization in Rare Genetic Disorders",
-      "authors": [
-        "Hongzhuo Chen",
-        "Zhanliang Wang",
-        "Quan M. Nguyen",
-        "Gongbo Zhang",
-        "Chunhua Weng",
-        "Kai Wang"
-      ],
-      "summary": "Background: Medical Digital Twins (MDTs) are computational representations of individual patients that integrate clinical, genomic, and physiological data to support diagnosis, treatment planning, and outcome prediction. However, most MDTs remain static or passively updated, creating a critical synchronization gap, especially in rare genetic disorders where phenotypes, genomic interpretations, and care guidelines evolve over time. Methods: We propose an agent-orchestrated digital twin framework ",
-      "published": "2026-03-28",
-      "publishedDate": {
-        "iso": "2026-03-28",
-        "year": 2026,
-        "month": 3,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2603.27104v1",
-      "pdfUrl": "https://arxiv.org/pdf/2603.27104v1",
-      "categories": [
-        "q-bio.QM",
-        "cs.AI",
-        "cs.IR"
       ],
       "comments": "",
       "arxivVersion": "v1"

@@ -14,11 +14,107 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-04-03T01:56:48.278Z",
-  "fetchedAt": "2026-04-03T01:56:48.278Z",
+  "lastUpdated": "2026-04-04T01:49:53.838Z",
+  "fetchedAt": "2026-04-04T01:49:53.838Z",
   "totalPapers": 30,
-  "newPapers": 15,
+  "newPapers": 3,
   "papers": [
+    {
+      "arxivId": "2604.02324",
+      "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
+      "authors": [
+        "Daiwei Chen",
+        "Zhoutong Fu",
+        "Chengming Jiang",
+        "Haichao Zhang",
+        "Ran Zhou",
+        "Tan Wang",
+        "Chunnan Yao",
+        "Guoyao Li",
+        "Rui Cai",
+        "Yihan Cao",
+        "Ruijie Jiang",
+        "Fedor Borisyuk",
+        "Jianqiang Shen",
+        "Jingwei Wu",
+        "Ramya Korlakai Vinayak"
+      ],
+      "summary": "Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised fine-tuning to learn their representations. We present a systematic analysis of this strategy: through spectral and geometric diagnostics, we show that mean initialization collapses all new tokens into a deg",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02324v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02324v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.02276",
+      "title": "De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules",
+      "authors": [
+        "Keerat Guliani",
+        "Deepkamal Gill",
+        "David Landsman",
+        "Nima Eshraghi",
+        "Krishna Kumar",
+        "Lovedeep Gondara"
+      ],
+      "summary": "Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of s",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02276v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02276v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.02236",
+      "title": "Do Emotions in Prompts Matter? Effects of Emotional Framing on Large Language Models",
+      "authors": [
+        "Minda Zhao",
+        "Yutong Yang",
+        "Chufei Peng",
+        "Rachel Gonsalves",
+        "Weiyue Li",
+        "Ruyi Yang",
+        "Zhixi Liu",
+        "Mengyu Wang"
+      ],
+      "summary": "Emotional tone is pervasive in human communication, yet its influence on large language model (LLM) behaviour remains unclear. Here, we examine how first-person emotional framing in user-side queries affect LLM performance across six benchmark domains, including mathematical reasoning, medical question answering, reading comprehension, commonsense reasoning and social inference. Across models and tasks, static emotional prefixes usually produce only small changes in accuracy, suggesting that aff",
+      "published": "2026-04-02",
+      "publishedDate": {
+        "iso": "2026-04-02",
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.02236v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.02236v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2604.02207",
       "title": "Blinded Radiologist and LLM-Based Evaluation of LLM-Generated Japanese Translations of Chest CT Reports: Comparative Study",
@@ -798,84 +894,6 @@
       "pdfUrl": "https://arxiv.org/pdf/2604.00385v1",
       "categories": [
         "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.00319",
-      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
-      "authors": [
-        "Syed Eqbal Alam",
-        "Zhan Shu"
-      ],
-      "summary": "We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents and critics collaborate with a central server to complete multimodal tasks such as fault detection, severity, and cause analysis in a network telemetry system, text-to-image generation, video generation, healthcare diagnostics from medical images and",
-      "published": "2026-03-31",
-      "publishedDate": {
-        "iso": "2026-03-31",
-        "year": 2026,
-        "month": 3,
-        "day": 31
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.00319v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.00319v1",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.00308",
-      "title": "Vocal Prognostic Digital Biomarkers in Monitoring Chronic Heart Failure: A Longitudinal Observational Study",
-      "authors": [
-        "Fan Wu",
-        "Matthias P. Nägele",
-        "Daryush D. Mehta",
-        "Elgar Fleisch",
-        "Frank Ruschitzka",
-        "Andreas J. Flammer",
-        "Filipe Barata"
-      ],
-      "summary": "Objective: This study aimed to evaluate which voice features can predict health deterioration in patients with chronic HF. Background: Heart failure (HF) is a chronic condition with progressive deterioration and acute decompensations, often requiring hospitalization and imposing substantial healthcare and economic burdens. Current standard-of-care (SoC) home monitoring, such as weight tracking, lacks predictive accuracy and requires high patient engagement. Voice is a promising non-invasive biom",
-      "published": "2026-03-31",
-      "publishedDate": {
-        "iso": "2026-03-31",
-        "year": 2026,
-        "month": 3,
-        "day": 31
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.00308v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.00308v1",
-      "categories": [
-        "cs.SD",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.00298",
-      "title": "SANA I2I: A Text Free Flow Matching Framework for Paired Image to Image Translation with a Case Study in Fetal MRI Artifact Reduction",
-      "authors": [
-        "Italo Felix Santos",
-        "Gilson Antonio Giraldi",
-        "Heron Werner Junior"
-      ],
-      "summary": "We propose SANA-I2I, a text-free high-resolution image-to-image generation framework that extends the SANA family by removing textual conditioning entirely. In contrast to SanaControlNet, which combines text and image-based control, SANA-I2I relies exclusively on paired source-target images to learn a conditional flow-matching model in latent space. The model learns a conditional velocity field that maps a target image distribution to another one, enabling supervised image translation without re",
-      "published": "2026-03-31",
-      "publishedDate": {
-        "iso": "2026-03-31",
-        "year": 2026,
-        "month": 3,
-        "day": 31
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.00298v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.00298v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
       ],
       "comments": "",
       "arxivVersion": "v1"

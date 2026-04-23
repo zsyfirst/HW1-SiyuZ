@@ -14,11 +14,426 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-04-22T02:06:27.995Z",
-  "fetchedAt": "2026-04-22T02:06:27.995Z",
+  "lastUpdated": "2026-04-23T02:10:10.437Z",
+  "fetchedAt": "2026-04-23T02:10:10.437Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2604.20824",
+      "title": "Closing the Domain Gap in Biomedical Imaging by In-Context Control Samples",
+      "authors": [
+        "Ana Sanchez-Fernandez",
+        "Thomas Pinetz",
+        "Werner Zellinger",
+        "Günter Klambauer"
+      ],
+      "summary": "The central problem in biomedical imaging are batch effects: systematic technical variations unrelated to the biological signal of interest. These batch effects critically undermine experimental reproducibility and are the primary cause of failure of deep learning systems on new experimental batches, preventing their practical use in the real world. Despite years of research, no method has succeeded in closing this performance gap for deep learning models. We propose Control-Stabilized Adaptive ",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20824v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20824v1",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20791",
+      "title": "Can \"AI\" Be a Doctor? A Study of Empathy, Readability, and Alignment in Clinical LLMs",
+      "authors": [
+        "Mariano Barone",
+        "Francesco Di Serio",
+        "Roberto Moio",
+        "Marco Postiglione",
+        "Giuseppe Riccio",
+        "Antonio Romano",
+        "Vincenzo Moscato"
+      ],
+      "summary": "Large Language Models (LLMs) are increasingly deployed in healthcare, yet their communicative alignment with clinical standards remains insufficiently quantified. We conduct a multidimensional evaluation of general-purpose and domain-specialized LLMs across structured medical explanations and real-world physician-patient interactions, analyzing semantic fidelity, readability, and affective resonance. Baseline models amplify affective polarity relative to physicians (Very Negative: 43.14-45.10% v",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20791v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20791v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20735",
+      "title": "Fast Bayesian equipment condition monitoring via simulation based inference: applications to heat exchanger health",
+      "authors": [
+        "Peter Collett",
+        "Alexander Johannes Stasik",
+        "Simone Casolo",
+        "Signe Riemer-Sørensen"
+      ],
+      "summary": "Accurate condition monitoring of industrial equipment requires inferring latent degradation parameters from indirect sensor measurements under uncertainty. While traditional Bayesian methods like Markov Chain Monte Carlo (MCMC) provide rigorous uncertainty quantification, their heavy computational bottlenecks render them impractical for real-time process control. To overcome this limitation, we propose an AI-driven framework utilizing Simulation-Based Inference (SBI) powered by amortized neural ",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20735v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20735v1",
+      "categories": [
+        "cs.LG",
+        "eess.SY",
+        "physics.comp-ph"
+      ],
+      "comments": "Submitted, 15 pages, 9 figures, code available on github",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20723",
+      "title": "Tokenised Flow Matching for Hierarchical Simulation Based Inference",
+      "authors": [
+        "Giovanni Charles",
+        "Cosmo Santoni",
+        "Seth Flaxman",
+        "Elizaveta Semenova"
+      ],
+      "summary": "The cost of simulator evaluations is a key practical bottleneck for Simulation Based Inference (SBI). In hierarchical settings with shared global parameters and exchangeable site-level parameters and observations, this structure can be exploited to improve simulation efficiency. Existing hierarchical SBI approaches factorise the posterior yet still simulate across multiple sites per training sample; We instead explore likelihood factorisation (LF) to train from single-site simulations. In LF sam",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20723v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20723v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "31 pages, 11 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20675",
+      "title": "Improving clinical interpretability of linear neuroimaging models through feature whitening",
+      "authors": [
+        "Sara Petiton",
+        "Antoine Grigis",
+        "Raphaël Vock",
+        "Edouard Duchesnay"
+      ],
+      "summary": "Linear models are widely used in computational neuroimaging to identify biomarkers associated with brain pathologies. However, interpreting the learned weights remains challenging, as they do not always yield clinically meaningful insights. This difficulty arises in part from the inherent correlation between brain regions, which causes linear weights to reflect shared rather than region-specific contributions. In particular, some groups of regions, including homologous structures in the left and",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20675v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20675v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20441",
+      "title": "MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills",
+      "authors": [
+        "Yingyong Hou",
+        "Xinyuan Lao",
+        "Huimei Wang",
+        "Qianyu Yao",
+        "Wei Chen",
+        "Bocheng Huang",
+        "Fei Sun",
+        "Yuxian Lv",
+        "Weiqi Lei",
+        "Xueqian Wen",
+        "Pengfei Xia",
+        "Zhujun Tan",
+        "Shengyang Xie"
+      ],
+      "summary": "Background: Agent skills are increasingly deployed as modular, reusable capability units in AI agent systems. Medical research agent skills require safeguards beyond general-purpose evaluation, including scientific integrity, methodological validity, reproducibility, and boundary safety. This study developed and preliminarily evaluated a domain-specific audit framework for medical research agent skills, with a focus on reliability against expert review. Methods: We developed MedSkillAudit (skill",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20441v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20441v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "20 pages, 9 figures, 1 graphic abstract, 4 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20331",
+      "title": "Surrogate modeling for interpreting black-box LLMs in medical predictions",
+      "authors": [
+        "Changho Han",
+        "Songsoo Kim",
+        "Dong Won Kim",
+        "Leo Anthony Celi",
+        "Jaewoong Kim",
+        "SungA Bae",
+        "Dukyong Yoon"
+      ],
+      "summary": "Large language models (LLMs), trained on vast datasets, encode extensive real-world knowledge within their parameters, yet their black-box nature obscures the mechanisms and extent of this encoding. Surrogate modeling, which uses simplified models to approximate complex systems, can offer a path toward better interpretability of black-box models. We propose a surrogate modeling framework that quantitatively explains LLM-encoded knowledge. For a specific hypothesis derived from domain knowledge, ",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20331v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20331v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20306",
+      "title": "Dual Causal Inference: Integrating Backdoor Adjustment and Instrumental Variable Learning for Medical VQA",
+      "authors": [
+        "Zibo Xu",
+        "Qiang Li",
+        "Ke Lu",
+        "Jin Wang",
+        "Weizhi Nie",
+        "Yuting Su"
+      ],
+      "summary": "Medical Visual Question Answering (MedVQA) aims to generate clinically reliable answers conditioned on complex medical images and questions. However, existing methods often overfit to superficial cross-modal correlations, neglecting the intrinsic biases embedded in multimodal medical data. Consequently, models become vulnerable to cross-modal confounding effects, severely hindering their ability to provide trustworthy diagnostic reasoning. To address this limitation, we propose a novel Dual Caus",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20306v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20306v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20286",
+      "title": "MambaLiteUNet: Cross-Gated Adaptive Feature Fusion for Robust Skin Lesion Segmentation",
+      "authors": [
+        "Md Maklachur Rahman",
+        "Soon Ki Jung",
+        "Tracy Hammond"
+      ],
+      "summary": "Recent segmentation models have demonstrated promising efficiency by aggressively reducing parameter counts and computational complexity. However, these models often struggle to accurately delineate fine lesion boundaries and texture patterns essential for early skin cancer diagnosis and treatment planning. In this paper, we propose MambaLiteUNet, a compact yet robust segmentation framework that integrates Mamba state space modeling into a U-Net architecture, along with three key modules: Adapti",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20286v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20286v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "Accepted at CVPR 2026 Main",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20259",
+      "title": "Causal-Transformer with Adaptive Mutation-Locking for Early Prediction of Acute Kidney Injury",
+      "authors": [
+        "Weizhi Nie",
+        "Haolin Chen"
+      ],
+      "summary": "Accurate early prediction of Acute Kidney Injury (AKI) is critical for timely clinical intervention. However, existing deep learning models struggle with irregularly sampled data and suffer from the opaque \"black-box\" nature of sequential architectures, strictly limiting clinical trust. To address these challenges, we propose CT-Former, integrating continuous-time modeling with a Causal-Transformer. To handle data irregularity without biased artificial imputation, our framework utilizes a contin",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20259v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20259v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20256",
+      "title": "RADS: Reinforcement Learning-Based Sample Selection Improves Transfer Learning in Low-resource and Imbalanced Clinical Settings",
+      "authors": [
+        "Wei Han",
+        "David Martinez",
+        "Anna Khanina",
+        "Lawrence Cavedon",
+        "Karin Verspoor"
+      ],
+      "summary": "A common strategy in transfer learning is few shot fine-tuning, but its success is highly dependent on the quality of samples selected as training examples. Active learning methods such as uncertainty sampling and diversity sampling can select useful samples. However, under extremely low-resource and class-imbalanced conditions, they often favor outliers rather than truly informative samples, resulting in degraded performance. In this paper, we introduce RADS (Reinforcement Adaptive Domain Sampl",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20256v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20256v1",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "Accepted at ACL 2026 Findings",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20229",
+      "title": "Enhancing Speaker Verification with Whispered Speech via Post-Processing",
+      "authors": [
+        "Magdalena Gołębiowska",
+        "Piotr Syga"
+      ],
+      "summary": "Speaker verification is a task of confirming an individual's identity through the analysis of their voice. Whispered speech differs from phonated speech in acoustic characteristics, which degrades the performance of speaker verification systems in real-life scenarios, including avoiding fully phonated speech to protect privacy, disrupt others, or when the lack of full vocalization is dictated by a disease. In this paper we propose a model with a training recipe to obtain more robust representati",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20229v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20229v1",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20151",
+      "title": "Toward Safe Autonomous Robotic Endovascular Interventions using World Models",
+      "authors": [
+        "Harry Robertshaw",
+        "Nikola Fischer",
+        "Han-Ru Wu",
+        "Andrea Walker Perez",
+        "Weiyuan Deng",
+        "Benjamin Jackson",
+        "Christos Bergeles",
+        "Alejandro Granados",
+        "Thomas C Booth"
+      ],
+      "summary": "Autonomous mechanical thrombectomy (MT) presents substantial challenges due to highly variable vascular geometries and the requirements for accurate, real-time control. While reinforcement learning (RL) has emerged as a promising paradigm for the automation of endovascular navigation, existing approaches often show limited robustness when faced with diverse patient anatomies or extended navigation horizons. In this work, we investigate a world-model-based framework for autonomous endovascular na",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20151v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20151v1",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "comments": "This manuscript is a preprint and has been submitted to the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20062",
+      "title": "Federated Learning over Blockchain-Enabled Cloud Infrastructure",
+      "authors": [
+        "Saloni Garg",
+        "Amit Sagtani",
+        "Kamal Kant Hiran"
+      ],
+      "summary": "The rise of IoT devices and the uptake of cloud computing have informed a new era of data-driven intelligence. Traditional centralized machine learning models that require a large volume of data to be stored in a single location have therefore become more susceptible to data breaches, privacy violations, and regulatory non-compliance. This report presents a thorough examination of the merging of Federated Learning (FL) and blockchain technology in a cloud-edge setting, demonstrating it as an eff",
+      "published": "2026-04-21",
+      "publishedDate": {
+        "iso": "2026-04-21",
+        "year": 2026,
+        "month": 4,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20062v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20062v1",
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "cs.DC"
+      ],
+      "comments": "7 pages, 5 figures, 2 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.20055",
+      "title": "From Fuzzy to Formal: Scaling Hospital Quality Improvement with AI",
+      "authors": [
+        "Patrick Vossler",
+        "Jean Feng",
+        "Venkat Sivaraman",
+        "Robert Gallo",
+        "Hemal Kanzaria",
+        "Dana Freiser",
+        "Christopher Ross",
+        "Amy Ou",
+        "James Marks",
+        "Susan Ehrlich",
+        "Christopher Peabody",
+        "Lucas Zier"
+      ],
+      "summary": "Hospital Quality Improvement (QI) plays a critical role in optimizing healthcare delivery by translating high-level hospital goals into actionable solutions. A critical step of QI is to identify the key modifiable contributing factors, a process we call QI factor discovery, typically through expert-driven semi-structured qualitative tools like fishbone diagrams, chart reviews, and Lean Healthcare methods. AI has the potential to transform and accelerate QI factor discovery, which is traditionall",
+      "published": "2026-04-21",
+      "publishedDate": {
+        "iso": "2026-04-21",
+        "year": 2026,
+        "month": 4,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.20055v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20055v1",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "34 pages, 8 figures, 6 tables",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2604.19722",
       "title": "Adaptive MSD-Splitting: Enhancing C4.5 and Random Forests for Skewed Continuous Attributes",
@@ -396,411 +811,6 @@
         "cs.LG"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.16197",
-      "title": "Sketching the Readout of Large Language Models for Scalable Data Attribution and Valuation",
-      "authors": [
-        "Yide Ran",
-        "Jianwen Xie",
-        "Minghui Wang",
-        "Wenjin Zheng",
-        "Denghui Zhang",
-        "Chuan Li",
-        "Zhaozhuo Xu"
-      ],
-      "summary": "Data attribution and valuation are critical for understanding data-model synergy for Large Language Models (LLMs), yet existing gradient-based methods suffer from scalability challenges on LLMs. Inspired by human cognition, where decision making relies on a focused readout of relevant memories rather than replaying all pathways, we introduce RISE (Readout Influence Sketching Estimator). Instead of computing and indexing gradients across the entire LLM, RISE focuses on influence hotspots at the o",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.16197v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.16197v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "54 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.16175",
-      "title": "MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation",
-      "authors": [
-        "Yi Lin",
-        "Yihao Ding",
-        "Yonghui Wu",
-        "Yifan Peng"
-      ],
-      "summary": "Automated 3D radiology report generation often suffers from clinical hallucinations and a lack of the iterative verification found in human practice. While recent Vision-Language Models (VLMs) have advanced the field, they typically operate as monolithic \"black-box\" systems without the collaborative oversight characteristic of clinical workflows. To address these challenges, we propose MARCH (Multi-Agent Radiology Clinical Hierarchy), a multi-agent framework that emulates the professional hierar",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.16175v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.16175v1",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "Accepted by ACL 2026 main conference",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.16132",
-      "title": "Can LLMs Understand the Impact of Trauma? Costs and Benefits of LLMs Coding the Interviews of Firearm Violence Survivors",
-      "authors": [
-        "Jessica H. Zhu",
-        "Shayla Stringfield",
-        "Vahe Zaprosyan",
-        "Michael Wagner",
-        "Michel Cukier",
-        "Joseph B. Richardson"
-      ],
-      "summary": "Firearm violence is a pressing public health issue, yet research into survivors' lived experiences remains underfunded and difficult to scale. Qualitative research, including in-depth interviews, is a valuable tool for understanding the personal and societal consequences of community firearm violence and designing effective interventions. However, manually analyzing these narratives through thematic analysis and inductive coding is time-consuming and labor-intensive. Recent advancements in large",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.16132v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.16132v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "Accepted to Findings of the Association for Computational Linguistics (2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.16119",
-      "title": "Univariate Channel Fusion for Multivariate Time Series Classification",
-      "authors": [
-        "Fernando Moro",
-        "Vinicius M. A. Souza"
-      ],
-      "summary": "Multivariate time series classification (MTSC) plays a crucial role in various domains, including biomedical signal analysis and motion monitoring. However, existing approaches, particularly deep learning models, often require high computational resources, making them unsuitable for real-time applications or deployment on low-cost hardware, such as IoT devices and wearable systems. In this paper, we propose the Univariate Channel Fusion (UCF) method to deal with MTSC efficiently. UCF transforms ",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.16119v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.16119v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "International Conference on Pattern Recognition (ICPR 2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.16104",
-      "title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
-      "authors": [
-        "Baramee Sukumal",
-        "Aueaphum Aueawatthanaphisut"
-      ],
-      "summary": "Lung cancer remains one of the leading causes of cancer-related mortality worldwide. Conventional computed tomography (CT) imaging, while essential for detection and staging, has limitations in distinguishing benign from malignant lesions and providing interpretable diagnostic insights. To address this challenge, this study proposes a dual-modal artificial intelligence framework that integrates CT radiology with hematoxylin and eosin (H&amp;E) histopathology for lung cancer diagnosis and subtype",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.16104v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.16104v1",
-      "categories": [
-        "eess.IV",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "16 pages, 6 figures, 3 tables, 8 equations",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.16047",
-      "title": "Driving Assistance System for Ambulances to Minimise the Vibrations in Patient Cabin",
-      "authors": [
-        "Abdulaziz Aldegheishem",
-        "Nabil Alrajeh",
-        "Lorena Parra",
-        "Oscar Romero",
-        "Jaime Lloret"
-      ],
-      "summary": "The ambulance service is the main transport for diseased or injured people which suffers the same acceleration forces as regular vehicles. These accelerations, caused by the movement of the vehicle, impact the performance of tasks executed by sanitary personnel, which can affect patient survival or recovery time. In this paper, we have trained, validated, and tested a system to assess driving in ambulance services. The proposed system is composed of a sensor node which measures the vehicle vibra",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.16047v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.16047v1",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.LG"
-      ],
-      "comments": "19 pages, 14 figures, 10 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15964",
-      "title": "Topology-Driven Fusion of nnU-Net and MedNeXt for Accurate Brain Tumor Segmentation on Sub-Saharan Africa Dataset",
-      "authors": [
-        "Prabin Bohara",
-        "Pralhad Kumar Shrestha",
-        "Arpan Rai",
-        "Usha Poudel Lamgade",
-        "Confidence Raymond",
-        "Dong Zhang",
-        "Aondona Lorumbu",
-        "Craig Jones",
-        "Mahesh Shakya",
-        "Bishesh Khanal",
-        "Pratibha Kulung"
-      ],
-      "summary": "Accurate automatic brain tumor segmentation in Low and Middle-Income (LMIC) countries is challenging due to the lack of defined national imaging protocols, diverse imaging data, extensive use of low-field Magnetic Resonance Imaging (MRI) scanners and limited health-care resources. As part of the Brain Tumor Segmentation (BraTS) Africa 2025 Challenge, we applied topology refinement to the state-of-the-art segmentation models like nnU-Net, MedNeXt, and a combination of both. Since the BraTS-Africa",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15964v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15964v1",
-      "categories": [
-        "eess.IV",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15961",
-      "title": "Evaluating quality in synthetic data generation for large tabular health datasets",
-      "authors": [
-        "Jean-Baptiste Escudié",
-        "Benjamin Barnes",
-        "Stefan Meisegeier",
-        "Klaus Kraywinkel",
-        "Fabian Prasser",
-        "Nils Körber"
-      ],
-      "summary": "There is no consensus in the field of synthetic data on concise metrics for quality evaluations or benchmarks on large health datasets, such as historical epidemiological data. This study presents an evaluation of seven recent models from major machine learning families. The models were evaluated using four different datasets, each with a distinct scale. To ensure a fair comparison, we systematically tuned the hyperparameters of each model for each dataset. We propose a methodology for evaluatin",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15961v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15961v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15951",
-      "title": "Integrating Graphs, Large Language Models, and Agents: Reasoning and Retrieval",
-      "authors": [
-        "Hamed Jelodar",
-        "Samita Bai",
-        "Mohammad Meymani",
-        "Parisa Hamedi",
-        "Roozbeh Razavi-Far",
-        "Ali Ghorbani"
-      ],
-      "summary": "Generative AI, particularly Large Language Models, increasingly integrates graph-based representations to enhance reasoning, retrieval, and structured decision-making. Despite rapid advances, there remains limited clarity regarding when, why, where, and what types of graph-LLM integrations are most appropriate across applications. This survey provides a concise, structured overview of the design choices underlying the integration of graphs with LLMs. We categorize existing methods based on their",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15951v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15951v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15950",
-      "title": "TwinTrack: Post-hoc Multi-Rater Calibration for Medical Image Segmentation",
-      "authors": [
-        "Tristan Kirscher",
-        "Alexandra Ertl",
-        "Klaus Maier-Hein",
-        "Xavier Coubez",
-        "Philippe Meyer",
-        "Sylvain Faisan"
-      ],
-      "summary": "Pancreatic ductal adenocarcinoma (PDAC) segmentation on contrast-enhanced CT is inherently ambiguous: inter-rater disagreement among experts reflects genuine uncertainty rather than annotation noise. Standard deep learning approaches assume a single ground truth, producing probabilistic outputs that can be poorly calibrated and difficult to interpret under such ambiguity. We present TwinTrack, a framework that addresses this gap through post-hoc calibration of ensemble segmentation probabilities",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15950v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15950v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15859",
-      "title": "QuantSightBench: Evaluating LLM Quantitative Forecasting with Prediction Intervals",
-      "authors": [
-        "Jeremy Qin",
-        "Maksym Andriushchenko"
-      ],
-      "summary": "Forecasting has become a natural benchmark for reasoning under uncertainty. Yet existing evaluations of large language models remain limited to judgmental tasks in simple formats, such as binary or multiple-choice questions. In practice, however, forecasting spans a far broader scope. Across domains such as economics, public health, and social demographics, decisions hinge on numerical estimates over continuous quantities, a capability that current benchmarks do not capture. Evaluating such esti",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15859v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15859v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15822",
-      "title": "ECG-Lens: Benchmarking ML &amp; DL Models on PTB-XL Dataset",
-      "authors": [
-        "Saloni Garg",
-        "Ukant Jadia",
-        "Amit Sagtani",
-        "Kamal Kant Hiran"
-      ],
-      "summary": "Automated classification of electrocardiogram (ECG) signals is a useful tool for diagnosing and monitoring cardiovascular diseases. This study compares three traditional machine learning algorithms (Decision Tree Classifier, Random Forest Classifier, and Logistic Regression) and three deep learning models (Simple Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), and Complex CNN (ECGLens)) for the classification of ECG signals from the PTB-XL dataset, which contains 12-lead recor",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15822v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15822v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CE",
-        "cs.NE",
-        "eess.SP"
-      ],
-      "comments": "8 pages, 4 figures, 3 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15808",
-      "title": "Beyond a Single Frame: Multi-Frame Spatially Grounded Reasoning Across Volumetric MRI",
-      "authors": [
-        "Lama Moukheiber",
-        "Caleb M. Yeung",
-        "Haotian Xue",
-        "Alec Helbling",
-        "Zelin Zhao",
-        "Yongxin Chen"
-      ],
-      "summary": "Spatial reasoning and visual grounding are core capabilities for vision-language models (VLMs), yet most medical VLMs produce predictions without transparent reasoning or spatial evidence. Existing benchmarks also evaluate VLMs on isolated 2D images, overlooking the volumetric nature of clinical imaging, where findings can span multiple frames or appear on only a few slices. We introduce Spatially Grounded MRI Visual Question Answering (SGMRI-VQA), a 41,307-pair benchmark for multi-frame, spatia",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15808v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15808v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15777",
-      "title": "SegMix:Shuffle-based Feedback Learning for Semantic Segmentation of Pathology Images",
-      "authors": [
-        "Zhiling Yan",
-        "Sicheng Chen",
-        "Tianyi Zhang",
-        "Nan Ying",
-        "Yanli Lei",
-        "Guanglei Zhang"
-      ],
-      "summary": "Segmentation is a critical task in computational pathology, as it identifies areas affected by disease or abnormal growth and is essential for diagnosis and treatment. However, acquiring high-quality pixel-level supervised segmentation data requires significant workload demands from experienced pathologists, limiting the application of deep learning. To overcome this challenge, relaxing the label conditions to image-level classification labels allows for more data to be used and more scenarios t",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15777v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15777v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.15760",
-      "title": "KWBench: Measuring Unprompted Problem Recognition in Knowledge Work",
-      "authors": [
-        "Ankit Maloo"
-      ],
-      "summary": "We introduce the first version of KWBench (Knowledge Work Bench), a benchmark for unprompted problem recognition in large language models: can an LLM identify a professional scenario before attempting to solve it. Existing frontier benchmarks have saturated, and most knowledge-work evaluations to date reduce to extraction or task completion against a specification. KWBench targets the step before that: recognizing the governing structure of the situation from raw inputs alone. The benchmark cont",
-      "published": "2026-04-17",
-      "publishedDate": {
-        "iso": "2026-04-17",
-        "year": 2026,
-        "month": 4,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.15760v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.15760v1",
-      "categories": [
-        "cs.AI",
-        "cs.GT"
-      ],
-      "comments": "37 pages, 8 figures",
       "arxivVersion": "v1"
     }
   ]

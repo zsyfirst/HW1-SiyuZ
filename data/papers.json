@@ -14,11 +14,421 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-04-23T02:10:10.437Z",
-  "fetchedAt": "2026-04-23T02:10:10.437Z",
+  "lastUpdated": "2026-04-24T02:10:32.899Z",
+  "fetchedAt": "2026-04-24T02:10:32.899Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2604.21860",
+      "title": "Transient Turn Injection: Exposing Stateless Multi-Turn Vulnerabilities in Large Language Models",
+      "authors": [
+        "Naheed Rayhan",
+        "Sohely Jahan"
+      ],
+      "summary": "Large language models (LLMs) are increasingly integrated into sensitive workflows, raising the stakes for adversarial robustness and safety. This paper introduces Transient Turn Injection(TTI), a new multi-turn attack technique that systematically exploits stateless moderation by distributing adversarial intent across isolated interactions. TTI leverages automated attacker agents powered by large language models to iteratively test and evade policy enforcement in both commercial and open-source ",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21860v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21860v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21814",
+      "title": "Divide-then-Diagnose: Weaving Clinician-Inspired Contexts for Ultra-Long Capsule Endoscopy Videos",
+      "authors": [
+        "Bowen Liu",
+        "Li Yang",
+        "Shanshan Song",
+        "Mingyu Tang",
+        "Zhifang Gao",
+        "Qifeng Chen",
+        "Yangqiu Song",
+        "Huimin Chen",
+        "Xiaomeng Li"
+      ],
+      "summary": "Capsule endoscopy (CE) enables non-invasive gastrointestinal screening, but current CE research remains largely limited to frame-level classification and detection, leaving video-level analysis underexplored. To bridge this gap, we introduce and formally define a new task, diagnosis-driven CE video summarization, which requires extracting key evidence frames that covers clinically meaningful findings and making accurate diagnoses from those evidence frames. This setting is challenging because di",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21814v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21814v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21793",
+      "title": "Inferring High-Level Events from Timestamped Data: Complexity and Medical Applications",
+      "authors": [
+        "Yvon K. Awuklu",
+        "Meghyn Bienvenu",
+        "Katsumi Inoue",
+        "Vianney Jouhet",
+        "Fleur Mougin"
+      ],
+      "summary": "In this paper, we develop a novel logic-based approach to detecting high-level temporally extended events from timestamped data and background knowledge. Our framework employs logical rules to capture existence and termination conditions for simple temporal events and to combine these into meta-events. In the medical domain, for example, disease episodes and therapies are inferred from timestamped clinical observations, such as diagnoses and drug administrations stored in patient records, and ca",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21793v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21793v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "This is the full version (with appendix) of a paper appearing at the 23rd International Conference on Principles of Knowledge Representation and Reasoning (KR 2026)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21654",
+      "title": "Causal Disentanglement for Full-Reference Image Quality Assessment",
+      "authors": [
+        "Zhen Zhang",
+        "Jielei Chu",
+        "Tian Zhang",
+        "Weide Liu",
+        "Fengmao Lv",
+        "Tianrui Li",
+        "Jun Cheng",
+        "Yuming Fang"
+      ],
+      "summary": "Existing deep network-based full-reference image quality assessment (FR-IQA) models typically work by performing pairwise comparisons of deep features from the reference and distorted images. In this paper, we approach this problem from a different perspective and propose a novel FR-IQA paradigm based on causal inference and decoupled representation learning. Unlike typical feature comparison-based FR-IQA models, our approach formulates degradation estimation as a causal disentanglement process ",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21654v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21654v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21651",
+      "title": "Dilated CNNs for Periodic Signal Processing: A Low-Complexity Approach",
+      "authors": [
+        "Eli Gildish",
+        "Michael Grebshtein",
+        "Igor Makienko"
+      ],
+      "summary": "Denoising of periodic signals and accurate waveform estimation are core tasks across many signal processing domains, including speech, music, medical diagnostics, radio, and sonar. Although deep learning methods have recently shown performance improvements over classical approaches, they require substantial computational resources and are usually trained separately for each signal observation. This study proposes a computationally efficient method based on DCNN and Re-sampling, termed R-DCNN, de",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21651v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21651v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.AS",
+        "eess.SP"
+      ],
+      "comments": "16 pages, 8 figures, the use of deep learning in IoT devices",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21638",
+      "title": "Geometric Characterisation and Structured Trajectory Surrogates for Clinical Dataset Condensation",
+      "authors": [
+        "Pafue Christy Nganjimi",
+        "Andrew Soltan",
+        "Danielle Belgrave",
+        "Lei Clifton",
+        "David Clifton",
+        "Anshul Thakur"
+      ],
+      "summary": "Dataset condensation constructs compact synthetic datasets that retain the training utility of large real-world datasets, enabling efficient model development and potentially supporting downstream research in governed domains such as healthcare. Trajectory matching (TM) is a widely used condensation approach that supervises synthetic data using changes in model parameters observed during training on real data, yet the structure of this supervision signal remains poorly understood. In this paper,",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21638v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21638v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "34 pages, 7 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21573",
+      "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
+      "authors": [
+        "Changfan Wang",
+        "Xinran Wang",
+        "Donghai Liu",
+        "Fei Su",
+        "Lulu Sun",
+        "Zhicheng Zhao",
+        "Zhu Meng"
+      ],
+      "summary": "Spatial transcriptomics (ST) enables spatially resolved gene profiling but remains expensive and low-throughput, limiting large-cohort studies and routine clinical use. Predicting spatial gene expression from routine hematoxylin and eosin (H&amp;E) slides is a promising alternative, yet under realistic leave-one-slide-out evaluation, existing models often suffer from slide-level appearance shifts and regression-driven over-smoothing that suppress biologically meaningful variation. CHRep is a two",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21573v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21573v1",
+      "categories": [
+        "cs.CV",
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21549",
+      "title": "Unbiased Prevalence Estimation with Multicalibrated LLMs",
+      "authors": [
+        "Fridolin Linder",
+        "Thomas Leeper",
+        "Daniel Haimovich",
+        "Niek Tax",
+        "Lorenzo Perini",
+        "Milan Vojnovic"
+      ],
+      "summary": "Estimating the prevalence of a category in a population using imperfect measurement devices (diagnostic tests, classifiers, or large language models) is fundamental to science, public health, and online trust and safety. Standard approaches correct for known device error rates but assume these rates remain stable across populations. We show this assumption fails under covariate shift and that multicalibration, which enforces calibration conditional on the input features rather than just on avera",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21549v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21549v1",
+      "categories": [
+        "cs.AI",
+        "stat.ME"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21473",
+      "title": "Drug Synergy Prediction via Residual Graph Isomorphism Networks and Attention Mechanisms",
+      "authors": [
+        "Jiyan Song",
+        "Wenyang Wang",
+        "Chengcheng Yan",
+        "Zhiquan Han",
+        "Feifei Zhao"
+      ],
+      "summary": "In the treatment of complex diseases, treatment regimens using a single drug often yield limited efficacy and can lead to drug resistance. In contrast, combination drug therapies can significantly improve therapeutic outcomes through synergistic effects. However, experimentally validating all possible drug combinations is prohibitively expensive, underscoring the critical need for efficient computational prediction methods. Although existing approaches based on deep learning and graph neural net",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21473v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21473v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21462",
+      "title": "Conditional anomaly detection with soft harmonic functions",
+      "authors": [
+        "Michal Valko",
+        "Branislav Kveton",
+        "Hamed Valizadegan",
+        "Gregory F. Cooper",
+        "Milos Hauskrecht"
+      ],
+      "summary": "In this paper, we consider the problem of conditional anomaly detection that aims to identify data instances with an unusual response or a class label. We develop a new non-parametric approach for conditional anomaly detection based on the soft harmonic solution, with which we estimate the confidence of the label to detect anomalous mislabeling. We further regularize the solution to avoid the detection of isolated examples and examples on the boundary of the distribution support. We demonstrate ",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21462v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21462v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Published at IEEE International Conference on Data Mining (ICDM 2011). 10.1109/ICDM.2011.40",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21421",
+      "title": "Differentially Private De-identification of Dutch Clinical Notes: A Comparative Evaluation",
+      "authors": [
+        "Michele Miranda",
+        "Xinlan Yan",
+        "Nishant Mishra",
+        "Rachel Murphy",
+        "Ameen Abu-Hanna",
+        "Sébastien Bratières",
+        "Iacer Calixto"
+      ],
+      "summary": "Protecting patient privacy in clinical narratives is essential for enabling secondary use of healthcare data under regulations such as GDPR and HIPAA. While manual de-identification remains the gold standard, it is costly and slow, motivating the need for automated methods that combine privacy guarantees with high utility. Most automated text de-identification pipelines employed named entity recognition (NER) to identify protected entities for redaction. Although methods based on differential pr",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21421v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21421v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21263",
+      "title": "Trustworthy Clinical Decision Support Using Meta-Predicates and Domain-Specific Languages",
+      "authors": [
+        "Michael Bouzinier",
+        "Sergey Trifonov",
+        "Michael Chumack",
+        "Eugenia Lvova",
+        "Dmitry Etin"
+      ],
+      "summary": "\\textbf{Background:} Regulatory frameworks for AI in healthcare, including the EU AI Act and FDA guidance on AI/ML-based medical devices, require clinical decision support to demonstrate not only accuracy but auditability. Existing formal languages for clinical logic validate syntactic and structural correctness but not whether decision rules use epistemologically appropriate evidence. \\textbf{Methods:} Drawing on design-by-contract principles, we introduce meta-predicates -- predicates about pr",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21263v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21263v1",
+      "categories": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE",
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21235",
+      "title": "Learning Dynamic Representations and Policies from Multimodal Clinical Time-Series with Informative Missingness",
+      "authors": [
+        "Zihan Liang",
+        "Ziwen Pan",
+        "Ruoxuan Xiong"
+      ],
+      "summary": "Multimodal clinical records contain structured measurements and clinical notes recorded over time, offering rich temporal information about the evolution of patient health. Yet these observations are sparse, and whether they are recorded depends on the patient's latent condition. Observation patterns also differ across modalities, as structured measurements and clinical notes arise under distinct recording processes. While prior work has developed methods that accommodate missingness in clinical",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21235v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21235v1",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "stat.ME"
+      ],
+      "comments": "Findings of ACL 2026 (30 pages)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21193",
+      "title": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+      "authors": [
+        "Vipula Rawte",
+        "Ryan Rossi",
+        "Franck Dernoncourt",
+        "Nedim Lipka"
+      ],
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable fluency and versatility across a wide range of NLP tasks, yet they remain prone to factual inaccuracies and hallucinations. This limitation poses significant risks in high-stakes domains such as healthcare, law, and scientific communication, where trust and verifiability are paramount. In this paper, we introduce DAVinCI - a Dual Attribution and Verification framework designed to enhance the factual reliability and interpretability of LLM",
+      "published": "2026-04-23",
+      "publishedDate": {
+        "iso": "2026-04-23",
+        "year": 2026,
+        "month": 4,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21193v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21193v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.21154",
+      "title": "Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction",
+      "authors": [
+        "Abhishek Dharmaratnakar",
+        "Srivaths Ranganathan",
+        "Anushree Sinha",
+        "Debanshu Das"
+      ],
+      "summary": "At-home physiotherapy compliance remains critically low due to a lack of personalized supervision and dynamic feedback. Existing digital health solutions rely on static, pre-recorded video libraries or generic 3D avatars that fail to account for a patient's specific injury limitations or home environment. In this paper, we propose a novel Multi-Agent System (MAS) architecture that leverages Generative AI and computer vision to close the tele-rehabilitation loop. Our framework consists of four sp",
+      "published": "2026-04-22",
+      "publishedDate": {
+        "iso": "2026-04-22",
+        "year": 2026,
+        "month": 4,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.21154v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.21154v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "3 pages, 2 figures, submitted to ICDH IEEE conference",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2604.20824",
       "title": "Closing the Domain Gap in Biomedical Imaging by In-Context Control Samples",
@@ -432,385 +842,6 @@
         "cs.HC"
       ],
       "comments": "34 pages, 8 figures, 6 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19722",
-      "title": "Adaptive MSD-Splitting: Enhancing C4.5 and Random Forests for Skewed Continuous Attributes",
-      "authors": [
-        "Jake Lee"
-      ],
-      "summary": "The discretization of continuous numerical attributes remains a persistent computational bottleneck in the induction of decision trees, particularly as dataset dimensions scale. Building upon the recently proposed MSD-Splitting technique -- which bins continuous data using the empirical mean and standard deviation to dramatically improve the efficiency and accuracy of the C4.5 algorithm -- we introduce Adaptive MSD-Splitting (AMSD). While standard MSD-Splitting is highly effective for approximat",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19722v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19722v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19658",
-      "title": "Disentangling Damage from Operational Variability: A Label-Free Self-Supervised Representation Learning Framework for Output-Only Structural Damage Identification",
-      "authors": [
-        "Xudong Jian",
-        "Charikleia Stoura",
-        "Simon Scandella",
-        "Eleni Chatzi"
-      ],
-      "summary": "Damage identification is a core task in structural health monitoring. In practice, however, its reliability is often compromised by confounding non-damage effects, such as variations in excitation and environmental conditions, which can induce changes comparable to or larger than those caused by structural damage. To address this challenge, this study proposes a self-supervised label-free disentangled representation learning framework for robust vibration-based structural damage identification. ",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19658v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19658v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19653",
-      "title": "A Dual Perspective on Synthetic Trajectory Generators: Utility Framework and Privacy Vulnerabilities",
-      "authors": [
-        "Aya Cherigui",
-        "Florent Guépin",
-        "Arnaud Legendre",
-        "Jean-François Couchot"
-      ],
-      "summary": "Human mobility data are used in numerous applications, ranging from public health to urban planning. Human mobility is inherently sensitive, as it can contain information such as religious beliefs and political affiliations. Historically, it has been proposed to modify the information using techniques such as aggregation, obfuscation, or noise addition, to adequately protect privacy and eliminate concerns. As these methods come at a great cost in utility, new methods leveraging development in ge",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19653v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19653v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19598",
-      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language Models",
-      "authors": [
-        "Kihyuk Lee"
-      ],
-      "summary": "This study compared repeated generation consistency of exercise prescription outputs across three large language models (LLMs), specifically GPT-4.1, Claude Sonnet 4.6, and Gemini 2.5 Flash, under temperature=0 conditions. Each model generated prescriptions for six clinical scenarios 20 times, yielding 360 total outputs analyzed across four dimensions: semantic similarity, output reproducibility, FITT classification, and safety expression. Mean semantic similarity was highest for GPT-4.1 (0.955)",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19598v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19598v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "24 Pages, 2 Figures, 6 Tables and 2 Supplementary Materials",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19559",
-      "title": "Enhancing Construction Worker Safety in Extreme Heat: A Machine Learning Approach Utilizing Wearable Technology for Predictive Health Analytics",
-      "authors": [
-        "Syed Sajid Ullah",
-        "Amir Khan"
-      ],
-      "summary": "Construction workers are highly vulnerable to heat stress, yet tools that translate real-time physiological data into actionable safety intelligence remain scarce. This study addresses this gap by developing and evaluating deep learning models, specifically a baseline Long Short-Term Memory (LSTM) network and an attention-based LSTM, to predict heat stress among 19 workers in Saudi Arabia. Using Garmin Vivosmart 5 smartwatches to monitor metrics such as heart rate, HRV, and oxygen saturation, th",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19559v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19559v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19488",
-      "title": "CoDA: Towards Effective Cross-domain Knowledge Transfer via CoT-guided Domain Adaptation",
-      "authors": [
-        "Jianzhi Yan",
-        "Le Liu",
-        "Buzhou Tang",
-        "Yang Xiang",
-        "Dongning Sun",
-        "Zhiming Li"
-      ],
-      "summary": "Large language models (LLMs) have achieved substantial advances in logical reasoning, yet they continue to lag behind human-level performance. In-context learning provides a viable solution that boosts the model's performance via prompting its input with expert-curated, in-domain exemplars. However, in many real-world, expertise-scarce domains, such as low-resource scientific disciplines, emerging biomedical subfields, or niche legal jurisdictions, such high-quality in-domain demonstrations are ",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19488v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19488v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "12 pages, 6 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19457",
-      "title": "Four-Axis Decision Alignment for Long-Horizon Enterprise AI Agents",
-      "authors": [
-        "Vasundra Srininvasan"
-      ],
-      "summary": "Long-horizon enterprise agents make high-stakes decisions (loan underwriting, claims adjudication, clinical review, prior authorization) under lossy memory, multi-step reasoning, and binding regulatory constraints. Current evaluation reports a single task-success scalar that conflates distinct failure modes and hides whether an agent is aligned with the standards its deployment environment requires. We propose that long-horizon decision behavior decomposes into four orthogonal alignment axes, ea",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19457v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19457v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "21 pages, 5 figures, 8 tables. PDFLaTeX. Code and artifacts: https://github.com/vasundras/decision-alignment-long-horizon-agents",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19453",
-      "title": "ZC-Swish: Stabilizing Deep BN-Free Networks for Edge and Micro-Batch Applications",
-      "authors": [
-        "Suvinava Basak"
-      ],
-      "summary": "Batch Normalization (BN) is a cornerstone of deep learning, yet it fundamentally breaks down in micro-batch regimes (e.g., 3D medical imaging) and non-IID Federated Learning. Removing BN from deep architectures, however, often leads to catastrophic training failures such as vanishing gradients and dying channels. We identify that standard activation functions, like Swish and ReLU, exacerbate this instability in BN-free networks due to their non-zero-centered nature, which causes compounding acti",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19453v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19453v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19323",
-      "title": "Concept Inconsistency in Dermoscopic Concept Bottleneck Models: A Rough-Set Analysis of the Derm7pt Dataset",
-      "authors": [
-        "Gonzalo Nápoles",
-        "Isel Grau",
-        "Yamisleydi Salgueiro"
-      ],
-      "summary": "Concept Bottleneck Models (CBMs) route predictions exclusively through a clinically grounded concept layer, binding interpretability to concept-label consistency. When a dataset contains concept-level inconsistencies, identical concept profiles mapped to conflicting diagnosis labels create an unresolvable bottleneck that imposes a hard ceiling on achievable accuracy. In this paper, we apply rough set theory to the Derm7pt dermoscopy benchmark and characterize the full extent and clinical structu",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19323v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19323v1",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19281",
-      "title": "Beyond Semantic Similarity: A Component-Wise Evaluation Framework for Medical Question Answering Systems with Health Equity Implications",
-      "authors": [
-        "Abu Noman Md Sakib",
-        "Md. Main Oddin Chisty",
-        "Zijie Zhang"
-      ],
-      "summary": "The use of Large Language Models (LLMs) to support patients in addressing medical questions is becoming increasingly prevalent. However, most of the measures currently used to evaluate the performance of these models in this context only measure how closely a model's answers match semantically, and therefore do not provide a true indication of the model's medical accuracy or of the health equity risks associated with it. To address these shortcomings, we present a new evaluation framework for me",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19281v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19281v1",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "comments": "Accepted in the Ninth Annual ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT) 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19219",
-      "title": "Sherpa.ai Privacy-Preserving Multi-Party Entity Alignment without Intersection Disclosure for Noisy Identifiers",
-      "authors": [
-        "Daniel M. Jimenez-Gutierrez",
-        "Enrique Zuazua",
-        "Georgios Kellaris",
-        "Joaquin Del Rio",
-        "Oleksii Sliusarenko",
-        "Xabi Uribe-Etxebarria"
-      ],
-      "summary": "Federated Learning (FL) enables collaborative model training among multiple parties without centralizing raw data. There are two main paradigms in FL: Horizontal FL (HFL), where all participants share the same feature space but hold different samples, and Vertical FL (VFL), where parties possess complementary features for the same set of samples. A prerequisite for VFL training is privacy-preserving entity alignment (PPEA), which establishes a common index of samples across parties (alignment) w",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19219v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19219v1",
-      "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.DC",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19191",
-      "title": "Improved Anomaly Detection in Medical Images via Mean Shift Density Enhancement",
-      "authors": [
-        "Pritam Kar",
-        "Gouri Lakshmi S",
-        "Saptarshi Bej"
-      ],
-      "summary": "Anomaly detection in medical imaging is essential for identifying rare pathological conditions, particularly when annotated abnormal samples are limited. We propose a hybrid anomaly detection framework that integrates self-supervised representation learning with manifold-based density estimation, a combination that remains largely unexplored in this domain. Medical images are first embedded into a latent feature space using pretrained, potentially domain-specific, backbones. These representation",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19191v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19191v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19066",
-      "title": "Age-Dependent Heterogeneity in the Association Between Physical Activity and Mental Distress: A Causal Machine Learning Analysis of 3.2 Million U.S. Adults",
-      "authors": [
-        "Yuan Shan"
-      ],
-      "summary": "Physical activity (PA) is widely recognized as protective against mental distress, yet whether this benefit varies systematically across population subgroups remains poorly understood. Using pooled data from ten consecutive annual waves of the U.S. Behavioral Risk Factor Surveillance System (2015-2024; n = 3,242,218), we investigate heterogeneity in the association between leisure-time PA and frequent mental distress (FMD, &gt;=14 days/month) across age groups. Survey-weighted logistic regressio",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19066v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19066v1",
-      "categories": [
-        "cs.LG",
-        "stat.AP"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.19060",
-      "title": "Reinforcement Learning Improves LLM Accuracy and Reasoning in Disease Classification from Radiology Reports",
-      "authors": [
-        "Yishu Wei",
-        "Yi Lin",
-        "Adam Flanders",
-        "George Shih",
-        "Yifan Peng"
-      ],
-      "summary": "Accurate disease classification from radiology reports is essential for many applications. While supervised fine-tuning (SFT) of lightweight LLMs improves accuracy, it can degrade reasoning. We propose a two-stage approach: SFT on disease labels followed by Group Relative Policy Optimization (GRPO) to refine predictions by optimizing accuracy and format without reasoning supervision. Across three radiologist-annotated datasets, SFT outperformed baselines and GRPO further improved classification ",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.19060v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19060v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.18973",
-      "title": "Ground-Level Near Real-Time Modeling for PM2.5 Pollution Prediction",
-      "authors": [
-        "Zachary R. Fox",
-        "Janet O. Agbaje",
-        "Dakotah Maguire",
-        "Javier E. Santos",
-        "Jeremy Logan",
-        "Maggie Davis",
-        "Rima Habre",
-        "Jim VanDerslice",
-        "Heidi A. Hanson"
-      ],
-      "summary": "Air pollution is a worldwide public health threat that can cause or exacerbate many illnesses, including respiratory disease, cardiovascular disease, and some cancers. However, epidemiological studies and public health decision-making are stymied by the inability to assess pollution exposure impacts in near real time. To address this, developing accurate digital twins of environmental pollutants will enable timely data-driven analytics - a crucial step in modernizing health policy and decision-m",
-      "published": "2026-04-21",
-      "publishedDate": {
-        "iso": "2026-04-21",
-        "year": 2026,
-        "month": 4,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.18973v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.18973v1",
-      "categories": [
-        "stat.AP",
-        "cs.LG"
-      ],
-      "comments": "",
       "arxivVersion": "v1"
     }
   ]

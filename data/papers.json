@@ -14,11 +14,424 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-04-29T02:32:26.644Z",
-  "fetchedAt": "2026-04-29T02:32:26.644Z",
+  "lastUpdated": "2026-04-30T02:33:21.590Z",
+  "fetchedAt": "2026-04-30T02:33:21.590Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2604.26880",
+      "title": "HealthNLP_Retrievers at ArchEHR-QA 2026: Cascaded LLM Pipeline for Grounded Clinical Question Answering",
+      "authors": [
+        "Md Biplob Hosen",
+        "Md Alomgeer Hussein",
+        "Md Akmol Masud",
+        "Omar Faruque",
+        "Tera L Reynolds",
+        "Lujie Karen Chen"
+      ],
+      "summary": "Patient portals now give individuals direct access to their electronic health records (EHRs), yet access alone does not ensure patients understand or act on the complex clinical information contained in these records. The ArchEHR-QA 2026 shared task addresses this challenge by focusing on grounded question answering over EHRs, and this paper presents the system developed by the HealthNLP_Retrievers team for this task. The proposed approach uses a multi-stage cascaded pipeline powered by the Gemi",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26880v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26880v1",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26869",
+      "title": "KAYRA: A Microservice Architecture for AI-Assisted Karyotyping with Cloud and On-Premise Deployment",
+      "authors": [
+        "Attila Pintér",
+        "Javier Rico",
+        "Attila Répai",
+        "Jalal Al-Afandi",
+        "Adrienn Éva Borsy",
+        "András Kozma",
+        "Hajnalka Andrikovics",
+        "György Cserey"
+      ],
+      "summary": "We present KAYRA, an end-to-end karyotyping system that operates inside the operational constraints of a clinical cytogenetic laboratory. KAYRA is architected as a containerized microservice pipeline whose ML stack combines an EfficientNet-B5 + U-Net semantic segmenter, a Mask R-CNN (ResNet-50 + FPN) instance detector, and a ResNet-18 classifier, orchestrated through a cascaded ROI-narrowing strategy that focuses each downstream model on the chromosome-bearing region. The same container images a",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26869v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26869v1",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26809",
+      "title": "Asynchronous Federated Unlearning with Invariance Calibration for Medical Imaging",
+      "authors": [
+        "Zhaoyuan Cai",
+        "Xinglin Zhang"
+      ],
+      "summary": "Federated Unlearning (FU) is an emerging paradigm in Federated Learning (FL) that enables participating clients to fully remove their contributions from a trained global model, driven by data protection regulations that mandate the right to be forgotten. However, existing FU methods mostly rely on synchronous coordination. This requirement forces the entire federation to halt and wait for stragglers to complete erasure, creating significant delays due to device heterogeneity. Furthermore, these ",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26809v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26809v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "8 pages, 5 figures, the article is accepted by IEEE IJCNN 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26766",
+      "title": "Domain-Adapted Small Language Models for Reliable Clinical Triage",
+      "authors": [
+        "Manar Aljohani",
+        "Brandon Ho",
+        "Kenneth McKinley",
+        "Dennis Ren",
+        "Xuan Wang"
+      ],
+      "summary": "Accurate and consistent Emergency Severity Index (ESI) assignment remains a persistent challenge in emergency departments, where highly variable free-text triage documentation contributes to mistriage and workflow inefficiencies. This study evaluates whether open-source small language models (SLMs) can serve as reliable, privacy-preserving decision-support tools for clinical triage. We systematically compared multiple SLMs across diverse prompting pipelines and found that clinical vignettes, con",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26766v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26766v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26703",
+      "title": "A self-evolving agent for explainable diagnosis of DFT-experiment band-gap mismatch",
+      "authors": [
+        "Yue Li",
+        "Bijun Tang"
+      ],
+      "summary": "Standard density functional theory (DFT) routinely misclassifies the electronic ground state of correlated and structurally complex compounds, predicting metallic behaviour for materials that experiments report as semiconductors. Each such mismatch encodes a specific non-ideality -- magnetic ordering, electron correlation, an alternative polymorph, or a defect -- that the calculation excluded, but extracting that signal at scale has remained a manual exercise. Here we introduce XDFT, a closed-lo",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26703v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26703v1",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI",
+        "physics.comp-ph"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26676",
+      "title": "A Toolkit for Detecting Spurious Correlations in Speech Datasets",
+      "authors": [
+        "Lara Gauder",
+        "Pablo Riera",
+        "Andrea Slachevsky",
+        "Gonzalo Forno",
+        "Adolfo M. García",
+        "Luciana Ferrer"
+      ],
+      "summary": "We introduce a toolkit for uncovering spurious correlations between recording characteristics and target class in speech datasets. Spurious correlations may arise due to heterogeneous recording conditions, a common scenario for health-related datasets. When present both in the training and test data, these correlations result in an overestimation of the system performance -- a dangerous situation, specially in high-stakes application where systems are required to satisfy minimum performance requ",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26676v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26676v1",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.DB"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26671",
+      "title": "From Black-Box Confidence to Measurable Trust in Clinical AI: A Framework for Evidence, Supervision, and Staged Autonomy",
+      "authors": [
+        "Serhii Zabolotnii",
+        "Viktoriia Holinko",
+        "Olha Antonenko"
+      ],
+      "summary": "Trust in clinical artificial intelligence (AI) cannot be reduced to model accuracy, fluency of generation, or overall positive user impression. In medicine, trust must be engineered as a measurable system property grounded in evidence, supervision, and operational boundaries of AI autonomy. This article proposes a practical framework for trustworthy clinical AI built around three principles: evidence, supervision, and staged autonomy. Rather than replacing deterministic clinical logic wholesale ",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26671v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26671v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "comments": "12 pages, 6 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26577",
+      "title": "Benchmarking the Safety of Large Language Models for Robotic Health Attendant Control",
+      "authors": [
+        "Mahiro Nakao",
+        "Kazuhiro Takemoto"
+      ],
+      "summary": "Large language models (LLMs) are increasingly considered for deployment as the control component of robotic health attendants, yet their safety in this context remains poorly characterized. We introduce a dataset of 270 harmful instructions spanning nine prohibited behavior categories grounded in the American Medical Association Principles of Medical Ethics, and use it to evaluate 72 LLMs in a simulation environment based on the Robotic Health Attendant framework. The mean violation rate across ",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26577v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26577v1",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.RO"
+      ],
+      "comments": "20 pages, 9 figures, 3 tables, 8 pages supplementary material",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26479",
+      "title": "Recipes for Calibration Checks in Safety-Critical Applications",
+      "authors": [
+        "Romeo Valentin"
+      ],
+      "summary": "Safety-critical prediction systems, such as autonomous vehicles, weather forecasters, and medical monitors, commonly rely on probabilistic forecasters. These forecasters make predictions about possible future outcomes, and their quality and robustness needs to be validated and certified. Often, only accuracy -- the mean of the predictions -- is evaluated against true outcomes. However, for safety-critical scenarios and decision making under uncertainty, the full distributional properties of the ",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26479v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26479v1",
+      "categories": [
+        "stat.ME",
+        "cs.LG"
+      ],
+      "comments": "36 pages, 22 figures. Manuscript prepared with Typst",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26419",
+      "title": "Delineating Knowledge Boundaries for Honest Large Vision-Language Models",
+      "authors": [
+        "Junru Song",
+        "Yimeng Hu",
+        "Yijing Chen",
+        "Huining Li",
+        "Qian Li",
+        "Lizhen Cui",
+        "Yuntao Du"
+      ],
+      "summary": "Large Vision-Language Models (VLMs) have achieved remarkable multimodal performance yet remain prone to factual hallucinations, particularly in long-tail or specialized domains. Moreover, current models exhibit a weak capacity to refuse queries that exceed their parametric knowledge. In this paper, we propose a systematic framework to enhance the refusal capability of VLMs when facing such unknown questions. We first curate a model-specific \"Visual-Idk\" (Visual-I don't know) dataset, leveraging ",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26419v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26419v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26366",
+      "title": "Probabilistic data quality assessment for structural monitoring data via outlier-resistant conditional diffusion model",
+      "authors": [
+        "Qi Li",
+        "Yong Huang",
+        "Hui Li"
+      ],
+      "summary": "Data quality assessment is an essential step that ensures the reliability of the subsequent structural health monitoring (SHM) tasks. This study proposes a prediction deviation-based SHM data quality assessment method using a univariate implicit auto-regressive model, enabling outlier diagnosis and data cleaning. The proposed conditional diffusion model (CDM) augments the standard diffusion model with a conditional embedding module to incorporate temporal context, quartile normalization to mitig",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26366v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26366v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "comments": "43 pages, 15 figures and 2 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26288",
+      "title": "CheXthought: A global multimodal dataset of clinical chain-of-thought reasoning and visual attention for chest X-ray interpretation",
+      "authors": [
+        "Sonali Sharma",
+        "Jin Long",
+        "George Shih",
+        "Sarah Eid",
+        "Christian Bluethgen",
+        "Francine L. Jacobson",
+        "Emily B. Tsai",
+        "Global Radiology Consortium",
+        "Ahmed M. Alaa",
+        "Curtis P. Langlotz"
+      ],
+      "summary": "Chest X-ray interpretation is one of the most frequently performed diagnostic tasks in medicine and a primary target for AI development, yet current vision--language models are primarily trained on datasets of paired images and reports, not the cognitive processes and visual attention that underlie clinical reasoning. Here, we present CheXthought, a global, multimodal resource containing 103,592 chain-of-thought reasoning traces and 6,609,082 synchronized visual attention annotations across 50,3",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26288v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26288v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "51 pages, 7 figures, 10 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26283",
+      "title": "MedSynapse-V: Bridging Visual Perception and Clinical Intuition via Latent Memory Evolution",
+      "authors": [
+        "Chunzheng Zhu",
+        "Jiaqi Zeng",
+        "Junyu Jiang",
+        "Jianxin Lin",
+        "Yijun Wang"
+      ],
+      "summary": "High-precision medical diagnosis relies not only on static imaging features but also on the implicit diagnostic memory experts instantly invoke during image interpretation. We pinpoint a fundamental cognitive misalignment in medical VLMs caused by discrete tokenization, leading to quantization loss, long-range information dissipation, and missing case-adaptive expertise. To bridge this gap, we propose ours, a framework for latent diagnostic memory evolution that simulates the experiential invoca",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26283v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26283v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "Medical latent reasoning; Memory evolution",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26232",
+      "title": "DepthPilot: From Controllability to Interpretability in Colonoscopy Video Generation",
+      "authors": [
+        "Junhu Fu",
+        "Ke Chen",
+        "Weidong Guo",
+        "Shuyu Liang",
+        "Jie Xu",
+        "Chen Ma",
+        "Kehao Wang",
+        "Shengli Lin",
+        "Zeju Li",
+        "Yuanyuan Wang",
+        "Yi Guo",
+        "Shuo Li"
+      ],
+      "summary": "Controllable medical video generation has achieved remarkable progress, but it still lacks interpretability, which requires the alignment of generated contents with physical priors and faithful clinical manifestations. To push the boundaries from mere controllability to interpretability, we propose DepthPilot, the first interpretable framework for colonoscopy video generation. This work takes a step toward trustworthy generation through two synergistic paradigms. To achieve explicit geometric gr",
+      "published": "2026-04-29",
+      "publishedDate": {
+        "iso": "2026-04-29",
+        "year": 2026,
+        "month": 4,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26232v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26232v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2604.26147",
+      "title": "A Data-Centric Framework for Intraoperative Fluorescence Lifetime Imaging for Glioma Surgical Guidance",
+      "authors": [
+        "Silvia Noble Anbunesan",
+        "Mohamed Abul Hassan",
+        "Jinyi Qi",
+        "Lisanne Kraft",
+        "Han Sung Lee",
+        "Orin Bloch",
+        "Laura Marcu"
+      ],
+      "summary": "Accurate intraoperative assessment of glioma infiltration is essential for maximizing tumor resection while preserving functional brain tissue. Fluorescence lifetime imaging (FLIm) offers real-time, label-free biochemical contrast, but its clinical utility is challenged by biological heterogeneity, class imbalance, and variability in histopathological labeling. We present a data-centric AI (DC-AI) framework that integrates confident learning (CL), class refinement, and targeted label evaluation ",
+      "published": "2026-04-28",
+      "publishedDate": {
+        "iso": "2026-04-28",
+        "year": 2026,
+        "month": 4,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2604.26147v1",
+      "pdfUrl": "https://arxiv.org/pdf/2604.26147v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2604.25853",
       "title": "G-Loss: Graph-Guided Fine-Tuning of Language Models",
@@ -439,479 +852,6 @@
         "astro-ph.IM"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24634",
-      "title": "Computational Design and Experimental Validation of Photoactive PARP1 Inhibitors",
-      "authors": [
-        "Simon Axelrod",
-        "Miroslav Kašpar",
-        "Kristýna Jelínková",
-        "Markéta Šmídková",
-        "Erika Bartůňková",
-        "Sille Štěpánová",
-        "Eugene Shakhnovich",
-        "Václav Kašička",
-        "Martin Dračínský",
-        "Zlatko Janeba",
-        "Rafael Gómez-Bombarelli"
-      ],
-      "summary": "Light-activated drugs are a promising way to treat localized diseases for which existing treatments have severe side effects. However, their development is complicated by the set of photophysical and biological properties that must be simultaneously optimized. Here we used computational techniques to find a set of promising candidates for the photoactive inhibition of the poly(ADP-ribose) polymerase 1 (PARP1) cancer target. Using our recently developed methods based on atomistic simulation and m",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24634v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24634v1",
-      "categories": [
-        "physics.chem-ph",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24611",
-      "title": "Uncovering Latent Patterns in Social Media Usage and Mental Health: A Clustering-Based Approach Using Unsupervised Machine Learning",
-      "authors": [
-        "Md All Shahria",
-        "Sanjeda Dewan Mithila",
-        "Touhid Alam",
-        "Mohammad Sakib Mahmood",
-        "Mahfuza Khatun"
-      ],
-      "summary": "The widespread adoption of social media has heightened interest in its psychological effects, particularly on mental health indicators such as anxiety, depression, loneliness, and sleep quality, as these platforms increasingly influence social interactions and well-being. Although previous research has examined correlations between social media use and mental health, few studies have utilized unsupervised machine learning to segment users based on behavioral and psychological patterns, leaving a",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24611v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24611v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "13 pages, 5 figures, International Conference on Advancement in Healthcare Technology and Biomedical Engineering, Vancouver, BC, Canada",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24597",
-      "title": "Quantum Kernel Advantage over Classical Collapse in Medical Foundation Model Embeddings",
-      "authors": [
-        "Sebastian Cajas Ordóñez",
-        "Felipe Ocampo Osorio",
-        "Dax Enshan Koh",
-        "Rafi Al Attrach",
-        "Aldo Marzullo",
-        "Ariel Guerra-Adames",
-        "J. Alejandro Andrade",
-        "Siong Thye Goh",
-        "Chi-Yu Chen",
-        "Rahul Gorijavolu",
-        "Xue Yang",
-        "Noah Dane Hebdon",
-        "Leo Anthony Celi"
-      ],
-      "summary": "We provide evidence of quantum kernel advantage under noiseless simulation in binary insurance classification on MIMIC-CXR chest radiographs using quantum support vector machines (QSVM) with frozen embeddings from three medical foundation models (MedSigLIP-448, RAD-DINO, ViT-patch32). We propose a two-tier fair comparison framework in which both classifiers receive identical PCA-q features. At Tier 1 (untuned QSVM vs. untuned linear SVM, C = 1 both sides), QSVM wins minority-class F1 in all 18 t",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24597v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24597v1",
-      "categories": [
-        "quant-ph",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24572",
-      "title": "FastOMOP: A Foundational Architecture for Reliable Agentic Real-World Evidence Generation on OMOP CDM data",
-      "authors": [
-        "Niko Moeller-Grell",
-        "Shihao Shenzhang",
-        "Zhangshu Joshua Jiang",
-        "Richard JB Dobson",
-        "Vishnu V Chandrabalan"
-      ],
-      "summary": "The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM), maintained by the Observational Health Data Sciences and Informatics (OHDSI) collaboration, enabled the harmonisation of electronic health records data of nearly one billion patients in 83 countries. Yet generating real-world evidence (RWE) from these repositories remains a manual process requiring clinical, epidemiological and technical expertise. LLMs and multi-agent systems have shown promise for clinical tasks, but ",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24572v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24572v1",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24547",
-      "title": "Dialysis Risk Prediction and Treatment Effect Estimation for AKI patients using Longitudinal Electronic Health Records",
-      "authors": [
-        "Kalyani P. Pande",
-        "Evan Yang",
-        "Bryan Zhu",
-        "Sandeep K. Mallipattu",
-        "Alisa Yurovsky",
-        "Tengfei Ma"
-      ],
-      "summary": "Progression to dialysis or end-stage renal disease is a rare but clinically important outcome. Clinicians need evidence on how medication exposures influence downstream risk. We constructed a fixed-window EHR cohort (90-day observation, 730-day prediction; N=81401; dialysis/ESRD prevalence: 1.1%) and modeled sequences of diagnoses, procedures, and medications with kidney laboratory trends (creatinine, BUN, eGFR). A transformer-based causal multi-head model was trained to estimate drug- and ingre",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24547v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24547v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24542",
-      "title": "Layerwise Convergence Fingerprints for Runtime Misbehavior Detection in Large Language Models",
-      "authors": [
-        "Nay Myat Min",
-        "Long H. Pham",
-        "Jun Sun"
-      ],
-      "summary": "Large language models deployed at runtime can misbehave in ways that clean-data validation cannot anticipate: training-time backdoors lie dormant until triggered, jailbreaks subvert safety alignment, and prompt injections override the deployer's instructions. Existing runtime defenses address these threats one at a time and often assume a clean reference model, trigger knowledge, or editable weights, assumptions that rarely hold for opaque third-party artifacts. We introduce Layerwise Convergenc",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24542v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24542v1",
-      "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "34 pages, 5 figures. Code: https://github.com/NayMyatMin/LCF-LLM",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24506",
-      "title": "MIMIC: A Generative Multimodal Foundation Model for Biomolecules",
-      "authors": [
-        "Siavash Golkar",
-        "Jake Kovalic",
-        "Irina Espejo Morales",
-        "Samuel Sledzieski",
-        "Minhuan Li",
-        "Ksenia Sokolova",
-        "Geraud Krawezik",
-        "Alberto Bietti",
-        "Claudia Skok Gibbs",
-        "Roman Klypa",
-        "Shengwei Xiong",
-        "Francois Lanusse",
-        "Liam Parker",
-        "Kyunghyun Cho",
-        "Miles Cranmer",
-        "Tom Hehir",
-        "Michael McCabe",
-        "Lucas Meyer",
-        "Rudy Morel",
-        "Payel Mukhopadhyay",
-        "Mariel Pettee",
-        "Helen Qu",
-        "Jeff Shen",
-        "David Fouhey",
-        "Hadi Sotoudeh",
-        "Vikram Mulligan",
-        "Pilar Cossio",
-        "Sonya M. Hanson",
-        "Alisha N. Jones",
-        "Olga G. Troyanskaya",
-        "Shirley Ho"
-      ],
-      "summary": "Biological function emerges from coupled constraints across sequence, structure, regulation, evolution, and cellular context, yet most foundation models in biology are trained within one modality or for a fixed forward task. We present MIMIC, a generative multimodal foundation model trained on our newly curated and aligned dataset, LORE, linking nucleic acid, protein, evolutionary, structural, regulatory, and semantic/contextual modalities within partially observed biomolecular states. MIMIC use",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24506v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24506v1",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24473",
-      "title": "Agentic clinical reasoning over longitudinal myeloma records: a retrospective evaluation against expert consensus",
-      "authors": [
-        "Johannes Moll",
-        "Jannik Lübberstedt",
-        "Christoph Nuernbergk",
-        "Jacob Stroh",
-        "Luisa Mertens",
-        "Anna Purcarea",
-        "Christopher Zirn",
-        "Zeineb Benchaaben",
-        "Fabian Drexel",
-        "Hartmut Häntze",
-        "Anirudh Narayanan",
-        "Friedrich Puttkammer",
-        "Andrei Zhukov",
-        "Jacqueline Lammert",
-        "Sebastian Ziegelmayer",
-        "Markus Graf",
-        "Marion Högner",
-        "Marcus Makowski",
-        "Florian Bassermann",
-        "Lisa C. Adams",
-        "Jiazhen Pan",
-        "Daniel Rueckert",
-        "Krischan Braitsch",
-        "Keno K. Bressem"
-      ],
-      "summary": "Multiple myeloma is managed through sequential lines of therapy over years to decades, with each decision depending on cumulative disease history distributed across dozens to hundreds of heterogeneous clinical documents. Whether LLM-based systems can synthesise this evidence at a level approaching expert agreement has not been established. A retrospective evaluation was conducted on longitudinal clinical records of 811 myeloma patients treated at a tertiary centre (2001-2026), covering 44,962 do",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24473v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24473v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24428",
-      "title": "BandRouteNet: An Adaptive Band Routing Neural Network for EEG Artifact Removal",
-      "authors": [
-        "Phat Lam"
-      ],
-      "summary": "Electroencephalography (EEG) is highly susceptible to artifact contamination, such as electrooculographic (EOG) and electromyographic (EMG) interference, which severely degrades signal quality and hinders reliable interpretation in applications including neurological diagnosis, brain-computer interfaces (BCIs), etc. Effective EEG denoising remains challenging because different artifact sources exhibit diverse and temporally varying distributions, together with distinct spectral characteristics a",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24428v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24428v1",
-      "categories": [
-        "eess.SP",
-        "cs.AI"
-      ],
-      "comments": "8 pages, 8 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24371",
-      "title": "PathMoG: A Pathway-Centric Modular Graph Neural Network for Multi-Omics Survival Prediction",
-      "authors": [
-        "Di Wang",
-        "Chupei Tang",
-        "Junxiao Kong",
-        "Jixiu Zhai",
-        "Moyu Tang",
-        "Tianchi Lu"
-      ],
-      "summary": "Cancer survival prediction from multi-omics data remains challenging because prognostic signals are high-dimensional, heterogeneous, and distributed across interacting genes and pathways. We propose PathMoG, a pathway-centric modular graph neural network for multi-omics survival prediction. PathMoG reorganizes genome-scale inputs into 354 KEGG-informed pathway modules, introduces a Hierarchical Omics Modulation module to condition gene-expression representations on mutation, copy number variatio",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24371v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24371v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "9 pages, 5 figures, 3 tables. Source code available at https://github.com/wangzoyou/pathmog",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24347",
-      "title": "Semantic Segmentation for Histopathology using Learned Regularization based on Global Proportions",
-      "authors": [
-        "Yangping Li",
-        "Thomas Pinetz",
-        "Michael Hölzel",
-        "Marieta Toma",
-        "Alexander Effland"
-      ],
-      "summary": "In pathology, the spatial distribution and proportions of tissue types are key indicators of disease progression, and are more readily available than fine-grained annotations. However, these assessments are rarely mapped to pixel-wise segmentation. The task is fundamentally underdetermined, as many spatially distinct segmentations can satisfy the same global proportions in the absence of pixel-wise constraints. To address this, we introduce Variational Segmentation from Label Proportions (VSLP),",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24347v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24347v1",
-      "categories": [
-        "eess.IV",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24201",
-      "title": "CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification",
-      "authors": [
-        "Boyang Fan",
-        "Hengchuang Yin",
-        "Siyu Yi",
-        "Yifan Wang",
-        "Zhicheng Li",
-        "Leijiyu Zhou",
-        "Jiancheng Lv",
-        "Wei Ju"
-      ],
-      "summary": "Motivation: Multi-omics integration can improve cancer subtyping, but modality informativeness and noise vary across cancer types and patients. Existing graph-based methods optimize modality weights jointly with the classification objective and therefore lack independent reliability estimates, so low-quality omics distort patient similarity graphs and amplify noise through message passing. Results: We propose CMGL, a two-stage framework that estimates per-sample modality reliability through evid",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24201v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24201v1",
-      "categories": [
-        "cs.LG",
-        "q-bio.GN",
-        "q-bio.MN"
-      ],
-      "comments": "24 pages, 15 figures, 13 tables, 2 algorithms (main paper + supplementary materials)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24197",
-      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
-      "authors": [
-        "Shuai Wu",
-        "Xue Li",
-        "Yanna Feng",
-        "Yufang Li",
-        "Zhijun Wang",
-        "Ran Wang"
-      ],
-      "summary": "Frontier image generation has moved from artistic synthesis toward synthetic visual evidence. Systems such as GPT Image 2, Nano Banana Pro, Nano Banana 2, Grok Imagine, Qwen Image 2.0 Pro, and Seedream 5.0 Lite combine photorealistic rendering, readable typography, reference consistency, editing control, and in several cases reasoning or search-grounded image construction. These capabilities create large benefits for design, education, accessibility, and communication, yet they also weaken one o",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24197v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24197v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "Technical report, 20 pages, 15 figures, 2 tables, 1 algorithm",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24186",
-      "title": "MultiDx: A Multi-Source Knowledge Integration Framework towards Diagnostic Reasoning",
-      "authors": [
-        "Yimin Deng",
-        "Zhenxi Lin",
-        "Yejing Wang",
-        "Guoshuai Zhao",
-        "Pengyue Jia",
-        "Zichuan Fu",
-        "Derong Xu",
-        "Yefeng Zheng",
-        "Xiangyu Zhao",
-        "Li Zhu",
-        "Xian Wu",
-        "Xueming Qian"
-      ],
-      "summary": "Diagnostic prediction and clinical reasoning are critical tasks in healthcare applications. While Large Language Models (LLMs) have shown strong capabilities in commonsense reasoning, they still struggle with diagnostic reasoning due to limited domain knowledge. Existing approaches often rely on internal model knowledge or static knowledge bases, resulting in knowledge insufficiency and limited adaptability, which hinder their capacity to perform diagnostic reasoning. Moreover, these methods foc",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24186v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24186v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "ACL 2026 findings",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.24096",
-      "title": "Meta-Ensemble Learning with Diverse Data Splits for Improved Respiratory Sound Classification",
-      "authors": [
-        "June-Woo Kim",
-        "Miika Toikkanen",
-        "Heejoon Koo",
-        "Yoon Tae Kim",
-        "Doyoung Kwon",
-        "Kyunghoon Kim"
-      ],
-      "summary": "Training reliable respiratory sound classification models remains challenging due to the limited size and subject diversity of datasets. Ensemble methods can improve robustness, but when base models are trained on identical data, models tend to overfit and produce highly correlated predictions, thereby reducing the effectiveness of ensembling. In this work, we investigate a meta-ensemble learning methodology that enhances prediction diversity by training base models on diverse data splits and co",
-      "published": "2026-04-27",
-      "publishedDate": {
-        "iso": "2026-04-27",
-        "year": 2026,
-        "month": 4,
-        "day": 27
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.24096v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24096v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "EMBC 2026 Accepted",
       "arxivVersion": "v1"
     }
   ]

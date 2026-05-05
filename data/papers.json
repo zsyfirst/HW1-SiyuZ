@@ -14,11 +14,455 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-05-04T02:29:04.672Z",
-  "fetchedAt": "2026-05-04T02:29:04.672Z",
+  "lastUpdated": "2026-05-05T02:23:59.243Z",
+  "fetchedAt": "2026-05-05T02:23:59.243Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2605.02853",
+      "title": "Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring",
+      "authors": [
+        "Arian Eamaz",
+        "Farhang Yeganegi",
+        "Mojtaba Soltanalian"
+      ],
+      "summary": "Understanding whether deep neural networks are effectively optimized remains challenging, as training occurs in highly nonconvex landscapes and standard metrics provide limited visibility into layer-wise learning quality. This challenge is particularly acute for transformer-based language models, where training is expensive, models are often reused in frozen form, and poorly optimized layers can silently degrade performance. We propose a layer-wise peeling framework for monitoring training dynam",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02853v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02853v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02819",
+      "title": "SCPRM: A Schema-aware Cumulative Process Reward Model for Knowledge Graph Question Answering",
+      "authors": [
+        "Jiujiu Chen",
+        "Yazheng Liu",
+        "Sihong Xie",
+        "Hui Xiong"
+      ],
+      "summary": "Large language models excel at complex reasoning, yet evaluating their intermediate steps remains challenging. Although process reward models provide step-wise supervision, they often suffer from a risk compensation effect, where incorrect steps are offset by later correct ones, assigning high rewards to flawed reasoning paths. This issue is further exacerbated in knowledge graph (KG) reasoning, as there may exist multiple paths between the start and end entities in the KGs, and a risky step can",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02819v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02819v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02782",
+      "title": "When Audio-Language Models Fail to Leverage Multimodal Context for Dysarthric Speech Recognition",
+      "authors": [
+        "Pehuén Moure",
+        "Niclas Pokel",
+        "Bilal Bounajma",
+        "Yingqiang Gao",
+        "Roman Boehringer",
+        "Longbiao Cheng",
+        "Shih-Chii Liu"
+      ],
+      "summary": "Automatic speech recognition (ASR) systems remain brittle on dysarthric and other atypical speech. Recent audio-language models raise the possibility of improving performance by conditioning on additional clinical context at inference time, but it is unclear whether these models can make use of such information. We introduce a benchmark built on the Speech Accessibility Project (SAP) dataset that tests whether diagnosis labels, clinician-derived speech ratings, and progressively richer clinical ",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02782v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02782v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "eess.AS"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02746",
+      "title": "Virtual Scanning for NSCLC Histology: Investigating the Discriminatory Power of Synthetic PET",
+      "authors": [
+        "Fatih Aksu",
+        "Laura Ciuffetti",
+        "Francesco Di Feola",
+        "Filippo Ruffini",
+        "Giulia Romoli",
+        "Fabrizia Gelardi",
+        "Arturo Chiti",
+        "Valerio Guarrasi",
+        "Paolo Soda"
+      ],
+      "summary": "Accurate histological differentiation between adenocarcinoma (ADC) and squamous cell carcinoma (SCC) is critical for personalized treatment in non-small cell lung cancer (NSCLC). While [$^{18}$F]FDG PET/CT is a standard tool for the clinical evaluation of lung cancer, its utility is often limited by high costs and radiation exposure. In this paper, we investigate the feasibility of \"virtual scanning\" as a feature-enhancement strategy by evaluating whether synthetic PET data can provide complemen",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02746v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02746v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02740",
+      "title": "Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims",
+      "authors": [
+        "Fan Ma",
+        "Yuntian Liu",
+        "Xiang Lan",
+        "Weipeng Zhou",
+        "Jun Ni",
+        "Mauro Giuffrè",
+        "Lingfei Qian",
+        "Xueqing Peng",
+        "Yujia Zhou",
+        "Ruey-Ling Weng",
+        "Huan He",
+        "Lu Li",
+        "Qingyu Chen",
+        "Andrew Loza",
+        "Laila Rasmy",
+        "Degui Zhi",
+        "Yuan Lu",
+        "Chenjie Zeng",
+        "Joshua C Denny",
+        "Lee Schwamm",
+        "Daniella Meeker",
+        "Lucila Ohno-Machado",
+        "Yong Chen",
+        "Hua Xu"
+      ],
+      "summary": "Evidence derived from large-scale real-world data (RWD) is increasingly informing regulatory evaluation and healthcare decision-making. Administrative claims provide population-scale, longitudinal records of healthcare utilization, expenditure, and detailed coding of diagnoses, procedures, and medications, yet their potential as a substrate for healthcare foundation models remains largely unexplored. Here we present ReClaim, a generative transformer trained from scratch on 43.8 billion medical e",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02740v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02740v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02734",
+      "title": "Coherent Hierarchical Multi-Label Learning to Defer for Medical Imaging",
+      "authors": [
+        "Joshua Strong",
+        "Pramit Saha",
+        "Emma Sun",
+        "Helen Higham",
+        "Alison Noble"
+      ],
+      "summary": "Learning to Defer (L2D) enables a model to predict autonomously or defer to an expert, but prior work largely assumes flat label spaces. We study the first L2D setting with hierarchical multi-label decisions, motivated by medical-imaging workflows in which findings are organised by clinical taxonomies. In this setting, deferral is a delegation action rather than a label assignment, so treating it as an independent per-label decision can produce deferral incoherence, including taxonomic contradic",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02734v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02734v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02714",
+      "title": "OphMAE: Bridging Volumetric and Planar Imaging with a Foundation Model for Adaptive Ophthalmological Diagnosis",
+      "authors": [
+        "Tienyu Chang",
+        "Zhen Chen",
+        "Renjie Liang",
+        "Jinyu Ding",
+        "Jie Xu",
+        "Sunu Mathew",
+        "Amir Reza Hajrasouliha",
+        "Andrew J. Saykin",
+        "Ruogu Fang",
+        "Yu Huang",
+        "Jiang Bian",
+        "Qingyu Chen"
+      ],
+      "summary": "The advent of foundation models has heralded a new era in medical artificial intelligence (AI), enabling the extraction of generalizable representations from large-scale unlabeled datasets. However, current ophthalmic AI paradigms are predominantly constrained to single-modality inference, thereby creating a dissonance with clinical practice where diagnosis relies on the synthesis of complementary imaging modalities. Furthermore, the deployment of high-performance AI in resource-limited settings",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02714v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02714v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "29 pages, 10 figures, 1 table",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02709",
+      "title": "An Empirical Study of Agent Skills for Healthcare: Practice, Gaps, and Governance",
+      "authors": [
+        "Gelei Xu",
+        "Ningzhi Tang",
+        "Xueyang Li",
+        "Toby Jia-Jun Li",
+        "Zhi Zheng",
+        "Wei Jin",
+        "Yiyu Shi"
+      ],
+      "summary": "Healthcare automation is shaped by local procedures and organizational constraints, so agent capabilities rarely transfer unchanged across settings. Agent skills, self-contained directories that package reusable procedures for AI agents, are emerging as a procedural layer for adapting healthcare agents across diverse healthcare settings. We present the first empirical analysis of healthcare agent skills, drawing on 557 healthcare-related skills filtered from 58,159 public skills on ClawHub and a",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02709v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02709v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02707",
+      "title": "SAIL: Structure-Aware Interpretable Learning for Anatomy-Aligned Post-hoc Explanations in OCT",
+      "authors": [
+        "Tienyu Chang",
+        "Tianhao Li",
+        "Ruogu Fang",
+        "Jiang Bian",
+        "Yu Huang"
+      ],
+      "summary": "Optical coherence tomography (OCT), a commonly used retinal imaging modality, plays a central role in retinal disease diagnosis by providing high-resolution visualization of retinal layers. While deep learning (DL) has achieved expert-level accuracy in OCT-based retinal disease detection, its \"black box\" nature poses challenges for clinical adoption, where explainability is essential for clinical trust and regulatory approval. Existing post-hoc explainable AI (XAI) methods often struggle to deli",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02707v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02707v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "16 pages, 6 figures, 9 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02693",
+      "title": "Random-Effects Algorithm for Random Objects in Metric Spaces",
+      "authors": [
+        "Marcos Matabuena",
+        "Mateo Cámara"
+      ],
+      "summary": "Across many scientific disciplines, multiple observations are collected from the same experimental units, and in modern datasets these observations often arise as non-Euclidean random objects. In such settings, the incorporation of random effects is a critical modeling step for efficient estimation and personalized prediction. Although mixed-effects models are well established for scalar outcomes and, more recently, for functional data in Hilbert spaces, general random-effects frameworks for obj",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02693v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02693v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02669",
+      "title": "An explainable hypothesis-driven approach to Drug-Induced Liver Injury with HADES",
+      "authors": [
+        "Maciej Wisniewski",
+        "Bartosz Topolski",
+        "Pawel Dabrowski-Tumanski",
+        "Dariusz Plewczynski",
+        "Tomasz Jetka"
+      ],
+      "summary": "Drug-induced liver injury (DILI) remains a leading cause of late-stage clinical trial attrition. However, existing computational predictors primarily rely on binary classification, a framing that limits generalization and yields no mechanistic insight to guide translational decisions. We argue that DILI prediction is better posed as an explainable hypothesis-generation problem. To support this shift, we introduce the DILER Benchmark, a dataset that extends beyond binary labels by augmenting a cu",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02669v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02669v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02615",
+      "title": "TRACED: In vivo imaging of extracellular intrinsic diffusivity, tortuosity, cell size distribution and cell density in human glioma patients",
+      "authors": [
+        "Joshua K. Marchant",
+        "Hong-Hsi Lee",
+        "Elizabeth R. Gerstner",
+        "Susie Y. Huang",
+        "Bruce R. Rosen"
+      ],
+      "summary": "The lack of analytical models describing diffusion time dependence at intermediate time scales in complex tissue microstructure limits the accurate quantification of extracellular diffusivity and tissue microstructure. We introduce TRACED, a biophysical model that incorporates diffusion time dependence in cell distributions to quantify pathologically-relevant properties in solid tumors. Neural networks were trained on Monte Carlo diffusion simulations using sphere distribution-based geometries t",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02615v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02615v1",
+      "categories": [
+        "physics.med-ph",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "comments": "14 pages, 8 figures (main); 2 pages, 4 figures (supplementary). Submitted to Magnetic Resonance in Medicine",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02614",
+      "title": "Validation of an AI-based end-to-end model for prostate pathology using long-term archived routine samples",
+      "authors": [
+        "Xiaoyi Ji",
+        "Renata Zelic",
+        "Oskar Aspegren",
+        "Nita Mulliqi",
+        "Michelangelo Fiorentino",
+        "Francesca Giunchi",
+        "Luca Molinaro",
+        "Sol Erika Boman",
+        "Lorenzo Richiardi",
+        "Andreas Pettersson",
+        "Per Henrik Vincent",
+        "Martin Eklund",
+        "Olof Akre",
+        "Kimmo Kartasalo"
+      ],
+      "summary": "Artificial intelligence (AI) is becoming a clinical tool for prostate pathology, but generalization across variations in sample preparation and preservation over prolonged time periods remains poorly understood. We evaluated GleasonAI, an end-to-end attention-based multiple instance learning model, on an independent validation cohort comprising 10,366 biopsy cores from 1,028 patients across 14 Swedish regions, using archival diagnostic specimens from the ProMort cohorts collected between 1998-20",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02614v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02614v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "47 pages, 10 figures, 9 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02589",
+      "title": "Representation learning from OCT images",
+      "authors": [
+        "Hedi Tabia",
+        "Désiré Sidibé",
+        "Nawres Khlifa",
+        "Ahmed Tabia",
+        "Ines Rahmany",
+        "Noura Aboudi",
+        "Zainab Haddad",
+        "Hajer Khachnaoui",
+        "Hsouna Zgolli"
+      ],
+      "summary": "Optical Coherence Tomography (OCT) has become one of the most used imaging modality in ophthalmology. It provides high-resolution, non-invasive visualization of retinal microarchitecture. The automated analysis of OCT images through representation learning has emerged as a central research frontier. This has mainly been driven by the clinical need to process large acquisition volumes. The objective is to reduce the reliance on expert annotation, and improve diagnostic consistency across devices ",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02589v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02589v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.02552",
+      "title": "Recurrent Deep Reinforcement Learning for Chemotherapy Control under Partial Observability",
+      "authors": [
+        "Firas Mohamed Elamine Kiram",
+        "Imane Youkana",
+        "Rachida Saouli",
+        "Gian Antonio Susto",
+        "Laid Kahloul"
+      ],
+      "summary": "Chemotherapy dose optimization can be formulated as a dynamic treatment regime, requiring sequential decisions under uncertainty that must balance tumor suppression against toxicity. However, most reinforcement learning approaches assume full observability of the patient state, a condition rarely met in clinical practice. We investigate whether memory-augmented policies can improve chemotherapy control under partial observability. To this end, we employ a recurrent TD3-based approach with separa",
+      "published": "2026-05-04",
+      "publishedDate": {
+        "iso": "2026-05-04",
+        "year": 2026,
+        "month": 5,
+        "day": 4
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.02552v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.02552v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "Accepted for publication at the VI. International Conference on Electrical, Computer and Energy Technologies (ICECET 2026)",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2604.28178",
       "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
@@ -422,419 +866,6 @@
         "cs.HC",
         "cs.LG",
         "cs.SI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26880",
-      "title": "HealthNLP_Retrievers at ArchEHR-QA 2026: Cascaded LLM Pipeline for Grounded Clinical Question Answering",
-      "authors": [
-        "Md Biplob Hosen",
-        "Md Alomgeer Hussein",
-        "Md Akmol Masud",
-        "Omar Faruque",
-        "Tera L Reynolds",
-        "Lujie Karen Chen"
-      ],
-      "summary": "Patient portals now give individuals direct access to their electronic health records (EHRs), yet access alone does not ensure patients understand or act on the complex clinical information contained in these records. The ArchEHR-QA 2026 shared task addresses this challenge by focusing on grounded question answering over EHRs, and this paper presents the system developed by the HealthNLP_Retrievers team for this task. The proposed approach uses a multi-stage cascaded pipeline powered by the Gemi",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26880v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26880v1",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26869",
-      "title": "KAYRA: A Microservice Architecture for AI-Assisted Karyotyping with Cloud and On-Premise Deployment",
-      "authors": [
-        "Attila Pintér",
-        "Javier Rico",
-        "Attila Répai",
-        "Jalal Al-Afandi",
-        "Adrienn Éva Borsy",
-        "András Kozma",
-        "Hajnalka Andrikovics",
-        "György Cserey"
-      ],
-      "summary": "We present KAYRA, an end-to-end karyotyping system that operates inside the operational constraints of a clinical cytogenetic laboratory. KAYRA is architected as a containerized microservice pipeline whose ML stack combines an EfficientNet-B5 + U-Net semantic segmenter, a Mask R-CNN (ResNet-50 + FPN) instance detector, and a ResNet-18 classifier, orchestrated through a cascaded ROI-narrowing strategy that focuses each downstream model on the chromosome-bearing region. The same container images a",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26869v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26869v1",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26809",
-      "title": "Asynchronous Federated Unlearning with Invariance Calibration for Medical Imaging",
-      "authors": [
-        "Zhaoyuan Cai",
-        "Xinglin Zhang"
-      ],
-      "summary": "Federated Unlearning (FU) is an emerging paradigm in Federated Learning (FL) that enables participating clients to fully remove their contributions from a trained global model, driven by data protection regulations that mandate the right to be forgotten. However, existing FU methods mostly rely on synchronous coordination. This requirement forces the entire federation to halt and wait for stragglers to complete erasure, creating significant delays due to device heterogeneity. Furthermore, these ",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26809v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26809v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "8 pages, 5 figures, the article is accepted by IEEE IJCNN 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26766",
-      "title": "Domain-Adapted Small Language Models for Reliable Clinical Triage",
-      "authors": [
-        "Manar Aljohani",
-        "Brandon Ho",
-        "Kenneth McKinley",
-        "Dennis Ren",
-        "Xuan Wang"
-      ],
-      "summary": "Accurate and consistent Emergency Severity Index (ESI) assignment remains a persistent challenge in emergency departments, where highly variable free-text triage documentation contributes to mistriage and workflow inefficiencies. This study evaluates whether open-source small language models (SLMs) can serve as reliable, privacy-preserving decision-support tools for clinical triage. We systematically compared multiple SLMs across diverse prompting pipelines and found that clinical vignettes, con",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26766v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26766v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26703",
-      "title": "A self-evolving agent for explainable diagnosis of DFT-experiment band-gap mismatch",
-      "authors": [
-        "Yue Li",
-        "Bijun Tang"
-      ],
-      "summary": "Standard density functional theory (DFT) routinely misclassifies the electronic ground state of correlated and structurally complex compounds, predicting metallic behaviour for materials that experiments report as semiconductors. Each such mismatch encodes a specific non-ideality -- magnetic ordering, electron correlation, an alternative polymorph, or a defect -- that the calculation excluded, but extracting that signal at scale has remained a manual exercise. Here we introduce XDFT, a closed-lo",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26703v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26703v1",
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cs.AI",
-        "physics.comp-ph"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26676",
-      "title": "A Toolkit for Detecting Spurious Correlations in Speech Datasets",
-      "authors": [
-        "Lara Gauder",
-        "Pablo Riera",
-        "Andrea Slachevsky",
-        "Gonzalo Forno",
-        "Adolfo M. García",
-        "Luciana Ferrer"
-      ],
-      "summary": "We introduce a toolkit for uncovering spurious correlations between recording characteristics and target class in speech datasets. Spurious correlations may arise due to heterogeneous recording conditions, a common scenario for health-related datasets. When present both in the training and test data, these correlations result in an overestimation of the system performance -- a dangerous situation, specially in high-stakes application where systems are required to satisfy minimum performance requ",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26676v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26676v1",
-      "categories": [
-        "cs.SD",
-        "cs.AI",
-        "cs.DB"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26671",
-      "title": "From Black-Box Confidence to Measurable Trust in Clinical AI: A Framework for Evidence, Supervision, and Staged Autonomy",
-      "authors": [
-        "Serhii Zabolotnii",
-        "Viktoriia Holinko",
-        "Olha Antonenko"
-      ],
-      "summary": "Trust in clinical artificial intelligence (AI) cannot be reduced to model accuracy, fluency of generation, or overall positive user impression. In medicine, trust must be engineered as a measurable system property grounded in evidence, supervision, and operational boundaries of AI autonomy. This article proposes a practical framework for trustworthy clinical AI built around three principles: evidence, supervision, and staged autonomy. Rather than replacing deterministic clinical logic wholesale ",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26671v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26671v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CY"
-      ],
-      "comments": "12 pages, 6 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26577",
-      "title": "Benchmarking the Safety of Large Language Models for Robotic Health Attendant Control",
-      "authors": [
-        "Mahiro Nakao",
-        "Kazuhiro Takemoto"
-      ],
-      "summary": "Large language models (LLMs) are increasingly considered for deployment as the control component of robotic health attendants, yet their safety in this context remains poorly characterized. We introduce a dataset of 270 harmful instructions spanning nine prohibited behavior categories grounded in the American Medical Association Principles of Medical Ethics, and use it to evaluate 72 LLMs in a simulation environment based on the Robotic Health Attendant framework. The mean violation rate across ",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26577v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26577v1",
-      "categories": [
-        "cs.AI",
-        "cs.CY",
-        "cs.RO"
-      ],
-      "comments": "20 pages, 9 figures, 3 tables, 8 pages supplementary material",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26479",
-      "title": "Recipes for Calibration Checks in Safety-Critical Applications",
-      "authors": [
-        "Romeo Valentin"
-      ],
-      "summary": "Safety-critical prediction systems, such as autonomous vehicles, weather forecasters, and medical monitors, commonly rely on probabilistic forecasters. These forecasters make predictions about possible future outcomes, and their quality and robustness needs to be validated and certified. Often, only accuracy -- the mean of the predictions -- is evaluated against true outcomes. However, for safety-critical scenarios and decision making under uncertainty, the full distributional properties of the ",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26479v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26479v1",
-      "categories": [
-        "stat.ME",
-        "cs.LG"
-      ],
-      "comments": "36 pages, 22 figures. Manuscript prepared with Typst",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26419",
-      "title": "Delineating Knowledge Boundaries for Honest Large Vision-Language Models",
-      "authors": [
-        "Junru Song",
-        "Yimeng Hu",
-        "Yijing Chen",
-        "Huining Li",
-        "Qian Li",
-        "Lizhen Cui",
-        "Yuntao Du"
-      ],
-      "summary": "Large Vision-Language Models (VLMs) have achieved remarkable multimodal performance yet remain prone to factual hallucinations, particularly in long-tail or specialized domains. Moreover, current models exhibit a weak capacity to refuse queries that exceed their parametric knowledge. In this paper, we propose a systematic framework to enhance the refusal capability of VLMs when facing such unknown questions. We first curate a model-specific \"Visual-Idk\" (Visual-I don't know) dataset, leveraging ",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26419v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26419v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26366",
-      "title": "Probabilistic data quality assessment for structural monitoring data via outlier-resistant conditional diffusion model",
-      "authors": [
-        "Qi Li",
-        "Yong Huang",
-        "Hui Li"
-      ],
-      "summary": "Data quality assessment is an essential step that ensures the reliability of the subsequent structural health monitoring (SHM) tasks. This study proposes a prediction deviation-based SHM data quality assessment method using a univariate implicit auto-regressive model, enabling outlier diagnosis and data cleaning. The proposed conditional diffusion model (CDM) augments the standard diffusion model with a conditional embedding module to incorporate temporal context, quartile normalization to mitig",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26366v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26366v1",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "comments": "43 pages, 15 figures and 2 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26288",
-      "title": "CheXthought: A global multimodal dataset of clinical chain-of-thought reasoning and visual attention for chest X-ray interpretation",
-      "authors": [
-        "Sonali Sharma",
-        "Jin Long",
-        "George Shih",
-        "Sarah Eid",
-        "Christian Bluethgen",
-        "Francine L. Jacobson",
-        "Emily B. Tsai",
-        "Global Radiology Consortium",
-        "Ahmed M. Alaa",
-        "Curtis P. Langlotz"
-      ],
-      "summary": "Chest X-ray interpretation is one of the most frequently performed diagnostic tasks in medicine and a primary target for AI development, yet current vision--language models are primarily trained on datasets of paired images and reports, not the cognitive processes and visual attention that underlie clinical reasoning. Here, we present CheXthought, a global, multimodal resource containing 103,592 chain-of-thought reasoning traces and 6,609,082 synchronized visual attention annotations across 50,3",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26288v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26288v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "51 pages, 7 figures, 10 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26283",
-      "title": "MedSynapse-V: Bridging Visual Perception and Clinical Intuition via Latent Memory Evolution",
-      "authors": [
-        "Chunzheng Zhu",
-        "Jiaqi Zeng",
-        "Junyu Jiang",
-        "Jianxin Lin",
-        "Yijun Wang"
-      ],
-      "summary": "High-precision medical diagnosis relies not only on static imaging features but also on the implicit diagnostic memory experts instantly invoke during image interpretation. We pinpoint a fundamental cognitive misalignment in medical VLMs caused by discrete tokenization, leading to quantization loss, long-range information dissipation, and missing case-adaptive expertise. To bridge this gap, we propose ours, a framework for latent diagnostic memory evolution that simulates the experiential invoca",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26283v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26283v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Medical latent reasoning; Memory evolution",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26232",
-      "title": "DepthPilot: From Controllability to Interpretability in Colonoscopy Video Generation",
-      "authors": [
-        "Junhu Fu",
-        "Ke Chen",
-        "Weidong Guo",
-        "Shuyu Liang",
-        "Jie Xu",
-        "Chen Ma",
-        "Kehao Wang",
-        "Shengli Lin",
-        "Zeju Li",
-        "Yuanyuan Wang",
-        "Yi Guo",
-        "Shuo Li"
-      ],
-      "summary": "Controllable medical video generation has achieved remarkable progress, but it still lacks interpretability, which requires the alignment of generated contents with physical priors and faithful clinical manifestations. To push the boundaries from mere controllability to interpretability, we propose DepthPilot, the first interpretable framework for colonoscopy video generation. This work takes a step toward trustworthy generation through two synergistic paradigms. To achieve explicit geometric gr",
-      "published": "2026-04-29",
-      "publishedDate": {
-        "iso": "2026-04-29",
-        "year": 2026,
-        "month": 4,
-        "day": 29
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26232v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26232v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.26147",
-      "title": "A Data-Centric Framework for Intraoperative Fluorescence Lifetime Imaging for Glioma Surgical Guidance",
-      "authors": [
-        "Silvia Noble Anbunesan",
-        "Mohamed Abul Hassan",
-        "Jinyi Qi",
-        "Lisanne Kraft",
-        "Han Sung Lee",
-        "Orin Bloch",
-        "Laura Marcu"
-      ],
-      "summary": "Accurate intraoperative assessment of glioma infiltration is essential for maximizing tumor resection while preserving functional brain tissue. Fluorescence lifetime imaging (FLIm) offers real-time, label-free biochemical contrast, but its clinical utility is challenged by biological heterogeneity, class imbalance, and variability in histopathological labeling. We present a data-centric AI (DC-AI) framework that integrates confident learning (CL), class refinement, and targeted label evaluation ",
-      "published": "2026-04-28",
-      "publishedDate": {
-        "iso": "2026-04-28",
-        "year": 2026,
-        "month": 4,
-        "day": 28
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.26147v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.26147v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
       ],
       "comments": "",
       "arxivVersion": "v1"

@@ -14,11 +14,444 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-05-05T02:23:59.243Z",
-  "fetchedAt": "2026-05-05T02:23:59.243Z",
+  "lastUpdated": "2026-05-06T02:27:44.834Z",
+  "fetchedAt": "2026-05-06T02:27:44.834Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2605.04039",
+      "title": "Safety and accuracy follow different scaling laws in clinical large language models",
+      "authors": [
+        "Sebastian Wind",
+        "Tri-Thien Nguyen",
+        "Jeta Sopa",
+        "Mahshad Lotfinia",
+        "Sebastian Bickelhaup",
+        "Michael Uder",
+        "Harald Köstler",
+        "Gerhard Wellein",
+        "Sven Nebelung",
+        "Daniel Truhn",
+        "Andreas Maier",
+        "Soroosh Tayebi Arasteh"
+      ],
+      "summary": "Clinical LLMs are often scaled by increasing model size, context length, retrieval complexity, or inference-time compute, with the implicit expectation that higher accuracy implies safer behavior. This assumption is incomplete in medicine, where a few confident, high-risk, or evidence-contradicting errors can matter more than average benchmark performance. We introduce SaFE-Scale, a framework for measuring how clinical LLM safety changes across model scale, evidence quality, retrieval strategy, ",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.04039v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.04039v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.04019",
+      "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
+      "authors": [
+        "Raja Sekhar Rao Dheekonda",
+        "Will Pearce",
+        "Nick Landers"
+      ],
+      "summary": "AI systems are entering critical domains like healthcare, finance, and defense, yet remain vulnerable to adversarial attacks. While AI red teaming is a primary defense, current approaches force operators into manual, library-specific workflows. Operators spend weeks hand-crafting workflows - assembling attacks, transforms, and scorers. When results fall short, workflows must be rebuilt. As a result, operators spend more time constructing workflows than probing targets for security and safety vul",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.04019v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.04019v1",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "comments": "39 pages, 8 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.04012",
+      "title": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
+      "authors": [
+        "Joseph Breda",
+        "Fadi Yousif",
+        "Beszel Hawkins",
+        "Marinela Cotoi",
+        "Miao Liu",
+        "Ray Luo",
+        "Po-Hsuan Cameron Chen",
+        "Mike Schaekermann",
+        "Samuel Schmidgall",
+        "Xin Liu",
+        "Girish Narayanswamy",
+        "Samuel Solomon",
+        "Maxwell A. Xu",
+        "Xiaoran Fan",
+        "Longfei Shangguan",
+        "Anran Wang",
+        "Bhavna Daryani",
+        "Buddy Herkenham",
+        "Cara Tan",
+        "Mark Malhotra",
+        "Shwetak Patel",
+        "John B. Hernandez",
+        "Quang Duong",
+        "Yun Liu",
+        "Zach Wasson",
+        "Dimitrios Antos",
+        "Bob Lou",
+        "Matthew Thompson",
+        "Jonathan Richina",
+        "Anupam Pathak",
+        "Nichole Young-Lin",
+        "Jake Sunshine",
+        "Daniel McDuff"
+      ],
+      "summary": "Language models excel at diagnostic assessments on currated medical case-studies and vignettes, performing on par with, or better than, clinical professionals. However, existing studies focus on complex scenarios with rich context making it difficult to draw conclusions about how these systems perform for patients reporting symptoms in everyday life. We deployed SymptomAI, a set of conversational AI agents for end-to-end patient interviewing and differential diagnosis (DDx), via the Fitbit app i",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.04012v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.04012v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "13 page main text, 54 pages total. 16 figures total",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.04008",
+      "title": "Enhanced 3D Brain Tumor Segmentation Using Assorted Precision Training",
+      "authors": [
+        "Adwaitt Pandya",
+        "Ozioma C. Oguine",
+        "Harita Bhargava",
+        "Shrikant Zade"
+      ],
+      "summary": "A brain tumor is a medical disorder faced by individuals of all demographics. Medically, it is described as the spread of non-essential cells close to or throughout the brain. Symptoms of this ailment include headaches, seizures, and sensory changes. This research explores two main categories of brain tumors: benign and malignant. Benign spreads steadily, and malignant expresses growth, making it dangerous. Early identification of brain tumors is a crucial factor for the survival of patients. Th",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.04008v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.04008v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "5 pages, 5 figures, 1 table",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03934",
+      "title": "Towards Open World Sound Event Detection",
+      "authors": [
+        "P. H. Hai",
+        "L. T. Minh",
+        "L. H. Son"
+      ],
+      "summary": "Sound Event Detection (SED) plays a vital role in audio understanding, with applications in surveillance, smart cities, healthcare, and multimedia indexing. However, conventional SED systems operate under a closed-world assumption, limiting their effectiveness in real-world environments where novel acoustic events frequently emerge. Inspired by the success of open-world learning in computer vision, we introduce the Open-World Sound Event Detection (OW-SED) paradigm, where models must detect know",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03934v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03934v1",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "comments": "32 pages, 3 figures. Submitted to Signal Processing (Elsevier)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03916",
+      "title": "Atomic Fact-Checking Increases Clinician Trust in Large Language Model Recommendations for Oncology Decision Support: A Randomized Controlled Trial",
+      "authors": [
+        "Lisa C. Adams",
+        "Linus Marx",
+        "Erik Thiele Orberg",
+        "Keno Bressem",
+        "Sebastian Ziegelmayer",
+        "Denise Bernhardt",
+        "Markus Graf",
+        "Marcus R. Makowski",
+        "Stephanie E. Combs",
+        "Florian Matthes",
+        "Jan C. Peeken"
+      ],
+      "summary": "Question: Does atomic fact-checking, which decomposes AI treatment recommendations into individually verifiable claims linked to source guideline documents, increase clinician trust compared to traditional explainability approaches? Findings: In this randomized trial of 356 clinicians generating 7,476 trust ratings, atomic fact-checking produced a large effect on trust (Cohen's d = 0.94), increasing the proportion of clinicians expressing trust from 26.9% to 66.5%. Traditional transparency mecha",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03916v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03916v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "28 pages, 5 figures, 2 tables, supplement will be made available upon original publication",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03895",
+      "title": "From Data Lifting to Continuous Risk Estimation: A Process-Aware Pipeline for Predictive Monitoring of Clinical Pathways",
+      "authors": [
+        "Pasquale Ardimento",
+        "Mario Luca Bernardi",
+        "Marta Cimitile",
+        "Samuele Latorre"
+      ],
+      "summary": "This paper presents a reproducible and process-aware pipeline for predictive monitoring of clinical pathways. The approach integrates data lifting, temporal reconstruction, event log construction, prefix-based representations, and predictive modeling to support continuous reasoning on partially observed patient trajectories, overcoming the limitations of traditional retrospective process mining. The framework is evaluated on COVID-19 clinical pathways using ICU admission as the prediction target",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03895v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03895v1",
+      "categories": [
+        "cs.LG",
+        "cs.SE"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03863",
+      "title": "Quantifying the human visual exposome with vision language models",
+      "authors": [
+        "Christian Rominger",
+        "Andreas R. Schwerdtfeger",
+        "Malay Gaherwar Singh",
+        "Dimitri Khudyakow",
+        "Elizabeth A. M. Michels",
+        "Fabian Wolf",
+        "Jakob Nikolas Kather",
+        "Magdalena Katharina Wekenborg"
+      ],
+      "summary": "The visual environment is a fundamental yet unquantified determinant of mental health. While the concept of the environmental exposome is well established, current methods rely on coarse geospatial proxies or biased self reports, failing to capture the first person visual context of daily life. We addressed this gap by coupling ecological momentary assessment with vision language models (VLMs) to quantify the semantic richness of human visual experience. Across 2674 participant generated photogr",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03863v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03863v1",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03838",
+      "title": "TRACE: A Metrologically-Grounded Engineering Framework for Trustworthy Agentic AI Systems in Operationally Critical Domains",
+      "authors": [
+        "Serhii Zabolotnii"
+      ],
+      "summary": "We introduce TRACE, a cross-domain engineering framework for trustworthy agentic AI in operationally critical domains. TRACE combines a four-layer reference architecture with an explicit classical-ML vs. LLM-validator split (L2a/L2b), a stateful orchestration-and-escalation policy (L3), and bounded human supervision (L4); a metrologically grounded trust-metric suite mapped to GUM/VIM/ISO 17025; and a Model-Parsimony principle quantified by the Computational Parsimony Ratio (CPR). Three instantia",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03838v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03838v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "11 pages, 2 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03832",
+      "title": "A Domain Incremental Continual Learning Benchmark for ICU Time Series Model Transportability",
+      "authors": [
+        "Ryan King",
+        "Conrad Krueger",
+        "Ethan Veselka",
+        "Tianbao Yang",
+        "Bobak J. Mortazavi"
+      ],
+      "summary": "In recent years, machine learning has made significant progress in clinical outcome prediction, demonstrating increasingly accurate results. However, the substantial resources required for hospitals to train these models, such as data collection, labeling, and computational power, limit the feasibility for smaller hospitals to develop their own models. An alternative approach involves transferring a machine learning model trained by a large hospital to smaller hospitals, allowing them to fine-tu",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03832v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03832v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03795",
+      "title": "Graph Convolutional Support Vector Regression for Robust Spatiotemporal Forecasting of Urban Air Pollution",
+      "authors": [
+        "Nourin Jahan",
+        "Madhurima Panja",
+        "Muhammed Navas T",
+        "Tanujit Chakraborty"
+      ],
+      "summary": "Urban air quality forecasting is challenging because pollutant concentrations are nonlinear, nonstationary, spatiotemporally dependent, and often affected by anomalous observations caused by traffic congestion, industrial emissions, and seasonal meteorological variability. This study proposes a Graph Convolutional Support Vector Regression (GCSVR) framework for robust spatiotemporal forecasting of urban air pollution. The model combines graph convolutional learning to capture inter-station spati",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03795v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03795v1",
+      "categories": [
+        "cs.LG",
+        "stat.AP",
+        "stat.ML"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03789",
+      "title": "Training-Free Probabilistic Time-Series Forecasting with Conformal Seasonal Pools",
+      "authors": [
+        "Valery Manokhin"
+      ],
+      "summary": "We propose Conformal Seasonal Pools (CSP), a training-free probabilistic time-series forecaster that mixes same-season empirical draws with signed residual draws around a seasonal naive forecast. In an audited rolling-origin benchmark on the six time-series datasets where DeepNPTS was originally evaluated (electricity, exchange_rate, solar_energy, taxi, traffic, wikipedia), CSP-Adaptive significantly outperforms DeepNPTS on every metric we report -- CRPS (per-window paired Wilcoxon $p \\approx 4 ",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03789v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03789v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03570",
+      "title": "Disentangling Shared and Task-Specific Representations from Multi-Modal Clinical Data",
+      "authors": [
+        "He Lyu",
+        "Huolin Zeng",
+        "Junren Wang",
+        "Huazhen Yang",
+        "Linchao He",
+        "Yong Chen",
+        "Zhirui Li",
+        "Andreas Maier",
+        "Siming Bayer",
+        "Huan Song"
+      ],
+      "summary": "Real-world clinical data is inherently multimodal, providing complementary evidence that mirrors the practical necessity of jointly assessing multiple related outcomes. Although multi-task learning can improve efficiency by sharing information across outcomes, existing approaches often fail to balance shared representation learning with outcome-specific modeling. Hard parameter sharing can trigger negative transfer when task gradients conflict, while flexible sharing may still entangle shared an",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03570v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03570v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "Accepted for publication in EMBC 2026. This is the authors' accepted manuscript. DOI to be added after IEEE Xplore publication",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03560",
+      "title": "Enhance the after-discharge mortality rate prediction via learning from the medical notes",
+      "authors": [
+        "Zijiang Yang"
+      ],
+      "summary": "With the increase of the Electronic Health Records (EHR) data, more and more researchers are developing machine learning models to learn from the medical notes. These unstructured text data pose significant challenges on the learning process as the quality of data is low. These data are often messy, repetitive and redundant. We have shown these notes data to be informative by conducting the after-discharge mortality rate prediction task. The AUC-ROC for models using the medical note information ",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03560v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03560v1",
+      "categories": [
+        "cs.LG",
+        "cs.OH"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.03512",
+      "title": "Brainrot: Deskilling and Addiction are Overlooked AI Risks",
+      "authors": [
+        "Ilias Chalkidis",
+        "Anders Søgaard"
+      ],
+      "summary": "The scope of AI safety and alignment work in generative artificial intelligence (GenAI) has so far mostly been limited to harms related to: (a) discrimination and hate speech, (b) harmful/inappropriate (violent, sexual, illegal) content, (c) information hazards, and (d) use cases related to malicious actors, such as cybersecurity, child abuse, and chemical, biological, radiological, and nuclear threats. The public conversation around AI, on the other hand, has also been focusing on threats to ou",
+      "published": "2026-05-05",
+      "publishedDate": {
+        "iso": "2026-05-05",
+        "year": 2026,
+        "month": 5,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.03512v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.03512v1",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "comments": "Accepted to the 2026 ACM Conference on Fairness, Accountability, and Transparency (FAccT '26)",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2605.02853",
       "title": "Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring",
@@ -461,413 +894,6 @@
         "cs.AI"
       ],
       "comments": "Accepted for publication at the VI. International Conference on Electrical, Computer and Energy Technologies (ICECET 2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.28178",
-      "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
-      "authors": [
-        "Lincan Li",
-        "Zheng Chen",
-        "Yushun Dong"
-      ],
-      "summary": "Electroencephalogram (EEG) signals are vital for automated seizure detection, but their inherent noise makes robust representation learning challenging. Existing graph construction methods, whether correlation-based or learning-based, often generate redundant or irrelevant edges due to the noisy nature of EEG data. This significantly impairs the quality of graph representation and limits downstream task performance. Motivated by the remarkable reasoning and contextual understanding capabilities ",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.28178v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.28178v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "This paper is accepted by the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.28118",
-      "title": "DEFault++: Automated Fault Detection, Categorization, and Diagnosis for Transformer Architectures",
-      "authors": [
-        "Sigma Jahan",
-        "Saurabh Singh Rajput",
-        "Tushar Sharma",
-        "Mohammad Masudur Rahman"
-      ],
-      "summary": "Transformer models are widely deployed in critical AI applications, yet faults in their attention mechanisms, projections, and other internal components often degrade behavior silently without raising runtime errors. Existing fault diagnosis techniques often target generic deep neural networks and cannot identify which transformer component is responsible for an observed symptom. In this article, we present DEFault++, a hierarchical learning-based diagnostic technique that operates at three leve",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.28118v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.28118v1",
-      "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "71 pages, 15 figures, 22 tables. Preprint; under preparation for journal submission. Standalone version of Chapter 7 of the lead author's PhD thesis (Dalhousie University, 2026). Replication package: https://github.com/SigmaJahan/DEFaultplusplus-Transformer-Debugging",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.28082",
-      "title": "Characterizing the Consistency of the Emergent Misalignment Persona",
-      "authors": [
-        "Anietta Weckauff",
-        "Yuchen Zhang",
-        "Maksym Andriushchenko"
-      ],
-      "summary": "Fine-tuning large language models (LLMs) on narrowly misaligned data generalizes to broadly misaligned behavior, a phenomenon termed emergent misalignment (EM). While prior work has found a correlation between harmful behavior and self-assessment in emergently misaligned models, it remains unclear how consistent this correspondence is across tasks and whether it varies across fine-tuning domains. We characterize the consistency of the EM persona by fine-tuning Qwen 2.5 32B Instruct on six narrow",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.28082v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.28082v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.28055",
-      "title": "PROMISE-AD: Progression-aware Multi-horizon Survival Estimation for Alzheimer's Disease Progression and Dynamic Tracking",
-      "authors": [
-        "Qing Lyu",
-        "Jeremy Hudson",
-        "Mohammad Kawas",
-        "Yuming Jiang",
-        "Chenyu You",
-        "Christopher T Whitlow"
-      ],
-      "summary": "Individualized Alzheimer's disease (AD) progression prediction requires models that use irregular visits, account for censoring, avoid diagnostic leakage, and provide calibrated horizon risks. We propose PROgression-aware MultI-horizon Survival Estimation for Alzheimer's Disease (PROMISE-AD), a leakage-safe survival framework for predicting conversion from cognitively normal (CN) to mild cognitive impairment (MCI) and from MCI to AD dementia using ADNI/TADPOLE tabular histories. PROMISE-AD conve",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.28055v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.28055v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "eess.IV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.28010",
-      "title": "Learning from Disagreement: Clinician Overrides as Implicit Preference Signals for Clinical AI in Value-Based Care",
-      "authors": [
-        "Prabhjot Singh",
-        "Abhishek Gupta",
-        "Chris Betz",
-        "Abe Flansburg",
-        "Brett Ives",
-        "Sudeep Lama",
-        "Jung Hoon Son"
-      ],
-      "summary": "We reframe clinician overrides of clinical AI recommendations as implicit preference data - the same signal structure exploited by reinforcement learning from human feedback (RLHF), but richer: the annotator is a domain expert, the alternatives carry real consequences, and downstream outcomes are observable. We present a formal framework extending standard preference learning with three contributions: a five-category override taxonomy mapping override types to distinct model update targets; a pr",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.28010v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.28010v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "22 pages, 2 tables, 1 figure",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27967",
-      "title": "Differentiable latent structure discovery for interpretable forecasting in clinical time series",
-      "authors": [
-        "Ivan Lerner",
-        "Jean Feydy",
-        "Alexandre Kalimouttou",
-        "Anita Burgun",
-        "Francis Bach"
-      ],
-      "summary": "Background: Timely, uncertainty-aware forecasting from irregular electronic health records (EHR) can support critical-care decisions, yet most approaches either impute to a grid or sacrifice interpretability. We introduce StructGP, a continuous-time multi-task Gaussian process that couples process convolutions with differentiable structure learning to uncover a sparse, ordered directed acyclic graph (DAG) of inter-variable dependencies while preserving principled uncertainty. We further propose ",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27967v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27967v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "This manuscript is under review at BioData Mining",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27899",
-      "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
-      "authors": [
-        "Guy Lutsker",
-        "Gal Sapir",
-        "Jordi Merino",
-        "Smadar Shilo",
-        "Anastasia Godneva",
-        "Eli Meirom",
-        "Shie Mannor",
-        "Hagai Rossman",
-        "Gal Chechik",
-        "Eran Segal"
-      ],
-      "summary": "Understanding how human health changes over time, and why responses to interventions vary between individuals, remains a central challenge in medicine. Here we present HealthFormer, a decoder-only transformer that models the human physiological trajectory generatively, by training on data from the Human Phenotype Project, a multi-visit cohort of over 15,000 deeply phenotyped individuals. We tokenise each participant's health trajectory across 667 measurements spanning seven domains: blood biomar",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27899v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27899v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27872",
-      "title": "Modeling Clinical Concern Trajectories in Language Model Agents",
-      "authors": [
-        "Sukesh Subaharan",
-        "Venkatesan VS",
-        "Murugadasan P",
-        "Sivakumar D",
-        "Gautham N",
-        "Ganeshkumar M"
-      ],
-      "summary": "Large language model (LLM) agents deployed in clinical settings often exhibit abrupt, threshold-driven behavior, offering little visibility into accumulating risk prior to escalation. In real-world care, however, clinicians act on gradually rising concern rather than instantaneous triggers. We study whether explicit state dynamics can expose such pre-escalation signals without delegating clinical authority to the agent. We introduce a lightweight agent architecture in which a memoryless clinical",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27872v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27872v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27744",
-      "title": "Consumer Attitudes Towards AI in Digital Health: A Mixed-Methods Survey in Australia",
-      "authors": [
-        "Wei Zhou",
-        "Rashina Hoda",
-        "Joycelyn Ling"
-      ],
-      "summary": "AI applications are increasingly being introduced into digital health. While technical performance has advanced rapidly, successful deployment mainly depends on consumer attitudes, especially to patient-facing applications. However, most existing research examines consumer attitudes towards healthcare AI at an abstract level rather than in response to concrete artefacts. We report a mixed-methods survey study in Australia (N=275) examining consumer readiness, acceptance, trust, and risk percepti",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27744v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27744v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27741",
-      "title": "Differential Subgroup Discovery: Characterizing Where Two Populations Differ, and Why",
-      "authors": [
-        "Sascha Xu",
-        "Jilles Vreeken"
-      ],
-      "summary": "We study the problem of understanding where two populations differ within a feature space, which we formalize in the concept of a differential subgroup: a subset of individuals from both populations who, despite sharing similar characteristics, exhibit exceptional differences in a target outcome. Differential subgroups reveal the regions of the feature space where population-level gaps are most pronounced and can help practitioners identify the covariate combinations that are structurally respon",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27741v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27741v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27724",
-      "title": "Iterative Multimodal Retrieval-Augmented Generation for Medical Question Answering",
-      "authors": [
-        "Xupeng Chen",
-        "Binbin Shi",
-        "Chenqian Le",
-        "Jiaqi Zhang",
-        "Kewen Wang",
-        "Ran Gong",
-        "Jinhan Zhang",
-        "Chihang Wang"
-      ],
-      "summary": "Medical retrieval-augmented generation (RAG) systems typically operate on text chunks extracted from biomedical literature, discarding the rich visual content (tables, figures, structured layouts) of original document pages. We propose MED-VRAG, an iterative multimodal RAG framework that retrieves and reasons over PMC document page images instead of OCR'd text. The system pairs ColQwen2.5 patch-level page embeddings with a sharded MapReduce LLM filter, scaling to ~350K pages while keeping Stage-",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27724v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27724v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27723",
-      "title": "Optimized Deferral for Imbalanced Settings",
-      "authors": [
-        "Corinna Cortes",
-        "Anqi Mao",
-        "Mehryar Mohri",
-        "Yutao Zhong"
-      ],
-      "summary": "Learning algorithms can be significantly improved by routing complex or uncertain inputs to specialized experts, balancing accuracy with computational cost. This approach, known as learning to defer, is essential in domains like natural language generation, medical diagnosis, and computer vision, where an effective deferral can reduce errors at low extra resource consumption. However, the two-stage learning to defer setting, which leverages existing predictors such as a collection of LLMs or oth",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27723v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27723v1",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27720",
-      "title": "Auditing Frontier Vision-Language Models for Trustworthy Medical VQA: Grounding Failures, Format Collapse, and Domain Adaptation",
-      "authors": [
-        "Xupeng Chen",
-        "Binbin Shi",
-        "Chenqian Le",
-        "Qifu Yin",
-        "Lang Lin",
-        "Haowei Ni",
-        "Ran Gong",
-        "Panfeng Li"
-      ],
-      "summary": "Deploying vision-language models (VLMs) in clinical settings demands auditable behavior under realistic failure conditions, yet the failure landscape of frontier VLMs on specialized medical inputs is poorly characterized. We audit five recent frontier and grounding-aware VLMs (Gemini~2.5~Pro, GPT-5, o3, GLM-4.5V, Qwen~2.5~VL) on Medical VQA along two trust-relevant axes. Perception: all models localize anatomical and pathological targets poorly -- the best model reaches only 0.23 mean IoU and 19",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27720v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27720v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27697",
-      "title": "Deep Learning-Based Segmentation of Peritoneal Cancer Index Regions from CT Imaging",
-      "authors": [
-        "Pieter C. Gort",
-        "Lotte J. S. Ewals",
-        "Marion W. Tops-Welten",
-        "Cris H. B. Claessens",
-        "Joost Nederend",
-        "Fons van der Sommen"
-      ],
-      "summary": "Peritoneal metastases are currently assessed using diagnostic laparoscopy to determine Sugarbaker's Peritoneal Cancer Index (sPCI), which works by dividing the abdomen into 13 regions and scoring each region based on tumor size. A recent consensus study defined 3D regions to facilitate a radiological PCI (rPCI), providing standardized anatomical regions for imaging-based assessment. Despite its clinical value, sPCI is invasive and lacks a standardized imaging counterpart. In this study, we propo",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27697v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27697v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted for presentation at Computer Assisted Radiology and Surgery (CARS) 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2604.27673",
-      "title": "The TEA Nets framework combines AI and cognitive network science to model targets, events and actors in text",
-      "authors": [
-        "Sebastiano Franchini",
-        "Alexis Carrillo",
-        "Edoardo Sebastiano De Duro",
-        "Riccardo Improta",
-        "Ali Aghazadeh Ardebili",
-        "Massimo Stella"
-      ],
-      "summary": "We introduce Target-Event-Agent Networks (TEA Nets) as a computational framework to extract subjects (``Agents\"), verbs (``Events\"), and objects (``Targets\") from texts. Grounded in cognitive network science and artificial intelligence, TEA Nets are implemented as an open-source Python library. We test TEA Nets in three case studies, demonstrating the framework's ability to perform interpretable emotion detection, semantic frame analyses, and linguistic inquiries across conspiracy texts and text",
-      "published": "2026-04-30",
-      "publishedDate": {
-        "iso": "2026-04-30",
-        "year": 2026,
-        "month": 4,
-        "day": 30
-      },
-      "arxivUrl": "http://arxiv.org/abs/2604.27673v1",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27673v1",
-      "categories": [
-        "cs.AI",
-        "cs.CY",
-        "cs.HC",
-        "cs.LG",
-        "cs.SI"
-      ],
-      "comments": "",
       "arxivVersion": "v1"
     }
   ]

@@ -14,11 +14,423 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-05-15T02:44:55.893Z",
-  "fetchedAt": "2026-05-15T02:44:55.894Z",
+  "lastUpdated": "2026-05-16T02:32:31.917Z",
+  "fetchedAt": "2026-05-16T02:32:31.917Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2605.15171",
+      "title": "Evidential Reasoning Advances Interpretable Real-World Disease Screening",
+      "authors": [
+        "Chenyu Lian",
+        "Hong-Yu Zhou",
+        "Jing Qin"
+      ],
+      "summary": "Disease screening is critical for early detection and timely intervention in clinical practice. However, most current screening models for medical images suffer from limited interpretability and suboptimal performance. They often lack effective mechanisms to reference historical cases or provide transparent reasoning pathways. To address these challenges, we introduce EviScreen, an evidential reasoning framework for disease screening that leverages region-level evidence from historical cases. Th",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.15171v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.15171v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "ICML 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.15168",
+      "title": "Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment",
+      "authors": [
+        "Sayantan Kumar",
+        "Shahriar Noroozizadeh",
+        "Juyong Kim",
+        "Jeremy C. Weiss"
+      ],
+      "summary": "Reconstructing precise clinical timelines is essential for modeling patient trajectories and forecasting risk in complex, heterogeneous conditions like sepsis. While unstructured clinical narratives offer semantically rich and contextually complete descriptions of a patient's course, they often lack temporal precision and contain ambiguous event timing. Conversely, structured electronic health record (EHR) data provides precise temporal anchors but misses a substantial portion of clinically mean",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.15168v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.15168v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "comments": "Sayantan Kumar, Shahriar Noroozizadeh, Juyong Kim (authors contributed equally)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.15053",
+      "title": "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale",
+      "authors": [
+        "Anurup Ganguli"
+      ],
+      "summary": "Continually pre-training a large language model on heterogeneous text domains, without replay or task labels, has remained an unsolved architectural problem at LLM scale. Existing methods rely on replay buffers, task identifiers, regularization penalties that scale poorly, or sentence-classification-scale evaluation. We introduce TFGN, an architectural overlay for transformer language models that produces input-conditioned, parameter-efficient updates while leaving the rest of the transformer un",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.15053v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.15053v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "65 pages, 10 figures, 40 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.15050",
+      "title": "Separating Intrinsic Ambiguity from Estimation Uncertainty in Deep Generative Models for Linear Inverse Problems",
+      "authors": [
+        "Yuxin Guo",
+        "Dongrui Deng",
+        "Pulkit Grover"
+      ],
+      "summary": "Recently, deep generative models have been used for posterior inference in inverse problems, including high-stakes applications in medical imaging and scientific discovery, where the uncertainty of a prediction can matter as much as the prediction itself. However, posterior uncertainty is difficult to interpret because it can mix ambiguity inherent to the forward operator with uncertainty propagated through inference. We introduce a structural decomposition of posterior uncertainty that isolates",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.15050v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.15050v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.15016",
+      "title": "COTCAgent: Preventive Consultation via Probabilistic Chain-of-Thought Completion",
+      "authors": [
+        "Zihan Deng",
+        "Xiaozhen Zhong",
+        "Chuanzhi Xu"
+      ],
+      "summary": "As large language models empower healthcare, intelligent clinical decision support has developed rapidly. Longitudinal electronic health records (EHR) provide essential temporal evidence for accurate clinical diagnosis and analysis. However, current large language models have critical flaws in longitudinal EHR reasoning. First, lacking fine-grained statistical reasoning, they often hallucinate clinical trends and metrics when quantitative evidence is textually implied, biasing diagnostic inferen",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.15016v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.15016v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.15009",
+      "title": "DeepTokenEEG Enhancing Mild Cognitive Impairment and Alzheimers Classification via Tokenized EEG Features",
+      "authors": [
+        "Thinh Nguyen-Quang",
+        "Minh Long Ngo",
+        "Ngoc-Son Nguyen",
+        "Nguyen Thanh Vinh",
+        "Huy-Dung Han",
+        "Bui Thanh Tung",
+        "Nguyen Quang Linh",
+        "Khuong Vo",
+        "Manoj Vishwanath",
+        "Hung Cao"
+      ],
+      "summary": "The detection of Alzheimers disease (AD) is considered crucial, as timely intervention can improve patient outcomes. Electroencephalogram (EEG)-based diagnosis has been recognized as a non-invasive, accessible, and cost-effective approach for AD detection; however, it faces challenges related to data availability, accuracy of modern deep learning methods, and the time-consuming nature of expert-based interpretation. In this study, a novel lightweight and high-performance model, DeepTokenEEG, was",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.15009v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.15009v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.15000",
+      "title": "Quantifying and Mitigating Premature Closure in Frontier LLMs",
+      "authors": [
+        "Rebecca Handler",
+        "Suhana Bedi",
+        "Nigam Shah"
+      ],
+      "summary": "Premature closure, or committing to a conclusion before sufficient information is available, is a recognized contributor to diagnostic error but remains underexamined in large language models (LLMs). We define LLM premature closure as inappropriate commitment under uncertainty: providing an answer, recommendation, or clinical guidance when the safer response would be clarification, abstention, escalation, or refusal. We evaluated five frontier LLMs across structured and open-ended medical tasks.",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.15000v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.15000v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "14 pages, 3 figures, 1 table",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14995",
+      "title": "Explainable Detection of Depression Status Shifts from User Digital Traces",
+      "authors": [
+        "Loris Belcastro",
+        "Francesco Gervino",
+        "Fabrizio Marozzo",
+        "Domenico Talia",
+        "Paolo Trunfio"
+      ],
+      "summary": "Every day, users generate digital traces (e.g., social media posts, chats, and online interactions) that are inherently timestamped and may reflect aspects of their mental state. These traces can be organized into temporal trajectories that capture how a user's mental health signals evolve, including phases of improvement, deterioration, or stability. In this work, we propose an explainable framework for detecting and analyzing depression-related status shifts in user digital traces. The approac",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14995v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14995v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.SI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14991",
+      "title": "Predicting Response to Neoadjuvant Chemotherapy in Ovarian Cancer from CT Baseline Using Multi-Loss Deep Learning",
+      "authors": [
+        "Francesco Pastori",
+        "Francesca Fati",
+        "Marina Rosanu",
+        "Luigi De Vitis",
+        "Lucia Ribero",
+        "Gabriella Schivardi",
+        "Giovanni Damiano Aletti",
+        "Nicoletta Colombo",
+        "Jvan Casarin",
+        "Francesco Multinu",
+        "Elena De Momi"
+      ],
+      "summary": "Ovarian cancer is the most lethal gynecologic malignancy: around 60% of patients are diagnosed at an advanced stage, with an associated 5-year survival rate of about 30%. Early identification of non-responders to neoadjuvant chemotherapy remains a key unmet need, as it could prevent ineffective therapy and avoid delays in optimal surgical management. This work proposes a non-invasive deep learning framework to predict neoadjuvant chemotherapy response from pre-treatment contrast-enhanced CT by l",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14991v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14991v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14980",
+      "title": "MicroscopyMatching: Towards a Ready-to-use Framework for Microscopy Image Analysis in Diverse Conditions",
+      "authors": [
+        "Xiaofei Hui",
+        "Haoxuan Qu",
+        "Hossein Rahmani",
+        "Shuohong Wang",
+        "Jeff W. Lichtman",
+        "Jun Liu"
+      ],
+      "summary": "Analyzing microscopy images to extract biological object properties (e.g., their morphological organization, temporal dynamics, and population density) is fundamental to various biomedical research. Yet conducting this manually is costly and time-consuming. Though deep learning-based approaches have been explored to automate this process, the substantial diversity of microscopy analysis settings in practice (including variations of biological object types, sample processing protocols, imaging eq",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14980v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14980v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14968",
+      "title": "GraphFlow: An Architecture for Formally Verifiable Visual Workflows Enabling Reliable Agentic AI Automation",
+      "authors": [
+        "Drewry H. Morris",
+        "Luis Valles",
+        "Reza Hosseini Ghomi"
+      ],
+      "summary": "GraphFlow is a visual workflow system designed to improve the reliability of agentic AI automation in multi-step, mission-critical processes. In these workflows, small errors compound rapidly: under an idealized model of independent steps, a ten-step process with 90% per-step reliability completes successfully only 35% of the time. Existing workflow platforms provide durable execution and observability but offer few semantic correctness guarantees, while agentic systems plan at inference time, m",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14968v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14968v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14912",
+      "title": "From Sycophantic Consensus to Pluralistic Repair: Why AI Alignment Must Surface Disagreement",
+      "authors": [
+        "Varad Vishwarupe",
+        "Nigel Shadbolt",
+        "Marina Jirotka"
+      ],
+      "summary": "Pluralistic alignment is typically operationalised as preference aggregation: producing responses that span (Overton), steer toward (Steerable), or proportionally represent (Distributional) diverse human values. We argue that aggregation alone is an incomplete primitive for deployed pluralistic alignment. Under genuine value pluralism, the failure mode of contemporary RLHF-trained assistants is not insufficient coverage but sycophantic consensus: a learned tendency to agree with, validate, and m",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14912v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14912v1",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14888",
+      "title": "PROCESS-2: A Benchmark Speech Corpus for Early Cognitive Impairment Detection",
+      "authors": [
+        "Madhurananda Pahar",
+        "Caitlin H. Illingworth",
+        "Bahman Mirheidari",
+        "Hend Elghazaly",
+        "Fritz Peters",
+        "Sophie Young",
+        "Wing-Zin Leung",
+        "Labhpreet Kaur",
+        "Daniel Blackburn",
+        "Heidi Christensen"
+      ],
+      "summary": "Speech-based analysis offers a scalable and non-invasive approach for detecting cognitive decline, yet progress has been constrained by the limited availability of clinically validated datasets collected under realistic conditions. We introduce PROCESS-2, a large-scale speech dataset designed to support research on automatic assessment of cognitive impairment from spontaneous and task-oriented speech. The dataset comprises recordings from 200 healthy controls, 150 mild cognitive impairment, and ",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14888v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14888v1",
+      "categories": [
+        "cs.SD",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14886",
+      "title": "BiFedKD: Bidirectional Federated Knowledge Distillation Framework for Non-IID and Long-Tailed ECG Monitoring",
+      "authors": [
+        "Zixuan Shu",
+        "Tiancheng Cao",
+        "Hen-Wei Huang"
+      ],
+      "summary": "Electrocardiogram (ECG) monitoring in Internet of Medical Things (IoMT) networks is constrained by strict data-sharing regulations and privacy concerns. Federated learning (FL) enables collaborative learning by keeping raw ECG data on devices, but frequent transmissions of high-dimensional model updates incur heavy per-round traffic over bandwidth-limited links. To alleviate this bottleneck, federated distillation (FD) replaces parameter exchange with logit-based knowledge transfer. However, the",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14886v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14886v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.14866",
+      "title": "Towards In-Depth Root Cause Localization for Microservices with Multi-Agent Recursion-of-Thought",
+      "authors": [
+        "Lingzhe Zhang",
+        "Tong Jia",
+        "Kangjin Wang",
+        "Chiming Duan",
+        "Minghua He",
+        "Rongqian Wang",
+        "Xi Peng",
+        "Meiling Wang",
+        "Gong Zhang",
+        "Renhai Chen",
+        "Ying Li"
+      ],
+      "summary": "As modern microservice systems grow increasingly complex due to dynamic interactions and evolving runtime environments, they experience failures with rising frequency. Ensuring system reliability therefore critically depends on accurate root cause localization (RCL). While numerous traditional machine learning and deep learning approaches have been explored for this task, they often suffer from limited interpretability and poor transferability across deployments. More recently, large language mo",
+      "published": "2026-05-14",
+      "publishedDate": {
+        "iso": "2026-05-14",
+        "year": 2026,
+        "month": 5,
+        "day": 14
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.14866v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.14866v1",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2605.13817",
       "title": "Neurosymbolic Auditing of Natural-Language Software Requirements",
@@ -468,421 +880,6 @@
         "cs.LG"
       ],
       "comments": "Accepted into the 9th International Conference on Computational and Mathematical Biomedical Engineering (CMBE2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10286",
-      "title": "AgentRx: A Benchmark Study of LLM Agents for Multimodal Clinical Prediction Tasks",
-      "authors": [
-        "Baraa Al Jorf",
-        "Farah E. Shamout"
-      ],
-      "summary": "Building effective clinical decision support systems requires the synthesis of complex heterogeneous multimodal data. Such modalities include temporal electronic health records data, medical images, radiology reports, and clinical notes. Large language model (LLM)-based agents have shown impressive performance in various healthcare tasks, especially those involving textual modalities. Considering the fragmentation of healthcare data across hospital systems, collaborative agent frameworks present",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10286v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10286v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "Accepted at the AHLI Conference on Health, Inference, and Learning 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10278",
-      "title": "Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma: the PRECISE-GBM study",
-      "authors": [
-        "Prajwal Ghimire",
-        "Junjie Li",
-        "Liu Yaou",
-        "Marc Modat",
-        "Thomas Booth"
-      ],
-      "summary": "Background: Radiogenomics allows identification of radiological biomarkers for genomic phenotypes. In glioblastoma, these biomarkers could potentially complement patient stratification strategies. We aim to develop and analytically validate radiological biomarkers that capture immune cell signatures within IDH-wildtype glioblastoma microenvironment using radiogenomic analysis. Methods: This was a retrospective multicenter study using curated open-access anonymized imaging and genomic data from T",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10278v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10278v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Abstract : 226; Importance of study: 109; Manuscript: 5690 (excluding references) Figures: 4, Tables: 2 Supplemental File: 1",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10267",
-      "title": "IndustryBench: Probing the Industrial Knowledge Boundaries of LLMs",
-      "authors": [
-        "Songlin Bai",
-        "Xintong Wang",
-        "Linlin Yu",
-        "Bin Chen",
-        "Zhiang Xu",
-        "Yuyang Sheng",
-        "Changtong Zan",
-        "Xiaofeng Zhu",
-        "Yizhe Zhang",
-        "Jiru Li",
-        "Mingze Guo",
-        "Ling Zou",
-        "Yalong Li",
-        "Chengfu Huo",
-        "Liang Ding"
-      ],
-      "summary": "In industrial procurement, an LLM answer is useful only if it survives a standards check: recommended material must match operating condition, every parameter must respect a regulated threshold, and no procedure may contradict a safety clause. Partial correctness can mask safety-critical contradictions that aggregate LLM benchmarks rarely capture. We introduce IndustryBench, a 2,049-item benchmark for industrial procurement QA in Chinese, grounded in Chinese national standards (GB/T) and structu",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10267v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10267v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10253",
-      "title": "Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation",
-      "authors": [
-        "Peiru Yang",
-        "Haoran Zheng",
-        "Tong Ju",
-        "Shiting Wang",
-        "Wanchun Ni",
-        "Jiajun Liu",
-        "Shangguang Wang",
-        "Yongfeng Huang",
-        "Tao Qi"
-      ],
-      "summary": "Retrieval-augmented generation (RAG) is a widely adopted paradigm for enhancing LLMs in medical applications by incorporating expert multimodal knowledge during generation. However, the underlying retrieval databases may naturally contain, or be intentionally injected with, adversarial knowledge, which can perturb model outputs and undermine system reliability. To investigate this risk, prior studies have explored knowledge poisoning attacks in medical RAG systems. Nevertheless, most of them rel",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10253v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10253v1",
-      "categories": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "comments": "Accepted by ACL 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10181",
-      "title": "A Comparative Study of Machine Learning and Deep Learning for Out-of-Distribution Detection",
-      "authors": [
-        "Jihyeon Baek",
-        "Seunghoon Lee",
-        "Gitaek Kwon",
-        "Doohyun Park"
-      ],
-      "summary": "Out-of-distribution (OOD) detection is essential for building reliable AI systems, as models that produce outputs for invalid inputs cannot be trusted. Although deep learning (DL) is often assumed to outperform traditional machine learning (ML), medical imaging data are typically acquired under standardized protocols, leading to relatively constrained image variability in OOD detection tasks. This motivates a direct comparison between ML and DL approaches in this setting. The two approaches are ",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10181v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10181v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted to IEEE ISBI 2026. The final published version will appear in IEEE Xplore",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10165",
-      "title": "Task-Agnostic Noisy Label Detection via Standardized Loss Aggregation",
-      "authors": [
-        "Inhyuk Park",
-        "Doohyun Park"
-      ],
-      "summary": "Noisy labels are common in large-scale medical imaging datasets due to inter-observer variability and ambiguous cases. We propose a statistically grounded and task-agnostic framework, Standardized Loss Aggregation (SLA), for detecting noisy labels at the sample level. SLA quantifies label reliability by aggregating standardized fold-level validation losses across repeated cross-validation runs. This formulation generalizes discrete hard-counting schemes into a continuous estimator that captures ",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10165v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10165v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted to IEEE ISBI 2026. The final published version will appear in IEEE Xplore",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10137",
-      "title": "PFN-TS: Thompson Sampling for Contextual Bandits via Prior-Data Fitted Networks",
-      "authors": [
-        "Yan Shuo Tan",
-        "Kenyon Ng",
-        "Ruizhe Deng",
-        "Sumetha Loganathan",
-        "Qiong Zhang",
-        "Bibhas Chakraborty"
-      ],
-      "summary": "Thompson sampling is a widely used strategy for contextual bandits: at each round, it samples a reward function from a Bayesian posterior and acts greedily under that sample. Prior-data fitted networks (PFNs), such as TabPFN v2+ and TabICL v2, are attractive candidates for this purpose because they approximate Bayesian posterior predictive distributions in a single forward pass. However, PFNs predict noisy future rewards, while Thompson sampling requires uncertainty over the latent mean reward f",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10137v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10137v1",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10121",
-      "title": "Explainability of Recurrent Neural Networks for Enhancing P300-based Brain-Computer Interfaces",
-      "authors": [
-        "Christian Oliva",
-        "Vinicio Changoluisa",
-        "Francisco B Rodríguez",
-        "Luis F Lago-Fernández"
-      ],
-      "summary": "Brain-Computer Interfaces (BCIs) based on P300 event-related potentials offer promising applications in health, education, and assistive technologies. However, challenges related to inter- and intra-subject variability and the explainability of Deep Learning (DL) models limit their practical deployment. In this work, we present the Post-Recurrent Module (PRM), an additional layer designed to improve both performance and transparency, incorporated into a Recurrent Neural Network (RNN) architectur",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10121v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10121v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10120",
-      "title": "MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attribute Graph",
-      "authors": [
-        "Manyu Li",
-        "Ruian He",
-        "Chenxi Ma",
-        "Weimin Tan",
-        "Bo Yan"
-      ],
-      "summary": "Multimodal large language models (MLLMs) show remarkable potential for scientific reasoning, yet their performance in specialized domains such as microscopy remains limited by the scarcity of domain-specific training data and the difficulty of encoding fine-grained expert knowledge into model parameters. To bridge the gap, we introduce MicroWorld, a framework that constructs a multimodal attributed property graph (MAPG) from large-scale scientific image--caption corpora and leverages it to augme",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10120v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10120v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "29 pages, 14 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10111",
-      "title": "CFSPMNet: Cross-subject Fourier-guided Spatial-Patch Mamba Network for EEG Motor Imagery Decoding in Stroke Patients",
-      "authors": [
-        "Xiangkai Wang",
-        "Yun Zhao",
-        "Dongyi He",
-        "Qingling Xia",
-        "Gen Li",
-        "Xinlai Xing",
-        "Yuchi Pan",
-        "Bin Jiang"
-      ],
-      "summary": "Motor imagery electroencephalography (MI-EEG) decoding offers a non-invasive route for post-stroke rehabilitation, but cross-patient use remains difficult because pathological neural reorganization changes task-related EEG dynamics, aperiodic activity, local excitability, cross-regional coordination, and trial-level brain-state context. This makes source-learned MI representations unreliable for unseen patients. To address this problem, we propose CFSPMNet, a cross-patient adaptation framework t",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10111v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10111v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10076",
-      "title": "A Stability Benchmark of Generative Regularizers for Inverse Problems",
-      "authors": [
-        "Alexander Denker",
-        "Johannes Hertrich",
-        "Sebastian Neumayer"
-      ],
-      "summary": "Generative (diffusion) priors demonstrate remarkable performance in addressing inverse problems in imaging. Yet, for scientific and medical imaging, it is crucial that reconstruction techniques remain stable and reliable under imperfect settings. Typical definitions of stability encompass the notion of ''convergent regularization'', robustness to out-of-distribution data, and to inaccuracies in the forward operator or noise model. We evaluate these properties numerically. Furthermore, we benchma",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10076v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10076v1",
-      "categories": [
-        "eess.IV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10067",
-      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
-      "authors": [
-        "Huilin Zhou",
-        "Jian Zhao",
-        "Yilu Zhong",
-        "Zhen Liang",
-        "Xiuyuan Chen",
-        "Yuchen Yuan",
-        "Tianle Zhang",
-        "Chi Zhang",
-        "Lan Zhang",
-        "Xuelong Li"
-      ],
-      "summary": "Red teaming is critical for uncovering vulnerabilities in Large Language Models (LLMs). While automated methods have improved scalability, existing approaches often rely on static heuristics or stochastic search, rendering them brittle against advanced safety alignment. To address this, we introduce Metis, a framework that reformulates jailbreaking as inference-time policy optimization within an adversarial Partially Observable Markov Decision Process (POMDP). Metis employs a self-evolving metac",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10067v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10067v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "Accepted to the 43rd International Conference on Machine Learning (ICML 2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10064",
-      "title": "MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs",
-      "authors": [
-        "Ruiyi Yang",
-        "Zechen Li",
-        "Hao Xue",
-        "Imran Razzak",
-        "Flora D. Salim"
-      ],
-      "summary": "Self-evolving language-model agents must decide what to learn next and how to preserve what they have learned across iterations. Existing systems typically carry this cross-iteration knowledge as natural-language feedback, flat episodic memory, or implicit reinforcement signals, none of which cleanly supports a frozen weak backbone at inference time. This paper introduces MAGE (Multi-Agent Graph-guided Evolution), a framework that externalizes self-knowledge into a four-subgraph co-evolutionary ",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10064v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10064v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "25 pages, 3 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10027",
-      "title": "Speech-based Psychological Crisis Assessment using LLMs",
-      "authors": [
-        "Terumi Chiba",
-        "Yang Luo",
-        "Ziyun Cui",
-        "Yongsheng Tong",
-        "Chao Zhang"
-      ],
-      "summary": "Psychological support hotlines provide critical support for individuals experiencing mental health emergencies, yet current assessments largely rely on human operators whose judgments may vary with professional experience and are constrained by limited staffing resources. This paper proposes a large language model (LLM)-based framework for automated crisis level classification, a key indicator that supports many downstream tasks and improves the overall quality of hotline services. To better cap",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10027v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10027v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "5 pages, 5 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.10025",
-      "title": "Medical Incident Causal Factors and Preventive Measures Generation Using Tag-based Example Selection in Few-shot Learning",
-      "authors": [
-        "Yuna Haseyama",
-        "Tomoki Ito",
-        "Hiroki Sakaji",
-        "Itsuki Noda"
-      ],
-      "summary": "In high-stakes domains such as healthcare, the reliability of Large Language Models (LLMs) is critical, particularly when generating clinical insights from incident reports. This study proposes a tag-based few-shot example selection method for prompting LLMs to generate background/causal factors and preventive measures from details of the medical incidents. For our experiments, we use the Japanese Medical Incident Dataset (JMID), a structured dataset of 3,884 real-world medical accident and near",
-      "published": "2026-05-11",
-      "publishedDate": {
-        "iso": "2026-05-11",
-        "year": 2026,
-        "month": 5,
-        "day": 11
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.10025v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10025v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
       "arxivVersion": "v1"
     }
   ]

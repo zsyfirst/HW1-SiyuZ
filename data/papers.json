@@ -14,11 +14,455 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-05-22T02:54:00.079Z",
-  "fetchedAt": "2026-05-22T02:54:00.079Z",
+  "lastUpdated": "2026-05-23T02:36:31.158Z",
+  "fetchedAt": "2026-05-23T02:36:31.158Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2605.22794",
+      "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+      "authors": [
+        "Qianshu Cai",
+        "Yonggang Zhang",
+        "Xianzhang Jia",
+        "Wei Xue",
+        "Jun Song",
+        "Xinmei Tian",
+        "Yike Guo"
+      ],
+      "summary": "Autonomous agentic systems are largely static after deployment: they do not learn from user interactions, and recurring failures persist until the next human-driven update ships a fix. Self-evolving agents have emerged in response, but all confine evolution to text-mutable artifacts -- skill files, prompt configurations, memory schemas, workflow graphs -- and leave the agent harness untouched. Since routing, hook ordering, state invariants, and dispatch live in code rather than in any text artif",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22794v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22794v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "12 pages, 3 figures, 2 tables. Preprint. Code: https://github.com/dav-joy-thon/MOSS",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22775",
+      "title": "MambaGaze: Bidirectional Mamba with Explicit Missing Data Modeling for Cognitive Load Assessment from Eye-Gaze Tracking Data",
+      "authors": [
+        "Amir Mousavi",
+        "Mohammad Sadegh Sirjani",
+        "Erfan Nourbakhsh",
+        "Mimi Xie",
+        "Rocky Slavin",
+        "Leslie Neely",
+        "John Davis",
+        "John Quarles"
+      ],
+      "summary": "Real-time cognitive load assessment from eye-tracking signals could potentially enable adaptive human-centered-AI such as safety-critical applications such as driver vigilance monitoring or automated flight deck assistance, yet two challenges persist: handling frequent data missingness from blinks and tracking failures, and efficiently modeling long-range temporal dependencies. We propose MambaGaze, a framework that addresses these challenges through 1) XMD encoding, which augments raw features ",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22775v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22775v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "Submitted to IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI 2026)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22774",
+      "title": "CogAdapt: Transferring Clinical ECG Foundation Models to Wearable Cognitive Load Assessment via Lead Adaptation",
+      "authors": [
+        "Amir Mousavi",
+        "Mohammad Sadegh Sirjani",
+        "Erfan Nourbakhsh",
+        "Mimi Xie",
+        "Rocky Slavin",
+        "Leslie Neely",
+        "John Davis",
+        "John Quarles"
+      ],
+      "summary": "Real-time cognitive load assessment is essential for adaptive human-computer interaction but remains challenging due to limited labeled data and poor cross-subject generalization. Recent ECG foundation models pre-trained on millions of clinical recordings offer rich representations, but cannot be directly applied to wearable devices due to sensor configuration mismatch and task differences. In this paper, we propose CogAdapt, a framework that adapts clinical ECG foundation models to wearable cog",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22774v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22774v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "7 pages, 7 figures. Submitted to IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI 2026)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22759",
+      "title": "Towards a General Intelligence and Interface for Wearable Health Data",
+      "authors": [
+        "Girish Narayanswamy",
+        "Maxwell A. Xu",
+        "A. Ali Heydari",
+        "Samy Abdel-Ghaffar",
+        "Marius Guerard",
+        "Kara Vaillancourt",
+        "Zhihan Zhang",
+        "Jake Garrison",
+        "Levi Albuquerque",
+        "Dimitris Spathis",
+        "Hong Yu",
+        "Hamid Palangi",
+        "Xuhai \"Orson\" Xu",
+        "David G. T. Barrett",
+        "Joseph Breda",
+        "Jed McGiffin",
+        "Yubin Kim",
+        "Yuwei Zhang",
+        "Naghmeh Rezaei",
+        "Samuel Solomon",
+        "Karan Ahuja",
+        "Tim Althoff",
+        "Jake Sunshine",
+        "Ming-Zher Poh",
+        "Benjamin Yetton",
+        "Ari Winbush",
+        "Nicholas B. Allen",
+        "James M. Rehg",
+        "Isaac Galatzer-Levy",
+        "Yun Liu",
+        "John Hernandez",
+        "Anupam Pathak",
+        "Conor Heneghan",
+        "Yuzhe Yang",
+        "Ahmed A. Metwally",
+        "Pushmeet Kohli",
+        "Mark Malhotra",
+        "Shwetak Patel",
+        "Xin Liu",
+        "Daniel McDuff"
+      ],
+      "summary": "While ubiquitous wearable sensors capture a wealth of behavioral and physiological information, effectively transforming these signals into personalized health insights is challenging. Specifically, converting low-level sensor data into representations capable of characterizing higher-level states is difficult due to high phenotypic diversity and variation in individual baseline health, physiology, and lifestyle factors. Moreover, collecting wearable data paired with health outcome annotations i",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22759v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22759v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22755",
+      "title": "Assessing global drivers of forest transpiration using clustered machine learning models",
+      "authors": [
+        "Morgan Thornwell",
+        "David Yang",
+        "Cheng-Wei Huang",
+        "Peyman Abbaszadeh",
+        "Samantha Hartzell"
+      ],
+      "summary": "Understanding the environmental drivers of forest transpiration is critical for improving global predictions of water availability and ecosystem health. Due to many competing controls on plant water stress and ecosystem transpiration, however, these drivers may vary widely across tree species which have adapted hydraulically to local climate conditions. Here, clustered machine learning models were used to analyze global drivers of forest transpiration rates using the SAPFLUXNET database. Sap flu",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22755v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22755v1",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22740",
+      "title": "Ternary Decision Trees with Locally-Adaptive Uncertainty Zones",
+      "authors": [
+        "William Smits"
+      ],
+      "summary": "Decision trees partition the feature space using hard binary thresholds, assigning identical confidence to instances far from a decision boundary and to those directly on it. We introduce ternary decision trees, which augment each split node with an uncertainty zone of half-width delta centered on the optimal threshold. Instances in this zone receive predictions formed by weighted blending of both child subtrees and are flagged as boundary-uncertain, signaling that downstream applications may tr",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22740v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22740v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "15 pages, 4 figures, 5 appendix sections. Submitted to Data Mining and Knowledge Discovery (DAMI)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22635",
+      "title": "The Double Dilemma in Multi-Task Radiology Report Generation: A Gradient Dynamics Analysis and Solution",
+      "authors": [
+        "Erjian Zhang",
+        "Yatong Hao",
+        "Liejun Wang",
+        "Zhiqing Guo"
+      ],
+      "summary": "While multi-task learning based automatic radiology report generation (RRG) is widely adopted to ensure clinical consistency, most focus on architectural designs yet remain limited to coarse linear scalarization strategies. These strategies cannot effectively balance the hard constraints of discriminative clinical supervision with the smoothness requirements of report generation. To address these problems, we analyze the failure mechanism of linear scalarization from the perspective of gradient ",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22635v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22635v1",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "comments": "Accepted by ICML 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22612",
+      "title": "Healthcare LLM Benchmarks Are Only as Good as Their Explicit Assumptions",
+      "authors": [
+        "Naveen Raman",
+        "Santiago Cortes-Gomez",
+        "Mateo Dulce Rubio",
+        "Fei Fang",
+        "Bryan Wilder"
+      ],
+      "summary": "Benchmarks are necessary for healthcare evaluation, but are not sufficient for predicting deployment performance. Our position is that the evaluation--deployment gap arises not because of poorly designed benchmarks, but from implicit assumptions about how users interact with models that cannot be surfaced from benchmarks alone. To make this precise, we propose a classification of assumptions into two categories: task, which can be tested from conversation data alone, and outcome, which requires ",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22612v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22612v1",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "13 pages, 1 figure",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22611",
+      "title": "Benchmarking Machine Learning Architectures for Antimicrobial Stewardship in Pediatric ICUs",
+      "authors": [
+        "Niklas Raehse",
+        "Luregn J. Schlapbach",
+        "Daphné Chopard"
+      ],
+      "summary": "Antimicrobial stewardship (AMS) is critical in pediatric intensive care units (PICUs), where diagnostic uncertainty often drives broad-spectrum antibiotic use, increasing antimicrobial resistance and potential long-term harms. Machine learning offers a promising approach for identifying patient-level opportunities for stewardship interventions from electronic health record data, yet prior work has focused largely on adult populations and static tabular representations. We present a systematic be",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22611v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22611v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "16 pages, 6 figures, code: https://anonymous.4open.science/r/AMS_intervention_prediction-C024",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22570",
+      "title": "VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis",
+      "authors": [
+        "Jinho Park",
+        "Youbin Kim",
+        "Hogun Park",
+        "Eunbyung Park"
+      ],
+      "summary": "Spatio-temporal reasoning is a core capability for Multimodal Large Language Models (MLLMs) operating in the real world. As such, evaluating it precisely has become an essential challenge. However, existing spatio-temporal reasoning benchmark datasets primarily rely on static image sets or passively curated video data, which limits the evaluation of fine-grained reasoning capabilities. In this paper, we introduce VGenST-Bench, a video benchmark that employs generative models to actively synthesi",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22570v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22570v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "82 pages, 91 figures (7 in main paper, 84 in appendix). Project page: https://zinosii.github.io/VGenST-Bench/",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22547",
+      "title": "Case-Aware Medical Image Classification with Multimodal Knowledge Graphs and Reliability-Guided Refinement",
+      "authors": [
+        "Yiming Xu",
+        "Yixuan Liu",
+        "Yuhang Zhang",
+        "Ling Zheng",
+        "Yihan Wang",
+        "Qi Song"
+      ],
+      "summary": "Deep learning has brought significant progress to medical image classification, yet most existing methods still rely on isolated visual evidence and cannot effectively leverage similar cases or external knowledge. In clinical practice, diagnosis is typically supported by historical similar cases and their associated symptoms. To simulate this diagnostic process, we propose a framework that performs case-aware reasoning using multimodal knowledge graphs for explainable medical image diagnosis. Gi",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22547v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22547v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22501",
+      "title": "BeLink: Biomedical Entity Linking Meets Generative Re-Ranking",
+      "authors": [
+        "Darya Shlyk",
+        "Stefano Montanelli",
+        "Lawrence Hunter"
+      ],
+      "summary": "Despite recent progress, Biomedical Entity Linking (BEL) with large language models (LLMs) remains computationally inefficient and challenging to deploy in practical settings. In this work, we demonstrate that instruction-tuning of open-source generative models can offer an effective solution when applied at the re-ranking stage of the BEL pipeline. We propose a set-wise instruction-tuning formulation that enables fast and accurate candidate selection. Our method demonstrates strong performance ",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22501v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22501v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "comments": "Accepted to ACM SIGIR 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22468",
+      "title": "BioFormer: Rethinking Cross-Subject Generalization via Spectral Structural Alignment in Biomedical Time-Series",
+      "authors": [
+        "Guikang Du",
+        "Haoran Li",
+        "Xinyu Liu",
+        "Zhibo Zhang",
+        "Xiaoli Gong",
+        "Jin Zhang"
+      ],
+      "summary": "Cross-subject generalization in biomedical time-series refers to training on data from some subjects and testing on unseen subjects.The key challenge is to suppress subject specific variability in BTS representations.Most existing methods implicitly suppress the variability through model building or subject adversarial learning, but rarely model it explicitly.We introduce spectral drift as a new perspective to characterize subject specific variability.Specifically, BTS signals under the same lab",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22468v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22468v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22414",
+      "title": "Towards Clinically Interpretable Ophthalmic VQA via Spatially-Grounded Lesion Evidence",
+      "authors": [
+        "Xingyue Wang",
+        "Bo Liu",
+        "Meng Wang",
+        "Zhixuan Zhang",
+        "Chengcheng Zhu",
+        "Huazhu Fu",
+        "Jiang Liu"
+      ],
+      "summary": "Visual Question Answering (VQA) holds great promise for clinical support, particularly in ophthalmology, where retinal fundus photography is essential for diagnosis. However, ophthalmic VQA benchmarks primarily emphasize answer accuracy, neglecting the explicit visual evidence necessary for clinical interpretability. In this work, we introduce FundusGround, a new benchmark for clinically interpretable ophthalmic VQA with spatially-grounded lesion evidence. Specifically, we propose a three-stage ",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22414v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22414v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.22373",
+      "title": "Boundary-targeted Membership Inference Attacks on Safety Classifiers",
+      "authors": [
+        "Anthony Hughes",
+        "Alexander Goldberg",
+        "Prince Jha",
+        "Adam Perer",
+        "Nikolaos Aletras",
+        "Niloofar Mireshghallah"
+      ],
+      "summary": "Safety classifiers are essential safeguards within generative AI systems, filtering harmful content or identifying at-risk users when interacting with large language models. Despite their necessity, these models are trained on sensitive datasets including discussions of self-harm and mental health, raising important, yet poorly understood, privacy concerns. Membership inference attacks (MIAs) allow adversaries to infer membership of examples used to train models. In this work, we hypothesize tha",
+      "published": "2026-05-21",
+      "publishedDate": {
+        "iso": "2026-05-21",
+        "year": 2026,
+        "month": 5,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.22373v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.22373v1",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2605.21301",
       "title": "Automatic Discovery of Disease Subgroups by Contrasting with Healthy Controls",
@@ -510,414 +954,6 @@
         "stat.AP"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20182",
-      "title": "Atoms of Thought: Universal EEG Representation Learning with Microstates",
-      "authors": [
-        "Xinyang Tian",
-        "Ruitao Liu",
-        "Ziyi Ye",
-        "Siyang Xue",
-        "Xin Wang",
-        "Xuesong Chen"
-      ],
-      "summary": "Learning universal representations from electroencephalogram (EEG) signals is a cutting-edge approach in the field of neuroinformatics and brain-computer interfaces (BCIs). Conventionally, EEG is treated as a multivariate temporal signal, where time- or frequency-domain features are extracted for representation learning. This paper investigates a simple yet effective EEG representation, i.e., microstates. Microstates represent the building blocks of brain activity patterns at a microscopic time ",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20182v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20182v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "Accepted by the 3rd International Workshop on Multimodal and Responsible Affective Computing (MRAC 2025). 8 pages of main text, 23 pages total, 5 figures, 4 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20158",
-      "title": "Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models",
-      "authors": [
-        "Guangzhi Xiong",
-        "Qiao Jin",
-        "Sanchit Sinha",
-        "Zhiyong Lu",
-        "Aidong Zhang"
-      ],
-      "summary": "Large Vision Language Models (LVLMs) show promise in medical applications, but their inability to faithfully ground responses in visual evidence raises serious concerns about clinical trustworthiness. While visual attribution methods are widely used to explain LVLM predictions, whether these explanations actually reflect the visual evidence underlying the model's decision is largely unverified, since ground-truth annotations for internal model reasoning are typically unavailable. We address this",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20158v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20158v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20098",
-      "title": "Neurosymbolic Learning for Inference-Time Argumentation",
-      "authors": [
-        "Gabriel Freedman",
-        "Adam Dejl",
-        "Adam Gould",
-        "Mansi",
-        "Lihu Chen",
-        "Jianqi Jiang",
-        "Francesca Toni"
-      ],
-      "summary": "Claim verification is an important problem in high-stakes settings, including health and finance. When information underpinning claims is incomplete or conflicting, uncertain answers may be more appropriate than binary true or false classifications. In all cases, faithful explanations of the considerations determining the final verdict are crucial. We introduce inference-time argumentation (ITA), a trainable neurosymbolic framework for ternary claim verification in which a formal argumentation s",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20098v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20098v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "Under review",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20052",
-      "title": "PromptRad: Knowledge-Enhanced Multi-Label Prompt-Tuning for Low-Resource Radiology Report Labeling",
-      "authors": [
-        "Ying-Jia Lin",
-        "Tzu-Chin Lo",
-        "Ping-Chien Li",
-        "Chi-Tung Cheng",
-        "Chien-Hung Liao",
-        "Hung-Yu Kao"
-      ],
-      "summary": "Automatic report labeling facilitates the identification of clinical findings from unstructured text and enables large-scale annotation for medical imaging research. Existing rule-based labelers struggle with the diverse descriptions in clinical reports, while fine-tuning pre-trained language models (PLMs) requires large amounts of labeled data that are often unavailable in clinical settings. In this paper, we propose PromptRad, a knowledge-enhanced multi-label \\textbf{prompt}-tuning approach fo",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20052v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20052v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "BioNLP 2026 @ ACL",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19986",
-      "title": "Beyond Binary Success: A Diagnostic Meta-Evaluation Framework for Fine-Grained Manipulation",
-      "authors": [
-        "He-Yang Xu",
-        "Pengyuan Zhang",
-        "Zongyuan Ge",
-        "Xiaoshuai Hao",
-        "Serge Belongie",
-        "Xin Geng",
-        "Yuxin Peng",
-        "Xiu-Shen Wei"
-      ],
-      "summary": "Fine-grained manipulation marks a regime where global scene context no longer suffices, and success hinges on the tight coupling of local attribute grounding, high-fidelity spatial perception, and constraint-respecting motor execution. However, current embodied AI benchmarks collapse these capacities into binary success rates, systematically inflating reported capabilities by up to 70% and masking the architectural bottlenecks that impede real-world deployment. We introduce MetaFine, a diagnosti",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19986v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19986v1",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "Project page: https://metafine.github.io/",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19940",
-      "title": "Robotics-Inspired Guardrails for Foundation Models in Socially Sensitive Domains",
-      "authors": [
-        "Rebecca Ramnauth",
-        "Drazen Brscic",
-        "Brian Scassellati"
-      ],
-      "summary": "Foundation models are increasingly deployed in socially sensitive domains such as education, mental health, and caregiving, where failures are often cumulative and context-dependent. Existing guardrail approaches -- ranging from training-time alignment to prompting, decoding constraints, and post-hoc moderation -- primarily provide empirical risk reduction rather than enforceable behavioral guarantees, and largely treat safety as a property of individual outputs rather than interaction trajector",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19940v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19940v1",
-      "categories": [
-        "cs.AI",
-        "cs.RO"
-      ],
-      "comments": "Under review at Journal of Artificial Intelligence Research (JAIR)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19830",
-      "title": "Set-Valued Policy Learning",
-      "authors": [
-        "Laura Fuentes-Vicente",
-        "Mathieu Even",
-        "Gaëlle Dormion",
-        "Antoine Chambaz",
-        "Uri Shalit",
-        "Julie Josse"
-      ],
-      "summary": "Conventional treatment policies map patient covariates to a single recommended intervention in order to maximize expected clinical outcomes. Although a rich body of causal inference methods has been developed to estimate such policies, point-valued recommendations can be highly sensitive to estimation uncertainty, model specification, and finite-sample variability, while typically providing little guidance about how confident one should be in the recommended action. In this work, we propose a se",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19830v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19830v1",
-      "categories": [
-        "cs.LG",
-        "math.ST"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19799",
-      "title": "Synergistic Foundation Models for Semi-Supervised Fetal Cardiac Ultrasound Analysis: SAM-Med2D Boundary Refinement and DINOv3 Semantic Enhancement",
-      "authors": [
-        "Tonghao Zhuang",
-        "Shanglong Hu",
-        "Yongsheng Luo",
-        "Zhiqi Zhang",
-        "Yu Li"
-      ],
-      "summary": "We present a semi-supervised framework for joint segmentation and classification of fetal cardiac ultrasound images. Built upon the EchoCare multi-task backbone, our method integrates SAM-Med2D for boundary refinement and leverages DINOv3 to enhance pseudo-label quality. We introduce view-specific hard masking along with a two-stage optimization strategy: an EMA phase to consolidate segmentation capabilities, followed by a Classification Fine-Tuning phase that freezes segmentation parameters and",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19799v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19799v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted to the ISBI 2026 Fetal HearT UltraSound Segmentation and Diagnosis (FETUS) Challenge",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19766",
-      "title": "Synthesis and Evaluation of Long-term History-aware Medical Dialogue",
-      "authors": [
-        "Hebin Hu",
-        "Renke Dai",
-        "Ah-Hwee Tan",
-        "Yilin Kang"
-      ],
-      "summary": "An effective healthcare agent must be able to recall and reason over a patient's longitudinal medical history. However, the absence of datasets with realistic long-term dialogue timelines limits systematic evaluation. Real clinical text is constrained by privacy and ethics, while existing benchmarks focus on isolated interactions, failing to capture cross-session reasoning. We introduce a framework for synthesizing high-quality, long-term medical dialogues with LLMs. Our approach entails a knowl",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19766v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19766v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "Accepted by AAMAS 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19752",
-      "title": "MSAlign: Aligning Molecule and Mass Spectra Foundation Models for Metabolite Identification",
-      "authors": [
-        "Paul Krzakala",
-        "Gabriel Melo",
-        "Camille Lançon",
-        "Charlotte Laclau",
-        "Rémi Flamary",
-        "Etienne Thévenot",
-        "Florence d'Alché-Buc"
-      ],
-      "summary": "Accurately identifying metabolites i.e. small molecules from mass spectrometry data remains a core challenge in metabolomics, with broad applications in drug discovery, environmental analysis, and clinical research. We address the Molecule Retrieval task, which consists in recovering the chemical structure of a metabolite from its MS/MS spectrum given a set of candidate molecules. While the recent release of benchmark datasets such as MassSpecGym and Spectraverse has considerably accelerated the",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19752v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19752v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19666",
-      "title": "Cross-View Attention Fusion Net: A Prior-Guided Dual-View Representation Learning for Cardiac Output Estimation from Short-Term PPG Signals",
-      "authors": [
-        "Yaowen Zhang",
-        "Bo Cui",
-        "Libera Fresiello",
-        "Peter H. Veltink",
-        "Dirk W. Donker",
-        "Ying Wang"
-      ],
-      "summary": "Accurate cardiac output (CO) estimation from photoplethysmography (PPG) is promising for unobtrusive hemodynamic monitoring, but remains difficult since CO is jointly determined by cardiac function and vascular tone. Conventional feature-based models use physiologically meaningful PPG descriptors, yet depend on accurate pulse detection and may miss latent temporal relationships. In contrast, fully end-to-end deep learning models learn directly from raw PPG but often underuse established PPG-deri",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19666v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19666v1",
-      "categories": [
-        "physics.med-ph",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19646",
-      "title": "BCI-sift: An automated feature selection toolbox for Brain Computer Interface applications",
-      "authors": [
-        "Elena C Offenberg",
-        "Dirk Keller",
-        "Mariska J Vansteensel",
-        "Zachary V Freudenburg",
-        "Nick F Ramsey",
-        "Julia Berezutskaya"
-      ],
-      "summary": "Advancements in clinical Brain-Computer Interfaces (BCIs) depend on precise and reliable signal interpretation. However, the high-dimensional and noisy nature of data captured from both implanted and non-implanted BCIs poses significant challenges, motivating the use of feature selection algorithms. We introduce BCI-sift (BCI Systematic and Interpretable Feature Tuning), a Python-based toolbox designed to streamline the application of diverse optimization algorithms to BCI datasets for identifyi",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19646v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19646v1",
-      "categories": [
-        "q-bio.NC",
-        "cs.LG"
-      ],
-      "comments": "19 pages, 12 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19589",
-      "title": "Physics-Informed Graph Neural Network Surrogates for Turbulent Nanoparticle Dispersion in Dental Clinical Environments",
-      "authors": [
-        "Takshak Shende",
-        "Viktor Popov"
-      ],
-      "summary": "Dental aerosol procedures produce sub-50 micrometre nuclei that can remain airborne for long periods in enclosed clinics, creating pathways for airborne pathogen transmission. Reynolds-Averaged Navier-Stokes (RANS) simulations with Euler-Lagrange particle tracking capture this transport accurately but require very long run times per scenario, which precludes real-time clinical decision support in 3D. We present the Eulerian-Lagrangian Graph Interaction Network (ELGIN), a physics-informed graph s",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19589v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19589v1",
-      "categories": [
-        "cs.LG",
-        "physics.flu-dyn"
-      ],
-      "comments": "40 pages, 12 figures,",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19578",
-      "title": "Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition",
-      "authors": [
-        "Mengyuan Liu",
-        "Ziyi Wang",
-        "Peiming Li",
-        "Junsong Yuan"
-      ],
-      "summary": "RGB camera-based surveillance systems enable human action recognition for public safety and healthcare, yet raise serious privacy concerns. Existing methods rely on post-capture algorithms, which fail to protect privacy during data acquisition. We propose Lens Privacy Sealing (LPS), a simple hardware solution that physically obscures camera lenses with adjustable laminating film, providing pre-sensor privacy protection at minimal cost. Unlike software methods or expensive engineered optics, LPS ",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19578v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19578v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "15 pages, 9 figures,",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.19393",
-      "title": "Neuron Incidence Redistribution for Fairness in Medical Image Classification",
-      "authors": [
-        "Abin Shoby",
-        "Lyle John Palmer",
-        "Nikhil Cherian Kurian"
-      ],
-      "summary": "Deep learning models for medical image classification are susceptible to subgroup performance disparities across demographic attributes such as age, gender, and race. We identify a latent representational mechanism underlying these disparities: in transfer-learned models, the dominant penultimate-layer activation channel under positive predictions is co-activated by both disease-positive samples and privileged demographic groups (male, older patients), producing over-diagnosis; conversely, the d",
-      "published": "2026-05-19",
-      "publishedDate": {
-        "iso": "2026-05-19",
-        "year": 2026,
-        "month": 5,
-        "day": 19
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.19393v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.19393v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "4 Pages, 1 Figure",
       "arxivVersion": "v1"
     }
   ]

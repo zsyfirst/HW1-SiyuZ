@@ -14,11 +14,433 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-05-29T02:47:11.570Z",
-  "fetchedAt": "2026-05-29T02:47:11.571Z",
+  "lastUpdated": "2026-05-30T02:40:08.297Z",
+  "fetchedAt": "2026-05-30T02:40:08.297Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2605.30295",
+      "title": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings",
+      "authors": [
+        "Valentina Bui Muti",
+        "Eugénie Dulout",
+        "Ziquan Fu"
+      ],
+      "summary": "Large language models (LLMs) show promise for clinical reasoning and decision support, but evaluation in realistic, electronic health record-congruent settings remains limited. Existing benchmarks often rely on static datasets or unstructured inputs that do not reflect the structured, interoperable data formats used in clinical systems. We introduce a pipeline for generating clinically realistic HL7 FHIR R4 bundles from unstructured text, enabling controllable evaluation of clinical decision sup",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30295v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30295v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "Accepted to ICML 2026 Structured Data for Health Workshop",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.30283",
+      "title": "mcp-proto-okn: Natural-language access to open scientific knowledge graphs through the Model Context Protocol",
+      "authors": [
+        "Peter W. Rose",
+        "Benjamin M. Good",
+        "Amanda M. Saravia-Butler",
+        "Charlotte A. Nelson",
+        "James P. Balhoff",
+        "Yaphet Kebede",
+        "Patricia L. Whetzel",
+        "Christopher Bizon",
+        "Andrew I. Su",
+        "Sergio E. Baranzini"
+      ],
+      "summary": "MCP Server Proto-OKN (mcp-proto-okn) is a Python-based Model Context Protocol server that enables AI assistants to discover, inspect, query and integrate scientific knowledge graphs through natural language. The server provides graph routing, schema inspection, SPARQL execution, ontology expansion, multi-graph querying, and transcript generation, lowering the barrier to cross-domain knowledge graph analysis for biomedical and scientific users. mcp-proto-okn is implemented in Python using the Fas",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30283v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30283v1",
+      "categories": [
+        "cs.AI",
+        "cs.ET"
+      ],
+      "comments": "9 pages, 1 figure",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.30275",
+      "title": "Digitally enriching a screening population for pancreatic cancer using routine blood-based measures and clinical histories",
+      "authors": [
+        "Chris Varghese",
+        "Leo Y. Li-Han",
+        "Richa Bisht",
+        "Ellen Larson",
+        "Frank Lee",
+        "Ryan M. Carr",
+        "Tanios S. Bekaii-Saab",
+        "Shounak Majumder",
+        "John D. Halamka",
+        "Mark Truty",
+        "Ajit H. Goenka",
+        "Hojjat Salehinejad",
+        "Cornelius A. Thiels"
+      ],
+      "summary": "Earlier detection of pancreatic cancer is key to enabling wider access to curative treatment and reducing cancer deaths; however, screening is presently not viable. Latent indicators of pathology are evident in an individual's disease and blood test trajectories and may predict the development of pancreatic cancer. Longitudinal sequences of coded diagnoses and blood test values accrued by patients throughout their clinical interactions were used to train a custom Transformer-based neural network",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30275v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30275v1",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.30273",
+      "title": "LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback",
+      "authors": [
+        "Jiwon Kim",
+        "Maya Ajit",
+        "Sherry Gong",
+        "Soorya Ram Shimgekar",
+        "Dong Whi Yoo",
+        "Eshwar Chandrasekharan",
+        "Koustuv Saha"
+      ],
+      "summary": "Large language models (LLMs) show promise in generating supportive responses for mental health queries, but improving their usefulness, empathy, and safety often requires substantial compute, expert input, and labeled data. At the same time, deploying proprietary, cloud-based models for mental health-related interactions raises important privacy and data-governance concerns, given the sensitivities. To address this challenge, we introduce LLUMI setup that can be hosted in-house within protected ",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30273v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30273v1",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.SI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.30247",
+      "title": "OOD-GraphLLM: Graph Large Language Model for Out-of-Distribution Generalized Drug Synergy Prediction",
+      "authors": [
+        "Xin Wang",
+        "Linxin Xiao",
+        "Yang Yao",
+        "Wenwu Zhu"
+      ],
+      "summary": "Drug synergy prediction (DSP) aims to identify efficacious drug combinations under various cellular contexts with different targets. However, the continual emergence of novel compounds results in variations in molecular scaffolds and sizes, causing drug synergy data to exhibit out-of-distribution (O.O.D.) shifts with respect to topological structure. Existing works rely on in-distribution (I.D.) assumption, failing to handle the O.O.D. shifts. To solve this problem, we study out-of-distribution ",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30247v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30247v1",
+      "categories": [
+        "cs.LG",
+        "cs.MM"
+      ],
+      "comments": "12 pages, 9 figures, ACM KDD 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.30219",
+      "title": "When Should Models Change Their Minds? Contextual Belief Management in Large Language Models",
+      "authors": [
+        "Haoming Xu",
+        "Weihong Xu",
+        "Zongrui Li",
+        "Mengru Wang",
+        "Yunzhi Yao",
+        "Chiyu Wu",
+        "Jin Shang",
+        "Yu Gong",
+        "Shumin Deng"
+      ],
+      "summary": "Long-horizon interactions require language models to manage accumulating information: when to update their state, when to preserve their state, and what to ignore. We study this challenge as \\textbf{Contextual Belief Management (CBM)}: maintaining a predicted belief state aligned with formal evidence while isolating task-irrelevant noise. To make CBM measurable, we introduce BeliefTrack, a closed-world benchmark spanning Rule Discovery and Circuit Diagnosis, where a finite belief space and symbo",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30219v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30219v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "Work in progress",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.30179",
+      "title": "iLoRA: Bayesian Low-Rank Adaptation with Latent Interaction Graphs for Microbiome Diagnosis",
+      "authors": [
+        "Yang Song",
+        "Yixuan Zhang",
+        "Lingfa Meng",
+        "Tongyuan Hu",
+        "Haizhou Shi",
+        "Hao Wang",
+        "Samir Bhatt",
+        "Hengguan Huang"
+      ],
+      "summary": "Parameter-efficient adaptation has made LLMs practical for domain prediction, but standard LoRA still relies on a static low-rank update and does not expose the latent interactions that often drive scientific labels. We introduce iLoRA. To our knowledge, it is the first Bayesian graph-conditioned LoRA framework. It infers a latent interaction graph from the input and uses it to generate input-conditioned LoRA updates. As a result, iLoRA learns prediction and latent interaction structure jointly,",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30179v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30179v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "Accepted at ICML 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.30119",
+      "title": "Evolving Features vs Evolving Entire Trees with GP for Interpretable Survival Analysis",
+      "authors": [
+        "Thalea Schlender",
+        "Peter A. N. Bosman",
+        "Tanja Alderliesten"
+      ],
+      "summary": "Survival analysis concerns the task of predicting the time until an event occurs. Often used in the medical field, survival analysis deals with incomplete (i.e., censored) data, for instance, from patients who did not experience the event during the duration of the study. For practical use, both accuracy and interpretability are important. Survival trees are easy-to-follow survival models that split the patient cohort recursively into discrete patient groups. Whilst survival trees can capture co",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.30119v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30119v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NE"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.29980",
+      "title": "Genetically Aligned Patient Representations Improve Hematological Diagnosis",
+      "authors": [
+        "Muhammed Furkan Dasdelen",
+        "Fatih Ozlugedik",
+        "Ilaria Looser",
+        "Rao Muhammad Umer",
+        "Christian Pohlkamp",
+        "Carsten Marr"
+      ],
+      "summary": "Multimodal alignment of histopathology encoders with transcriptomic and genomic data has been shown to significantly improve performance in downstream diagnostic tasks. Hematological cytology is unique in that visual single-cell evaluation is often paired with cytogenetics and molecular genetics for blood cancer diagnosis. In this study, we present a framework to align single white blood cell images with chromosomal aberrations (karyotype) and somatic mutations from targeted gene panels. Our tra",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.29980v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29980v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "Accepted for publication at the 29th International Conference on Medical Image Computing and Computer Assisted Intervention - MICCAI 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.29977",
+      "title": "EVL-ECG: Efficient ECG Interpretation With Multi-Aspect Heterogeneous Knowledge Distillation",
+      "authors": [
+        "Dang Hong Nguyen",
+        "Nhi Ngoc-Yen Nguyen",
+        "Huy-Hieu Pham"
+      ],
+      "summary": "High-fidelity ECG interpretation is increasingly reliant on massive foundation models, yet their deployment in clinical edge-care remains hindered by extreme computational demands. While knowledge distillation (KD) is a promising solution, traditional methods fail to capture the complex spatio-temporal dependencies of ECG signals when transferring knowledge across heterogeneous architectures. In this paper, we propose EVL-ECG, a framework specifically designed for cross-architecture distillation",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.29977v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29977v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "Accepted at the SD4H Workshop at ICML 2026. 11 pages, 3 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.29932",
+      "title": "Treatment-Conditioned Diffusion for Forecasting Neurodegenerative Disease Progression",
+      "authors": [
+        "Danylo Boiko",
+        "Viktoriia Mishkurova"
+      ],
+      "summary": "Forecasting the progression of neurodegenerative diseases, such as Parkinson's disease, is essential for effective long-term planning and personalized therapeutic intervention. Existing systems typically produce scalar clinical scores that ignore the rich structure of longitudinal neuroimaging, while traditional generative approaches suffer from a loss of anatomical details and blurring subtle progression patterns. To address this, we introduce a novel treatment-conditioned diffusion framework t",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.29932v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29932v1",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "comments": "9 pages, 5 figures, 1 table",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.29907",
+      "title": "Stochastic network epidemic model and particle filter: General framework and application to influenza in Japan",
+      "authors": [
+        "Ihtisham Ul Haq",
+        "Serge Richard"
+      ],
+      "summary": "Parameter inference and state estimation in stochastic and partially observed biological systems remain major problems in mathematical biology. In this work, we introduce a two-dimensional lattice graph model for the spread of infectious diseases. Estimating states and parameters in graph-based stochastic epidemic systems is particularly challenging because of randomness and incomplete observations. To address these issues, we propose a particle filter based data assimilation framework for the s",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.29907v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29907v1",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.29889",
+      "title": "Internal Representation, Not Clinical Knowledge: Where Apparent LLM Triage Failures Originate",
+      "authors": [
+        "David Fraile Navarro",
+        "Berardino Como",
+        "Jialei Sheng",
+        "Soundariya Ananthan",
+        "Shlomo Berkovsky"
+      ],
+      "summary": "Patient-voiced clinical-triage benchmarks report high under-triage rates for consumer LLMs for constrained multiple-choice output, yet the same cases score differently with free-text. We ask whether output format changes the model's \\emph{clinical representation} or only the mapping from a preserved representation to an answer. Using sparse-autoencoder (SAE) features in Gemma 3 4B/12B IT and Qwen3-8B, we find the same medical features fire on the shared clinical narrative under both formats but ",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.29889v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29889v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "9 pages main text, 27 pages total including appendices; 7 figures, 25 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.29886",
+      "title": "CRITIC-R1: Learning Structured Critics for Retrieval-Augmented Generation",
+      "authors": [
+        "Wenhan Xiao",
+        "Ziwei Zhang",
+        "Chuanyue Yu",
+        "Xingcheng Fu",
+        "Qingyun Sun",
+        "Runhua Xu",
+        "Jianxin Li"
+      ],
+      "summary": "Retrieval-augmented generation (RAG) improves knowledge-intensive question answering by incorporating external evidence. However, existing RAG methods still suffer from hallucinations and subtle reasoning errors. Recent studies introduce external critics to refine RAG outputs, yet they often provide coarse-grained and weakly structured feedback, exhibit over-aggressive intervention, and lead to noisy and unreliable refinement, limiting their effectiveness for correction. To tackle these issues, ",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.29886v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29886v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "17 pages,13 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2605.29862",
+      "title": "Mitigating Stethoscope-Induced Shortcuts in Respiratory Sound Classification under Federated Domain Generalization with Causality-Inspired Interventions",
+      "authors": [
+        "Heejoon Koo",
+        "Yoon Tae Kim",
+        "Miika Toikkanen",
+        "June-Woo Kim"
+      ],
+      "summary": "AI-driven respiratory sound classification (RSC) is promising for automated pulmonary disease detection, yet multi-site deployment is hindered by inter-stethoscope variability. We introduce a federated domain generalization (FedDG) formulation for RSC under stethoscope-induced device shifts, where clients use heterogeneous devices and the model is evaluated on unseen devices. Our empirical analysis shows that stethoscope-induced style and disease-specific content are tightly entangled, making de",
+      "published": "2026-05-28",
+      "publishedDate": {
+        "iso": "2026-05-28",
+        "year": 2026,
+        "month": 5,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2605.29862v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29862v1",
+      "categories": [
+        "eess.AS",
+        "cs.AI",
+        "cs.SD"
+      ],
+      "comments": "2 figures, 4 tables, and 5 pages",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2605.22794",
       "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
@@ -459,499 +881,6 @@
       "categories": [
         "cs.LG",
         "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.21301",
-      "title": "Automatic Discovery of Disease Subgroups by Contrasting with Healthy Controls",
-      "authors": [
-        "Robin Louiset",
-        "Edouard Duchesnay",
-        "Benoit Dufumier",
-        "Antoine Grigis",
-        "Pietro Gori"
-      ],
-      "summary": "In biomedical Subgroup Discovery, practitioners are interested in discovering interpretable and homogeneous subgroups within a group of patients. In this paper, assuming that healthy subjects (i.e., controls) share common but irrelevant factors of variation with the patients, we motivate and develop a Contrastive Subgroup Discovery method, entitled Deep UCSL. By contrasting patients with controls, Deep UCSL identifies subgroups driven solely by pathological factors, ignoring common variability s",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.21301v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.21301v1",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "comments": "Accepted to Data Mining and Knowledge Discovery, ECML-PKDD 2026 Journal Track",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.21295",
-      "title": "TimeSRL: Generalizable Time-Series Behavioral Modeling via Semantic RL-Tuned LLMs -- A Case Study in Mental Health",
-      "authors": [
-        "Yuang Fan",
-        "Lilin Xu",
-        "Millie Wu",
-        "Jingping Nie",
-        "Qingyu Chen",
-        "Yuzhe Yang",
-        "Zhuo Zhang",
-        "Xin Liu",
-        "Subigya Nepal",
-        "Xiaofan Jiang",
-        "Xuhai \"Orson\" Xu"
-      ],
-      "summary": "Longitudinal passive sensing enables continuous health prediction, yet models often fail under cross-dataset distribution shifts. Traditional ML overfits cohort-specific artifacts, while Large Language Models (LLMs) struggle to reason reliably over long, heterogeneous time-series. We introduce TimeSRL, a two-stage LLM framework that routes predictions through an explicit semantic bottleneck. The model first abstracts raw signals into high-level natural language, then predicts behavioral outcomes",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.21295v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.21295v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.21237",
-      "title": "RePCM: Region-Specific and Phenotype-Adaptive Bi-Ventricular Cardiac Motion Synthesis",
-      "authors": [
-        "Xuan Yang",
-        "Xiaohan Yuan",
-        "Hao Li",
-        "Lingyu Chen",
-        "Yanan Liu",
-        "Lei Li"
-      ],
-      "summary": "Cardiac motion over a cardiac cycle is crucial for quantifying regional function and is strongly affected by cardiovascular diseases. Since temporally dense mesh sequences are difficult to obtain in practice, we focus on leveraging the more accessible end-diastolic frame to infer a full-cycle sequence. Due to strong regional and disease-specific differences, traditional methods often oversmooth the data by relying on generative models that are optimized for global patterns. To address this probl",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.21237v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.21237v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Early Accepted by MICCAI 2026. This is the author's submitted version. 10 pages, 3 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.21186",
-      "title": "SAM-Sode: Towards Faithful Explanations for Tiny Bacteria Detection",
-      "authors": [
-        "Wanying Tan",
-        "Shuo Yan",
-        "Dazhi Huang",
-        "Yazheng Liu",
-        "Zili Shao",
-        "Rufeng Chen",
-        "Hechang Chen",
-        "Mude Shi",
-        "Tianxing Ji",
-        "Sihong Xie"
-      ],
-      "summary": "Interpretability in object detection provides crucial confidence support for clinical auxiliary diagnosis. However, in tiny bacteria detection, traditional explanation methods often suffer from blurred foreground boundaries and diffuse feature attribution due to the extreme sparsity of target morphological features and severe interference from complex backgrounds. Such limitations hinder the provision of logically coherent morphological evidence. To bridge this gap, we propose a novel eXplainabl",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.21186v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.21186v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "10 pages, 4 figures, conference paper",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.21154",
-      "title": "Automated ICD Classification of Psychiatric Diagnoses: From Classical NLP to Large Language Models",
-      "authors": [
-        "Fernando Ortega",
-        "Raúl Lara-Cabrera",
-        "Jorge Dueñas-Lerín",
-        "Alejandro de la Torre-Luque",
-        "Mercé Salvador Robert",
-        "Enrique Baca-García"
-      ],
-      "summary": "Mental health has become a global priority, leading to a massive administrative burden in the coding of clinical diagnoses. This study proposes the automation of psychiatric diagnostic analysis by mapping free-text descriptions to the International Classification of Diseases (ICD) using Natural Language Processing (NLP) and Machine Learning (ML) techniques. Utilizing a specialized dataset of 145,513 Spanish psychiatric descriptions, various text representation paradigms were evaluated, ranging f",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.21154v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.21154v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.21125",
-      "title": "Advantage Collapse in Group Relative Policy Optimization: Diagnosis and Mitigation",
-      "authors": [
-        "Xixiang He",
-        "Qiyao Sun",
-        "Ao Cheng",
-        "Xingming Li",
-        "Xuanyu Ji",
-        "Hailun Lu",
-        "Runke Huang",
-        "Qingyong Hu"
-      ],
-      "summary": "Group Relative Policy Optimization (GRPO), a prominent algorithm within the Reinforcement Learning from Verifiable Rewards (RLVR) framework, has achieved strong results in improving the reasoning capabilities of large language models (LLMs). However, GRPO is prone to advantage collapse, a failure mode where homogeneous rewards within a group (e.g., all correct or all incorrect answers) yield near-zero advantages and vanishing gradients. To address this, we introduce the Advantage Collapse Rate (",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.21125v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.21125v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "26 pages, 12 figures. Accepted at the International Conference on Machine Learning (ICML 2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.21083",
-      "title": "AIMBio-Mat: An AI-Native FAIR Platform for Closed-Loop Materials Discovery and Biomedical Translation",
-      "authors": [
-        "D. -M. Mei",
-        "K. Acharya",
-        "C. M. Adhikari",
-        "M. Adhikari",
-        "S. Aryal",
-        "B. V. Benson",
-        "K. Bhatta",
-        "S. Bhattarai",
-        "N. Budhathoki",
-        "A. M. Castillo",
-        "D. Chakraborty",
-        "S. Chhetri",
-        "S. Choudhury",
-        "T. A. Chowdhury",
-        "R. D. Cruz",
-        "B. Cui",
-        "S. Dhital",
-        "K. -M. Dong",
-        "R. Gapuz",
-        "A. Ghasemi",
-        "E. Z. Gnimpieba",
-        "B. D. S. Gurung",
-        "H. A. Hashim",
-        "R. I. Harry",
-        "K. -E. Hasin",
-        "M. K. Hassanzadeh",
-        "M. K. Jha",
-        "D. Kim",
-        "K. -C. Kong",
-        "B. Lama",
-        "A. Mahat",
-        "N. Maharjan",
-        "A. Majeed",
-        "J. Mammo",
-        "M. M. Masud",
-        "K. S. Moore",
-        "A. Nawaz",
-        "H. Oli",
-        "S. A. Panamaldeniya",
-        "L. Pandey",
-        "R. Pandey",
-        "Z. Peng",
-        "A. Prem",
-        "M. M. Rana",
-        "K. Rana Magar",
-        "R. Rizk",
-        "C. S. Tadi",
-        "L. -W. Wang",
-        "Y. Yang",
-        "G. -L. Yin",
-        "C. -X. Yu",
-        "D. Zeng",
-        "M. Zhou",
-        "Q. Zhou"
-      ],
-      "summary": "Materials discovery and biomedical translation increasingly require models that can reason across composition, processing, structure, biological response, manufacturability, safety, and governance constraints. Existing materials and biomedical data ecosystems are powerful but remain poorly coupled for AI-guided discovery. Here we present AIMBio, a conceptual framework for an AI-native, FAIR, and governance-aware decision layer that links materials provenance, biomedical context, knowledge graphs",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.21083v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.21083v1",
-      "categories": [
-        "physics.app-ph",
-        "cs.LG",
-        "physics.bio-ph",
-        "physics.med-ph"
-      ],
-      "comments": "35 pages, 4 figures, and 12 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20956",
-      "title": "A Deployment Audit of Release-Side Risk in Conformal Triage under Prevalence Shift",
-      "authors": [
-        "Chengze Li",
-        "Xiao Liu",
-        "Hanrong Zhang",
-        "Haiyang Peng",
-        "Yanghao Ruan",
-        "Huanhuan Ma",
-        "Chunyu Miao",
-        "Qichao Zhou",
-        "Xiangrong Qi",
-        "Philip Yu"
-      ],
-      "summary": "Conformal triage converts predictive scores into deployment actions that either release a case, flag it for urgent attention, or defer it to human review. Under prevalence shift, however, the usual summaries of marginal coverage and human-review rate can miss the safety-critical question of whether patients who truly experience the target event are released without review. To address this gap, we introduce a leakage-aware deployment audit for release-side conformal triage. It first assigns targe",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20956v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20956v1",
-      "categories": [
-        "cs.LG",
-        "cs.CY"
-      ],
-      "comments": "18 pages, 4 figures, 5 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20874",
-      "title": "Governance by Construction for Generalist Agents",
-      "authors": [
-        "Segev Shlomov",
-        "Iftach Shoham",
-        "Alon Oved",
-        "Ido Levy",
-        "Sami Marreed",
-        "Harold Ship",
-        "Offer Akrabi",
-        "Sergey Zeltyn",
-        "Avi Yaeli",
-        "Nir Mashkif"
-      ],
-      "summary": "Enterprise agents are increasingly expected to operate autonomously across tools and interfaces, yet production deployments require governance by construction. Systems must specify which actions are allowed, when human oversight is required, and what information may be exposed, without rebuilding the agent for each domain. This demo presents CUGA's policy system, a modular policy-as-code layer that composes with a generalist LLM agent to deliver predictable, auditable, and compliance-aware behav",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20874v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20874v1",
-      "categories": [
-        "cs.AI",
-        "cs.SE"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20815",
-      "title": "GraphRAG on Consumer Hardware: Benchmarking Local LLMs for Healthcare EHR Schema Retrieval",
-      "authors": [
-        "Peter Fernandes",
-        "Ria Kanjilal"
-      ],
-      "summary": "Graph-based Retrieval Augmented Generation (GraphRAG) extends retrieval-augmented generation to support structured reasoning over complex corpora, but its reliability under resource-constrained, privacy-sensitive deployments remains unclear. In healthcare, where Electronic Health Record (EHR) data is complex and strictly regulated, reliance on cloud-based large language models (LLMs) introduces challenges in cost, latency, and compliance. In this work, we present a systematic evaluation of Graph",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20815v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20815v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.IR",
-        "cs.LG"
-      ],
-      "comments": "9 pages, 1 figure, 5 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20782",
-      "title": "Causal Machine Learning Is Not a Panacea: A Roadmap for Observational Causal Inference in Health",
-      "authors": [
-        "Donna Tjandra",
-        "Trenton Chang",
-        "Sonali Parbhoo",
-        "Rajesh Ranganath",
-        "Andre Kurepa Waschka",
-        "William Mitchell",
-        "Maggie Makar",
-        "Shalmali Joshi",
-        "Finale Doshi-Velez",
-        "Leo Anthony Celi",
-        "Jenna Wiens"
-      ],
-      "summary": "Objective: The growing availability of large-scale observational clinical datasets and challenges in conducting randomized controlled trials have spurred enthusiasm in using causal machine learning (ML) for causal inference in observational data. We present a roadmap for applying causal ML to observational data. Materials and methods: We outline the importance of assessing validity assumptions within available data and applying causal ML responsibly for clinical experts using causal ML and ML pr",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20782v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20782v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20751",
-      "title": "PACD-Net: Pseudo-Augmented Contrastive Distillation for Glycemic Control Estimation from SMBG",
-      "authors": [
-        "Canyu Lei",
-        "David Repaske",
-        "Jianxin Xie"
-      ],
-      "summary": "Effective diabetes management requires continuous monitoring of glycemic levels. Clinically, glycemic control is assessed using metrics such as Time in Range (TIR), Time Below Range (TBR), and Time Above Range (TAR), typically derived from continuous glucose monitoring (CGM). However, many patients rely on self-monitoring of blood glucose (SMBG) due to the high cost and limited accessibility of CGM. Unlike CGM, SMBG provides sparse and irregular measurements, making accurate estimation of these ",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20751v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20751v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "eess.SY"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20742",
-      "title": "VBFDD-Agent for Electric Vehicle Battery Fault Detection and Diagnosis: Descriptive Text Modeling of Battery Digital Signals",
-      "authors": [
-        "Joey Chan",
-        "Zhen Chen",
-        "Ershun Pan"
-      ],
-      "summary": "With the rapid proliferation of electric vehicles, the safety and reliability of lithium-ion batteries have become critical concerns. Effective anomaly detection is essential for ensuring safe battery operation. However, as battery systems and operating scenarios become increasingly complex, battery fault diagnosis and maintenance require stronger cross-domain adaptability and human-AI collaboration. Traditional fault detection and diagnosis methods are usually designed for specific scenarios an",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20742v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20742v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20708",
-      "title": "Rethinking Cross-Layer Information Routing in Diffusion Transformers",
-      "authors": [
-        "Chao Xu",
-        "Maohua Li",
-        "Qirui Li",
-        "Yixuan Xu",
-        "Yanke Zhou",
-        "Yunhe Li",
-        "Cuifeng Shen",
-        "Hanlin Tang",
-        "Kan Liu",
-        "Tao Lan",
-        "Lin Qu",
-        "Shao-Qun Zhang"
-      ],
-      "summary": "Diffusion Transformers (DiTs) have become a de facto backbone of modern visual generation, and nearly every major axis of their design -- tokenization, attention, conditioning, objectives, and latent autoencoders -- has been extensively revisited. The residual stream that governs how information accumulates across layers, however, has been directly inherited from the original Transformer. In this paper, we present a systematic empirical analysis of cross-layer information flow in DiTs, jointly a",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20708v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20708v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2605.20692",
-      "title": "Inferring infectiousness: a joint model of the within-host viral kinetics of SARS-CoV-2",
-      "authors": [
-        "Christopher B. Boyer",
-        "Stephen M. Kissler",
-        "Seran Hakki",
-        "Jakob Jonnerby",
-        "Ajit Lalvani",
-        "Marc Lipsitch"
-      ],
-      "summary": "During an infectious disease outbreak, providing accurate answers to policy questions about transmission requires a detailed model of the natural history of infectiousness. Unfortunately, direct measures of infectiousness are generally unavailable. Instead, we often rely on indirect proxies, such as viral load measured by PCR or antigen tests, viral culture to detect replication-competent virus, or symptom onset, each of which reflects different aspects of viral dynamics or host response. Howeve",
-      "published": "2026-05-20",
-      "publishedDate": {
-        "iso": "2026-05-20",
-        "year": 2026,
-        "month": 5,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2605.20692v1",
-      "pdfUrl": "https://arxiv.org/pdf/2605.20692v1",
-      "categories": [
-        "stat.ME",
-        "q-bio.PE",
-        "q-bio.QM",
-        "stat.AP"
       ],
       "comments": "",
       "arxivVersion": "v1"

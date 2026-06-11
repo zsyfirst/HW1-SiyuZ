@@ -14,11 +14,471 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-06-10T02:55:06.272Z",
-  "fetchedAt": "2026-06-10T02:55:06.272Z",
+  "lastUpdated": "2026-06-11T03:29:19.540Z",
+  "fetchedAt": "2026-06-11T03:29:19.541Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2606.12346",
+      "title": "Atlas H&amp;E-TME: Scalable AI-Based Tissue Profiling at Expert Pathologist-Level Accuracy",
+      "authors": [
+        "Kai Standvoss",
+        "Miriam Hägele",
+        "Rosemarie Krupar",
+        "Julika Ribbat-Idel",
+        "Jennifer Altschüler",
+        "Gerrit Erdmann",
+        "Hans Pinckaers",
+        "Evelyn Ramberger",
+        "Madleen Drinkwitz",
+        "Ádám Nárai",
+        "Alexander Möllers",
+        "Katja Lingelbach",
+        "Sebastian Kons",
+        "Lukas Hönig",
+        "Recepcan Adigüzel",
+        "Joana Baião",
+        "Alberto Megina Gonzalo",
+        "Marius Teodorescu",
+        "Marie-Lisa Eich",
+        "Paolo Chetta",
+        "Shakil Merchant",
+        "Verena Aumiller",
+        "Simon Schallenberg",
+        "Andrew Norgan",
+        "Klaus-Robert Müller",
+        "Lukas Ruff",
+        "Maximilian Alber",
+        "Frederick Klauschen"
+      ],
+      "summary": "Hematoxylin and eosin (H&amp;E) staining is the cornerstone of histopathology, yet scalable, quantitative analysis of H&amp;E whole-slide images (WSIs) remains a central challenge in computational pathology. We present Atlas H&amp;E-TME, an AI-based system built on the Atlas family of pathology foundation models that predicts tissue quality, tissue region, and cell type labels across multiple cancer types, yielding over 4,500 quantitative readouts per slide at cell-level resolution. A key challe",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.12346v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12346v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.12252",
+      "title": "Using Explainability as a Training-Time Reliability Signal for Efficient ECG Classification",
+      "authors": [
+        "Veerendhra Kumar Dangeti",
+        "Xiao Gu",
+        "Ying Weng",
+        "Shreyank N Gowda"
+      ],
+      "summary": "Training deep neural networks for clinical time-series analysis is computationally demanding, yet many healthcare settings lack the resources required for repeated model development and deployment. This challenge is particularly evident in electrocardiogram classification, where large datasets and long training schedules make efficiency practically important. Progressive Data Dropout reduces training cost by excluding samples from gradient updates once they are learned, but it relies on model co",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.12252v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12252v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.12169",
+      "title": "OpenMedReason: Scientific Reasoning Supervision for Medical Vision-Language Models",
+      "authors": [
+        "Negin Baghbanzadeh",
+        "Pritam Sarkar",
+        "Michael Colacci",
+        "Abeer Badawi",
+        "Adibvafa Fallahpour",
+        "Arash Afkanpour",
+        "Leonid Sigal",
+        "Ali Etemad",
+        "Elham Dolatabadi"
+      ],
+      "summary": "High-stakes clinical use of large vision-language models (LVLMs) requires reasoning that is grounded in visual evidence and clinical knowledge, not just correct final answers. We introduce OpenMedReason, a large-scale, open multimodal medical reasoning corpus comprising approximately 450K image-question-answer instances whose reasoning traces are primarily derived from curated biomedical, human-authored scientific articles. OpenMedReason provides high-fidelity supervision beyond synthetic chains",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.12169v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12169v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "42 pages, 9 figures, 24 tables. Dataset and code: https://huggingface.co/datasets/neginb/OpenMedReason",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.12006",
+      "title": "Tabular Foundation Models for Clinical Survival Analysis via Survival-Aware Adaptation",
+      "authors": [
+        "Minh-Khoi Pham",
+        "Luca Cotugno",
+        "Alina Sirbu",
+        "Tai Tan Mai",
+        "Martin Crane",
+        "Marija Bezbradica"
+      ],
+      "summary": "Predicting time-to-event outcomes such as mortality is a fundamental task in clinical decision-making, commonly addressed through survival analysis. While classical statistical and deep learning approaches have been widely studied, they typically require task-specific training and sufficient labeled data. Recent advances in tabular foundation models offer a new paradigm by learning general-purpose representations for structured data. However, their applicability to censored time-to-event predict",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.12006v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12006v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "Accepted for publication at International Conference on AI in Healthcare 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11830",
+      "title": "Skill-Augmented AI Agents for Medical Research Analysis: An Exploratory Multi-Model Human Evaluation in an NSCLC Transcriptomic Biomarker Task",
+      "authors": [
+        "Qianyu Yao",
+        "Fei Sun",
+        "Bocheng Huang",
+        "Wei Chen",
+        "Jiarui Jiang",
+        "Shu Quan",
+        "Yifei Chen",
+        "Wenjie Xu",
+        "Bo li",
+        "Liping Su",
+        "Ruoqiong Wu",
+        "Huhai Hong",
+        "Huimei Wang"
+      ],
+      "summary": "Background. Large language models and AI agents are increasingly used to support biomedical research, but native model outputs may omit key analytical steps, misuse methods, or overstate conclusions. We evaluated whether autonomous access to a medical research skill package was associated with higher-quality AI-generated transcriptomic research-analysis outputs compared with native AI without skills. Methods. We conducted an exploratory multi-model human evaluation using a non-small cell lung ca",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11830v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11830v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11794",
+      "title": "Multimodal Ordinal Modeling of Alzheimer's Disease Severity Using Structural MRI and Clinical Data",
+      "authors": [
+        "Boris-Stephan Rauchmann",
+        "Jonathan Laib",
+        "Buse Ercik",
+        "Robert Perneczky",
+        "Sergio Altares-López"
+      ],
+      "summary": "Neurodegenerative diseases such as Alzheimer's disease (AD) require accurate and scalable tools for assessing disease severity, yet current clinical staging remains time-intensive and prone to variability. We propose an attention-enhanced multimodal machine learning framework with ordinal regression for automated and interpretable AD severity staging. The framework integrates T1-weighted MRI with demographic and genetic variables and compares unimodal and multimodal architectures using ordinal a",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11794v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11794v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "18 pages. Submitted to journal for review",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11775",
+      "title": "Magnitude-Based Features for Multispecies Spatial Data",
+      "authors": [
+        "Julia Sollberger",
+        "Joshua Bull",
+        "Sara Kališnik",
+        "Bernadette Stolz"
+      ],
+      "summary": "Multispecies spatial data arise in many applications where interactions between different entities are central to system behaviour, including biomedical imaging, geospatial analysis, and species ecology. Despite their importance, relatively few quantitative tools exist to capture such interactions. In this work, we propose magnitude-based features for the analysis of multispecies spatial data. Magnitude is a real-valued invariant of finite metric spaces that can be interpreted as an effective nu",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11775v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11775v1",
+      "categories": [
+        "math.MG",
+        "q-bio.QM",
+        "stat.ML"
+      ],
+      "comments": "32 pages, 24 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11702",
+      "title": "MedCTA: A Benchmark for Clinical Tool Agents",
+      "authors": [
+        "Tajamul Ashraf",
+        "Hyewon Jeong",
+        "Fida Mohammad Thoker",
+        "Bernard Ghanem"
+      ],
+      "summary": "To make clinically grounded decisions, medical AI agents are expected to go beyond simple recognition and be capable of tool retrieval, evidence acquisition, and integration. Existing benchmarks largely evaluate isolated perception or single-turn question answering, and therefore provide limited visibility into failures of planning, tool recruitment, and rollout reliability. We introduce MedCTA, a benchmark for evaluating medical tool agents on clinician-validated, step-implicit tasks grounded i",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11702v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11702v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "Project Page: https://ivul-kaust.github.io/MedCTA/ Code: https://github.com/IVUL-KAUST/MedCTA Data: https://huggingface.co/datasets/IVUL-KAUST/MedCTA",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11675",
+      "title": "Lung-R1: A Knowledge Graph-Guided LLM for Pulmonary Diagnostic Reasoning",
+      "authors": [
+        "Haoyang Zeng",
+        "Yuanxi Fu",
+        "Rongzhen Li",
+        "Yuming Yang",
+        "Xiao Sun",
+        "Jingwang Huang",
+        "Gujie Shao",
+        "Guohui Xiang",
+        "Quan Lu",
+        "Dongfan Ye",
+        "Xuetao Chen",
+        "Jiang Zhong",
+        "Kaiwen Wei",
+        "Zhi Xu"
+      ],
+      "summary": "Diagnosing pulmonary diseases requires integrating heterogeneous evidence amid phenotypic variability and cross-disease overlap. Although large language models (LLMs) have shown progress on pulmonary knowledge question answering (QA) and information-processing tasks, reliable pulmonary diagnosis requires patient-specific, relation-aware reasoning over electronic medical record (EMR) evidence rather than isolated knowledge recall. We define this gap between pulmonary knowledge and case-level diag",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11675v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11675v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11570",
+      "title": "Enhancing Spectral Embedding through Robust and Flexible Knowledge Transfer in Electronic Health Records",
+      "authors": [
+        "Feiqing Huang",
+        "Zongqi Xia",
+        "Rong Ma",
+        "Tianxi Cai"
+      ],
+      "summary": "We propose a spectral-based, unsupervised representation learning framework to derive low-dimensional embeddings for clinical concepts and patients in rare disease cohorts from electronic health records, where data are high-dimensional but sample sizes are limited. To overcome this challenge, we incorporate a knowledge matrix extracted from a broader population that shares a partially overlapping subspace with the rare-disease cohort. Our method departs from existing approaches by relaxing restr",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11570v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11570v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11559",
+      "title": "HERO: Hindsight-Enhanced Reflection from Environment Observations for Agentic Self-Distillation",
+      "authors": [
+        "Haoran Liu",
+        "Yuwei Zhang",
+        "Xiyao Li",
+        "Bohan Lyu",
+        "Jingbo Shang"
+      ],
+      "summary": "Reinforcement learning typically improves multi-turn agent capabilities through the terminal outcome of the trajectories, which makes it difficult to determine credit assignments for each intermediate turns. Recent on-policy self-distillation methods offer a promising alternative by converting privileged feedback into dense token-level supervision through a self-teacher. Our study is motivated by the unexpected performance degradation observed when naively extending this paradigm to multi-turn s",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11559v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11559v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11556",
+      "title": "Privacy-Preserving Federated Autoencoder for ECG Anomaly Detection on Edge Devices",
+      "authors": [
+        "Kaan Arda Akyol",
+        "Jakub Kacper Szeląg",
+        "Aydin Abadi",
+        "Maha Alghamdi",
+        "Ghadah Albalawi",
+        "Ghouse Ibrahim Kaleelullah",
+        "Hilal Tutus",
+        "Sarah Al Subaiei",
+        "Shardul Kapse",
+        "Syed Mohammed Raheeb",
+        "Mujeeb Ahmed",
+        "Rehmat Ullah"
+      ],
+      "summary": "Continuous electrocardiography (ECG) monitoring could surface rhythm abnormalities before they escalate into cardiovascular events. However, a deployable system must satisfy three requirements simultaneously: legal-grade privacy (GDPR, HIPAA), real-time inference on constrained edge hardware, and detection quality under non-IID cross-hospital data. We design and evaluate an end-to-end federated system addressing all three for unsupervised 12-lead ECG anomaly detection on PTB-XL dataset, combinin",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11556v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11556v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "9 pages, 4 figures, 6 tables. Preprint prepared in IEEE conference format. Submitted to: FLTA 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11555",
+      "title": "End-to-End Machine Learning for Depressive State Classification via EEG and fNIRS",
+      "authors": [
+        "Riki Sakurai",
+        "Simon Kojima",
+        "Mihoko Otake-Matsuura",
+        "Shin'ichiro Kanoh",
+        "Tomasz M. Rutkowski"
+      ],
+      "summary": "The escalating demand for mental healthcare, driven by rising societal stress, highlights the limitations of traditional psychiatric diagnostics. Conventional methods - relying primarily on clinical interviews and patient self-reports - are inherently vulnerable to subjective bias and the varying empirical judgment of practitioners. To address the need for quantitative evaluation, biological signal-based detection, including electroencephalography (EEG) and functional near-infrared spectroscopy ",
+      "published": "2026-06-10",
+      "publishedDate": {
+        "iso": "2026-06-10",
+        "year": 2026,
+        "month": 6,
+        "day": 10
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11555v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11555v1",
+      "categories": [
+        "q-bio.NC",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "4 pages, 4 figures, Accepted for publication in the Proc. 48th Annu. Int. Conf. IEEE EMBS (EMBC 2026), Toronto, Canada, July 20-24, 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11416",
+      "title": "MPC-Patch-Bench: Security-Aware LLM Code Patch for Multi-Party Computation",
+      "authors": [
+        "Yukuan Zhang",
+        "Mengxin Zheng",
+        "Qian Lou"
+      ],
+      "summary": "Repository-level benchmarks for evaluating Large Language Model (LLM) code repair on Secure Multi-Party Computation (MPC) software do not yet exist, and directly transplanting general-purpose benchmarks such as SWE-bench fails on three structural fronts: (i) MPC repositories are dominated by generic Python infrastructure rather than cryptographic logic; (ii) high-value MPC fixes lack the standardized tests rigid extraction pipelines require; and (iii) standard fail-to-pass evaluation is insuffic",
+      "published": "2026-06-09",
+      "publishedDate": {
+        "iso": "2026-06-09",
+        "year": 2026,
+        "month": 6,
+        "day": 9
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11416v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11416v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "comments": "preprint",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.11337",
+      "title": "Can AI Agents Synthesize Scientific Conclusions?",
+      "authors": [
+        "Hayoung Jung",
+        "Pedro Viana Diniz",
+        "José Reinaldo Corrêa Roveda",
+        "Abner Fernandes da Silva",
+        "Haeun Jung",
+        "Enoch Tsai",
+        "Aleksandra Korolova",
+        "Manoel Horta Ribeiro"
+      ],
+      "summary": "Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions. Yet, their ability to do so in high-stakes domains such as health remains unclear. We introduce SciConBench, a large-scale live benchmark of 9.11K questions and expert-written conclusions from systematic reviews to evaluate open-domain scientific conclusion synthesis. The benchmark draws on an expert-validated automated evaluation pipeline that decomposes conclu",
+      "published": "2026-06-09",
+      "publishedDate": {
+        "iso": "2026-06-09",
+        "year": 2026,
+        "month": 6,
+        "day": 9
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.11337v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11337v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "comments": "79 pages, 34 figures, 17 tables. Under Submission",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2606.11150",
       "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
@@ -431,429 +891,6 @@
         "cs.LG"
       ],
       "comments": "7 pages, 1 figure, 2 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09672",
-      "title": "Correlation Is Not Enough: Embedding Human Metadata for Individual Causal Discovery",
-      "authors": [
-        "Suraj Biswas",
-        "Saurabh Gupta",
-        "Pritam Mukherjee"
-      ],
-      "summary": "Ask a pretrained biomedical language model whether \"cortisol 28 ug/dL\" and \"stock-market volatility\" are related, and it returns a cosine similarity of 0.83 on a scale where 1.0 means identical. The two share no mechanism. This is not a corner case: every off-the-shelf biomedical encoder we tested (BioBERT, PubMedBERT, BioM-ELECTRA) scores unrelated cross-domain pairs between 0.76 and 0.92 when the answer should be near zero. Accuracy on cross-domain discrimination is 0%. Retrieval systems survi",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09672v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09672v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG",
-        "cs.PF",
-        "q-bio.QM"
-      ],
-      "comments": "20 pages, 18 figures, 9 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09671",
-      "title": "Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data",
-      "authors": [
-        "Yinyu Huang",
-        "Yilin Zhang",
-        "Sofia Michopoulou",
-        "Christopher Kipps",
-        "Rahman Attar"
-      ],
-      "summary": "Alzheimer's disease (AD) progression is highly heterogeneous and is typically observed through sparse and irregular longitudinal data, posing challenges for prediction and personalised monitoring. Existing machine learning approaches have improved AD prediction using multimodal data, yet often focus on static classification or cohort-level risk estimation, providing limited support for subject-specific modelling and uncertainty-aware reasoning. To address these limitations, we present a personal",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09671v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09671v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "13 pages, 5 figures, 3 tables. Accepted as a full-length paper at the International Conference on AI in Healthcare (AIiH) 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09605",
-      "title": "Next-Token Prediction Learns Generalisable Representations of Sleep Physiology",
-      "authors": [
-        "Jonathan F. Carter",
-        "Lionel Tarassenko"
-      ],
-      "summary": "Foundation models offer a promising route to compress multi-modal physiological signals into compact representations of human health, with broad applications across sleep medicine, cardiology, neurology and other healthcare domains. Existing models have typically been trained with masked-reconstruction or contrastive objectives. However, masked reconstruction may be poorly suited to the stochastic nature of these signals, while contrastive approaches rely on positive-pair definitions despite the",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09605v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09605v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09558",
-      "title": "Integrating gene regulatory priors into Transformer attention with scTransformer for interpretable scRNA-seq analysis",
-      "authors": [
-        "Mikele Milia",
-        "Louis Fabrice Tshimanga",
-        "Henning Mueller",
-        "Manfredo Atzori",
-        "Barbara Di Camillo"
-      ],
-      "summary": "Motivation: Transformer-based models are increasingly applied to large-scale single-cell transcriptomics, showing strong performance through self-supervised learning on millions of cells. However, most existing approaches treat genes as independent features, and largely ignore prior biological knowledge, which limits interpretability and robustness. In this paper, we explore whether explicitly incorporating gene regulatory information can improve both model performance and biological insight. Re",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09558v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09558v1",
-      "categories": [
-        "q-bio.GN",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09500",
-      "title": "Deterministic Integrity Gates for LLM-Assisted Clinical Manuscript Preparation: An Auditable Biomedical Informatics Architecture",
-      "authors": [
-        "Yoojin Nam",
-        "Jinhoon Jeong",
-        "Namkug Kim"
-      ],
-      "summary": "Objective. Large language models (LLMs) increasingly draft clinical research manuscripts, but their fluency can hide fabricated citations, numbers that drift from source tables, and unmet reporting-guideline items. Existing tools generate text without verifying it, and self-critique inherits the blind spots that produce confident fabrication. We describe an architecture that pairs generation with verification. Methods. The design rests on three principles: decompose the workflow into self-contai",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09500v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09500v1",
-      "categories": [
-        "cs.AI",
-        "cs.DL"
-      ],
-      "comments": "28 pages, 3 figures, 4 tables; includes supplementary material (deterministic-detector inventory, per-class defect breakdown, worked example). Software (MIT): https://github.com/Aperivue/medsci-skills ; archived on Zenodo (concept DOI 10.5281/zenodo.20155321; v3.8.0 version DOI 10.5281/zenodo.20582972)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09489",
-      "title": "LLM-Orchestrated Conformance Checking in Stroke Care Without Computer-Interpretable Guidelines",
-      "authors": [
-        "Giorgio Leonardi",
-        "Stefania Montani",
-        "Manuel Striani",
-        "Alessandro Canessa",
-        "Delfina Ferrandi"
-      ],
-      "summary": "Objective: Conformance checking in healthcare seeks to assess whether patient care pathways adhere to clinical guidelines. However, its practical application often depends on the availability of formal, machine-interpretable representations of guidelines, such as Computer-Interpretable Guidelines (CIGs), which are seldom available in real-world clinical settings. Methods: This work introduces a modular framework based on the orchestration of Large Language Models (LLMs) to support medical confor",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09489v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09489v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09433",
-      "title": "Bayesian Selective Latent Inference for Wastewater-First Influenza Monitoring",
-      "authors": [
-        "Yixuan Zhang",
-        "Yang Song",
-        "Hao Wang",
-        "Samir Bhatt",
-        "Hengguan Huang"
-      ],
-      "summary": "Wastewater influenza surveillance can reveal community circulation before clinical reporting, but wastewater alone is not a fully identifiable proxy for human burden. Existing wastewater models assume a fixed evidence set, while generic evidence-acquisition methods treat official surveillance streams as interchangeable costly features. We cast wastewater-first influenza monitoring as a selective decision problem: starting from mandatory wastewater evidence, the system must decide whether wastewa",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09433v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09433v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "Corresponding authors: Hengguan Huang and Samir Bhatt. Hengguan Huang is the lead corresponding author",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09430",
-      "title": "LargeMonitor: Monitoring Online Task-Free Continual Learning via Large Pretrained Models",
-      "authors": [
-        "Mingqi Yuan",
-        "Xiaoquan Sun",
-        "Shihao Luo",
-        "Jiayu Chen"
-      ],
-      "summary": "Online task-free continual learning (TFCL) requires intelligent agents to sequentially accumulate knowledge from an unbounded, non-stationary data stream under strict single-pass constraints and without any explicit task identifiers. Existing online TFCL paradigms primarily rely on parameter-efficient prompt tuning or dynamic structure expansion driven by training-coupled optimization dynamics, such as empirical loss fluctuations or evolving latent distances. As a result, these training-coupled ",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09430v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09430v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09396",
-      "title": "PriFT: Prior-Support Guided Supervised Fine-Tuning",
-      "authors": [
-        "Ke Wang",
-        "Shuangqi Li",
-        "Mathieu Salzmann",
-        "Pascal Frossard"
-      ],
-      "summary": "Supervised fine-tuning (SFT) is an efficient approach for downstream task adaptation and often serves as the initialization stage for reinforcement learning (RL), but it can show weaker generalization than RL. A key limitation is its off-policy objective: SFT fits fixed demonstrations token by token, including targets poorly aligned with the model's pretrained distribution, which can lead to overfitting. A recent line of work addresses this issue by assigning larger training weights to tokens be",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09396v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09396v1",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "comments": "The first two authors contributed equally to this work",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09365",
-      "title": "Experience Makes Skillful: Enabling Generalizable Medical Agent Reasoning via Self-Evolving Skill Memory",
-      "authors": [
-        "Haoran Sun",
-        "Wenjie Li",
-        "Yujie Zhang",
-        "Zekai Lin",
-        "Fanrui Zhang",
-        "Kaitao Chen",
-        "Xingqi He",
-        "Yichen Li",
-        "Mianxin Liu",
-        "Lei Liu",
-        "Yankai Jiang"
-      ],
-      "summary": "Medical agent systems are increasingly expected to support interactive clinical decision making rather than only static question answering. In such settings, effective agents must reuse prior experience across evolving cases, yet existing memory mechanisms often retain raw historical traces that are redundant, noisy, and difficult to govern. More importantly, they rarely distinguish which memories are truly useful for future reasoning. This limits their ability to accumulate compact and reliable",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09365v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09365v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09271",
-      "title": "Multi-View Speech Representation Learning for Parkinson's Disease Detection Using Context-guided Cross-modal Attention",
-      "authors": [
-        "George Theodosiou",
-        "Loukas Ilias",
-        "Dimitris Askounis"
-      ],
-      "summary": "Parkinson's disease (PD) is a progressive neurodegenerative disorder that frequently causes speech impairments associated with hypokinetic dysarthria. As speech production relies on the precise coordination of complex neuromuscular mechanisms, speech analysis has emerged as a promising non-invasive and cost-effective biomarker for early PD detection. Recent deep learning approaches have shown encouraging results; however, most existing methods rely on a single speech representation, potentially ",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09271v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09271v1",
-      "categories": [
-        "cs.SD",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09132",
-      "title": "Vision Language Model Helps Private Information De-Identification in Vision Data",
-      "authors": [
-        "Tiejin Chen",
-        "Pingzhi Li",
-        "Kaixiong Zhou",
-        "Tianlong Chen",
-        "Hua Wei"
-      ],
-      "summary": "Visual Language Models (VLMs) have gained significant popularity due to their remarkable ability. While various methods exist to enhance privacy in text-based applications, privacy risks associated with visual inputs remain largely overlooked such as Protected Health Information (PHI) in medical images. To tackle this problem, two key tasks: accurately localizing sensitive text and processing it to ensure privacy protection should be performed. To address this issue, we introduce VisShield (Visi",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09132v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09132v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09071",
-      "title": "REFLECT: Intervention-Supported Error Attribution for Silent Failures in LLM Agent Traces",
-      "authors": [
-        "Xiaofeng Lin",
-        "Yingxu Wang",
-        "Tung Sum Thomas Kwok",
-        "Daniel Guo",
-        "Sahil Arun Nale",
-        "Charles Fleming",
-        "Guang Cheng"
-      ],
-      "summary": "Large language model (LLM) agents now solve complex tasks through long plan-and-execution traces, yet the ability to locate errors in a completed traces still lags far behind, especially in the \\emph{silent failure} regime. Existing approaches predict suspect steps via classifiers or LLM judges, or recover correct answers via retry, but none feed the intervention outcome back to \\emph{refine the attribution itself}. We propose \\methodname, a method that closes this gap by diagnosing a candidate ",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09071v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09071v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.09030",
-      "title": "TRIAGE: Dialectical Reasoning for Explainable Risk Prediction on Irregularly Sampled Medical Time Series with LLMs",
-      "authors": [
-        "Hyeongwon Jang",
-        "Gyouk Chu",
-        "Changhun Kim",
-        "Joonhyung Park",
-        "Hangyul Yoon",
-        "Eunho Yang"
-      ],
-      "summary": "Clinical early warning systems built on electronic health records, in which clinical observations are recorded as irregularly sampled medical time series (ISMTS), must deliver both calibrated risk scores for patient triage and interpretable rationales that clinicians can verify. Large Language Models (LLMs) have been explored for this task, yet they collapse graded clinical risk into overconfident binary predictions. This risk polarization undermines both calibration and cross-patient comparabil",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.09030v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09030v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "Code is available at https://github.com/HyeongWon-Jang/TRIAGE",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.08982",
-      "title": "Baichuan-M4: A Clinical-Grade Medical Agent System for Continuous Care",
-      "authors": [
-        "Aiyuan Yang",
-        "Chengfeng Dou",
-        "Da Pan",
-        "Dian Wang",
-        "Fan Yang",
-        "Fei Deng",
-        "Fei Li",
-        "Guangwei Ai",
-        "Hui Liu",
-        "Hongda Zhang",
-        "Jinyang Tai",
-        "Kai Lu",
-        "Lijun Liu",
-        "Linwei Chen",
-        "Linyu Li",
-        "Meiqing Guo",
-        "Peidong Guo",
-        "Qiang Ju",
-        "Rihui Xin",
-        "Shuai Wang",
-        "XinKai Ma",
-        "Xudong Chen",
-        "Yichuan Mo",
-        "Canbin Piao",
-        "Leyi Pan",
-        "Yihe Luo",
-        "Zian Wang"
-      ],
-      "summary": "Baichuan-M4 is Baichuan Intelligence's clinical-grade medical large model, designed for \\emph{continuous care} rather than single-turn medical question answering. It is built as a coordinated medical agent system around three pillars: \\textbf{Baichuan-Harness}, a unified runtime that keeps reinforcement-learning training and real-world deployment consistent while enforcing action constraints, tool use, long-term patient memory, and multi-agent coordination; a \\textbf{core reasoning model} traine",
-      "published": "2026-06-08",
-      "publishedDate": {
-        "iso": "2026-06-08",
-        "year": 2026,
-        "month": 6,
-        "day": 8
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.08982v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.08982v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
       "arxivVersion": "v1"
     }
   ]

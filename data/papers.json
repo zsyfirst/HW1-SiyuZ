@@ -14,11 +14,408 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-06-25T02:47:29.905Z",
-  "fetchedAt": "2026-06-25T02:47:29.905Z",
+  "lastUpdated": "2026-06-26T02:52:23.764Z",
+  "fetchedAt": "2026-06-26T02:52:23.764Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2606.27334",
+      "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+      "authors": [
+        "Mohammad Mehdi Hosseini",
+        "Mohammad H. Mahoor",
+        "Hiroko H. Dodge"
+      ],
+      "summary": "Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive Impairment (MCI) remains challenging, where language and conversational patterns serve as non-invasive biomarkers. In this work, we propose a language-based digital twin framework that leverages large language models (LLMs) to mimic the conversational behavior of elderly individuals by incorporatin",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27334v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27334v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "Accepted and published in the Proceedings of the ACM International Conference on PErvasive Technologies Related to Assistive Environments (PETRA 2026). The final published version is available through the ACM Digital Library",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27304",
+      "title": "A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets",
+      "authors": [
+        "Santosh Kapuria",
+        "Abhishek"
+      ],
+      "summary": "Guided wave-based structural health monitoring (GWSHM) with onboard transducers offers significant potential for the early diagnosis of damage in engineering structures. However, the practical deployment of deep learning models is often hindered by the limited availability of labelled experimental data and the high computational cost of generating large-scale high-fidelity simulation datasets. This study presents a multifidelity transfer learning framework that integrates lightweight physics-bas",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27304v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27304v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "19 pages, 24 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27302",
+      "title": "AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of User-Reported Breakdowns",
+      "authors": [
+        "Muhammad Hassan",
+        "Ramazan Yener",
+        "Ece Gumusel",
+        "Masooda Bashir"
+      ],
+      "summary": "AI healthcare chatbots are increasingly used to support health information seeking and self-management, yet their performance and impact on users remains to be studied. This study examines over 15,000 user reviews from 59 AI healthcare chatbot apps to explore how these systems function in everyday informational and emotional contexts. Topic modeling and interpretive analysis identify three recurring breakdowns: access barriers and service unreliability, user experience and interaction quality, a",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27302v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27302v1",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27286",
+      "title": "Simulation-based inference for rapid Bayesian parameter estimation in epidemiological models: a comparison with MCMC",
+      "authors": [
+        "Alina Bazarova",
+        "Johann Fredrik Jadebeck",
+        "Henrik Zunker",
+        "Carolina J. Klett-Tammen",
+        "Torben Heinsohn",
+        "Wolfgang Wiechert",
+        "Katharina Noeh",
+        "Stefan Kesselheim"
+      ],
+      "summary": "Mechanistic epidemiological models are widely used to support infectious disease forecasting and public-health decision making. Bayesian calibration of such models is commonly performed using Markov chain Monte Carlo (MCMC), which can become computationally expensive for high-dimensional nonlinear systems and repeated near-real-time analyses. Here, we investigate simulation-based inference (SBI) using neural posterior estimation as a scalable alternative for Bayesian calibration of a mechanistic",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27286v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27286v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27274",
+      "title": "BetXplain: An Explanation-Annotated Dataset for Detecting Manipulative Betting Advertisements on Social Media",
+      "authors": [
+        "MSVPJ Sathvik",
+        "Parmitha Vangapadu",
+        "Nishit Rane",
+        "Sathwik Narkedimilli",
+        "Mark Lee",
+        "Akrati Saxena"
+      ],
+      "summary": "The promotion of betting applications on social media platforms has increased significantly in recent years. Many of these advertisements use persuasive techniques that may mislead users, encourage risky behavior, and potentially influence users' mental well-being. However, research on the automated detection of manipulative and deceptive betting advertisements remains limited due to the lack of publicly available annotated datasets. In this work, we introduce a new dataset of betting-related ad",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27274v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27274v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27247",
+      "title": "RSPC: A Benchmark for Modeling Stress and Psychiatric Conditions in Digitally Mediated Relationships using Psychiatrist Annotations",
+      "authors": [
+        "Parmitha Vangapandu",
+        "Sai Ganesh Mokkapati",
+        "Sathwik Narkedimilli",
+        "MSVPJ Sathvik",
+        "Timothy Liu",
+        "Simon See",
+        "Johannes C. Eichstaedt"
+      ],
+      "summary": "In NLP, mental health conditions are often modeled as isolated phenomena, without interpersonal context. We use Reddit posts about long-distance relationships to capture both mental health distress and associated relational triggers. We introduce the Relational Stress and Psychiatry Corpus (RSPC) containing 1,799 Reddit posts annotated by psychiatrists for diagnostic categories, including the most prevalent mood disorders (anxiety and depression), relational stressor triggers, and indications of",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27247v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27247v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27202",
+      "title": "Graph Neural Networks Applications Across Domains: All Insights You Need",
+      "authors": [
+        "Abderaouf Bahi"
+      ],
+      "summary": "Graph neural networks have moved from a niche representation-learning technique to the default model class wherever data carry relational structure. The interesting question is no longer whether message passing helps on a given dataset, but where graph structure earns its computational cost and where it does not. This survey organises the field around a single design space, derives the spectral and spatial formulations from shared first principles, and connects expressive power to the Weisfeiler",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27202v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27202v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27174",
+      "title": "RecallRisk-BERT: A Multi-Task Framework for Post-Report Medical Device Recall Triage",
+      "authors": [
+        "Ali Semih Atalay",
+        "Sevgi Yigit-Sert"
+      ],
+      "summary": "Medical device recalls are a critical regulatory mechanism for protecting patient safety. The growing volume of FDA recall records presents challenges in post-report recall triage, severity assessment, and root-cause interpretation. Existing studies mostly address recall occurrence prediction or root-cause analysis separately, while joint modeling of recall severity and root-cause categories has received limited attention. We develop an automated recall triage framework using 54,165 FDA medical ",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27174v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27174v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27154",
+      "title": "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision",
+      "authors": [
+        "Aoyang Fang",
+        "Yifan Yang",
+        "Jin'ao Shang",
+        "Qisheng Lu",
+        "Junjielung Xu",
+        "Rui Wang",
+        "Songhan Zhang",
+        "Yuzhong Zhang",
+        "Boxi Yu",
+        "Pinjia He"
+      ],
+      "summary": "Root cause analysis (RCA) poses a holistic test of LLM agentic capabilities, such as long-context understanding, multi-step reasoning, and tool use. However, existing datasets suffer from a fundamental gap: they label only the root cause, not the propagation path connecting it to the observed symptom, which largely simplifies the task to naive pattern matching. To support rigorous evaluation, we introduce PAVE, a step-wise labeling protocol that leverages known interventions from fault injection",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27154v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27154v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "work in progress",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27023",
+      "title": "Just how sure are you? Improving Verbalized Uncertainty Calibration in Medical VQA",
+      "authors": [
+        "Eren Senoglu",
+        "Federico Toschi",
+        "Nicolo Brunello",
+        "Andrea Sassella",
+        "Mark James Carman"
+      ],
+      "summary": "Multimodal large language models (MLLMs) applied to Medical Visual Question Answering (VQA) tend to produce overconfident outputs regardless of actual correctness, and existing verbalized confidence calibration methods, developed primarily for text only LLMs, do not account for the multimodal nature of medical image understanding. This work proposes a training based framework that finetunes MLLMs to improve their calibration using a composite loss function combining a Brier style calibration ter",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27023v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27023v1",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.26982",
+      "title": "Auditing Framing-Sensitive Behavioral Instability in Large Language Models for Mental Health Interactions",
+      "authors": [
+        "Abla Bedoui",
+        "Ashley L. Greene",
+        "Mohammed Cherkaoui"
+      ],
+      "summary": "Large language models (LLMs) are increasingly being integrated into mental health support tools and other psychologically sensitive conversational applications. In such settings, behavioral stability and consistency are important for trustworthy human-AI interaction. However, semantically similar concerns can be presented through different contextual framings, potentially eliciting different model responses. Such framing-sensitive variability may challenge user expectations regarding system beha",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.26982v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.26982v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.26901",
+      "title": "SamaVaani: Auditing and Debiasing Multilingual Clinical ASR for Indian Languages",
+      "authors": [
+        "Subham Kumar",
+        "Prakrithi Shivaprakash",
+        "Abhishek Manoharan",
+        "Astut Kurariya",
+        "Diptadhi Mukherjee",
+        "Prabhat Chand",
+        "Pratima Murthy",
+        "Koustav Rudra",
+        "Lekhansh Shukla",
+        "Animesh Mukherjee"
+      ],
+      "summary": "Automatic Speech Recognition (ASR) is increasingly used to document clinical encounters, yet its reliability in multilingual and demographically diverse Indian healthcare context remains largely unknown. In this study, we first conduct the systematic audit of ASR performance on real-world psychiatric interview data spanning Kannada, Hindi and Indian English, comparing eight state-of-the-art models including IndicWhisper, WhisperLargeV3, Sarvam, GoogleS2T, Gemma3n, OmniLingual, Vaani, and Gemini.",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.26901v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.26901v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.26879",
+      "title": "A Pipeline for Generating Longitudinal Synthetic Clinical Notes Using Large Language Models",
+      "authors": [
+        "William Poulett"
+      ],
+      "summary": "Synthetic data is increasingly used to enable the development and evaluation of AI systems in domains where access to real-world data is restricted. In healthcare, clinical documentation presents particular challenges due to its sensitivity. This work introduces a synthetic clinical notes pipeline and dataset designed to support the development of clinical AI tools while avoiding the privacy risks associated with real patient data. The dataset is generated using a modular pipeline that combines ",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.26879v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.26879v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.26874",
+      "title": "TAVR-VLM: Risk-Conditioned Causal Grounding for Hallucination-Resistant Report Generation",
+      "authors": [
+        "Zhixiang Lu",
+        "Xiwei Liu",
+        "Sifan Song",
+        "Changkai Ji",
+        "Anh Nguyen",
+        "Jionglong Su",
+        "Imran Razzak",
+        "Jinfeng Wang"
+      ],
+      "summary": "Transcatheter Aortic Valve Replacement (TAVR) planning requires meticulous multimodal reasoning. However, adapting Multimodal Large Language Models (MLLMs) to this high-stakes domain is severely impeded by diagnostic hallucinations, where generated text lacks anatomical grounding. To address this, TAVR-VLM is introduced: a novel framework featuring Risk-Conditioned Causal Grounding Attention (R-CGA) that instantiates a model-internal ``Risk $\\rightarrow$ Region $\\rightarrow$ Word'' structural gr",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.26874v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.26874v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.26816",
+      "title": "Computational Analysis of Heart Rate Variability in Healthy Adults",
+      "authors": [
+        "María J. Lado",
+        "Arturo J. Méndez",
+        "Leandro Rodriguez-Liñares",
+        "Baltasar García Pérez-Schofield",
+        "Pedro Cuesta-Morales",
+        "Brais Iglesias-Otero",
+        "Xose A. Vila"
+      ],
+      "summary": "Heart Rate Variability (HRV) analysis is a key indicator of cardiac physiological state and aids in disease diagnosis. However, research on HRV parameters in healthy individuals remains limited, and no gold standard exists. This study evaluates HRV indices in 40 healthy adults (20 men, 20 women, aged 30-50) to improve HRV's clinical utility. Using computational methods for signal processing and data analysis, time, frequency, and nonlinear indices were analyzed to address five questions: (1) nor",
+      "published": "2026-06-25",
+      "publishedDate": {
+        "iso": "2026-06-25",
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.26816v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.26816v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2606.25956",
       "title": "Pulmonary Embolism Risk Stratification from CTPA and Medical Records: Vascular Graphs Are Not All You Need",
@@ -423,400 +820,6 @@
       "categories": [
         "cs.LG",
         "math-ph"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20477",
-      "title": "Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology",
-      "authors": [
-        "Yusuf Salcan",
-        "Simon Ging",
-        "Robin Schirrmeister",
-        "Philipp Arnold",
-        "Elmar Kotter",
-        "Behzad Bozorgtabar",
-        "Thomas Brox"
-      ],
-      "summary": "We study how to train visually grounded vision-language models (VLMs) for radiology without manual spatial annotations. We introduce RefRad2D, a large-scale bilingual (German/English) dataset of 1.2M CT and MR image-text pairs derived from clinical practice, with task-specific VQA and spatial grounding subsets generated automatically via LLM-based curation and automated segmentation. Trained on this data, our model RadGrounder jointly performs report generation, visual question answering, and sp",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20477v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20477v1",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "comments": "Accepted for MICCAI 2026. First two authors: equal contribution. Last two authors: equal supervision",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20459",
-      "title": "Context-Aware Hierarchical Bayesian Modeling of IVF Laboratory Environmental Conditions",
-      "authors": [
-        "Zahra Asghari Varzaneh",
-        "Reza Khoshkangini",
-        "Pia Saldeen",
-        "Lars Johansson",
-        "Thomas Ebner"
-      ],
-      "summary": "IVF pregnancy rates are routinely modeled using patient-level variables, while high-resolution laboratory environmental data remain underutilized. We show that this is a missed opportunity. Rather than relying on raw sensor averages, we engineer 55 context-aware temporal features, including rolling thermal stability, simultaneous temperature-humidity adherence, peak stress duration, and post-stress recovery speed, that capture the dynamics of incubator microenvironments. On 61 weeks of data from",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20459v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20459v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20438",
-      "title": "Interpretable Sperm Morphology Classification via Attention-Guided Deep Learning",
-      "authors": [
-        "Zahra Asghari Varzaneh",
-        "Reza Khoshkangini",
-        "Thomas Ebner",
-        "Lars Johansson"
-      ],
-      "summary": "Male infertility is a major cause of couple infertility, often linked to abnormal sperm morphology. While deep learning models offer automated analysis, most lack interpretability, limiting their clinical adoption. This study proposes an attention-guided deep learning framework for sperm morphology classification. We combine a pretrained EfficientNet-B0 with a Convolutional Block Attention Module (CBAM) to focus on key areas of the sperm head, improving both accuracy and interpretability. Evalua",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20438v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20438v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20323",
-      "title": "Leveraging systems' non-linearity to tackle the scarcity of data in the design of Intelligent Fault Diagnosis Systems",
-      "authors": [
-        "Giancarlo Santamato",
-        "Andrea Mattia Garavagno",
-        "Massimiliano Solazzi",
-        "Antonio Frisoli"
-      ],
-      "summary": "Deep Transfer Learning (DTL) allows for the efficient building of Intelligent Fault Diagnosis Systems (IFDS). On the other hand, DTL methods still heavily rely on large amounts of labelled data. Obtaining such an amount of data can be challenging when dealing with machines or structures faults. This document proposes a novel approach to the design of vibration-based IFDS using DTL in condition of strong data scarcity. A periodic multi-excitation level procedure leveraging intrinsic non-lineariti",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20323v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20323v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20208",
-      "title": "Beyond Accuracy: Measuring Logical Compliance of Predictive Models",
-      "authors": [
-        "Guillaume Olivier Delplanque",
-        "Pierre Genevès",
-        "Nabil Layaïda",
-        "Zephirin Faure"
-      ],
-      "summary": "Machine learning models are predominantly evaluated through predictive performance metrics such as ranking quality, prediction error, or classification accuracy. While these metrics effectively quantify how closely predictions match the ground truth, they do not assess whether model outputs respect predefined logical or domain-specific constraints. In high-stakes applications, including healthcare, finance, and autonomous systems, logical consistency can be as critical as predictive accuracy, ye",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20208v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20208v1",
-      "categories": [
-        "cs.AI",
-        "cs.DB",
-        "cs.NE"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20206",
-      "title": "Off-Policy Evaluation for Missingness-Aware Policies in MDPs with Rewards Missing Not at Random",
-      "authors": [
-        "Ziheng Wei",
-        "Annie Qu",
-        "Rui Miao"
-      ],
-      "summary": "In offline Reinforcement Learning, immediate rewards in logged batch data are often unobserved due to sparse or irregular record-keeping, or censored beyond certain reward values. This issue arises in practical settings, including health care and marketing. We investigate off-policy evaluation (OPE) in finite-horizon Markov decision processes when rewards are missing not at random (MNAR), which breaks ignorability and induces selection bias even after conditioning on states and actions. To addre",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20206v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20206v1",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "comments": "Accepted at ICML 2026. 31 pages, 6 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20174",
-      "title": "Computational Methods and Challenges in Cell-Free DNA Analysis for Multi-Cancer Early Detection",
-      "authors": [
-        "Nicko Starkey",
-        "Marcin W. Wojewodzic",
-        "Krzysztof Rzecki"
-      ],
-      "summary": "Cell-free DNA (cfDNA) is a promising avenue for non-invasive multicancer early detection (MCED), in that, it can enable multiple cancer detection simultaneously from a single blood draw, with particular sensitivity to cancers that currently lack established screening programs. Here we review the computational methods developed between 2022 and 2025 for cfDNA-based MCED. We focus on how fragmentomics and epigenetic features are extracted and analyzed to detect cancer at early stages. We first bri",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20174v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20174v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20172",
-      "title": "Predicting gestational age at birth in the context of preterm birth from multi-modal fetal MRI",
-      "authors": [
-        "Diego Fajardo-Rojas",
-        "Megan Hall",
-        "Daniel Cromb",
-        "Mary A. Rutherford",
-        "Lisa Story",
-        "Emma C. Robinson",
-        "Jana Hutter"
-      ],
-      "summary": "Preterm birth is associated with significant mortality and a risk for lifelong morbidity. The complex multifactorial aetiology hampers accurate prediction and thus optimal care. A pipeline consisting of bespoke machine learning methods for data imputation, feature selection, and regression models to predict gestational age (GA) at birth was developed and evaluated from comprehensive multi-modal morphological and functional fetal MRI data from 333 control cases and 93 preterm birth cases. The GA ",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20172v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20172v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted for publication at the Journal of Machine Learning for Biomedical Imaging (MELBA) https://melba-journal.org/2026:013",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20164",
-      "title": "MedRLM: Recursive Multimodal Health Intelligence for Long-Context Clinical Reasoning, Sensor-Guided Screening, Evidence-Grounded Decision Support, and Community-to-Tertiary Referral Optimization",
-      "authors": [
-        "Aueaphum Aueawatthanaphisut"
-      ],
-      "summary": "Real-world clinical decision support requires reasoning over heterogeneous and longitudinal patient information rather than answering isolated medical questions. However, current medical large language models and retrieval-augmented generation systems often rely on single-step prompting or retrieval, which can be fragile when clinical evidence is distributed across long electronic health records, medical images, sensor streams, guidelines, and referral constraints. This paper proposes MedRLM, a ",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20164v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20164v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG",
-        "q-bio.QM"
-      ],
-      "comments": "9 pages, 3 figures, 3 tables, 1 Algorithm, 29 equations",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20115",
-      "title": "When Calibration Fails the Vulnerable Hospital: Federated Conformal Risk Control via Risk-Curve Shrinkage",
-      "authors": [
-        "Nafis Fuad Shahid"
-      ],
-      "summary": "Conformal risk control (CRC) provides distribution-free guarantees on segmentation quality by calibrating a prediction-set threshold on held-out data. In federated deployments, the standard approach pools calibration scores across sites into a single threshold. We provide the first quantification, on real multi-institutional brain tumor data (FeTS-2022, 1,251 subjects, 20 institutions), showing that this naive pooled CRC protects the average hospital but violates coverage at 40% of individual in",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20115v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20115v1",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "comments": "9 pages, 3 figures, 2 tables. Submitted to the DeCaF Workshop at MICCAI 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20074",
-      "title": "Evaluation of EEG Foundation Models for Event-Based Burst-Suppression Detection in ICU",
-      "authors": [
-        "Elisa Vasta",
-        "Thorir Mar Ingolfsson",
-        "Andrea Cossettini",
-        "Luca Benini",
-        "Tilman Beck",
-        "Emanuela Keller",
-        "Una Pale"
-      ],
-      "summary": "Burst suppression (BS) is a clinically relevant electroencephalographic (EEG) pattern used to monitor sedation depth and brain activity in critically ill patients, particularly during induced coma in Intensive Care Units (ICUs). Automatic burst detection remains challenging because BS patterns vary substantially between patients and annotated datasets are scarce. Recently, EEG Foundation Models (FMs) have shown promise across several downstream EEG applications, but their usefulness for BS detec",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20074v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20074v1",
-      "categories": [
-        "eess.SP",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "4 pages, 1 figure. Code available upon publication",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20055",
-      "title": "PaAno+: Multiscale Encoding and Cross-Variable Attention for Time Series Anomaly Detection",
-      "authors": [
-        "Youji Zhu",
-        "Hongbing Wang",
-        "Wenchao Liu",
-        "Xiaodong Liu",
-        "Xiangguang Xiong"
-      ],
-      "summary": "Time-series anomaly detection has significant practical value for industrial and medical monitoring, as well as other critical domains. Current Transformer- and large-model-based detection approaches incur excessive computational overhead, while existing lightweight alternatives are constrained by insufficient feature extraction and inadequate modeling of dependencies across multivariate variables. To mitigate the above drawbacks, this study develops a lightweight, efficient anomaly detection mo",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20055v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20055v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20037",
-      "title": "Alzheimer's Disease Diagnosis using a Multimodal Approach with 3D MRI and PET",
-      "authors": [
-        "Loukas Ilias",
-        "Anthi-Maria Vozinaki",
-        "Christos Ntanos",
-        "Dimitris Askounis"
-      ],
-      "summary": "Alzheimer's disease (AD) is an irreversible neurodegenerative disorder and a leading cause of death worldwide. Early diagnosis plays an important part especially at the Mild Cognitive Impairment stage, where timely intervention can help slow its progression before it advances to AD. Neuroimaging data, like Magnetic Resonance Imaging (MRI) and Positron Emission Tomography (PET) scans, can help detect brain changes early by providing structural and functional brain changes related to the disease. ",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20037v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20037v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.20035",
-      "title": "PU-UNet: Stable Multiplicative Interactions for Medical Image Segmentation",
-      "authors": [
-        "Ziyuan Li",
-        "Osamah Sufyan",
-        "Uwe Jaekel",
-        "Babette Dellen"
-      ],
-      "summary": "Many dense prediction networks rely on additive feature transformations and model higher-order feature interactions only implicitly. Product units provide an explicit mechanism for multiplicative feature modeling, but their logarithmic--exponential formulation can cause numerical instability, which has limited their use in deep dense prediction networks. In this work, we propose Product-Unit U-Net (PU-UNet), a residual U-Net that integrates stable product-unit residual blocks into rich low-resol",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.20035v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20035v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "Accepted to the ICANN 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.19966",
-      "title": "Semantic-Anchored Evidential Fusion for Domain-Robust Whole-Slide Survival Analysis",
-      "authors": [
-        "Yucheng Xing",
-        "Ling Huang",
-        "Pei Liu",
-        "Jingying Ma",
-        "Jiaqing Xu",
-        "Kai He",
-        "Mengling Feng"
-      ],
-      "summary": "Whole-slide images (WSIs) are widely used for computational cancer prognosis. However, most existing methods primarily focus on in-domain performance and fail to generalize across clinical centers. This limitation stems from their reliance on pixel-derived representations that are highly susceptible to domain-specific artifacts caused by staining protocols and scanner hardware. We hypothesize that high-level pathology semantics, such as tumor grade and micro-environmental architecture, provide a",
-      "published": "2026-06-18",
-      "publishedDate": {
-        "iso": "2026-06-18",
-        "year": 2026,
-        "month": 6,
-        "day": 18
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.19966v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.19966v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
       ],
       "comments": "",
       "arxivVersion": "v1"

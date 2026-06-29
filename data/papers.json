@@ -14,11 +14,313 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-06-28T02:57:40.987Z",
-  "fetchedAt": "2026-06-28T02:57:40.987Z",
+  "lastUpdated": "2026-06-29T02:58:38.709Z",
+  "fetchedAt": "2026-06-29T02:58:38.709Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 11,
   "papers": [
+    {
+      "arxivId": "2606.28261",
+      "title": "Habitual lifestyle timing explains circadian timing, but daily lifestyle changes do not, in free-living humans across 2000 days",
+      "authors": [
+        "Billy C. Smith",
+        "Zeel Pansara",
+        "Rosanne H. Timmerman",
+        "Emmanuel Molefi",
+        "Tiago Da Silva Costa",
+        "Christopher Thornton",
+        "Lucas G. S. França",
+        "Rachel E. Stirling",
+        "Sarah E. Heaps",
+        "Philippa J. Karoly",
+        "Mario Leocadio-Miguel",
+        "Peter N. Taylor",
+        "Karoline Leiberg",
+        "Yujiang Wang"
+      ],
+      "summary": "Background: Both between- and within-subject variations in circadian timing matter for health. If lifestyle changes could be used to regulate circadian timing, they would offer accessible and scalable routes to chronotherapy, but this link remains unclear under real-life conditions. Here, we explore how lifestyle 'traits' (such as typical wake time) and 'states' (day-to-day deviations from traits, such as waking up later than typical) explain between- and within-subject variation in acrophase (p",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.28261v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.28261v1",
+      "categories": [
+        "q-bio.QM",
+        "stat.AP"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.28252",
+      "title": "Parameter-Efficient Continuous-Variable Photonic Quantum Neural Networks for Edge Quantum AI: Demonstration in Oral Cancer Detection",
+      "authors": [
+        "Akshay Bhagwan Sonawane",
+        "Sophie Choe",
+        "Lakshman Tamil"
+      ],
+      "summary": "Early detection of oral cancer markedly improves clinical outcomes, yet specialized diagnostic tools remain scarce in low-resource settings. Smartphone-based screening is a scalable alternative but needs lightweight models that run within edge-hardware constraints. Hybrid classical-quantum architectures are emerging candidates for parameter-efficient learning, yet most rely on qubit hardware that needs cryogenic operation, unsuitable for edge deployment. Continuous-variable (CV) photonic quantum",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.28252v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.28252v1",
+      "categories": [
+        "quant-ph",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.28194",
+      "title": "COCOLogic-V2: Identifying Logical Inconsistencies via Truly Hard-Negatives",
+      "authors": [
+        "David Steinmann",
+        "Antonia Wüst",
+        "Kristian Kersting",
+        "Wolfgang Stammer"
+      ],
+      "summary": "While interpretable models such as concept bottleneck models (CBMs) and program synthesis methods enable verification of model decisions, their evaluation is typically limited to simple tasks, leaving complex reasoning on real-world images largely unexplored. We introduce COCOLogic-V2, an object-centric dataset for visual inductive reasoning on real-world images covering a broad subset of first-order logic. By categorizing samples into positive variants, near-boundary (NB), and far-from-boundary",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.28194v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.28194v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.28179",
+      "title": "CPAgents: Agentic Composite Phenotype Generation for Cardiac Disease Association",
+      "authors": [
+        "Zuoou Li",
+        "Wenlong Zhao",
+        "Kelly Yu",
+        "Weitong Zhang",
+        "Paul M. Matthews",
+        "Wenjia Bai",
+        "Bernhard Kainz",
+        "Mengyun Qiao"
+      ],
+      "summary": "Identifying robust associations between cardiac imaging phenotypes and clinical diseases is fundamental to population-scale cardiovascular research and reliable risk stratification. However, current phenome-wide association studies rely on pre-defined, single-variable phenotypes or expert-crafted features, which limits their ability to capture clinically meaningful non-linear effects and cross-phenotype interactions. To address this, we propose CPAgents, an iterative phenotype-Composition framew",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.28179v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.28179v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "Accepted to MICCAI 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.28164",
+      "title": "EchoSonar-R: A Multi-View Reasoning-Enabled Model for Disease Classification and Report Generation in Echocardiography",
+      "authors": [
+        "Darya Taratynova",
+        "Ahmed Aly",
+        "Numan Saeed",
+        "Mohammad Yaqub"
+      ],
+      "summary": "Echocardiography is the most widely used non-invasive cardiac imaging modality, providing essential information for cardiovascular diagnosis. Interpreting an echocardiogram requires synthesizing complementary evidence across multiple heart views to identify abnormalities and produce structured clinical reports. While recent efforts focus on improving classification performance, most models lack explicit diagnostic reasoning and spatially grounded anatomical evidence, limiting clinician trust. We",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.28164v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.28164v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.28104",
+      "title": "Cross-view Multimodal Vision-Based Assessment Framework for Traditional Chinese Medicine Rehabilitation Training",
+      "authors": [
+        "Francis Xiatian Zhang",
+        "Hao Yao",
+        "Shengxuan Chen",
+        "Hong Zhu",
+        "Hongxiao Jia",
+        "Sisi Zheng",
+        "Hubert P. H. Shum"
+      ],
+      "summary": "Vision-based assessment can provide convenient and cost-effective evaluation in Traditional Chinese Medicine (TCM) rehabilitation training, where action quality assessment (AQA) from computer vision offers a promising solution. Existing automatic AQA frameworks for physical therapy typically rely on skeletal data captured from a single viewpoint, which is inefficient for TCM techniques such as acupuncture or Tuina that involve dense hand self-occlusion and complex hand-object interactions. To ad",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.28104v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.28104v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "Published in IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.28065",
+      "title": "OperatorSHAP: Fast and Accurate Shapley Value Estimation for Neural Operators",
+      "authors": [
+        "Joshua Stiller",
+        "Santo M. A. R. Thies",
+        "Felix Czaja",
+        "Eyke Hüllermeier"
+      ],
+      "summary": "Understanding model predictions is essential for physical applications, where outputs often inform safety-critical decisions, such as structural load assessment, weather warnings, and clinical diagnosis. Shapley values satisfy many desirable properties as an attribution method, but their computational cost during inference hinders their practical use. Current amortized explainers, such as FastSHAP, are limited to homogeneous inputs, which is problematic for physical applications where data often",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.28065v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.28065v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27973",
+      "title": "From Black-Box to Clinical Insight: A Multi-Stage Explainable Framework for Speech-Based Cognitive Impairment Detection",
+      "authors": [
+        "Yasaman Haghbin",
+        "Sina Rashidi",
+        "Ali Zolnour",
+        "Fatemeh Taherinezhad",
+        "Ali Fartoot",
+        "Hossein Azadmaleki",
+        "James M Noble",
+        "Maryam Dadkhah",
+        "Maryam Zolnoori"
+      ],
+      "summary": "Speech-based cognitive impairment detection offers a noninvasive, accessible alternative to costly biomarker assays, yet transformer-based models remain clinically uninterpretable. We propose a multi-stage explainability framework that translates black-box transformer predictions into clinically grounded narratives by integrating SHapley Additive exPlanations (SHAP)-based token attribution, theory-informed linguistic features, and a four-stage LLM reasoning pipeline using LLaMA-3.1-70B-Instruct.",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27973v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27973v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "Accepted to Interspeech 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27918",
+      "title": "Every Step of the Way: Video-based Parkinsonian Turning Step Counting",
+      "authors": [
+        "Qiushuo Cheng",
+        "Jingjing Liu",
+        "Catherine Morgan",
+        "Alan Whone",
+        "Majid Mirmehdi"
+      ],
+      "summary": "As a prominent symptom of Parkinson's disease (PD), turning impairment is evaluated through parameters such as turning angle, duration, and particularly, the number of steps required to complete a turn, which directly reflects motor dysfunction. Accurate step counting is challenging due to variability in real-world turning movements and atypical shuffling patterns in parkinsonian gait. Existing methods are predominantly wearable-based, requiring users to wear and manage dedicated devices, which ",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27918v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27918v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27672",
+      "title": "Are Time-Series Foundation Models Ready for E-Nose Data? An Empirical Assessment of Their Embeddings",
+      "authors": [
+        "Taeyeong Choi",
+        "Mohammed Kamruzzaman"
+      ],
+      "summary": "Inspired by advances in natural language processing and computer vision, \"time-series foundation models\" (TSFMs) have recently been introduced with the promise of strong generalization across diverse time-series tasks, including forecasting, classification, and anomaly detection, as well as across domains such as healthcare, climate science, and manufacturing. However, their utility for gas-sensing data remains largely unexplored. To address this gap, this paper systematically evaluates recent T",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27672v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27672v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Submitted to IEEE SENSORS 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.27657",
+      "title": "Reconstructing the Developmental Trajectory of Adipocytes in Human Adipose Tissue Using Single-Cell RNA Sequencing",
+      "authors": [
+        "Weny S. M Sitinjak",
+        "Humasak Tommy Argo Simanjuntak"
+      ],
+      "summary": "Obesity is a global health crisis associated with metabolic disorders such as type 2 diabetes and cardiovascular disease. This study employed single-cell RNA sequencing to reconstruct the developmental trajectory of human adipocytes from adipose tissue samples. Our analysis identified 15 transcriptionally distinct cell clusters, including 7 transitional states, revealing the dynamic process of adipocyte differentiation. We detected 16 functionally active signaling pathways mediating cellular com",
+      "published": "2026-06-26",
+      "publishedDate": {
+        "iso": "2026-06-26",
+        "year": 2026,
+        "month": 6,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.27657v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.27657v1",
+      "categories": [
+        "q-bio.GN",
+        "cs.AI"
+      ],
+      "comments": "20 pages, 10 Figures, The manuscript is currently under review at the International Journal on Electrical Engineering and Informatics",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2606.27334",
       "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
@@ -524,302 +826,6 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.25769v1",
       "categories": [
         "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25762",
-      "title": "OncoSynth: Synthetic data generation for treatment effect estimation in oncology",
-      "authors": [
-        "Octavia-Andreea Ciora",
-        "Julian Welzel",
-        "Dennis Frauen",
-        "Maresa Schröder",
-        "Marie Brockschmidt",
-        "Harry Amad",
-        "Thomas Callender",
-        "Mihaela van der Schaar",
-        "Stefan Feuerriegel"
-      ],
-      "summary": "In oncology, access to patient-level data is often restricted. Synthetic data provides an alternative for analyzing treatment effectiveness, but existing methods for synthetic data generation fail to preserve the causal relationships between covariates, treatments, and outcomes, thereby leading to biased estimates of treatment effects. Here, we introduce OncoSynth, a generative, causally-aware machine learning framework designed to produce synthetic cohorts that enable accurate estimation of pop",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25762v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25762v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25606",
-      "title": "Expresso-AI: Explainable Video-Based Deep Learning Models for Depression Diagnosis",
-      "authors": [
-        "Felipe Moreno",
-        "Sharifa Alghowinem",
-        "Hae Won Park",
-        "Cynthia Breazeal"
-      ],
-      "summary": "Given the widespread prevalence of depression and its consequential impact on individuals and society, it is crucial to obtain objective measures for early diagnosis and intervention. As a multidisciplinary topic, these objective measures should be interpretable and accessible to health care professionals, ensuring effective collaboration and treatment planning in the realm of mental health care. Even though current automated depression diagnosis approaches improved over the last decade, a criti",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25606v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25606v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "8 pages. Accepted at the 2023 11th International Conference on Affective Computing and Intelligent Interaction (ACII). Code: https://github.com/felmoreno1726/Expresso-AI",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25527",
-      "title": "Beyond One-Size-Fits-All: Diagnosis-Driven Online Reinforcement Learning with Offline Priors",
-      "authors": [
-        "Guozheng Ma",
-        "Lu Li",
-        "Zilin Wang",
-        "Pierre-Luc Bacon",
-        "Dacheng Tao"
-      ],
-      "summary": "Online reinforcement learning (RL) agents increasingly depend on knowledge acquired offline to achieve practical efficiency. Originally studied in offline-to-online RL, this paradigm now spans foundation model post-training and embodied intelligence, with prior types expanding from offline datasets and pre-trained policies to increasingly diverse knowledge sources such as multimodal foundation models and generative world models. Offline priors have become central to how deep RL is developed and ",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25527v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25527v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25463",
-      "title": "Blasto-Net: An Explainable Multi-Task Learning for Blastocyst Segmentation, Grading, and Implantation Prediction",
-      "authors": [
-        "Zahra Asghari Varzaneh",
-        "Reza Khoshkangini",
-        "Magnus Johnsson",
-        "Thomas Ebner",
-        "Lars Johansson"
-      ],
-      "summary": "This study introduces Blasto-Net, a multi-task deep learning model for comprehensive blastocyst analysis. The proposed model performs three tasks simultaneously in a single forward pass: segmentation of the ZP, TE, and ICM compartments, morphological grading, and implantation outcome prediction. Accurate blastocyst analysis in in vitro fertilization (IVF) is challenging. The compartments often have similar textures but very different structures. To address these challenges, Blasto-Net employs an",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25463v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25463v1",
-      "categories": [
-        "eess.IV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25456",
-      "title": "Towards Robust EEG Decoding Based on Riemannian Self-Attention",
-      "authors": [
-        "Shaocheng Jin",
-        "Tao Zhou",
-        "Rui Wang",
-        "Ziheng Chen",
-        "Xiaoqing Luo",
-        "Xiaojun Wu",
-        "Josef Kittler"
-      ],
-      "summary": "Brain-Computer Interface (BCI) based on electroencephalography (EEG) enables direct interaction between the brain and external environments and has significant applications in assistive technologies, medical rehabilitation, and entertainment. Recently, EEG decoding methods based on Symmetric Positive Definite (SPD) learning have demonstrated superior performance. However, these methods typically employ basic network architectures and do not explicitly capture local relationships between EEG sign",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25456v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25456v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted by KDD 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25434",
-      "title": "Interpretable Concept-Guided Polynomial Tabular Kolmogorov-Arnold Network for EEG-Based Mild Cognitive Impairment Detection",
-      "authors": [
-        "Yosef Bernardus Wirian",
-        "Qiang Cheng"
-      ],
-      "summary": "Early and scalable detection of mild cognitive impairment (MCI) remains an unresolved clinical challenge. Existing EEG-based screening approaches are constrained by handcrafted feature pipelines that discard neurophysiologically meaningful domain structure and deep learning classifiers that sacrifice interpretability for performance. No existing work unifies physiologically organized concept encoders, cross-concept interaction modeling, and nonlinear tabular classification in a sleep EEG-based M",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25434v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25434v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25400",
-      "title": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
-      "authors": [
-        "Yangxuan Zhou",
-        "Sha Zhao",
-        "Jiquan Wang",
-        "Shijian Li",
-        "Gang Pan"
-      ],
-      "summary": "Brain-Computer Interfaces (BCIs) and brain signal understanding are pivotal for clinical health and next-generation interactions. Despite this significance, its widespread adoption in real-world scenarios remains restricted, primarily because current analytical paradigms lack sufficient agentic intelligence. First, existing methodologies impose prohibitive technical barriers, requiring extensive specialized expertise. Second, they remain inherently static and task-specific, failing to execute th",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25400v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25400v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "22 pages, 11 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25390",
-      "title": "Anatomically-conditioned Latent Diffusion Model for Data-Efficient Few-Shot Cross-Domain 3D Glioma MRI Synthesis",
-      "authors": [
-        "Salman Shaik",
-        "Truong Thanh Hung Nguyen",
-        "Hung Cao"
-      ],
-      "summary": "Accurate classification of diffuse gliomas is often hindered by domain shifts across centers and a lack of large, annotated datasets. We propose the Anatomically-conditioned Latent Diffusion Model (ALDM), a novel framework for data-efficient, few-shot 3D volumetric MRI synthesis. ALDM utilizes a two-stage approach: a 3D variational autoencoder learns anatomical priors from a data-rich source domain, while a conditional latent diffusion model, guided by tumor masks via a ControlNet, generates str",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25390v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25390v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Published in Canadian AI 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25375",
-      "title": "Beyond Visual Forensics: Auditing Multimodal Robustness for Synthetic Medical Image Detection",
-      "authors": [
-        "Ching-Hao Chiu",
-        "Hao-Wei Chung",
-        "Gelei Xu",
-        "Xueyang Li",
-        "Pin-Yu Chen",
-        "John Kheir",
-        "Meysam Ghaffari",
-        "Carlos Morato",
-        "Ahmed Abbasi",
-        "Yiyu Shi"
-      ],
-      "summary": "With the rapid adoption of generative AI, synthetic medical images pose growing risks, including diagnostic deception and insurance fraud. Although prior work has explored vision-language model (VLM)-based synthetic image detection, these evaluations typically consider images in isolation. In clinical practice, however, images are interpreted alongside structured records and metadata, and VLMs are increasingly deployed under joint image-record inputs. We uncover a previously underexamined multim",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25375v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25375v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted at MICCAI 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25270",
-      "title": "Inverse Reinforcement Learning for Interpretable Keystroke Biomarkers in Parkinson's Disease",
-      "authors": [
-        "Navin Bondade"
-      ],
-      "summary": "Keystroke dynamics have been explored extensively as a passive digital biomarker for Parkinson's disease (PD), typically by extracting summary statistics from typing timing and training a classifier to discriminate PD from healthy controls. We instead apply inverse reinforcement learning (IRL) to keystroke data, modeling each keystroke as a discrete choice over typing speed and recovering, per subject, an interpretable reward function that explains their observed timing behavior. To our knowledg",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25270v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25270v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "7 pages, 1 figure",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25185",
-      "title": "Neural operator-based digital twins for modeling amyloid-$β$ and tau propagation and treatment optimization in Alzheimer's disease",
-      "authors": [
-        "Xiaofeng Xu",
-        "Tingting Dan",
-        "Zifan Zhou",
-        "Bin Li",
-        "Guorong Wu",
-        "Wenrui Hao"
-      ],
-      "summary": "Accurately predicting the spatiotemporal evolution of amyloid-$β$ and tau proteins at the individual level is critical for improving the diagnosis and treatment of Alzheimer's disease. We consider the problem of constructing patient-specific digital twins that model the propagation of these biomarkers on the cortical surface using reaction--diffusion dynamics. A major challenge is that the underlying nonlinear aggregation mechanisms are unknown and must be inferred from sparse, noisy, and hetero",
-      "published": "2026-06-23",
-      "publishedDate": {
-        "iso": "2026-06-23",
-        "year": 2026,
-        "month": 6,
-        "day": 23
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25185v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25185v1",
-      "categories": [
-        "cs.LG",
-        "math-ph"
       ],
       "comments": "",
       "arxivVersion": "v1"

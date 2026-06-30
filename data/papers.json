@@ -14,11 +14,458 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-06-29T02:58:38.709Z",
-  "fetchedAt": "2026-06-29T02:58:38.709Z",
+  "lastUpdated": "2026-06-30T02:52:04.735Z",
+  "fetchedAt": "2026-06-30T02:52:04.735Z",
   "totalPapers": 30,
-  "newPapers": 11,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2606.30313",
+      "title": "TRACE: A Concept Bottleneck Model for Longitudinal 3D Glioblastoma Response Assessment",
+      "authors": [
+        "Alia Tarek",
+        "Hamsa Saberr",
+        "Hamza Elghonemy",
+        "Youssef Afify",
+        "Tamer Basha",
+        "Omair Shahzad Bhatti",
+        "Abdulrahman M. Selim",
+        "Hasan Md Tusfiqur Alam Daniel Sonntag"
+      ],
+      "summary": "Longitudinal glioblastoma response assessment requires comparing subtle tumor changes across MRI time points using structured clinical criteria such as RANO. However, most deep learning methods predict response labels directly from imaging features, which limits clinical inspection, verification, and correction. We introduce TRACE, a RANO 2.0-aligned concept bottleneck model for interpretable 4-class glioblastoma response classification on longitudinal 3D MRI. TRACE processes paired baseline and",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.30313v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.30313v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "Accept in the EXPLIMED: Explainable Artificial Intelligence for the Medical Domain workshop in IJCAI 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.30209",
+      "title": "A Multi Center Breast FNAC Whole-Slide Cytology Dataset for AI-Assisted Patch-Wise Classification Using C1 to C5 Reporting Categories",
+      "authors": [
+        "Garima Jain",
+        "Abhijeet Patil",
+        "Surabhi Jain",
+        "Sanghamitra Pati",
+        "Amit Sethi",
+        "Sandeep Mathur",
+        "Pulkit Verma",
+        "Nishi Halduniya",
+        "Jatin Kashyap",
+        "Sharat Kumar",
+        "Simmi Kharb",
+        "Sunita Singh",
+        "Sucheta Devi Khuraijam",
+        "Sushma Khuraijam",
+        "Ratan Konjengbam",
+        "Arvind Kumar",
+        "Deepali Tirkey",
+        "Saurav Banerjee",
+        "Shivani Kalhan",
+        "Rakesh Kumar Gupta",
+        "Ranjana Solanki",
+        "Deepika Hemranjani",
+        "Shashank Nath Singh",
+        "Uma Handa",
+        "Manveen Kaur",
+        "B. G. Malathi",
+        "Yogender P.",
+        "Niraj Kumari",
+        "Shruti Gupta",
+        "Indu R. Nair",
+        "Vidya C.",
+        "Basumitra Das",
+        "Sunil Kumar Komanapalli",
+        "Ravindra Karle",
+        "Tanaya Kulkarni",
+        "Vandana Raphael",
+        "Biswajit Dey",
+        "Vaishali Gaikwad",
+        "Nilam Adhav"
+      ],
+      "summary": "We present a multi center breast fine needle aspiration cytology (FNAC) dataset designed for patch wise classification using C1 to C5 reporting labels. The prospective dataset includes 321 patients and 470 whole-slide images (WSIs) collected from participating tertiary medical centers in India between May 2023 and March 2026. Slides were stained using Papanicolaou (190 WSIs) or MayGrunwald Giemsa (280 WSIs), scanned on a Hamamatsu NanoZoomer S360 at 40X magnification and 0.25 microns per pixel, ",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.30209v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.30209v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "9 pages, 1 figure",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.30156",
+      "title": "Physically-Constrained Harmonic Separation for Robust Heart and Respiratory Rate Estimation from Wrist Photoplethysmography",
+      "authors": [
+        "Nouhaila Fraihi",
+        "Ouassim Karrakchou",
+        "Mounir Ghogho"
+      ],
+      "summary": "Wrist-worn photoplethysmography (PPG) enables continuous monitoring of cardiopulmonary physiology, but reliable heart rate (HR) and respiratory rate (RR) estimation in free-living conditions remains challenging due to non-stationary motion artifacts that spectrally overlap with physiological dynamics. Existing signal-processing methods degrade under strong motion, while unconstrained deep learning approaches often lack physiological interpretability and identifiable structure. We propose a Physi",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.30156v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.30156v1",
+      "categories": [
+        "physics.med-ph",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "Accepted for presentation at the 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (IEEE EMBC 2026), Toronto, Canada, July 26-30, 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29949",
+      "title": "Data-Efficient Multimodal Alignment for Histopathology-based Molecular Prediction",
+      "authors": [
+        "Dominik Winter",
+        "Dominik Vonficht",
+        "Loïc Le Bescond",
+        "Christian Gebbe",
+        "Marco Rosati",
+        "Richard J. Chen",
+        "Markus Schick",
+        "Ross Stewart",
+        "Nicolas Brieu"
+      ],
+      "summary": "H&amp;E-stained whole-slide images offer cohort-scale availability and rich spatial context but lack molecular specificity, whereas bulk RNA-seq provides transcriptome-wide resolution at high cost with limited archival availability. We show that training a lightweight alignment module atop frozen histopathology and RNA-Seq foundation models enables open-vocabulary molecular prompting -- querying H&amp;E slides with gene-set signatures to predict pathway activity without sequencing or end-to-end ",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29949v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29949v1",
+      "categories": [
+        "eess.IV",
+        "cs.AI",
+        "q-bio.GN"
+      ],
+      "comments": "10 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29928",
+      "title": "Latent-CURE for Breast Cancer Diagnosis",
+      "authors": [
+        "Weiyi Zhao",
+        "Xiaoyu Tan",
+        "Lu Gan",
+        "Liang Liu",
+        "Xihe Qiu"
+      ],
+      "summary": "Multimodal Large Models have significantly advanced automated breast ultrasound diagnosis. However, most existing frameworks utilize opaque, end-to-end paradigms prioritizing global statistical correlations over structured clinical reasoning. Consequently, these models remain susceptible to shortcut learning amid extreme real-world epidemiological imbalances, often bypassing rare but decisive malignant indicators for dominant benign patterns. To address this disconnect, we propose Latent-CURE, a",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29928v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29928v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "11 pages, 4 figures, 3 tables. Accepted to MICCAI 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29907",
+      "title": "CW-B: Class Weighted Boosting Framework for Imbalance Resilient Multi Class Cardiac Phenotyping",
+      "authors": [
+        "Sijia Li",
+        "Xiaoyu Tan",
+        "Chen Zhan",
+        "Yuanji Ma",
+        "Haoyu Wang",
+        "Xihe Qiu"
+      ],
+      "summary": "Cardiac discharge phenotyping informs post-discharge treatment and follow-up, but real-world records are often incomplete and class-imbalanced, increasing the risk of missed high-risk phenotypes. We propose CW-B, a clinical risk-aligned class-weighted XGBoost pipeline for five-class cardiac discharge phenotyping under real-world class imbalance and missingness. CW-B combines fold-specific class-balanced instance weighting, missingness-indicator augmentation, and classwise error auditing to impro",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29907v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29907v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29889",
+      "title": "Golden Hour Divide: Trauma Care Accessibility and Resource Vulnerability in Sri Lanka",
+      "authors": [
+        "Sonath Kirindage",
+        "Vihanga Nimsara",
+        "Sakindu Rajapaksa",
+        "Kavyanga Hathurusinghe",
+        "Lahiru Dilshan",
+        "Subavarshana Arumugam",
+        "Nathali Athukorala",
+        "Sandareka Wickramanayake",
+        "Nisansa de Silva"
+      ],
+      "summary": "Timely intensive care dictates survival, yet emergency infrastructure remains unevenly distributed across Sri Lanka. While pre-hospital services have expanded, the transition to definitive care remains a critical bottleneck. This study evaluates national emergency resilience by quantifying the gap between clinical demand and the availability of specialized resources across all 25 districts. Using the latest national epidemiological data and terrain-aware H3 hexagonal modeling, we analyzed access",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29889v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29889v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "6 pages, 5 figures. Accepted for presentation at MERCon 2026. Preprint version",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29878",
+      "title": "Decision-Value Attribution in Predict-then-Optimize Systems",
+      "authors": [
+        "Konstantinos Ziliaskopoulos",
+        "Alexander Vinel",
+        "Alice E. Smith"
+      ],
+      "summary": "Predictive models are increasingly embedded in operational decision-making, yet standard explanation methods typically explain forecasts rather than the decisions those forecasts induce. This distinction is important in predict-then-optimize systems: large forecast changes may leave the optimizer's action unchanged, while small changes can alter the selected decision and its realized value. We propose Decision Value Attribution (DVA), a Shapley-based framework for attributing the value of a fixe",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29878v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29878v1",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29876",
+      "title": "Clinical Reasoning Graphs: Structured Evaluation of LLM Diagnostic Reasoning Reveals Competence Without Consistency",
+      "authors": [
+        "Nisarg A. Patel"
+      ],
+      "summary": "Modern large language models (LLMs) reach 60-70% diagnostic accuracy on complex clinical case benchmarks, but accuracy alone cannot distinguish stable clinically-grounded reasoning from pattern matching. We introduce clinical reasoning graphs, structured graph representations extracted from free-text LLM diagnostic traces using a domain-grounded ontology with 5 node types and 7 edge types. We apply this pipeline to 750 traces from five LLMs across 50 New England Journal of Medicine Clinicopathol",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29876v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29876v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "comments": "Spotlight Paper, Proceedings of the Workshop on Structured Data for Health at the 43rd International Conference on Machine Learning (ICML), Seoul, South Korea",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29857",
+      "title": "Comparing Chatbot Performance Enhanced with Persistent Homology",
+      "authors": [
+        "Nithisha Raghavaraju",
+        "Barbara Giunti",
+        "Bastian Rieck"
+      ],
+      "summary": "Chatbots have become increasingly prevalent across various domains, offering automated assistance in many areas, especially mental health support. The training is done using extremely large datasets, which are sometimes not available in very specific domains. Moreover, it would sometimes be ideal to train the chatbot with personal information about the patients, which, of course, cannot be done on shared servers since it would violate patient confidentiality. Hence, being able to improve the per",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29857v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29857v1",
+      "categories": [
+        "cs.LG",
+        "math.AT"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29771",
+      "title": "CLQT: A Closed-Loop, Cost-Aware, Strategy-Consistent Benchmark for Diagnostic Evaluation of LLM Portfolio-Management Agents",
+      "authors": [
+        "Bo Qu",
+        "Mingguang Chen"
+      ],
+      "summary": "LLM agents are increasingly cast as autonomous portfolio managers, and benchmarks have moved from financial question-answering to sequential trading. Yet most still rank agents by returns over a fixed window -- a weak proxy, since a period's return is dominated by the market path and apparent alpha can dissolve once look-ahead leakage is controlled. Such a ranking certifies neither sound reasoning, nor a consistent strategy, nor a durable edge. We introduce CLQT, which reframes closed-loop tradi",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29771v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29771v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "q-fin.CP",
+        "q-fin.PM"
+      ],
+      "comments": "50 pages, 14 figures, 10 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29763",
+      "title": "TopoAgent: An Agentic Framework for Automated Topology Learning in Medical Imaging",
+      "authors": [
+        "Guangyu Meng",
+        "Pengfei Gu",
+        "Xueyang Li",
+        "Yiyu Shi",
+        "Erin Wolf Chambers",
+        "Danny Z. Chen"
+      ],
+      "summary": "Topological data analysis (TDA), particularly persistent homology (PH), captures geometric structural properties in medical images (e.g., connected components, loops, shape characteristics), which conventional pixel-level deep learning approaches often neglect. While many topological descriptors are known for converting persistence diagrams (PDs) or raw images into topological feature vectors, existing methods mostly default to a single fixed descriptor (e.g., persistence images), leaving the di",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29763v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29763v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29746",
+      "title": "DEEPMED Search: An Open-Source Agentic Platform for Medical Deep Research with Introspective Verification",
+      "authors": [
+        "Maolin Liu",
+        "Fanyu Xu",
+        "Ruoqing Xu",
+        "Jiahang Zhang",
+        "Hao Wang",
+        "Rui Wang"
+      ],
+      "summary": "Navigating the deluge of heterogeneous medical data, from academic literature (PubMed) to clinical guidelines (Web) and private knowledge bases, remains a critical bottleneck for evidence-based medicine. While commercial black-box tools lack transparency, standard open-source RAG implementations frequently suffer from reasoning drift when handling complex, long-tail queries. We present DEEPMED Search, a fully open-source, agentic platform designed for transparent medical deep research. Built on ",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29746v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29746v1",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "5 pages, 2 figures, 2 tables. Accepted to IJCAI-ECAI 2026 Demo Track. Project website: https://www.deepmedsearch.cloud. Demo video: https://youtu.be/4U4aok8yLpk",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29713",
+      "title": "SEVA: Self-Evolving Verification Agent with Process Reward for Fact Attribution",
+      "authors": [
+        "Aojie Yuan",
+        "Yi Nian",
+        "Haiyue Zhang",
+        "Zijian Su",
+        "Yue Zhao"
+      ],
+      "summary": "Hallucination is the reliability bottleneck for LLM-based agents, and fact attribution verifiers are the last line of defense -- yet today's verifiers emit only opaque binary labels, leaving agents unable to self-correct and operators unable to audit. We present SEVA, a structured verification agent that emits evidence alignments, step-by-step reasoning chains, calibrated confidence, and a six-category error diagnosis with actionable fixes. Training such an agent with RL is non-trivial: standard",
+      "published": "2026-06-29",
+      "publishedDate": {
+        "iso": "2026-06-29",
+        "year": 2026,
+        "month": 6,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29713v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29713v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "Accepted at AI4GOOD@ICML 2026 and FAGEN@ICML 2026. Code: https://github.com/Justin0504/Verifiable_agent",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2606.29596",
+      "title": "Boundary Degree as a Node-level Feature for Epidemic Scenario Identification in Agent-based Cascade Simulations",
+      "authors": [
+        "Amro Alabsi Aljundi",
+        "Galen Harrison",
+        "Jiangzhuo Chen",
+        "Abhijin Adiga",
+        "Anil Kumar Vullikanti",
+        "Madhav V. Marathe"
+      ],
+      "summary": "Characterizing the scenario underlying an epidemic from its disease cascade is an important task in simulation analytics. We propose boundary degree, the count of an infected node's contacts in the underlying contact network that were not infected, as a per-node cascade feature for this task. Through systematic ablation on realistic social contact networks of Tennessee and Virginia, we show that boundary degree alone improves scenario identification accuracy by 19%. Edge features, whose importan",
+      "published": "2026-06-28",
+      "publishedDate": {
+        "iso": "2026-06-28",
+        "year": 2026,
+        "month": 6,
+        "day": 28
+      },
+      "arxivUrl": "http://arxiv.org/abs/2606.29596v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29596v1",
+      "categories": [
+        "cs.SI",
+        "cs.LG"
+      ],
+      "comments": "28 pages, 10 figures, preliminary version; not final",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2606.28261",
       "title": "Habitual lifestyle timing explains circadian timing, but daily lifestyle changes do not, in free-living humans across 2000 days",
@@ -419,413 +866,6 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.27286v1",
       "categories": [
         "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.27274",
-      "title": "BetXplain: An Explanation-Annotated Dataset for Detecting Manipulative Betting Advertisements on Social Media",
-      "authors": [
-        "MSVPJ Sathvik",
-        "Parmitha Vangapadu",
-        "Nishit Rane",
-        "Sathwik Narkedimilli",
-        "Mark Lee",
-        "Akrati Saxena"
-      ],
-      "summary": "The promotion of betting applications on social media platforms has increased significantly in recent years. Many of these advertisements use persuasive techniques that may mislead users, encourage risky behavior, and potentially influence users' mental well-being. However, research on the automated detection of manipulative and deceptive betting advertisements remains limited due to the lack of publicly available annotated datasets. In this work, we introduce a new dataset of betting-related ad",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.27274v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27274v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.27247",
-      "title": "RSPC: A Benchmark for Modeling Stress and Psychiatric Conditions in Digitally Mediated Relationships using Psychiatrist Annotations",
-      "authors": [
-        "Parmitha Vangapandu",
-        "Sai Ganesh Mokkapati",
-        "Sathwik Narkedimilli",
-        "MSVPJ Sathvik",
-        "Timothy Liu",
-        "Simon See",
-        "Johannes C. Eichstaedt"
-      ],
-      "summary": "In NLP, mental health conditions are often modeled as isolated phenomena, without interpersonal context. We use Reddit posts about long-distance relationships to capture both mental health distress and associated relational triggers. We introduce the Relational Stress and Psychiatry Corpus (RSPC) containing 1,799 Reddit posts annotated by psychiatrists for diagnostic categories, including the most prevalent mood disorders (anxiety and depression), relational stressor triggers, and indications of",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.27247v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27247v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.27202",
-      "title": "Graph Neural Networks Applications Across Domains: All Insights You Need",
-      "authors": [
-        "Abderaouf Bahi"
-      ],
-      "summary": "Graph neural networks have moved from a niche representation-learning technique to the default model class wherever data carry relational structure. The interesting question is no longer whether message passing helps on a given dataset, but where graph structure earns its computational cost and where it does not. This survey organises the field around a single design space, derives the spectral and spatial formulations from shared first principles, and connects expressive power to the Weisfeiler",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.27202v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27202v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.27174",
-      "title": "RecallRisk-BERT: A Multi-Task Framework for Post-Report Medical Device Recall Triage",
-      "authors": [
-        "Ali Semih Atalay",
-        "Sevgi Yigit-Sert"
-      ],
-      "summary": "Medical device recalls are a critical regulatory mechanism for protecting patient safety. The growing volume of FDA recall records presents challenges in post-report recall triage, severity assessment, and root-cause interpretation. Existing studies mostly address recall occurrence prediction or root-cause analysis separately, while joint modeling of recall severity and root-cause categories has received limited attention. We develop an automated recall triage framework using 54,165 FDA medical ",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.27174v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27174v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.27154",
-      "title": "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision",
-      "authors": [
-        "Aoyang Fang",
-        "Yifan Yang",
-        "Jin'ao Shang",
-        "Qisheng Lu",
-        "Junjielung Xu",
-        "Rui Wang",
-        "Songhan Zhang",
-        "Yuzhong Zhang",
-        "Boxi Yu",
-        "Pinjia He"
-      ],
-      "summary": "Root cause analysis (RCA) poses a holistic test of LLM agentic capabilities, such as long-context understanding, multi-step reasoning, and tool use. However, existing datasets suffer from a fundamental gap: they label only the root cause, not the propagation path connecting it to the observed symptom, which largely simplifies the task to naive pattern matching. To support rigorous evaluation, we introduce PAVE, a step-wise labeling protocol that leverages known interventions from fault injection",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.27154v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27154v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "work in progress",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.27023",
-      "title": "Just how sure are you? Improving Verbalized Uncertainty Calibration in Medical VQA",
-      "authors": [
-        "Eren Senoglu",
-        "Federico Toschi",
-        "Nicolo Brunello",
-        "Andrea Sassella",
-        "Mark James Carman"
-      ],
-      "summary": "Multimodal large language models (MLLMs) applied to Medical Visual Question Answering (VQA) tend to produce overconfident outputs regardless of actual correctness, and existing verbalized confidence calibration methods, developed primarily for text only LLMs, do not account for the multimodal nature of medical image understanding. This work proposes a training based framework that finetunes MLLMs to improve their calibration using a composite loss function combining a Brier style calibration ter",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.27023v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27023v1",
-      "categories": [
-        "cs.LG",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.26982",
-      "title": "Auditing Framing-Sensitive Behavioral Instability in Large Language Models for Mental Health Interactions",
-      "authors": [
-        "Abla Bedoui",
-        "Ashley L. Greene",
-        "Mohammed Cherkaoui"
-      ],
-      "summary": "Large language models (LLMs) are increasingly being integrated into mental health support tools and other psychologically sensitive conversational applications. In such settings, behavioral stability and consistency are important for trustworthy human-AI interaction. However, semantically similar concerns can be presented through different contextual framings, potentially eliciting different model responses. Such framing-sensitive variability may challenge user expectations regarding system beha",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.26982v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.26982v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.26901",
-      "title": "SamaVaani: Auditing and Debiasing Multilingual Clinical ASR for Indian Languages",
-      "authors": [
-        "Subham Kumar",
-        "Prakrithi Shivaprakash",
-        "Abhishek Manoharan",
-        "Astut Kurariya",
-        "Diptadhi Mukherjee",
-        "Prabhat Chand",
-        "Pratima Murthy",
-        "Koustav Rudra",
-        "Lekhansh Shukla",
-        "Animesh Mukherjee"
-      ],
-      "summary": "Automatic Speech Recognition (ASR) is increasingly used to document clinical encounters, yet its reliability in multilingual and demographically diverse Indian healthcare context remains largely unknown. In this study, we first conduct the systematic audit of ASR performance on real-world psychiatric interview data spanning Kannada, Hindi and Indian English, comparing eight state-of-the-art models including IndicWhisper, WhisperLargeV3, Sarvam, GoogleS2T, Gemma3n, OmniLingual, Vaani, and Gemini.",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.26901v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.26901v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.26879",
-      "title": "A Pipeline for Generating Longitudinal Synthetic Clinical Notes Using Large Language Models",
-      "authors": [
-        "William Poulett"
-      ],
-      "summary": "Synthetic data is increasingly used to enable the development and evaluation of AI systems in domains where access to real-world data is restricted. In healthcare, clinical documentation presents particular challenges due to its sensitivity. This work introduces a synthetic clinical notes pipeline and dataset designed to support the development of clinical AI tools while avoiding the privacy risks associated with real patient data. The dataset is generated using a modular pipeline that combines ",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.26879v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.26879v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.26874",
-      "title": "TAVR-VLM: Risk-Conditioned Causal Grounding for Hallucination-Resistant Report Generation",
-      "authors": [
-        "Zhixiang Lu",
-        "Xiwei Liu",
-        "Sifan Song",
-        "Changkai Ji",
-        "Anh Nguyen",
-        "Jionglong Su",
-        "Imran Razzak",
-        "Jinfeng Wang"
-      ],
-      "summary": "Transcatheter Aortic Valve Replacement (TAVR) planning requires meticulous multimodal reasoning. However, adapting Multimodal Large Language Models (MLLMs) to this high-stakes domain is severely impeded by diagnostic hallucinations, where generated text lacks anatomical grounding. To address this, TAVR-VLM is introduced: a novel framework featuring Risk-Conditioned Causal Grounding Attention (R-CGA) that instantiates a model-internal ``Risk $\\rightarrow$ Region $\\rightarrow$ Word'' structural gr",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.26874v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.26874v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.26816",
-      "title": "Computational Analysis of Heart Rate Variability in Healthy Adults",
-      "authors": [
-        "María J. Lado",
-        "Arturo J. Méndez",
-        "Leandro Rodriguez-Liñares",
-        "Baltasar García Pérez-Schofield",
-        "Pedro Cuesta-Morales",
-        "Brais Iglesias-Otero",
-        "Xose A. Vila"
-      ],
-      "summary": "Heart Rate Variability (HRV) analysis is a key indicator of cardiac physiological state and aids in disease diagnosis. However, research on HRV parameters in healthy individuals remains limited, and no gold standard exists. This study evaluates HRV indices in 40 healthy adults (20 men, 20 women, aged 30-50) to improve HRV's clinical utility. Using computational methods for signal processing and data analysis, time, frequency, and nonlinear indices were analyzed to address five questions: (1) nor",
-      "published": "2026-06-25",
-      "publishedDate": {
-        "iso": "2026-06-25",
-        "year": 2026,
-        "month": 6,
-        "day": 25
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.26816v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.26816v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25956",
-      "title": "Pulmonary Embolism Risk Stratification from CTPA and Medical Records: Vascular Graphs Are Not All You Need",
-      "authors": [
-        "Nathan Painchaud",
-        "Tristan Habémont",
-        "Morgane des Ligneris",
-        "Allan Serva",
-        "Pierre Croisille",
-        "Laurent Bertoletti",
-        "Thomas Lampert",
-        "Johannes F. Lutzeyer",
-        "Odyssée Merveille"
-      ],
-      "summary": "Risk stratification for pulmonary embolism (PE) is critical for clinical decision-making. Stratification guidelines are based on patient medical records, parameters measured from computed tomography pulmonary angiography (CTPA), and blood tests. However, blood tests are often missing in routine practice. This work studies whether state-of-the-art models can accurately classify risk stratification from only medical records and biomarkers extracted from CTPA images. We benchmark different approach",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25956v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25956v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "eess.IV"
-      ],
-      "comments": "8 1/2 pages + 2 pages of references. Accepted for MICCAI 2026. This preprint has not undergone peer review or any post-submission improvements or corrections. The Version of Record of this contribution is published in, and available online at, the external reference provided below",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25894",
-      "title": "Enhancing Brain MRI Anomaly Detection and Reasoning with ROI Rethink and Synthetic Data",
-      "authors": [
-        "Shangkun Li",
-        "Jie Xu",
-        "Yi Guo",
-        "Zeju Li",
-        "Yuanyuan Wang"
-      ],
-      "summary": "Medical vision-language models typically generate diagnoses through single-pass inference without indicating which image regions support their conclusions. This lack of spatial grounding limits clinical utility: outputs cannot be audited, and models may hallucinate findings on normal scans. We present BrReMark (Brain Rethink via ROI Marking), a framework that introduces explicit region marking into brain MRI diagnosis. The model first generates hypotheses about potential abnormalities and ground",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25894v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25894v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25770",
-      "title": "Re-mixing Embeddings for Patient Augmentation in Data Scarce Multiple Instance Learning",
-      "authors": [
-        "Muhammed Furkan Dasdelen",
-        "Fatih Ozlugedik",
-        "Anastasia Litinetskaya",
-        "Nassir Navab",
-        "Carsten Marr",
-        "Ario Sadafi"
-      ],
-      "summary": "Data scarcity is a major bottleneck in medical Multiple Instance Learning (MIL), especially for rare diseases or expensive modalities. We introduce a statistically grounded patient augmentation approach that generates realistic patients directly in embedding space. Using Gaussian Mixture Models as a probabilistic clustering approach on pooled instance embeddings from all patients, our method learns disease-specific \"recipes\"-statistical distributions of instances across unsupervised clusters. Ne",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25770v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25770v1",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "comments": "Accepted for publication at the 29th International Conference on Medical Image Computing and Computer Assisted Intervention - MICCAI 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2606.25769",
-      "title": "Deep Neural Networks with Ordinal Loss for Medical Applications",
-      "authors": [
-        "Tal Dvora",
-        "Rotem Haba",
-        "Gonen Singer"
-      ],
-      "summary": "In many prediction problems in medical applications, target labels exhibit an inherent ordinal structure, where class ordering reflects clinically meaningful severity levels. The cost associated with misclassification is often non-uniform and asymmetric, as errors between distant ordinal categories may have substantially more severe consequences than errors between adjacent ones, and overestimating disease severity may have different clinical implications than underestimating it. Traditional los",
-      "published": "2026-06-24",
-      "publishedDate": {
-        "iso": "2026-06-24",
-        "year": 2026,
-        "month": 6,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2606.25769v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25769v1",
-      "categories": [
-        "cs.LG"
       ],
       "comments": "",
       "arxivVersion": "v1"

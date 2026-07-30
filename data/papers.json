@@ -14,11 +14,410 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-07-29T02:07:13.865Z",
-  "fetchedAt": "2026-07-29T02:07:13.865Z",
+  "lastUpdated": "2026-07-30T01:56:24.727Z",
+  "fetchedAt": "2026-07-30T01:56:24.727Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2607.27106",
+      "title": "Hierarchical Spatio-Temporal Transformer for Coherent Emergency Department Forecasting",
+      "authors": [
+        "Filipa Lino",
+        "Bárbara Tavares",
+        "Carlos Santiago",
+        "Cláudia Soares",
+        "Manuel Marques"
+      ],
+      "summary": "Emergency Departments (EDs) are critical access points in healthcare systems, yet they face persistent pressure from unpredictable patient demand, seasonal surges, and non-urgent visits. Effective ED planning requires forecasts at multiple decision-making levels: hospitals need local demand estimates for staffing and bed management, regions require forecasts to coordinate healthcare units, and national authorities need system-wide projections for capacity planning. However, most existing approac",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.27106v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.27106v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Accepted at 11th Workshop on Data Science for Social Good - ECML PKDD 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26914",
+      "title": "BioVLN: A Simulation Platform for Visual Language Navigation in Biomedical Laboratories",
+      "authors": [
+        "Zhe Liu",
+        "Quan Lu",
+        "Zhaohui Du",
+        "Zhe Wang",
+        "Huanbo Jin",
+        "Jiaming Gu",
+        "Qi Wang",
+        "Ting Xiao",
+        "Minting Pan",
+        "Dongzhan Zhou"
+      ],
+      "summary": "Biomedical laboratory robots must navigate to instruments before performing experimental procedures. Existing embodied navigation platforms are designed for household environments and treat a target as an object center or an arbitrary nearby position. This representation is inadequate for laboratory instruments, which must be approached from their operating side while maintaining safe clearance from surrounding equipment. We introduce BioVLN, a simulation platform for developing and evaluating v",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26914v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26914v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comments": "17 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26886",
+      "title": "Hearsay: Vision-Language Medical Diagnoses Without an Image",
+      "authors": [
+        "Siddharth Vohra"
+      ],
+      "summary": "When asked to describe a medical image that was never attached, frontier vision-language models do not abstain: they confabulate a diagnosis. We show that this confabulation is not random. It is structured by who the patient is said to be. Across chest X-ray, brain MRI, and dermatology, Claude Opus-4.7, GPT-5.4, and Gemini-3.1-Pro are each queried with only a demographic descriptor and no image, and changing the descriptor systematically shifts the diagnosis returned. Claude concentrates sharply",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26886v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26886v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "comments": "Peer-reviewed and presented at the 1st Workshop on Toward Trustworthy Vision-Language Models in the Wild (TrustVLM), co-located with ACM ICMR 2026, Amsterdam. Non-archival workshop. Reviews public on OpenReview. 5 pages, 2 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26854",
+      "title": "TREA-Net: A Transferable Residual Epidemiological Adaptation Network for Dengue Incidence Forecasting",
+      "authors": [
+        "Inesh Shukla",
+        "Madhurima Panja",
+        "Tanujit Chakraborty",
+        "Chittaranjan Hens"
+      ],
+      "summary": "Accurate multi-week dengue forecasting supports timely vector-control interventions, outbreak preparedness, and healthcare resource allocation. However, newly established surveillance systems often lack the historical data needed to train reliable neural forecasting models. Although pretrained time-series models offer promising zero-shot forecasts, their cross-domain training may not capture local epidemiological dynamics. We propose TREA-Net, a Transferable Residual Epidemiological Adaptation N",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26854v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26854v1",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26829",
+      "title": "BATS: Resource-Efficient Volumetric Segmentation with Boundary-Aware Mixed-Resolution Tokens",
+      "authors": [
+        "David Hagerman",
+        "Roman Naeem",
+        "Fredrik Kahl"
+      ],
+      "summary": "Many high-performing volumetric segmentation models maintain dense multi-scale feature maps, leading to high activation memory and inference cost. We present BATS (Boundary-Aware Token Selection), a 3D medical image segmentation architecture that concentrates fine-resolution processing near predicted class boundaries. A dense boundary predictor identifies where additional resolution is needed, while a fine-first context cascade constructs an input-dependent mixed-resolution hierarchy. Homogeneou",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26829v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26829v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26765",
+      "title": "Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification",
+      "authors": [
+        "Alexander Kozachok",
+        "Ilya Latyshev",
+        "Evgeny Karpulevich",
+        "Elena Kozachok",
+        "Egor Ushakov",
+        "Oleg Samovarov"
+      ],
+      "summary": "Background/Objectives: Dermoscopic skin lesion classifiers often lose accuracy under domain shift across imaging devices, illumination, and capture artifacts. We study how data augmentation improves the robustness of a binary malignant-versus-non-malignant classifier, with emphasis on out-of-domain (OOD) generalization. Methods: Single augmentations, photometric combinations, and composite policies were searched on a multi-source ISIC Archive collection with Derm7pt, using a ConvNeXt-Large backb",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26765v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26765v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "27 pages, 6 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26752",
+      "title": "CalTwin: Towards Calibrated, Shift-Robust Medical World Models via Fisher-Information Regularisation",
+      "authors": [
+        "Behraj Khan",
+        "Shabir Ahmad",
+        "Syed Ahmad Chan Bukhari",
+        "Tahir Qasim Syed"
+      ],
+      "summary": "Medical world models aim to learn a latent state of patient or organ physiology and a transition function that forecasts how that state evolves under interventions, supporting downstream tasks from imaging-based diagnosis to digital-twin treatment planning. Two failure modes threaten the reliability of such models in clinical deployment: (i)~\\emph{covariate shift}, because training data are fragmented across hospitals, scanners, and time, so the feature distribution seen by the latent-dynamics p",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26752v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26752v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26746",
+      "title": "An Attention-Based Framework for Alzheimers Disease Classification Using Resting-State fMRI",
+      "authors": [
+        "Harshiddhi Pathak",
+        "Gowtham Reddy N",
+        "Mrinal Acharya",
+        "Manjunatha Mahadevappa"
+      ],
+      "summary": "Accurate identification of Alzheimers disease (AD) using resting-state functional magnetic resonance imaging (rs-fMRI) remains challenging due to the high dimensionality, noise, and complex inter-regional dependencies inherent in functional brain connectivity, which limit the effectiveness of traditional approaches based on handcrafted connectivity features or conventional machine learning models. In this work, we present an attention-based deep learning framework for Alzheimers disease classifi",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26746v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26746v1",
+      "categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG",
+        "eess.SP"
+      ],
+      "comments": "7 pages, 5 figures, 2 tables, accepted at 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (IEEE EMBC 2026)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26704",
+      "title": "Early Failure Prediction from Near-Anomaly Detection: A Proactive Approach",
+      "authors": [
+        "Léa Billet",
+        "Louise Travé-Massuyès",
+        "Elodie Chanthery",
+        "Alexandre Gaffet"
+      ],
+      "summary": "Anomaly detection methods often have uncertain behavior with respect to samples near the distribution boundary, limiting their ability to anticipate future anomalies. This work introduces the concept of near-anomalies that, while not yet anomalous, lie close to the boundary and are likely to transition into anomalies in the near future. To address this, we propose an unsupervised method, named Christoffel-based ANomaly Anticipation for eaRly dIscovery (CANARI), which leverages the strong theoret",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26704v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26704v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26700",
+      "title": "Automated Multilabel Mpox Research Classification with Explainable Transformer Models",
+      "authors": [
+        "Tanjim Taharat Aurpa"
+      ],
+      "summary": "The Mpox outbreak remains a serious public health issue, with the WHO (World Health Organization) reporting increasing cases in some regions. Research on Mpox is vital for several reasons, including vaccine development, diagnostic improvement, viral evolution studies, and preventing future outbreaks. However, the large amount of research being published makes it difficult to organize and analyze information efficiently. This study focuses on using multilabel classification to categorize 14590 Mp",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26700v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26700v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26637",
+      "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+      "authors": [
+        "Sizhe Zhou",
+        "Sheldon Yu",
+        "Hui Wei",
+        "Junda Wu",
+        "Siru Ouyang",
+        "Yizhu Jiao",
+        "Shijia Pan",
+        "Julian McAuley",
+        "Yu Zhang",
+        "Tong Yu",
+        "Jiawei Han"
+      ],
+      "summary": "Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools. Yet research has largely passed over this medium: prior systems design bespoke memory representations and study retrieval over them, leaving the default's two working assumptions untested: that an agent can keep a growing store organized as memories accumulate, conflict, and go stale, and that this organi",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26637v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26637v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "59 pages, 12 figures, 18 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26631",
+      "title": "RAG-HAR+: Towards Cost-Efficient LLM-Based Human Activity Recognition for Edge Deployment",
+      "authors": [
+        "Hansi Karunarathna",
+        "Nirhoshan Sivaroopan",
+        "Chamara Madarasingha",
+        "Anura Jayasumana",
+        "Kanchana Thilakarathna"
+      ],
+      "summary": "Human Activity Recognition (HAR) from wearable sensors supports applications in healthcare, rehabilitation, fitness tracking, and smart environments. Yet, existing deep learning approaches require dataset-specific training, large labeled corpora, and repeated adaptation to new sensor settings or activity taxonomies. Retrieval-Augmented Generation for Human Activity Recognition (RAG-HAR) addresses this by framing HAR as a training-free, retrieval-augmented task, in which statistical descriptions ",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26631v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26631v1",
+      "categories": [
+        "cs.LG",
+        "cs.IR"
+      ],
+      "comments": "Submitted to IEEE Transactions on Mobile Computing. Extended version of the IEEE PerCom 2026 paper \"RAG-HAR: Retrieval Augmented Generation-based Human Activity Recognition.\" (https://doi.org/10.1109/PerCom67906.2026.11524560)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26580",
+      "title": "Classification of Disease from Lungs X-ray Images using VGG16, VGG19 and ResNet50 Models",
+      "authors": [
+        "Nand Lal Yadav",
+        "Rajesh Kumar",
+        "Satyendra Singh",
+        "Sudhakar Singh"
+      ],
+      "summary": "With the increase in the number of cases related to respiratory diseases, there is an urgent need to detect them early and diagnose them accurately. Convolutional neural networks have given promising results when used for diagnosing diseases using imaging tests. In this study, we investigate the potential of applying deep learning algorithms such as VGG16, VGG19, and ResNet50 for classification of lung ailments based on X-ray images. A detailed analysis of the aforementioned models' performances",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26580v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26580v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "15 pages, 10 figures, 3 tables, International Journal of Drug Delivery Technology (IJDDT)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26528",
+      "title": "Shared Symbolic Backbones for Physically Consistent Multi-Output Symbolic Regression",
+      "authors": [
+        "Manuel Rodriguez"
+      ],
+      "summary": "Symbolic regression provides analytical expressions, but it is usually applied one output at a time. This is limiting in process systems, where state variables are often coupled through shared physical parameters. Independent symbolic regression can give accurate individual equations that are difficult to interpret as one model. We present a neuro-evolutionary symbolic regression method for coupled multi-output systems. The method searches for a shared symbolic backbone: a set of latent symbolic",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26528v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26528v1",
+      "categories": [
+        "cs.NE",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "comments": "20 pages, 1 figure",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2607.26521",
+      "title": "From Unsupervised Subgroups to Hypothetical State-Intervention Policies: An Evaluation of Selected Subgrouping Methods in Observational Health Data",
+      "authors": [
+        "Vasundhara Acharya",
+        "Bulent Yener"
+      ],
+      "summary": "Conventional subgroup analyses can yield unstable and difficult-to-interpret conclusions, especially in observational biomedical data where each individual is observed under only one exposure state, true individual treatment effects are unavailable, and causal structure is uncertain. We investigate whether subgroups constructed from pretreatment characteristics, without using exposure, outcome, or estimated treatment-effect information, can serve as interpretable units for budget-constrained pol",
+      "published": "2026-07-29",
+      "publishedDate": {
+        "iso": "2026-07-29",
+        "year": 2026,
+        "month": 7,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2607.26521v1",
+      "pdfUrl": "https://arxiv.org/pdf/2607.26521v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2607.15216",
       "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
@@ -415,437 +814,6 @@
         "cs.LG"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12893",
-      "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations",
-      "authors": [
-        "Xixuan Hao",
-        "Zeyu Zhang",
-        "Zehao Lin",
-        "Yihang Sun",
-        "Ziliang Guo",
-        "Xichong Zhang",
-        "Yuxuan Liang",
-        "Feiyu Xiong",
-        "Zhiyu Li"
-      ],
-      "summary": "Long-term memory has become a foundational capability for LLM-based agents that accompany users across extended, multi-session interactions. Existing benchmarks, however, evaluate such memory almost exclusively through downstream question answering, scoring only the correctness of a final answer. This black-box formulation conflates the heterogeneous causes of memory failure, such as missing the introduction of a relevant fact, binding an operation to the wrong target, or relying on stale values",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12893v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12893v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12886",
-      "title": "A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study",
-      "authors": [
-        "Cameron Cagan",
-        "Pedram Fard",
-        "Jiazi Tian",
-        "Jingya Cheng",
-        "Shawn N. Murphy",
-        "Hossein Estiri"
-      ],
-      "summary": "Clinical notes contain many of the signs and symptoms that bring patients to care, yet this information rarely reaches structured fields. Existing extraction approaches either rely on context-insensitive rules that generate false positives or on supervised models that require substantial fine-tuning. We present Pythia, a multi-agent system that autonomously writes and optimizes extraction prompts for clinical concepts without manual prompt engineering or fine-tuning. Running on a locally hosted ",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12886v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12886v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12868",
-      "title": "Deep4ge: DNN Training Trajectories for Fault Detection and Diagnosis",
-      "authors": [
-        "Sigma Jahan"
-      ],
-      "summary": "Deep learning systems often fail due to subtle implementation faults that alter training behavior. Recent work has studied how to detect and diagnose such failures from changes observed across training epochs. However, the software engineering community still lacks a public dataset of per-epoch training runs with documented fault history, feature extraction details, and clear reuse support for fault detection and diagnosis tasks. We present Deep4ge, a controlled benchmark of 14,227 training runs",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12868v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12868v1",
-      "categories": [
-        "cs.SE",
-        "cs.LG"
-      ],
-      "comments": "Accepted at ICSME Data &amp; Tool Track, 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12687",
-      "title": "From Critic to Confidence: PPO for Language-Based Quantitative Prediction with Confidence Estimation",
-      "authors": [
-        "Mehak Dhaliwal",
-        "Rasta Tadayon",
-        "Andong Hua",
-        "Haewon Jeong",
-        "Yao Qin"
-      ],
-      "summary": "LLMs can perform language-based quantitative prediction from unstructured inputs, but remain susceptible to hallucinations and overconfident errors, making it critical to know not only what a model predicts, but when its predictions can be trusted. We introduce CARE-PPO, a reinforcement learning framework that establishes a connection between loss prediction for uncertainty estimation and actor-critic PPO fine-tuning, enabling joint learning of accurate numerical estimates and reliable confidenc",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12687v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12687v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12645",
-      "title": "AdaPCLA: Adaptive Prior-Calibrated Logit Adjustment for Long-Tailed Longitudinal EHR Generation",
-      "authors": [
-        "Shuai Cui",
-        "Chen Wenxuan",
-        "Wenjie Du",
-        "Jian Lou",
-        "Dan Li",
-        "Wenjie Feng"
-      ],
-      "summary": "Generative modeling of longitudinal Electronic Health Records is increasingly important for privacy-preserving research, yet standard autoregressive models tend to underrepresent the co-occurrence structure of tail events (i.e., diseases, symptoms), reducing the fidelity and faithfulness of generated data for rare subpopulations. To this end, we propose AdaPCLA framework, which enables generative models to adaptively fit and generate EHR data through a data distribution-aware training strategy; ",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12645v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12645v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "40 pages, 10 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12527",
-      "title": "Evidence-Grounded AI for Musculoskeletal Care",
-      "authors": [
-        "Wenjie Li",
-        "Yujie Zhang",
-        "Fanrui Zhang",
-        "Haoran Sun",
-        "Renhao Yang",
-        "Junjun He",
-        "Weiran Huang",
-        "Yuanfeng Ji",
-        "Chenrun Wang",
-        "Kailing Wang",
-        "Hongcheng Gao",
-        "Kaipeng Zhang",
-        "Hanyu Wang",
-        "Angela Lin Wang",
-        "Xingqi He",
-        "Yilin Huang",
-        "Shiyi Yao",
-        "Lilong Wang",
-        "Yankai Jiang",
-        "Yirong Chen",
-        "Chenglong Ma",
-        "Jiyao Liu",
-        "Ming Hu",
-        "Gen Li",
-        "Yidong Xu",
-        "Chengyu Zhuang",
-        "Jiawei Liu",
-        "Yin Zhang",
-        "Lequan Yu",
-        "Lu Chen",
-        "Yinpeng Dong",
-        "Lei Liu",
-        "Carlos Gutierrez Sanroman",
-        "Yu Qiao",
-        "Weijie Ma",
-        "Xiaosong Wang",
-        "Lei Wang"
-      ],
-      "summary": "Musculoskeletal diseases are among the leading causes of disability worldwide and create the greatest global need for rehabilitation. Because recovery, remodelling and degeneration often unfold over months to years, musculoskeletal care requires longitudinal management that repeatedly integrates evolving patient evidence, external medical knowledge and stage-specific functional goals. In routine practice, this evidence is fragmented across visits, departments and hospital systems, limiting indiv",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12527v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12527v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12480",
-      "title": "TRACE: An Operational Reasoning Schema for Auditable Agentic Commitments",
-      "authors": [
-        "Edward Y. Chang",
-        "Emily J. Chang"
-      ],
-      "summary": "This paper defines TRACE (Typed Reasoning And Commitment Evidence): a typed, versioned schema for recording reasoning traces, a reference procedure for writing records against it, and one operating discipline, no durable state change without a record. The paper argues in three layers that reasoning is not in the language model: the autoregressive mechanism natively computes association; chain-of-thought and reinforcement learning inherit its limits; and the formal constructs of reasoning theory,",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12480v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12480v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "46 pages, 18 tables, 4 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12464",
-      "title": "Steering Diffusion Models via Class-Contrastive Influence for Few-Shot Medical Classification",
-      "authors": [
-        "Jeeyung Kim",
-        "Erfan Esmaeili",
-        "Qiang Qiu"
-      ],
-      "summary": "When labeled data are scarce, off-the-shelf diffusion models can augment training sets for few-shot medical image classification, but not all generated samples are equally useful for the downstream task. Existing approaches largely improve synthetic data by increasing realism, diversity, or domain adaptation, while overlooking a more fundamental question: how should sample usefulness for classification be measured and optimized? We address this with Class-Contrastive Influence (C2I), a criterion",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12464v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12464v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12349",
-      "title": "Generating Developable 3D Molecules via Pocket-Conditioned Diffusion and Property-Aware Optimization",
-      "authors": [
-        "Ruoxi Gao",
-        "Jiangweizhi Peng",
-        "Ziqi Chen",
-        "Frazier N. Baker",
-        "David C. Kombo",
-        "John L. Kane",
-        "Andrew A. Scholte",
-        "Yi Li",
-        "Matthew J. LaMarche",
-        "Luigi I. Iconaru",
-        "Hans-Peter Biemann",
-        "Mingyi Hong",
-        "Xia Ning"
-      ],
-      "summary": "Drug discovery and development is time-consuming and resource-intensive, motivating computational approaches such as diffusion models for de novo drug design. Many such models follow the structure-based drug design (SBDD) paradigm, generating molecules to fit a target binding pocket. However, existing diffusion-based SBDD methods typically couple pocket and ligand representation learning, model interactions only at the atom level, and prioritize binding affinity over other developability propert",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12349v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12349v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12336",
-      "title": "Evaluating Health Misinformation in Low-Resource Languages: Integrating Small Language Models with a Culturally-Sensitive Responsible NLP Framework (Bangla as a Case Study)",
-      "authors": [
-        "Farnaz Farid",
-        "Raihan Alam",
-        "Al Al-Areqi",
-        "Farhad Ahamed",
-        "Muhammad Hassan Khan",
-        "Sadia Hossain",
-        "Irena Veljanova",
-        "Anika Tabassum Binte Hossain"
-      ],
-      "summary": "Artificial Intelligence (AI) technologies, while serving as a foundational enabler for modern social media and digital health services, exert a bivalent effect by simultaneously acting as a combatant against and a spread vector for misinformation. A prevalent challenge in mitigating this issue arises in non-English contexts and low socioeconomic classes, where limited data hinders the training of AI models for effective detection. Consequently, culturally and linguistically diverse (CALD) commun",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12336v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12336v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CY",
-        "cs.ET",
-        "cs.HC"
-      ],
-      "comments": "39 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12310",
-      "title": "LakeQuest: A Three-Domain Benchmark for Grounded Question Answering across Data Lakes",
-      "authors": [
-        "Michael Solodko",
-        "Steven Gong",
-        "Guangwei Yu",
-        "Satya Krishna Gorti",
-        "Jesse C. Cresswell",
-        "Victor Zhong"
-      ],
-      "summary": "While modern question answering (QA) systems excel on clean, schema-aligned corpora, real-world knowledge is rarely so neatly packaged. Answering questions over enterprise and scientific data lakes requires systems to navigate heterogeneous, weakly structured collections of tables, passages, and linked metadata. Current benchmarks abstract away this noisy discovery process, failing to evaluate end-to-end performance. To bridge this gap, we introduce LakeQuest, a human-validated benchmark of 9,84",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12310v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12310v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "24 pages, 4 figures, 18 tables. Accepted at the Conference on Language Modeling (COLM) 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12278",
-      "title": "Auditing Data Leakage in Whole-Slide Image Multimodal Benchmarks",
-      "authors": [
-        "Wenhao Zhang",
-        "Zhongliang Zhou",
-        "John Kang",
-        "Sheng Li"
-      ],
-      "summary": "Recent vision-language models (VLMs) for computational pathology report striking zero-shot performance on whole-slide image (WSI) visual question answering (VQA) benchmarks. We audit these claims and find them fundamentally compromised by data leakage at two hierarchical levels: patient-level leakage, where slides from the same case appear in both training and test folds, and institutional-level leakage, where different cases nonetheless share staining-batch and scanner signatures through a comm",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12278v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12278v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12260",
-      "title": "From Many to Meaningful: Feature-Guided Zero-Shot Chronic Kidney Disease Screening Using Large Language Models",
-      "authors": [
-        "Muhammad Ashad Kabir",
-        "Sirajam Munira"
-      ],
-      "summary": "Early screening of chronic kidney disease (CKD) is essential for preventing irreversible progression; however, many machine learning (ML)-based screening methods remain difficult to deploy in community and resource-limited screening settings due to their reliance on large labeled datasets, resource-intensive pathology tests, or high-dimensional clinical features, and limited robustness to population and distributional shifts. This study examines the feasibility of using large language models (LL",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12260v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12260v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Author-prepared preprint. The Version of Record was published in AIME 2026, Springer, and is available via the DOI",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12255",
-      "title": "Understanding Structured Health Data through Interaction-Aware Mixture-of-Experts",
-      "authors": [
-        "Ji Hwan Park",
-        "Ying Ding",
-        "Tianjin Guo"
-      ],
-      "summary": "We study interaction-aware mixture-of-experts for post-stroke rigidity prediction using multi-level views of structured health records. Despite minimal performance gains, routing attribution reveals systematic importance differences across views, underscoring view construction as key to interpretability.",
-      "published": "2026-07-14",
-      "publishedDate": {
-        "iso": "2026-07-14",
-        "year": 2026,
-        "month": 7,
-        "day": 14
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12255v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12255v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.12204",
-      "title": "Forgetful Attention: A Trainable Support-Vector Memory with Certified Selection and Exact Unlearning",
-      "authors": [
-        "Vishwajith Ramesh"
-      ],
-      "summary": "Attention can be viewed as an online learner over context, yet existing test-time memories cannot certify that dropping a token leaves outputs unchanged or delete its influence outright. We introduce Support Vector Attention (SV-Attention), a max-margin memory whose weights are support coefficients of a one-class SVM with fixed box parameter C. Its active-set partition gives reserve tokens exactly zero weight, certifying output-preserving eviction; a reversible incremental solver deletes a token",
-      "published": "2026-07-13",
-      "publishedDate": {
-        "iso": "2026-07-13",
-        "year": 2026,
-        "month": 7,
-        "day": 13
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.12204v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.12204v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "21 pages, 6 figures, 10 tables. Code: https://github.com/vishrmsh/sv-attention",
       "arxivVersion": "v1"
     }
   ]

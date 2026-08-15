@@ -14,11 +14,436 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-08-14T01:26:39.105Z",
-  "fetchedAt": "2026-08-14T01:26:39.105Z",
+  "lastUpdated": "2026-08-15T00:56:39.377Z",
+  "fetchedAt": "2026-08-15T00:56:39.377Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2608.13555",
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "authors": [
+        "Dairu Liu",
+        "Zekun Qi",
+        "Jiayu Zeng",
+        "Ruixi Yu",
+        "Yu Guan",
+        "Yintianrun Zhang",
+        "Xuchuan Chen",
+        "Sikai Liang",
+        "Zekai Li",
+        "Chenghuai Lin",
+        "Xinqiang Yu",
+        "Wenyao Zhang",
+        "He Wang",
+        "Li Yi"
+      ],
+      "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs. Meanwhile, widely used test suites are small and lack the diversity needed to stress contact-rich, long-horizon behaviors. We introduce HumanTracker to",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13555v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13555v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comments": "Accepted to ECCV 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13518",
+      "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
+      "authors": [
+        "Yunsung Chung",
+        "Yingshuo Liu",
+        "Abboud F. Hassan",
+        "Han Feng",
+        "Mary M. Maleckar",
+        "Nassir Marrouche",
+        "Jihun Hamm"
+      ],
+      "summary": "Many clinical prediction models treat post-intervention outcomes as a one-step mapping from baseline measurements to a future endpoint. However, recovery after a procedure often unfolds as an irregular trajectory: clinical observations, medication changes, repeat interventions, and physiological measurements are recorded asynchronously and can change risk assessment over time. We propose an intervention-aware clinical world model that represents each patient with a structured latent state and ev",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13518v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13518v1",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "comments": "Medical World Models (MWM) Workshop at MICCAI 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13476",
+      "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
+      "authors": [
+        "Saisha Shetty",
+        "Satvik Tripathi",
+        "Austin Lin",
+        "Colin Zhao",
+        "Theodore Kim",
+        "Don Enwerem",
+        "Jacinta Arnold",
+        "Shahriar Faghani",
+        "Tessa S Cook"
+      ],
+      "summary": "We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate outputs, enabling stage-wise failure attribution. We additionally introduce a Decomposer module that generates task-specific agent prompts from a pla",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13476v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13476v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "13 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13316",
+      "title": "Foundation models for movement data: Are they ready for prime-time?",
+      "authors": [
+        "Alexander Bräuer",
+        "Benjamin Cauchi",
+        "Nils Strodthoff"
+      ],
+      "summary": "Foundation models (FMs) trained on large-scale accelerometer data have been proposed as general-purpose feature extractors for health monitoring, but systematic evidence of their advantages is lacking. We present the first comprehensive evaluation of four open-source accelerometer FMs against supervised baselines covering 19 tasks across the domains of activity recognition including activities of daily living, clinical monitoring, and physiological inference. We find task-dependent performance r",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13316v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13316v1",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ],
+      "comments": "14 pages, 6 figures, 8 tables, code is available at https://github.com/AI4HealthUOL/movement-fm-benchmarking",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13283",
+      "title": "Towards Context-Aware Clinical Motion Understanding in Daily Living at Home: Freezing of Gait Detection with Egocentric Vision",
+      "authors": [
+        "Vayalet Stefanova",
+        "Diwas Lamsal",
+        "Margot Genbrugge",
+        "Maxim Yudayev",
+        "Christian Schlenstedt",
+        "Moran Gilat",
+        "Bart Vanrumste",
+        "Benjamin Filtjens"
+      ],
+      "summary": "Understanding motion in daily living requires context beyond kinematics, because similar inertial patterns during activities of daily living (ADLs) can reflect intentional stopping, object interaction, or pathological movement impairment. Egocentric vision provides task-related context that may help disambiguate these cases. We investigate this challenge through freezing of gait (FOG) detection in Parkinson's disease (PD), a symptom strongly influenced by contextual factors during ADLs. Using sy",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13283v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13283v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "Accepted to ECCV Workshop 2026 (Human Motion Challenges in Real-World and Clinical Settings)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13256",
+      "title": "Novel Knowledge-Guided Generative Methods for Synthetic Transcriptomic Data",
+      "authors": [
+        "Francesca Pia Panaccione",
+        "Sofia Mongardi",
+        "Marco Masseroli",
+        "Pietro Pinoli"
+      ],
+      "summary": "As biomedical research increasingly relies on data-intensive tools, the quality and utility of datasets are critical. Challenges such as imbalances, biases, and ethical or legal constraints often limit access to high-quality data. Synthetic data generation can help overcome these limitations. Here, we present a comparative analysis of generative models for transcriptomic data, investigating strategies to incorporate prior biological knowledge via gene graphs. This ensures that synthetic data cap",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13256v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13256v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13209",
+      "title": "Chance-constrained selection of sequential intervention strategies from counterfactual estimates",
+      "authors": [
+        "Minkyoung Kim",
+        "Beakcheol Jang"
+      ],
+      "summary": "Many operational decisions are sequences of interventions under a cumulative resource limit, such as a maintenance schedule within a crew-hour budget. Choosing among them calls for the outcome and the cumulative cost each would produce, counterfactual quantities identified from observational data. Two strategies with the same expected cost can exceed the budget at very different rates, so constraining the mean does not bound how often an overrun occurs. Prior two-step architectures, recently ext",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13209v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13209v1",
+      "categories": [
+        "stat.ME",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "comments": "46 pages, 10 figures, 20 tables. Includes supplementary material as an appendix",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13197",
+      "title": "Beyond Simulated Benchmarks: Evaluating Motion Representations for Fall Detection Under Real-World Data Scarcity",
+      "authors": [
+        "Timilehin B. Aderinola",
+        "Ilaria D'Ascanio",
+        "Luca Palmerini",
+        "Lorenzo Chiari",
+        "Jochen Klenk",
+        "Clemens Becker",
+        "Brian Caulfield",
+        "Georgiana Ifrim"
+      ],
+      "summary": "Falls are a major health concern for older adults, and wearable sensors have been widely explored for detecting falls and enabling timely intervention. However, real-world falls are extremely rare: collecting 100 of them requires an estimated 100,000 days of monitoring, resulting in severely limited labelled data for training machine learning models. Consequently, many approaches rely on simulated datasets, often reporting high laboratory performance but limited real-world generalisation. We pre",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13197v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13197v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13106",
+      "title": "Scan-Coil Delay Causes Anisotropic Signal Loss in Fast 4D-STEM",
+      "authors": [
+        "Vishal Kumar",
+        "Andreas Jehle",
+        "Tizian Lorenzen",
+        "Julika Radecke",
+        "Knut Müller-Caspary",
+        "Massimo Kube",
+        "Henning Stahlberg"
+      ],
+      "summary": "Fast pixelated detectors are driving 4D-STEM toward microsecond dwell times, a regime in which the finite response of the scan deflection coils becomes comparable to the dwell time itself. Using direct probe imaging and sub-frame diffraction analysis, we document a significant intra-dwell scan-coil delay that systematically smears the recorded signal anisotropically along the fast scan direction, with a settling timescale of several tens of microseconds. We present a phase-correlation-based sub-",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13106v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13106v1",
+      "categories": [
+        "physics.ins-det",
+        "physics.bio-ph",
+        "physics.med-ph",
+        "physics.optics",
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13073",
+      "title": "A Multispectral Framework for the Detection of Calcium Carbide-Induced Ripening and Shelf-Life Estimation in Climacteric Fruits",
+      "authors": [
+        "Gurbhit Chaurakoti",
+        "Harshit Kumar",
+        "Hani Kumar",
+        "Anurag Singh",
+        "Ram Asrey"
+      ],
+      "summary": "Significant health risks are associated with the illegal, yet commonly practiced use of industrial-grade Calcium Carbide (CaC2) for ripening climacteric fruits like mango and banana, which leaves behind trace residues of arsenic and phosphorus. To address this, the proposed study explores a novel, non-invasive multispectral framework for distinguishing safely ripened fruits (naturally ripened and ethephon-induced) from calcium carbide-ripened samples, while also estimating their ripening progres",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13073v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13073v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.13029",
+      "title": "Static analysis-guided agentic AI translation enables Rust as a full stack bioinformatics language",
+      "authors": [
+        "Johan Henriksson"
+      ],
+      "summary": "The field of bioinformatics struggles with legacy code - old code that is commonly used but may no longer have a maintainer, or may be written in an now-unfamiliar language (e.g. Perl, Fortran). This incurs maintenance cost (technical debt), but dynamically typed languages also negatively impacts the environment and fail to make use of modern hardware. Legacy code may also have security or safety problems that make it unsuited for use in clinical settings. Here we show that agentic AI, combined ",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.13029v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13029v1",
+      "categories": [
+        "q-bio.GN",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.12944",
+      "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+      "authors": [
+        "Hamza Shafiq",
+        "Hung Manh Pham",
+        "Bin Zhu",
+        "Pan Zhou",
+        "Jun Hu",
+        "Aaqib Saeed"
+      ],
+      "summary": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the same cardiac cycle, yet existing cardiac foundation models are trained for a single sensing modality, leaving the shared physiology across sensors unexploited. We introduce CardioState-JEPA, a cardiac foundation model to learn a single shared representation jointly across ECG, PPG, and PCG, built on a physiology-aware joint-embedding predictive architecture. The model maps hetero",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.12944v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.12944v1",
+      "categories": [
+        "cs.LG",
+        "eess.IV",
+        "stat.ML"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.12928",
+      "title": "Polish Medical Visual Question Answering: Vision-Language Models Underutilize Visual Evidence",
+      "authors": [
+        "Jakub Pokrywka",
+        "Łukasz Grzybowski",
+        "Antoni Lasik",
+        "Marek Kubis",
+        "Jeremi Ignacy Kaczmarek",
+        "Wojciech Kusa"
+      ],
+      "summary": "We introduce a Polish-language medical visual question answering (VQA) benchmark, built from Polish Board Certification Examination questions for licensed physicians and dentists pursuing specialist certification. The benchmark comprises image-containing questions spanning diverse medical specialties and visual domains, together with a text-only question answering (QA) control set. We evaluate Polish-oriented, general-purpose open-weight, and commercial vision-language models. The task remains c",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.12928v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.12928v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.12805",
+      "title": "CoMedBench: A Multi-Source Benchmark of Synthetic Medical Data Fidelity and Downstream Utility",
+      "authors": [
+        "Akanta Das",
+        "Al Amin Farhad",
+        "Mrinmoy Sarkar Anto",
+        "David Rehkopf",
+        "Ayin Vala",
+        "Tanmoy Sarkar Pias"
+      ],
+      "summary": "Access to clinical data is essential for developing reliable healthcare machine learning systems, but direct use of electronic health records is constrained by privacy regulation, institutional review, data-use agreements, and the risk of re-identification. Synthetic data promises a practical alternative: it can preserve useful statistical and clinical structure while reducing exposure of sensitive patient records. Prior studies often evaluate a single generator, one dataset, or a narrow downstr",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.12805v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.12805v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.12779",
+      "title": "CRAFT: LLM-Based Iterative Refinement for Temporal Reasoning over Clinical Narratives",
+      "authors": [
+        "Chengyang He",
+        "Tahreem Arif",
+        "Marko Zivkovic",
+        "Lijing Wang",
+        "Yue Ning",
+        "Ping Wang"
+      ],
+      "summary": "Understanding the temporal progression of symptoms in clinical narratives is critical for disease monitoring, safety surveillance, and causality assessment. Clinical narratives, however, rarely provide explicit temporal anchors. Current approaches to temporal information reasoning focus predominantly on pairwise relation classification across multi-visit and timestamp-rich records, leaving the reconstruction of structured symptom trajectories from individual anchor-sparse reports largely unaddre",
+      "published": "2026-08-13",
+      "publishedDate": {
+        "iso": "2026-08-13",
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.12779v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.12779v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2607.27106",
       "title": "Hierarchical Spatio-Temporal Transformer for Coherent Emergency Department Forecasting",
@@ -413,404 +838,6 @@
       "arxivUrl": "http://arxiv.org/abs/2607.26521v1",
       "pdfUrl": "https://arxiv.org/pdf/2607.26521v1",
       "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.15216",
-      "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
-      "authors": [
-        "Maya Varma",
-        "Jean-Benoit Delbrouck",
-        "Sophie Ostmeier",
-        "Akshay Chaudhari",
-        "Curtis Langlotz"
-      ],
-      "summary": "Multimodal large language models (MLLMs) often introduce errors when generating image captions, resulting in misaligned image-text pairs. Our work focuses on a class of captioning errors that we refer to as systematic misalignments, where a recurring error in MLLM-generated captions is closely associated with the presence of a specific visual feature in the paired image. Given a vision-language dataset with MLLM-generated captions, our aim in this work is to detect such errors, a task we refer t",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.15216v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.15216v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "ICML 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.15202",
-      "title": "Self-Evolving Human-Centered Framework for Explainable Depression Symptom Annotation",
-      "authors": [
-        "Hoang-Loc Cao",
-        "Van Pham",
-        "Truong Thanh Hung Nguyen",
-        "Phuc Truong Loc Nguyen",
-        "Phuc Ho",
-        "Veronica Whitford",
-        "Hung Cao"
-      ],
-      "summary": "Annotation quality is a major bottleneck in building reliable and explainable artificial intelligence (XAI) systems for mental health research. In depression-related datasets, labels are often assigned without structured evidence, symptom-level justification, or traceable alignment with the criteria of the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR), limiting both transparency and downstream model interpretability. We propose a self-evolving, ex",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.15202v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.15202v1",
-      "categories": [
-        "cs.AI",
-        "cs.HC",
-        "cs.MA",
-        "cs.MM"
-      ],
-      "comments": "Accepted at IEEE International Conference on Omni-Layer Intelligent Systems (COINS) 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.15166",
-      "title": "MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI Safety Boundary Inspection",
-      "authors": [
-        "Goktug Ozkan"
-      ],
-      "summary": "Most medical AI benchmarks measure whether a model knows the correct answer. MedFailBench asks a different question: which safety boundary failed? We present a clinician-built synthetic benchmark and failure atlas that labels medical AI errors by severity (1--5) and safety gate type (missed urgent escalation, unsafe remote dosing, unsafe discharge reassurance, evidence fabrication, unsafe protocol execution, source support gap). The current public release (v0.2.1) contains 44 clinician-reviewed ",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.15166v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.15166v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "6 pages; clinician-reviewed synthetic benchmark; no patient data",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.15047",
-      "title": "Parameter-efficient Prompt Tuning of Vision Foundation Model With Adaptive Focal Loss for Interpretable MCI Screening",
-      "authors": [
-        "Javad Khoramdel",
-        "Farhad Hoseyni",
-        "Amirhossein Nikoofard"
-      ],
-      "summary": "Mild Cognitive Impairment is a critical early stage of cognitive decline that frequently precedes Alzheimer's disease, yet its automated detection from neuropsychological drawing tests remains fundamentally constrained by data scarcity, class imbalance, and diagnostic ambiguity near clinical boundaries. Existing methodologies attempt to bypass these constraints using computationally expensive, fully fine-tuned hybrid architectures that relegate spatial explainability to a post-hoc approximation ",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.15047v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.15047v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14995",
-      "title": "Multimodal Semantic-Aware Contrastive Learning For False Negative Mitigation in 3D Medical Imaging",
-      "authors": [
-        "Sara Ketabi",
-        "Matthias W. Wagner",
-        "Cynthia Hawkins",
-        "Uri Tabori",
-        "Birgit Betina Ertl-Wagner",
-        "Farzad Khalvati"
-      ],
-      "summary": "Multimodal Contrastive Learning (CL) has shown significant performance in aligning representations across various data modalities and improving downstream tasks, especially in healthcare. It works by minimizing the distance between matched (positive) data modalities, while maximizing the distance between mismatched (negative) samples. Traditional CL frameworks typically assume instance-based correspondence within data batches, treating all non-paired samples as negatives. However, this assumptio",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14995v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14995v1",
-      "categories": [
-        "cs.LG",
-        "q-bio.QM"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14984",
-      "title": "Demographically-Conditioned Synthetic Medical Images for Bias Mitigation and Bias Detection in Disease Classifiers",
-      "authors": [
-        "Mahmoud Ibrahim",
-        "Bart Elen",
-        "Chang Sun",
-        "Gokhan Ertaylan",
-        "Michel Dumontier"
-      ],
-      "summary": "Per-subgroup fairness audits of medical image classifiers face a sample-size problem: minority subgroups in held-out test sets have so few samples that the resulting confidence intervals on per-subgroup performance are wider than the bias the audit is meant to detect. We argue that a demographically-conditioned synthetic generator can do both: mitigate bias on the training side and detect bias on the evaluation side. Working on COVID-19 chest CT classification with an end-to-end fine-tuned Stabl",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14984v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14984v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14888",
-      "title": "Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs",
-      "authors": [
-        "Robert Graham",
-        "Edward Stevinson",
-        "Yariv Barsheshat"
-      ],
-      "summary": "Finetuning language models on small, curated datasets is standard practice for adapting them to specific policies or domains. We show that finetuning on narrow, factually-defensible, moderation-passing data can cause broad ideological shifts across unrelated domains, while preserving general capabilities. Training GPT-4.1 on right- or left-leaning economics Q&amp;A yields matched ideological shifts on topics such as criminal justice, the environment, and cultural taste. The same effect appears w",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14888v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14888v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL",
-        "cs.CY"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14826",
-      "title": "Interventional Causal Circuits for Safe Robot Action Testing and Failure Recovery",
-      "authors": [
-        "Naren Vasantakumaar",
-        "Tom Schierenbeck",
-        "Michael Beetz"
-      ],
-      "summary": "Safe physical AI for robot actions are required not only likely to succeed but tested to be safe before execution. In practice, however, formal testing of motion parameters is computationally expensive, and the cost scales poorly with the dimensionality of the action space. When a proposed action is rejected by a tester, the naive response is to resample blindly until a passing candidate is found. This is wasteful, uninformative, and offers no convergence. We argue that rejection should instead ",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14826v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14826v1",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "comments": "1st IJCAI Workshop on Safe Physical AI IJCAI 2026 workshop on Safe Physical AI",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14747",
-      "title": "Toward Energy-Efficient and Low-Power Arrhythmia Detection for Wearable Devices",
-      "authors": [
-        "Floriaan Bulten",
-        "Yawar Rasheed",
-        "Arlene John",
-        "Vincenzo Stoico",
-        "Ghayoor Gillani"
-      ],
-      "summary": "Cardiovascular diseases are the leading cause of death worldwide, and conditions such as arrhythmia often require long-term monitoring for effective detection and diagnosis. However, current wearable monitoring devices are bulky, uncomfortable, and typically rely on clinicians to manually evaluate electrocardiograms (ECGs). While Deep Learning (DL) algorithms have shown superior performance in arrhythmia detection and classification, their computational complexity coupled with high power consump",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14747v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14747v1",
-      "categories": [
-        "cs.AR",
-        "cs.LG",
-        "cs.NE",
-        "cs.PF"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14640",
-      "title": "TIDE: Trustworthy and Interpretable Battery Degradation Estimation with Contextual Learning and Symbolic Distillation",
-      "authors": [
-        "Wen Yang Tan",
-        "Jiawei Li",
-        "Fang Liu",
-        "Wei Zhang",
-        "Sumei Sun",
-        "Peng Cheng Wang",
-        "Elisa Y. M. Ang"
-      ],
-      "summary": "Battery health estimation is fundamental for battery management in battery-powered systems, where inaccurate health states may affect control, maintenance, and service life. It becomes even more critical in intelligent connected systems, where estimation errors can propagate across interconnected devices and downstream decisions. In this paper, we propose TIDE, a trustworthy and interpretable battery degradation estimator for reliable battery health estimation. TIDE jointly considers accuracy, t",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14640v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14640v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "8 pages, 11 figures, WI-IAT 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14613",
-      "title": "Angular Gaussian Supervised Contrastive Learning for Long-Tailed Electrocardiogram Arrhythmia Diagnosis",
-      "authors": [
-        "Jin Dai",
-        "Qiuzhen Zhang",
-        "Chenyun Dai",
-        "Danmei Lan",
-        "Can Han"
-      ],
-      "summary": "Long-tailed label distributions reduce the reliability of deep learning for electrocardiogram (ECG) arrhythmia diagnosis, particularly for clinically important but rare abnormalities. Existing rebalancing and logit adjustment methods mainly address class frequency while overlooking direction-dependent morphological variability across ECG classes. This study proposes Angular Gaussian Supervised Contrastive Learning (AG-SCL) for long-tailed multi-label ECG diagnosis. AG-SCL integrates three compon",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14613v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14613v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14607",
-      "title": "Auditing Fairness-Privacy Trade-offs: Subpopulation-Level Effects of Fairness-Enhancing Algorithms",
-      "authors": [
-        "Umid Suleymanov",
-        "Ilhama Novruzova",
-        "Khalid Mammadov",
-        "Natavan Hasanova",
-        "Murat Kantarcioglu"
-      ],
-      "summary": "Machine learning (ML) models deployed in sensitive domains such as healthcare, law enforcement, and finance must satisfy not only utility requirements but also fairness and privacy guarantees. While prior work has largely examined how privacy-preserving techniques affect fairness, the inverse question-how fairness-enhancing algorithms influence privacy leakage-remains underexplored. We present the first comprehensive study of how fairness interventions affect membership inference privacy risks a",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14607v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14607v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "EuroS&amp;P 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14581",
-      "title": "Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology",
-      "authors": [
-        "Sinyoung Ra",
-        "Jonghun Kim",
-        "Hyunjin Park"
-      ],
-      "summary": "Recent advances in large language models (LLMs) and their extension to vision-language models (VLMs) have made it easier to combine text and images for tasks such as report generation. Existing VLMs in medicine typically focus on 2D images (chest X-rays), and their extension to 3D imaging has been difficult because of the lack of paired 3D imaging-text data. Thus, we introduce a new method for creating a 3D image-text dataset for brain oncology using 3D MRI scans of glioma and meningioma cases. ",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14581v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14581v1",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14510",
-      "title": "VLT: A Vision-Language-Time Series Multimodal Foundation Model for Industrial Intelligence",
-      "authors": [
-        "Haiteng Wang",
-        "Jingheng Yan",
-        "Xiaokang Wang",
-        "Lei Ren"
-      ],
-      "summary": "Industrial time series serve as the foundation for Prognostics and Health Management (PHM) to ensure the reliability and safety of industrial equipment such as aero-engines. However, existing approaches are typically limited to single-modality modeling, which restricts their generalization in complex scenarios. Although recent advances in large language models (LLMs) provide new opportunities for multimodal learning, bridging continuous time-series signals and discrete textual semantics remains ",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14510v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14510v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "18 pages, 13 figures, and 13 tables, including supplementary material. Haiteng Wang and Jingheng Yan contributed equally to this work",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2607.14475",
-      "title": "One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata",
-      "authors": [
-        "Yujie Xiang",
-        "Liwei Wang"
-      ],
-      "summary": "Disordered metamaterials feature microstructures with inherent randomness and irregularity, enabling them to achieve broader property coverage and superior performance unavailable in their regular counterparts. Despite their promise, designing disordered microstructures is substantially harder than designing regular ones. Their design remains trapped between manual parameterizations with limited expressiveness, and generative AI that is data-hungry and struggles to generalize. To address these l",
-      "published": "2026-07-16",
-      "publishedDate": {
-        "iso": "2026-07-16",
-        "year": 2026,
-        "month": 7,
-        "day": 16
-      },
-      "arxivUrl": "http://arxiv.org/abs/2607.14475v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.14475v1",
-      "categories": [
-        "cs.CE",
         "cs.LG"
       ],
       "comments": "",

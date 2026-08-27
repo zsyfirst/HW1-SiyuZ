@@ -14,11 +14,470 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-08-26T00:59:34.919Z",
-  "fetchedAt": "2026-08-26T00:59:34.919Z",
+  "lastUpdated": "2026-08-27T06:53:13.168Z",
+  "fetchedAt": "2026-08-27T06:53:13.168Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2608.26094",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
+      "authors": [
+        "Hao Yin",
+        "Paritosh Parmar",
+        "Lijun Gu",
+        "Lin Xu",
+        "Tianxiao Guo",
+        "Xiujin Liu",
+        "Tianyou Zheng",
+        "Yang Zhang",
+        "Weiwei Fu"
+      ],
+      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback. We introduce MyoMechanix, a multimodal ecosystem for weight-loaded actions that aligns motion with muscle activity. Expert-annotated, it contains 7,500+ samples of 20 actions from 38 subjects, with s",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.26094v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.26094v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.ET",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.26088",
+      "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+      "authors": [
+        "Evelyn Ma",
+        "Rama Kumar Pasumarthi",
+        "Kishwar Shafin",
+        "Mandar Sharma",
+        "Mimi Sun",
+        "Hamed Sadeghi",
+        "Dav M. Ebengo",
+        "Mbulayi Onesime",
+        "Rouslan Solomakhin",
+        "John Wamburu",
+        "William Ogallo",
+        "Aisha Walcott-Bryant",
+        "Sanxing Chen",
+        "Arbaaz Muslim",
+        "Yael Mayer",
+        "Ronald Ho",
+        "Roy Lee",
+        "Ruth Alcantara",
+        "Abdoulaye Diack",
+        "Monica Bharel",
+        "Lambert Rosique",
+        "Jeremy Amez-Droz",
+        "Christopher Haire",
+        "James Manyika",
+        "Yossi Matias",
+        "Niv Efron",
+        "Gautam Prasad",
+        "Shravya Shetty"
+      ],
+      "summary": "Addressing critical global challenges, from food security and disaster risk to disease outbreaks and socio-economic vulnerability, demands high-fidelity geospatial modeling. However, building predictive planetary models remains bottlenecked by a fragmented data ecosystem, requiring manual data retrieval, multimodal data curation and fusion along with iterative model selection. We present the Planetary Prediction Engine (PPE), an autonomous AI system that executes this end-to-end workflow directl",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.26088v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.26088v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.26083",
+      "title": "ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing",
+      "authors": [
+        "Roshan Prakash Rane",
+        "Marco Simnacher",
+        "Manuel Pfeuffer",
+        "Marc-Andre Schulz",
+        "Nys Tjade Siegel",
+        "Maximilian Dreyer",
+        "Frederik Pahde",
+        "Wojciech Samek",
+        "Sonja Greven",
+        "Kerstin Ritter"
+      ],
+      "summary": "Deep neural networks often exploit spurious associations in their training data, a failure known as shortcut learning. Concept-based explainability methods screen for shortcuts by testing whether concepts such as a patient's sex or scanner settings can be decoded from a network layer. Because each concept is evaluated in isolation, these methods can mistake correlations between concepts as evidence that the model uses them. We introduce ICON decomposition, which instead quantifies how much of a ",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.26083v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.26083v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV",
+        "stat.ML"
+      ],
+      "comments": "44 pages, 12 figures, 3 tables. Includes Extended Data (7 figures, 2 tables). Code: https://github.com/RoshanRane/ICON_decomposition",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.26000",
+      "title": "CardioFusion-AI: Robust ECG--PPG Fusion for Multimodal Physiological Monitoring Under Signal Degradation",
+      "authors": [
+        "Navaneetha Krishnan Kamalakannan",
+        "Janakiraman Kamalakannan"
+      ],
+      "summary": "Wearable electrocardiogram (ECG) and photoplethysmogram (PPG) sensors are complementary but individually fragile: motion artifact, poor contact, and sensor dropout can degrade one or both signals. Fusion strategies that assume both modalities are equally trustworthy can become less reliable than a single clean modality under degradation. We present CardioFusion-AI, a framework whose signal-processing front end, including R-peak and systolic-peak detection, an Orphanidou-type signal-quality index",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.26000v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.26000v1",
+      "categories": [
+        "eess.SP",
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "comments": "7 pages, 4 figures. Under review at IEEE Journal of Biomedical and Health Informatics. Code: https://github.com/ka-cyber/CardioFusion-AI",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25981",
+      "title": "FRAME: separating sampling variation from representational cause in medical imaging fairness",
+      "authors": [
+        "Mahshad Lotfinia",
+        "Daniel Truhn",
+        "Andreas Maier",
+        "Soroosh Tayebi Arasteh"
+      ],
+      "summary": "Subgroup performance differences are the standard evidence for fairness bias in medical imaging, and the usual response removes the demographic information that a model encodes. Here we introduce Fair-model Reference And Mechanism Evaluation (FRAME), a two-step framework for auditing such a claim. The first step derives a fair-model reference, the distribution of the difference under exact fairness at the observed subgroup sizes. In the second step, we test the remainder with two operators in re",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25981v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25981v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25970",
+      "title": "PANDA - Prototype-Anchored Alignment for Partially Unpaired Multimodal Learning, with Applications to Alzheimers MRI and TCGA Pathology",
+      "authors": [
+        "Sheethal Bhat",
+        "Mahfuzur Rahman Chowdhury",
+        "Paula Andrea Perez-Toro",
+        "Stephan Wunderlich",
+        "Rose Dawn Bharat",
+        "Siming Bayer",
+        "Andreas Maier"
+      ],
+      "summary": "Multimodal medical prediction often faces incomplete pairing: auxiliary modalities with complementary signal are available for only a subset of subjects (or none) and cannot be assumed at deployment. We introduce PANDA (Prototype Anchored Data Alignment), a two-stage framework that transfers auxiliary information to a primary-modality model without auxiliary inputs at inference. Stage 1 learns a shared embedding from the paired subset and estimates class prototypes from auxiliary modalities; Sta",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25970v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25970v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25854",
+      "title": "Key Point Analysis Needs Structure Recovery: Task Definition, Dataset Diagnosis, and a Structure-Aware Benchmark",
+      "authors": [
+        "Zhiqiang Shi",
+        "Oana Cocarascu"
+      ],
+      "summary": "Key Point Analysis (KPA) aims to identify a concise set of key points that summarize a collection of arguments together with their prevalence. We argue that KPA is fundamentally a structured prediction problem that requires recovering semantic groupings, generating representative key points, ensuring coverage, and estimating prevalence. Under this formulation, we show that existing KPA benchmarks suffer from limitations in grouping quality, redundancy, coverage, and argument-key point mappings, ",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25854v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25854v1",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25846",
+      "title": "Why ML-based cough models do not generalize: a systematic cross-dataset evaluation for tuberculosis screening",
+      "authors": [
+        "Wensi Zhang",
+        "Tomas Teijeiro",
+        "Jérôme Thevenot",
+        "David Atienza"
+      ],
+      "summary": "Cough acoustics are promising for non-invasive tuberculosis (TB) screening, yet whether machine learning (ML) models capture disease-related acoustics or artifacts of data collection remains unresolved. We evaluated the cross-dataset generalizability of classical ML and deep learning (DL) cough-based TB classifiers across three independent datasets. Despite moderate within-dataset performance (ROC-AUC up to $0.755 \\pm 0.056$), both pipelines fail to generalize, with external performance frequent",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25846v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25846v1",
+      "categories": [
+        "eess.AS",
+        "cs.AI",
+        "cs.LG",
+        "cs.SD",
+        "eess.SP"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25771",
+      "title": "Large Language Model Few-Shot Prompting with Dilemma Training Outperforms Human Surrogates in Predicting Patient Preferences",
+      "authors": [
+        "Natasha Ureyang",
+        "Sebastian Porsdam Mann",
+        "Yuxin Liu",
+        "Zuriel Hassirim",
+        "Melanie Almonte",
+        "Wenhao Chen",
+        "Joyce Ng",
+        "Thant Nay Lin",
+        "Aung Thiha",
+        "Gerald CH Koh",
+        "Brian David Earp",
+        "Pin Sym Foong"
+      ],
+      "summary": "In serious illness, human surrogates often struggle to accurately predict patient preferences (68% accuracy), causing decision conflict. Personalized Patient Preference Predictor (P4) agents offer a potential solution, but prior prototypes treat values as static ratings, ignoring the contextual, situation-dependent nature of medical choices. Grounded in the 'logic of care', we present P4-DT (Dilemma Training), a P4 agent that constructs a patient decision policy by engaging users with varied med",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25771v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25771v1",
+      "categories": [
+        "cs.HC",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25759",
+      "title": "Learning from waste: Machine Learning for health risk prediction and computer vision-based sorting in Ghana",
+      "authors": [
+        "Hilda Adwubi Osei",
+        "Catherine Tenewaa Osei",
+        "Desdemona Yaa Asobayire"
+      ],
+      "summary": "The inappropriate disposal of solid waste remains a significant public health and environmental concern worldwide, including in Ghana. Poor sanitation and improper waste management practices contribute to substantial economic costs and avoidable deaths annually. In 2022, a field study in Atonsu, Kumasi, Ghana, reported a community-perceived relationship between household waste disposal and illness patterns, but only through descriptive analysis without quantitative validation. This study extends",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25759v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25759v1",
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.CY"
+      ],
+      "comments": "16 pages, 3 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25693",
+      "title": "Unsupervised Anatomical Feature Learning via Diffusion Models: Enhanced Medical Image Segmentation with Denoising Diffusion Probabilistic Models",
+      "authors": [
+        "Akshat G",
+        "Divyansh Gupta",
+        "Shaleen Bhatnagar",
+        "Shilpa Ankalaki",
+        "Tusar Kanti Mishra"
+      ],
+      "summary": "Acquiring pixel-level annotations for medical image segmentation is a severe bottleneck. Traditional U-Net architectures, while effective, learn local texture patterns and lack awareness of global anatomical structures, leading to boundary delineation failures in low-data regimes. This research paper proposes utilizing unsupervised Denoising Diffusion Probabilistic Models (DDPMs) to extract anatomical features. We train a DDPM on 21 unlabeled abdominal CT scans to learn structural representation",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25693v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25693v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "15 pages, 5 figures. Submitted for peer review",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25661",
+      "title": "From General Agents to RCA Experts: A Self-Evolving Harness for Root Cause Analysis",
+      "authors": [
+        "Haiyu Huang",
+        "Jiewei Lyu",
+        "Zhihan Jiang",
+        "Jinyang Liu",
+        "Xiao He",
+        "Tieying Zhang",
+        "Wu Xiang",
+        "Michael R. Lyu"
+      ],
+      "summary": "Automated root cause analysis (RCA) with large language models (LLMs) has drawn growing attention. Today, SREs typically automate RCA with LLMs in one of two ways: directly using a general-purpose agent (e.g., Codex or Claude Code) for diagnosis, or building a specialized RCA agent from scratch. As mainstream general agents grow more capable and iterate quickly, our quantitative study finds that the former now often surpasses the latter. Its accuracy, however, still falls short of production nee",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25661v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25661v1",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25548",
+      "title": "Interpreting Protein Language Model Embeddings via Orthogonal Projection for Protein Fitness Prediction",
+      "authors": [
+        "Paulo Yanez Sarmiento",
+        "Pia Francesca Rissom",
+        "Manuel Pfeuffer",
+        "Marco Simnacher",
+        "Jordan F. Safer",
+        "Sumaiya Iqbal",
+        "Henrike O. Heyne",
+        "Nadja Klein",
+        "Bernhard Y. Renard"
+      ],
+      "summary": "Recently, there has been a growing adoption of protein language models (PLMs) in biomedical science. Their embeddings provide a rich numerical representation of protein sequences which achieve state-of-the-art performance on several downstream tasks including protein fitness prediction. However, PLM embeddings are not directly interpretable and, thereby, it remains unclear what features they encode. To gain insight into which biochemical properties of the protein are driving the prediction, we l",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25548v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25548v1",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "comments": "Preprint",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25539",
+      "title": "CropCop: An Auditable 120-Class Plant-Health Model from Benchmark Reconstruction to a Quantised Runtime Artifact",
+      "authors": [
+        "Rana Muhammad Ahmed",
+        "Sabahat Abbas"
+      ],
+      "summary": "A plant-health score can appear precise while resting on duplicated image families, a long-tailed label space, or a runtime file that was never evaluated. We present CropCop, a closed-set recognition system spanning 120 operational plant-health classes and an evidence chain from corpus reconstruction to direct execution of the final quantised artifact. Starting from 117,546 audited images, we rejected the inherited partition after confirming 3,233 duplicate relationships across split boundaries ",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25539v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25539v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "25 pages, 6 figures, and 15 tables. Includes benchmark-audit, model-retention, runtime-fidelity, and reproducibility appendices",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2608.25261",
+      "title": "Hierarchical MoE for Multi-Modal ILD Diagnosis",
+      "authors": [
+        "Alec K. Peltekian",
+        "Gorkem Durak",
+        "Halil Ertugrul Aktas",
+        "Carrie Lynn Richardson",
+        "Mary Carns",
+        "Kathleen Aren",
+        "GR Scott Budinger",
+        "Anthony J. Esposito",
+        "Alexander Misharin",
+        "Alok Nidhi Choudhary",
+        "Ankit Agrawal",
+        "Ulas Bagci"
+      ],
+      "summary": "Mixture-of-experts (MoE) models combine specialized predictors under learned routing, offering a principled mechanism for leveraging heterogeneity in medical data. We present a hierarchical multimodal MoE for interstitial lung disease (ILD) classification that integrates a frozen, pre-trained imaging expert with structured electronic health records (EHR) via two-stage gating. A modality-level gate assigns patient-specific weights to imaging and EHR predictions, while a sub-gating module decompos",
+      "published": "2026-08-26",
+      "publishedDate": {
+        "iso": "2026-08-26",
+        "year": 2026,
+        "month": 8,
+        "day": 26
+      },
+      "arxivUrl": "http://arxiv.org/abs/2608.25261v1",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25261v1",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comments": "11 pages, 2 figures",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2608.23538",
       "title": "Interpretable AI with Local Distillation",
@@ -436,411 +895,6 @@
         "cs.SE"
       ],
       "comments": "44 pages, 15 figures. Project website and code: https://aka.ms/AutoSaddler-website",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.20331",
-      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
-      "authors": [
-        "Shiao Xie",
-        "Siyu Chen",
-        "Jianwei Lv",
-        "Bo Yuan",
-        "Yujin Wang",
-        "Xiandong Li"
-      ],
-      "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical report",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.20331v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.20331v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.20322",
-      "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
-      "authors": [
-        "Anton Lambrecht",
-        "Reda El Hail",
-        "Xianjun Jiao",
-        "Pieter Crombez",
-        "Dominique Schreurs",
-        "Peter Karsmakers",
-        "Adnan Shahid",
-        "Eli De Poorter"
-      ],
-      "summary": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In addition, the performance of ceiling-mounted radars, despite their practical deployment and cost advanta",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.20322v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.20322v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "This paper has been submitted to IEEE Access Journal and is currently undergoing review",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.20315",
-      "title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
-      "authors": [
-        "Jun Ni Du",
-        "Lukas Adamek",
-        "Maxim Kryukov",
-        "Flavio Dormont",
-        "Ziv Bar-Joseph",
-        "Sven Jager",
-        "Brandon Rufino"
-      ],
-      "summary": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that encodes laboratory test results as discrete tokens while retaining graded information through percentil",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.20315v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.20315v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted at MLHC 2026; to appear in Proceedings of Machine Learning Research (PMLR)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.20285",
-      "title": "Dynamic Structural Causal Modeling for Sleep",
-      "authors": [
-        "Ranveer Singh",
-        "Saurabh Mathur",
-        "Pranuthi Tenali",
-        "Arun Badi",
-        "Sriraam Natarajan"
-      ],
-      "summary": "The causal dynamics of sleep-disordered breathing are complex and vary across patient populations, hindering the development of targeted interventions. We learn dynamic causal graphs of sleep-disordered breathing from Home Sleep Apnea Test (HSAT) recordings, revealing systematic differences in causal structure across sex and age subcohorts. We do so using the PCMCI+ algorithm on windowed fractional variables derived from 105 HSAT recordings, exploiting domain knowledge via edge blacklisting and ",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.20285v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.20285v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.20253",
-      "title": "GENIE: Generative Neural Inference for Epidemics",
-      "authors": [
-        "Laura M. Guzmán-Rincón",
-        "George R. E. Bradley",
-        "Joel Kandiah",
-        "Kyriakos Flouris",
-        "Pietro Liò",
-        "Paul J. Birrell",
-        "Alexander E. Zarebski",
-        "Daniela De Angelis"
-      ],
-      "summary": "The SARS-CoV-2 pandemic highlighted the ongoing risk infectious diseases pose to society and the value of reliable information on the likely future burden. When forecasting an epidemic at fine spatial resolution, traditionally used mechanistic compartmental model struggle to capture highly complex granular transmission dynamics, resulting in inaccurate and overconfident forecasts. However, detailed Agent-Based Models (ABMs), are challenging to calibrate and are too computationally expensive to u",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.20253v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.20253v1",
-      "categories": [
-        "stat.ME",
-        "q-bio.QM"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.20229",
-      "title": "Prompt-Conditioned Channel Attention for Hierarchical Feature Modulation toward Anatomy-Agnostic Segmentation",
-      "authors": [
-        "Mosharof Hossain",
-        "Md Rabiul Islam",
-        "Limon Halder",
-        "Erchin Serpedin",
-        "Md Kamrul Hasan"
-      ],
-      "summary": "Anatomically plausible segmentation remains challenging because of low contrast, ambiguous boundaries, and modality-specific artifacts. Interactive segmentation has emerged as a promising strategy to guide feature extraction and improve localization, particularly in structurally ambiguous regions. However, existing methods integrate prompts through late-stage fusion and lack explicit mechanisms for prompt-driven channel-wise modulation across hierarchical feature representations, limiting their ",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.20229v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.20229v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.20065",
-      "title": "Orthogonal JEPA: Factorized Predictive States for Latent World Models",
-      "authors": [
-        "Taoyong Cui",
-        "Pheng Ann Heng",
-        "Wanli Ouyang"
-      ],
-      "summary": "World models construct latent states that support prediction, planning, and reasoning about an underlying system. Joint-embedding predictive architectures (JEPAs) offer a direct way to learn such states by predicting targets in representation space instead of reconstructing every detail of the observation. Standard JEPAs, however, organize all predictable content through one target embedding and one prediction pathway. In complex systems, this monolithic state can allocate redundant capacity to ",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.20065v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.20065v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19965",
-      "title": "Flow Matching Meets 3D Curvilinear Structure Segmentation in Medical Imaging",
-      "authors": [
-        "Sidi Mohamed Sid'El Moctar",
-        "Nicolas Vitry",
-        "Hélène Bouvrais"
-      ],
-      "summary": "Segmentation of curvilinear anatomical structures in 3D medical images remains challenging due to complex topology, severe class imbalance, weak contrast, and large variations in structure morphology. While deep learning approaches for 3D curvilinear segmentation have been proposed, they are often tailored to specific anatomies or modalities, limiting generalization across clinical settings and leaving room for improvement. Recent generative models have shown the benefits of iterative prediction",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19965v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19965v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "q-bio.QM"
-      ],
-      "comments": "International Workshop on Machine Learning in Medical Imaging (MLMI 2026) @ MICCAI",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19932",
-      "title": "A Strong Linear Baseline for Whole-Heart Cardiac Shape Completion on CT, with an Open Eleven-Structure Statistical Shape Model",
-      "authors": [
-        "Matej Gazda",
-        "Jakub Gazda",
-        "Juraj Gazda",
-        "Peter Drotar"
-      ],
-      "summary": "Public cardiac cohorts annotate different subsets of the heart, so shapes from separate sources cannot be pooled without shared correspondence. Among released cardiac shape resources, none we identified carries the atrial appendage, pulmonary veins, and caval stumps as separate blocks in one mesh. Completion benchmarks also compare deep models against a least-squares projection onto shape modes, not the conditional estimator the same fitted model implies. We release an eleven- structure cardiac ",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19932v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19932v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19875",
-      "title": "A knowledge-guided agentic framework for mitigating patient-context ambiguity in health queries",
-      "authors": [
-        "Mahyar Abbasian",
-        "Saba A. Farahani",
-        "Arshia Ilaty",
-        "Hung Cao",
-        "Ramesh Jain",
-        "Amir M. Rahmani"
-      ],
-      "summary": "Patients often submit short, underspecified queries to healthcare chatbots that lack the patient-specific information needed to determine an appropriate response. Although these queries may be linguistically clear, they can support multiple plausible answers depending on undisclosed factors such as symptoms, diagnoses, medications, allergies, or dietary restrictions. A language model answering such a query directly may therefore rely on unsupported assumptions about the patient. We introduce a k",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19875v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19875v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "48 pages, 3 figures, 6 tables, journal",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19857",
-      "title": "Inadvertent Context Leakage in Language Models",
-      "authors": [
-        "Jaiden Fairoze",
-        "Neal Mangaokar",
-        "Kamalika Chaudhuri",
-        "Sanjam Garg",
-        "Saeed Mahloujifar"
-      ],
-      "summary": "For AI agents to be useful beyond simple chat, they must hold sensitive user context such as calendars, credentials, health records, and financial data. We study whether the mere presence of such secrets in a model's context window introduces hidden correlations into the model's benign outputs, allowing reconstruction even when the model correctly refuses direct extraction. We further study whether an adversary can actively engineer prompts that amplify this effect, using the model as a covert c",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19857v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19857v1",
-      "categories": [
-        "cs.LG",
-        "cs.CR"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19738",
-      "title": "Learning to Beat: Phenotype-Guided Latent Flow with Regional Motion Priors for Biventricular Motion Synthesis",
-      "authors": [
-        "Xuan Yang",
-        "Xiaohan Yuan",
-        "Hao Li",
-        "Lingyu Chen",
-        "Yanan Liu",
-        "Qingya Li",
-        "Lei Li"
-      ],
-      "summary": "Full-cycle biventricular geometry is essential for characterizing cardiac function. However, dense and temporally consistent 3D+t biventricular meshes are not routinely available, whereas end-diastolic (ED) anatomy can often be obtained reliably. We therefore investigate full-cycle biventricular motion synthesis from a single ED mesh. This task is challenging because cardiac deformation is spatially heterogeneous and phenotype dependent, while conventional global generative models often obscure ",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19738v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19738v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "14pages, 10 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19693",
-      "title": "RIPE++: Reinforced Keypoint Learning from Positive Pairs Only",
-      "authors": [
-        "Johannes Künzel",
-        "Peter Eisert",
-        "Anna Hilsmann"
-      ],
-      "summary": "Sparse keypoint extraction and matching underpin core tasks in geometric computer vision, including structure-from-motion, visual SLAM, augmented reality, and medical image registration. Learning robust local feature representations, however, typically requires accurate camera poses or depth supervision, which are often unavailable in real-world settings. Reinforcement learning (RL) has recently emerged as a promising alternative, requiring only the information if two images show the same scene ",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19693v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19693v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "LIMIT@ECCV 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19607",
-      "title": "A stochastic dose-response framework for environmentally persistent pathogens",
-      "authors": [
-        "Mahmudul Bari Hridoy",
-        "Arik Hartmann",
-        "Kate E. Langwig",
-        "Joseph R. Hoyt",
-        "Lauren M. Childs"
-      ],
-      "summary": "Infectious diseases caused by environmentally persistent pathogens can strongly affect host populations as transmission occurs not only through direct host-host contact but also via indirect exposure to contaminated environments. While in some systems environmental reservoirs help sustain exposure even when infected host numbers are low, reliance on environmental transmission pathway may also increase pathogen extinction risk. Infection risk may depend on both pathogen dose and timing of exposur",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19607v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19607v1",
-      "categories": [
-        "q-bio.PE",
-        "q-bio.QM"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.19578",
-      "title": "A Two-Stage Time-Aware Transformer for Short-Horizon AECOPD Risk Prediction",
-      "authors": [
-        "Dongyang Wang",
-        "Weihao Qu",
-        "Ling Zheng",
-        "Haowen Pan"
-      ],
-      "summary": "Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) can worsen rapidly, making timely prediction a clinical priority. Most existing machine learning approaches rely on episodically collected clinical variables, introducing delays that limit their practical utility in home monitoring settings. Home ventilators offer a lower-latency alternative, producing a near-continuous record of respiratory status during daily use. However existing ventilator-based approaches either compress t",
-      "published": "2026-08-20",
-      "publishedDate": {
-        "iso": "2026-08-20",
-        "year": 2026,
-        "month": 8,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.19578v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.19578v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "7 pages. Accepted for publication in IEEE Systems, Man, and Cybernetics Letters",
       "arxivVersion": "v1"
     }
   ]

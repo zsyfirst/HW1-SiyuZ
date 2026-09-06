@@ -14,11 +14,411 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-09-05T02:36:30.624Z",
-  "fetchedAt": "2026-09-05T02:36:30.624Z",
+  "lastUpdated": "2026-09-06T02:35:36.551Z",
+  "fetchedAt": "2026-09-06T02:35:36.551Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2609.04024",
+      "title": "Instruction Duplication as an Inference-Time Control Primitive",
+      "authors": [
+        "Victor Lavrenko"
+      ],
+      "summary": "Procedural instruction following is a basic requirement for controllable language-model systems, especially when generated trajectories are inspected or repaired downstream. We introduce instruction duplication, a minimal black-box inference-time control that repeats only the procedural instruction, without retraining or decoding changes. Across seven instruction-tuned models, 300 medical multiple-choice questions, eight placement conditions, and 16,800 scheduled generations, moving from one to ",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.04024v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.04024v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "7 pages, 2 tables. Code and frozen reproduction artifacts: https://github.com/victorlavrenko/answer-engineering/releases/tag/instruction-duplication-arxiv-v1",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.04014",
+      "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+      "authors": [
+        "Chao Shen",
+        "Xinyuan Li",
+        "Yunfan Zhou",
+        "Jianguo Yao",
+        "Haibing Guan",
+        "Zhihai Wang",
+        "Xijun Li"
+      ],
+      "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Large Language Models (MLLMs) remain unreliable in continuous-valued measurement despite strong results on general multimodal benchmarks. Existing benchmarks expose this weakness but isolate measurement from realistic, knowledge-grounded settings, with limited situated context, specialized instruments, real-world noise, and matched diagnostic annotations, reduc",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.04014v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.04014v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.04013",
+      "title": "LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening",
+      "authors": [
+        "Muhammad Ashad Kabir",
+        "Sirajam Munira"
+      ],
+      "summary": "Early screening of chronic kidney disease (CKD) is critical for timely intervention, yet most machine learning (ML) and deep learning (DL) approaches require labeled data and model training, limiting their use in real-world screening settings. This study evaluates the effectiveness of large language models (LLMs) for CKD screening under zero-shot and few-shot in-context learning settings and compares them with traditional ML and DL methods. We propose a framework that uses clinically selected ta",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.04013v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.04013v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "Accepted at ICDM 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.04009",
+      "title": "The Blind Spot in 2D Infants' Pose Estimation:Robust Learning from Noisy Annotations",
+      "authors": [
+        "Emanuele Cardinale",
+        "Marco Proietti",
+        "Alessandro Cacciatore",
+        "Maria Francesca Spadea",
+        "Lucia Migliorelli",
+        "Sara Moccia"
+      ],
+      "summary": "Noisy annotations pose a significant challenge for supervised deep learning, as neural networks rely on large-scale, high-quality labeled data whose corruption can severely impair model performance. Although robustness to label noise has been extensively studied for classification tasks, it remains relatively underexplored in Pose Estimation (PE). This limitation becomes critical in clinical contexts, including neonatology, where PE of preterm infants is used to support the assessment of spontan",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.04009v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.04009v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.04007",
+      "title": "RobustSeiz: An Open-Source Framework for Benchmarking the Robustness of EEG Seizure Detection Models",
+      "authors": [
+        "Mohammad Mohammadi",
+        "Alireza Zarei"
+      ],
+      "summary": "Despite strong performance on held-out electroencephalography (EEG) data, seizure detectors may fail under real-world acquisition variability, artifacts, and adversarial inputs. We introduce RobustSeiz, an open-source, model-agnostic framework that provides a standardized, reproducible protocol for stress-testing and comparing seizure detectors under controlled, clinically motivated distribution shifts before deployment. We standardize four public scalp-EEG corpora (CHB-MIT, TUSZ, Siena, and Sei",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.04007v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.04007v1",
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "comments": "28 pages, 13 numbered figures, 9 tables; full-page graphical abstract and supplementary material included. Submitted to the Journal of the American Medical Informatics Association (JAMIA)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03967",
+      "title": "Investigating the Ability of Large Language Models to Analyze Recipes for Diabetes",
+      "authors": [
+        "Revathy Venkataramanan",
+        "Aditya Luthra",
+        "Venkatesan Nadimuthu",
+        "Amit Sheth"
+      ],
+      "summary": "Several studies have evaluated the ability of Large Language Models (LLMs) for meal planning, yielding positive outcomes. These models can process natural language inputs and leverage learned knowledge from their pretraining to generate meal plans. In this work, we investigate the ability of LLMs to analyze the suitability of given recipes for diabetes. The primary challenge for LLMs is to retrieve relevant dietary guidelines for diabetes, decompose recipes into ingredients and cooking methods, ",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03967v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03967v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03956",
+      "title": "RARF: Region-Aware Rectified Flows for 3D Brain MRI Inpainting",
+      "authors": [
+        "Tomas Guija-Valiente",
+        "Blanca Rodriguez-Gonzalez",
+        "Norberto Malpica",
+        "Angel Torrado-Carvajal"
+      ],
+      "summary": "Medical image inpainting has the potential to improve automated brain MRI analysis by reconstructing healthy tissue within pathological regions. We introduce RARF, a task-agnostic region-aware rectified flow framework for masked data generation. We instantiate the framework for 3D brain MRI inpainting as our submission to the BraTS Inpainting Challenge 2026. RARF restricts the stochastic interpolation process to the inpainting region, while the observed voxels remain fixed and provide patient-sp",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03956v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03956v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "11 pages, 2 figures. Preprint version corresponding to the initial submission prior to peer review, submitted as part of our participation in the BraTS 2026 Challenge. The final accepted version will be openly available in the official MICCAI proceedings on the conference website",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03937",
+      "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+      "authors": [
+        "Yuchen He",
+        "Yueyang Cang",
+        "Zhiyuan Ning",
+        "Ningyu Wang",
+        "Li Shi"
+      ],
+      "summary": "Retrieval-augmented generation (RAG) complements parametric models with retrieved external evidence. The same idea is attractive for continuous-output regression, but directly reusing retrieved target values is often not robust when samples differ in output level, numerical scale, or local dynamics. Moreover, conventional forecasting pipelines generally use residuals for model optimization and error diagnosis, but do not retain individual historical residual examples as memory that can be access",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03937v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03937v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03851",
+      "title": "Pushing the (Decision) Boundaries: Dynamically Calibrating Differentially Private Noise to Explainability in Federated Learning",
+      "authors": [
+        "Michael Khavkin",
+        "Kichang Lee",
+        "Jaeho Jin",
+        "JeongGil Ko",
+        "Eran Toch"
+      ],
+      "summary": "Federated Learning (FL) with Differential Privacy (DP) is increasingly adopted to preserve data confidentiality in distributed machine learning. However, DP noise distorts learned representations and degrades explanation fidelity, limiting differentially private FL where trustworthy explanations are required, such as assistive clinical diagnosis. Prior work adapted DP noise with static feature-importance signals, restricting explainability to post hoc analysis and precluding noise calibration to",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03851v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03851v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "21 pages, 9 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03635",
+      "title": "Analysis of Prompt Engineering for Drug Toxicity Prediction",
+      "authors": [
+        "Mia MacGregor",
+        "Aakash Welgamage Don",
+        "Mark Bartlett"
+      ],
+      "summary": "Clinical trials in the UK can cost up to £1.3 million, with approximately 90% drug failure rate. Toxicity is a major contributing factor in drug failure. Testing is time and cost intensive. In recent years, the use of artificial intelligence has been increasingly explored to aid in the prediction of drug toxicity, with extensive use of large language models (LLMs). However, LLMs can show considerable variation when minor changes are made to prompts, which raises concerns about their sensitivity ",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03635v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03635v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "Accepted at the CIBB 2026 conference (https://cibb2026.teralab.ai/)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03535",
+      "title": "Feature Reconfiguration With Visual Prior for Medical Lesion Segmentation",
+      "authors": [
+        "Yinan Liu",
+        "Jiankang Hong",
+        "Zhen Gao",
+        "Ye Lu"
+      ],
+      "summary": "Lesion segmentation in medical images plays a critical role in clinical diagnosis and treatment planning. Despite significant advances, lesion segmentation remains challenging due to two major factors: (1) complex background interference; (2) diverse lesion morphology. Existing encoder-decoder based methods mainly focus on enhancing feature extraction or redesigning decoding strategies. However, they lack early prior guidance and feature reconfiguration during the encoding stage, limiting their ",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03535v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03535v1",
+      "categories": [
+        "cs.AI",
+        "eess.IV"
+      ],
+      "comments": "9 pages 10figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03527",
+      "title": "NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis",
+      "authors": [
+        "Yinan Liu",
+        "Hongtai Xia",
+        "Haoran Xu",
+        "Jiankang Hong",
+        "Jingkuan Song",
+        "Ye Luo"
+      ],
+      "summary": "Neonatal respiratory diseases are a major cause of neonatal morbidity and mortality, posing substantial challenges in clinical practice. Despite recent advances, existing Multimodal Large Language Models (MLLMs) face two key limitations in neonatal diagnosis: (1) domain gap arising from predominantly adult training data; (2) insufficient integration of multidimensional clinical context for accurate diagnosis. To address these challenges, we collect two real-world clinical datasets (NeoCXR and Ne",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03527v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03527v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "9 pages 10 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03507",
+      "title": "LongCounsel-8: A Benchmark Suite for Longitudinal Depression Tracking from Multi-Session Counseling Dialogues",
+      "authors": [
+        "Jiayi Li",
+        "Zhaomin Wu",
+        "Bingsheng He"
+      ],
+      "summary": "Tracking depression from multi-session counseling dialogues requires estimating both current symptom severity and how it changes across sessions. Yet progress on this task is constrained by the scarcity of longitudinal counseling data with standardized session-level depression labels. Existing resources typically provide either multi-session conversations without depression labels or labeled interviews in a single session. Building such a benchmark poses three challenges: maintaining longitudina",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03507v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03507v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "Dataset: https://huggingface.co/datasets/hiddensev/LongCounsel-8",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03320",
+      "title": "Beyond .WAV: Design and Software Verification of VocalCap, a Traceable Browser-Based Audio Capture System for Vocal Biomarker Research",
+      "authors": [
+        "Augusto Camargo"
+      ],
+      "summary": "Remote voice studies often retain a final audio file with limited evidence about how it was captured, transferred, processed, and accepted. This paper presents VocalCap, an institution-controlled, browser-based system for self-guided capture of voice and related acoustic signals by participants without technical training. A versioned protocol drives the workflow. Each accepted recording retains a browser-native object, a client-lossless Float32 WAV derived from the same MediaStream, and a server",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03320v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03320v1",
+      "categories": [
+        "cs.SD",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.03231",
+      "title": "The 2026 PNPL Competition: Word Classification and Efficient Cross-Subject Generalisation in LibriBrain100",
+      "authors": [
+        "Francesco Mantegna",
+        "Gereon Elvers",
+        "Dulhan Jayalath",
+        "Gilad Landau",
+        "Tasha Kim",
+        "Miran Özdogan",
+        "Luisa Kurth",
+        "Teyun Kwon",
+        "SungJun Cho",
+        "Benjamin Ballyk",
+        "Alex Fung",
+        "Anna Greer",
+        "Pratik Somaiya",
+        "Christian Herff",
+        "Yorguin Mantilla Ramos",
+        "Hamza Abdelhedi",
+        "Karim Jerbi",
+        "Greg Farquhar",
+        "Brendan Shillingford",
+        "Mark Woolrich",
+        "Oiwi Parker Jones"
+      ],
+      "summary": "The ambition of the 2025 PNPL competition (Landau et al., 2025) was to launch a multi-year curriculum for non-invasive speech decoding. Designed to progress from foundational tasks toward the linguistic complexity required for a practical brain-computer interface (BCI), it set the stage with speech detection and phoneme classification tasks. Winning submissions reached F1-macro scores of 95.6% and 73.6% on the respective tasks (Elvers et al., 2026), highly significant advances. This success was ",
+      "published": "2026-09-03",
+      "publishedDate": {
+        "iso": "2026-09-03",
+        "year": 2026,
+        "month": 9,
+        "day": 3
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.03231v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03231v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "16 pages, 2 figures",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2608.26094",
       "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
@@ -476,425 +876,6 @@
         "cs.CV"
       ],
       "comments": "11 pages, 2 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23538",
-      "title": "Interpretable AI with Local Distillation",
-      "authors": [
-        "Erin Craig",
-        "Yiling Huang",
-        "Snigdha Panigrahi"
-      ],
-      "summary": "Modern AI models such as tabular foundation models and gradient-boosted ensembles can outpredict classical methods, but provide little basis for reasoning about their predictions. High-stakes decisions call for models that are both accurate and interpretable as built. Local linear modeling offers a path forward: a smooth regression function is locally well approximated by a linear one, allowing a linear fit near each query point to achieve high accuracy without sacrificing transparency. The chal",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23538v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23538v1",
-      "categories": [
-        "stat.ME",
-        "cs.LG",
-        "stat.ML"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23531",
-      "title": "Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement",
-      "authors": [
-        "Santosh Ray",
-        "Pratik K. Mishra",
-        "Ali Abedi",
-        "Charlene H. Chu",
-        "Amir Ahmad",
-        "Shehroz S. Khan"
-      ],
-      "summary": "Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and clinical assessment data from 18 older adults recovering in the community after lower-limb fracture or hip replacement. Participants were monitored for up to eight weeks, corresponding to a maximum of ",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23531v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23531v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23480",
-      "title": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees",
-      "authors": [
-        "Jiaming Qiu",
-        "Yingye Zheng",
-        "Ying-Qi Zhao"
-      ],
-      "summary": "Timely risk classification is essential in many clinical monitoring settings, where decisions must balance the benefit of classifying patients early for subsequent intervention against the value of observing additional data. Yet most existing statistical and machine-learning methods are designed for fully observed trajectories and offer limited control over key operating characteristics such as sensitivity, specificity, and monitoring cost. We cast the sequential classification problem within a ",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23480v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23480v1",
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "stat.ME"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23397",
-      "title": "MediSkill-Evo: Process-Constrained Self-Evolution for Evidence-Grounded Clinical Interaction",
-      "authors": [
-        "Ruoyu Wu",
-        "Shenfu Xie",
-        "Yinqian Sun",
-        "Haibo Tong",
-        "Feifei Zhao"
-      ],
-      "summary": "Interactive clinical agents must gather decisive evidence and convert it into grounded actions under partial observability. A correct final diagnosis alone does not show that an agent respected evidence and care-process constraints. We introduce MediSkill-Evo, a clinical agent that evolves governed process knowledge without backbone fine-tuning. It separates experience into four typed banks for clinical skills, process rules, symbolic schemas, and measurement procedures. Provenance, support, rep",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23397v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23397v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23373",
-      "title": "Modalities Should Talk to Each Other: Dual-Stream Multimodal Learning for Long-Horizon Influenza Forecasting",
-      "authors": [
-        "Seyed Mohammad Hossein Hashemi",
-        "Mohsen Hooshmand",
-        "Parvin Razzaghi"
-      ],
-      "summary": "Forecasting long-range influenza-like illness (ILI) matters for public health readiness. Publicly available surveillance datasets typically pair numeric epidemiological signals with textual information that is noisy, loosely structured, only indirectly related to near-term trends, and often lagged relative to the numeric signal. Fusing the two therefore requires careful design. We propose Dual-Stream Attention (DSA), a multimodal deep learning framework that forecasts 12-week-ahead ILI activity ",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23373v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23373v1",
-      "categories": [
-        "cs.AI",
-        "stat.AP"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23370",
-      "title": "Walking on the DARKSIDE",
-      "authors": [
-        "Aldo Gangemi",
-        "Emanuele Bottazzi"
-      ],
-      "summary": "Large Language Models (LLMs) recognise patterns but do not natively track the path of exclusions that a coherent discourse demands. When an input rests on a fabricated authority, a misapplied mechanism, or a surreptitious analogy, an unsteered LLM tends to engage with it as if it were grounded, and to reify the misstep into any structured output it generates. Logic-Augmented Generation (LAG) with POLANYI++, an LLM-steering method that uses heuristics, ontologies and problem solving methods for t",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23370v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23370v1",
-      "categories": [
-        "cs.AI",
-        "cs.LO"
-      ],
-      "comments": "20 pages, 2 figures, several tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23347",
-      "title": "Test-Time Adaptation for ECG Classification via SQI-Gated Self-Training and Beat-Rhythm Consistency",
-      "authors": [
-        "Wenhan Jiang",
-        "Zhipeng Deng",
-        "Jiale Zhou",
-        "Haolin Wang",
-        "Yafei Ou",
-        "Yefeng Zheng"
-      ],
-      "summary": "Deep learning models for electrocardiogram (ECG) classification often suffer from significant performance degradation when deployed in unseen domains due to shifts in acquisition devices and patient populations. Test-time adaptation (TTA) offers a practical solution by adapting models using only unlabeled data at inference time. However, existing TTA methods often underperform on ECG tasks, since naive online updates ignore the hierarchical beat-rhythm structure of cardiac cycles and are vulnera",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23347v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23347v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted at MICCAI 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23276",
-      "title": "A Multidimensional Data-Driven Hybrid Transformer Framework for Non-invasive Continuous Blood Pressure Prediction",
-      "authors": [
-        "Yuexin Ma",
-        "Jingqi Hou",
-        "Yuxuan Kang",
-        "Zhaoying Liu"
-      ],
-      "summary": "Objective. To develop and evaluate a cuffless continuous blood pressure (BP) estimator using temporal physiological and demographic features. We propose a hybrid Transformer framework to estimate diastolic and systolic BP from ECG/PPG-derived feature sequences. Approach. Rather than raw waveforms, the framework models 10-step sequences of six physiological descriptors and two demographic covariates. A Multi-Source Temporal Encoder Module combines Transformer, Kolmogorov-Arnold Network, and XGBoo",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23276v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23276v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "21 pages, 5 figures, 6 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23254",
-      "title": "From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams",
-      "authors": [
-        "Vincenzo Marco De Luca",
-        "Antonio Longa",
-        "Giovanna Varni",
-        "Andrea Passerini"
-      ],
-      "summary": "In surgery, patient safety is threatened not only by technical issues but also by poor teamwork. However, existing surgical AI-based solutions focus mainly on visual workflow and technical execution, neglecting the modeling of team interactions and missing opportunities to actively support clinicians in improving their teamwork skills. To address this gap, we propose a tempo-relational framework for modeling surgical team dynamics from multimodal observations. By leveraging Time-Expanded graphs,",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23254v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23254v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted at ACM Multimedia 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23248",
-      "title": "Future Querying: Can LLMs Serve as Implicit Medical World Models?",
-      "authors": [
-        "Siri Willems",
-        "James Butterworth",
-        "Lore Goetschalckx",
-        "Peter Vrancx",
-        "Philippe Modard",
-        "Elke Giets",
-        "Ludovic Denoyer"
-      ],
-      "summary": "Traditional clinical prediction models rely on task-specific pipelines and curated, structured data, which scale poorly and underutilize unstructured text. To address this, we introduce future querying, a paradigm that probes whether large language models (LLMs) can function as implicit medical world models by evaluating their ability to answer time-indexed clinical queries about a patient's future. Our framework operates on unstructured clinical documentation using endpoint-agnostic training, e",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23248v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23248v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "This paper is accepted at The 1st MICCAI Workshop on Medical World Models (MICCAI-2026)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23153",
-      "title": "Conformal Risk Minimization for Semi-Supervised Domain Adaptation via Optimal Transport",
-      "authors": [
-        "Manos Giannopoulos",
-        "Yi Shen",
-        "Michael M. Zavlanos"
-      ],
-      "summary": "In high-stakes healthcare applications, machine learning models are frequently trained on data from one patient population and deployed on another, creating a distribution shift that degrades both accuracy and reliability. Semi-Supervised Domain Adaptation (SSDA) addresses this by leveraging labeled data from some source domain to improve model performance on a target domain where labels are scarce. However, existing SSDA methods optimize primarily for point-prediction accuracy and offer no prin",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23153v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23153v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "18 pages, 2 figures, 6 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23061",
-      "title": "Improving O-RADS Risk Stratification from Ultrasound Reports: A Comparative Evaluation of Hybrid versus End-to-End LLM Reasoning Strategies",
-      "authors": [
-        "Xiaotong Tan",
-        "Chunli Qiu",
-        "Xin Liu",
-        "Qing Huang",
-        "Guangli Zhou",
-        "Bo Gao",
-        "Xiaoyan Song",
-        "Shuyan Wang",
-        "Xiuqin Wang",
-        "Wufeng Xue",
-        "Ruobing Huang",
-        "Dong Ni",
-        "Guowei Tao",
-        "Jun Cheng"
-      ],
-      "summary": "Background: Automating clinical guideline-based decision-making with large language models (LLMs) remains challenging because of reliability, hallucination, and limited interpretability. We compared the performance of LLMs and reasoning strategies for automated Ovarian-Adnexal Reporting and Data System (O-RADS) classification from free-text pelvic ultrasound reports. Methods: In this retrospective study, consecutive patients with ovarian masses who underwent pelvic ultrasound were included. Eigh",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23061v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23061v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "Main manuscript: 20 pages, 5 figures, and 2 tables; supplemental material: 11 pages, 1 figure, and 3 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23058",
-      "title": "LLM-based Agents for Forecasting and Prediction: Methods, Training, Evaluation, and Applications",
-      "authors": [
-        "Xiaogang Xu",
-        "Jiaqi Tang",
-        "Jianmin Chen",
-        "Yingying Yan",
-        "Zhenchao Tang",
-        "Xiangxin Zhou",
-        "Xiaobin Hu",
-        "Wei Wei",
-        "Jinfeng Wu",
-        "Qifeng Chen",
-        "Lu Zhou",
-        "Jiafei Wu",
-        "Zhe Liu",
-        "Jianwei Yin",
-        "Weimin Zheng"
-      ],
-      "summary": "Large language models (LLMs) now support forecasting systems that combine language-based reasoning with temporal data, evidence retrieval, external tools, and iterative prediction. We investigate LLM-based forecasting agents, meaning systems in which a language model contributes to a scored prediction about a future or currently unobserved target. We organize architectures into three groups. Standalone LLM workflows operate on encoded time series or event context. Tool- and retrieval-augmented a",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23058v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23058v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23047",
-      "title": "Beyond Verdicts: A Graph-Based Analysis of Human and LLM Reasoning in Scientific Fact-Checking",
-      "authors": [
-        "Abdul Ghafoor",
-        "Muhammad Arslan Manzoor",
-        "Yufang Hou"
-      ],
-      "summary": "Misinformation that cites legitimate papers can be especially harmful when it distorts what those studies actually report. While existing automatic fact-checking systems based on large language models (LLMs) can assess whether a model assigns an Incorrect verdict and can gen- erate explanations for that decision, they typi- cally do not indicate whether the model follows the same reasoning path as human experts or arrives at the verdict through a different but still valid path. In this work, we ",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23047v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23047v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2608.23041",
-      "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
-      "authors": [
-        "Sungho Park",
-        "Wonjoong Kim",
-        "Rongyuan Tan",
-        "Jue Zhang",
-        "Wook-Shin Han",
-        "Pengfei Gao",
-        "Chanyoung Park",
-        "Yongqiang Yao",
-        "Rao Fu",
-        "Elsie Nallipogu",
-        "Qingwei Lin",
-        "Saravan Rajmohan",
-        "Dongmei Zhang"
-      ],
-      "summary": "LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions and lead to overall task failure. Although external harnesses can substantially improve robustness, harness design remains a manual and expensive process that requires searching over a large space of prompts, tool configurations, and control logic. We propose AutoSaddler, an automatic harness optimization framework that formulates harness improvement as an offline learning probl",
-      "published": "2026-08-24",
-      "publishedDate": {
-        "iso": "2026-08-24",
-        "year": 2026,
-        "month": 8,
-        "day": 24
-      },
-      "arxivUrl": "http://arxiv.org/abs/2608.23041v1",
-      "pdfUrl": "https://arxiv.org/pdf/2608.23041v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG",
-        "cs.MA",
-        "cs.SE"
-      ],
-      "comments": "44 pages, 15 figures. Project website and code: https://aka.ms/AutoSaddler-website",
       "arxivVersion": "v1"
     }
   ]

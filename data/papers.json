@@ -14,11 +14,394 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-09-20T03:01:39.652Z",
-  "fetchedAt": "2026-09-20T03:01:39.653Z",
+  "lastUpdated": "2026-09-21T02:59:08.817Z",
+  "fetchedAt": "2026-09-21T02:59:08.818Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2609.22048",
+      "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
+      "authors": [
+        "Parivesh Priye",
+        "Yufeng Wang",
+        "Haibin Ling",
+        "Michael Chaykowsky"
+      ],
+      "summary": "A selective predictor acts as a safety gate: it returns an output only when the prediction appears sufficiently trustworthy. Deployments increasingly require this reliability to be certified at a target precision for every reporting unit of interest, such as a tool, policy label, or patient subgroup. The main difficulty is often not whether a granted certificate is valid, but whether finite calibration data can produce one at all. As the gate becomes safer or more fine-grained, some units may re",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.22048v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.22048v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21962",
+      "title": "Learning Cardiac Features: ECG Biometrics Across Time and~Exercise",
+      "authors": [
+        "Luca Thiebaud",
+        "Paul Chauchat",
+        "Mustapha Ouladsine",
+        "Stéphane Delliaux"
+      ],
+      "summary": "Electrocardiograms (ECGs) carry subject-specific patterns enabling reliable individual discrimination, forming the basis of ECG biometrics. Beyond authentication, this paradigm holds significant potential to secure sensitive cardiac data and to serve as a pretext task in self-supervised learning. Yet, most studies remain confined to singlesession, resting data, leaving robustness to temporal and physiological variations largely untested. We address this gap by evaluating ECG biometrics under rea",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21962v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21962v1",
+      "categories": [
+        "cs.AI",
+        "q-bio.TO"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21942",
+      "title": "When Should a Failing Robot Ask? Initiating Corrective Human-Robot Dialogue from Audited Sensor Evidence",
+      "authors": [
+        "Eshika Pathak",
+        "Leela Krishna"
+      ],
+      "summary": "A robot that fails at a task faces the first decision in corrective dialogue: act on its own diagnosis, consult another onboard sensor, or interrupt a person. Choosing well requires knowing how much the robot's sensors reveal about the cause and how reliable the robot's own diagnosis is. We build a simulated benchmark in which every failure's true cause is known, because we injected it, and measure what each sensor reveals, with explicit checks against data leakage. Some failures are diagnosable",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21942v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21942v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "Accepted at the IROS 2026 Workshop on Human-Robot Dialogue",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21906",
+      "title": "Intervention Granularity Matters: Coherent Treatment Bundles in Counterfactual Simulation with Clinical World Models",
+      "authors": [
+        "Fangzhou Wang",
+        "Yixuan Yang",
+        "Camilla Balzarotti",
+        "Rishikesan Kamaleswaran"
+      ],
+      "summary": "Counterfactual simulation with a clinical world model means fixing a patient's history, changing the treatment, and reading off the predicted response. Doing so requires deciding what counts as one intervention. In clinical settings, interventions are documented as bundles: a co-occurrence audit of 945,707 patient-hours from MIMIC-IV shows groups of components, such as every parameter of a dialysis circuit, that never appear apart, so an edit that changes one component on its own describes an ho",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21906v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21906v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21821",
+      "title": "Adaptive Uncertainty-Aware Modeling and Stochastic Radial Basis Function Predictive Control for Personalized Fluid Resuscitation",
+      "authors": [
+        "Elham Estiri",
+        "Hossein Mirinejad"
+      ],
+      "summary": "This paper presents a novel framework integrating Bayesian physiological modeling with optimal control strategies to achieve uncertainty-aware, personalized hemodynamic regulation during fluid resuscitation. An uncertainty-aware variational autoencoder state-space model (UVAE-SSM) was first developed to capture the dynamical relationship between mean arterial pressure (MAP) and fluid infusion using limited data, while explicitly modeling aleatoric uncertainty (i.e., randomness in the measurement",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21821v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21821v1",
+      "categories": [
+        "eess.SY",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21805",
+      "title": "An Agentic Just-in-Time Adaptive Intervention System for Personalized Sleep Support: Proof-of-Concept Study with N of 1 Data",
+      "authors": [
+        "Nick Rezaee",
+        "Chelsea Boccagno"
+      ],
+      "summary": "Background: Just-in-time adaptive interventions (JITAIs) can use behavioral data to adapt support to changing contexts, but many rely on predefined rules and manual configuration. Objective: We developed a proof-of-concept sleep JITAI using an AI agent to review personal data, evaluate reminders, adapt interventions, and record decisions for human review. Methods: Running in Home Assistant on a configurable schedule, the agent follows a reusable skill file to review 30 days of sleep and behavior",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21805v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21805v1",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "comments": "7 pages, Submitted to ACM CHI",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21763",
+      "title": "Beyond Benchmark Scores: Auditing Medical Vision-Language Models for Chest X-Ray Tuberculosis Screening",
+      "authors": [
+        "Mushir Akhtar",
+        "M. Tanveer",
+        "Mohd. Arshad"
+      ],
+      "summary": "A medical model's benchmark score does not establish that the same conclusion holds under a different evaluation. This study tests whether claims about model ranking, score reliability and screening performance survive changes in cohort, prompt, negative spectrum, specified prevalence and operating threshold. We audit three medical vision-language models (BioMedCLIP, CheXficient, and MedSigLIP) and a general-domain OpenCLIP comparator on 12,200 chest radiograph records from four datasets (Montgo",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21763v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21763v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "27 pages, 7 figures, and 21 tables; includes extended methods, statistical analyses, and robustness evaluations",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21755",
+      "title": "ECG Mirage: Revealing and Mitigating the Underutilisation of ECGs in Vision-Language Models for Clinical Prediction",
+      "authors": [
+        "Jinning Liang",
+        "Mingcheng Zhu",
+        "Tingting Zhu"
+      ],
+      "summary": "Emergency department (ED) decision-making relies on heterogeneous clinical information, including patient history, vital signs, laboratory results, and electrocardiograms (ECGs). Vision--language models (VLMs) can jointly process these modalities, but strong predictive performance does not necessarily imply meaningful use of the correct patient's ECG. We term this failure mode ECG Mirage: apparent multimodal capability without useful dependence on patient-specific ECG information. We distinguish",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21755v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21755v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21651",
+      "title": "Configurable Multi-Stage Vision Pipeline for Crop Disease and Pest Diagnosis",
+      "authors": [
+        "Naga Ganesh",
+        "Chandrashekar M S",
+        "Lakshmi Pedapudi",
+        "Aakash Singh",
+        "Vineet Singh"
+      ],
+      "summary": "Farmer.Chat is Digital Green's farm advisory service for smallholder farmers. When something looks wrong with a crop, the farmer takes a photograph and sends it, and that photograph is the whole question: no symptom described, no crop named, often no text at all. The service has to determine whether the picture can be used, what crop it shows, and what is wrong with it, from images taken on cheap phones in a field, in poor light and with a moving camera. The system doing this today cannot be adj",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21651v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21651v1",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "14 pages, 26 Tables, 12 Figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21628",
+      "title": "Detection is solved, delineation is not: what governs tooth segmentation on panoramic radiographs",
+      "authors": [
+        "Muhammad Rehan",
+        "Moaz Amjad",
+        "Syed Danial Ahmed",
+        "Mariam Adnan",
+        "Haider Ali"
+      ],
+      "summary": "Automatic tooth segmentation and FDI numbering on panoramic radiographs underpins computer-assisted dental diagnosis, yet which factors govern performance remains unclear. We assemble a corpus of 1,422 panoramic radiographs containing 42,142 expert-delineated tooth polygons across the 32-class FDI taxonomy, annotated by 30 dental practitioners and independently reviewed by two others, and use it to isolate input resolution, architecture and anatomical priors under a single evaluation protocol. F",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21628v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21628v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "15 pages, 6 figures, 5 tables. Code: https://github.com/Rehan000/opg-tooth-segmentation",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21541",
+      "title": "Purification and Regulation: Comorbidity-Aware Multi-Label Few-Shot Learning for Medical Image Classification",
+      "authors": [
+        "Ying-Chih Lin",
+        "Po-Chih Kuo",
+        "Yong-Sheng Chen"
+      ],
+      "summary": "Multi-label few-shot learning (MLFSL) remains a significant challenge in medical image analysis (MIA). Current metric-based meta-learning methods face two critical limitations in MIA. First, conventional prototype generation often entangles irrelevant disease information, leading to contaminated prototypes and degraded performance. Second, prior studies typically enforce inter-class separability in embedding space, largely neglecting the inherent correlations among diseases. To overcome these ch",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21541v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21541v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21387",
+      "title": "Consistent Relexicalization of Clinical Documents using Graph-Based Approach",
+      "authors": [
+        "Dipankar Das",
+        "Atri Mandal",
+        "Sandeep Singh",
+        "Tushar Shandhilya"
+      ],
+      "summary": "Relexicalization is a pivotal technique in clinical NLP, as it facilitates robust masking of sensitive information while synthesizing datasets that retain high-fidelity, real-world characteristics. However, preserving structural integrity, relational coherence, and temporal consistency during transformation remains a significant challenge. Existing approaches frequently rely on independent entity replacement, which results in clinical inconsistencies across longitudinal records. This reduces the",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21387v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21387v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "Accepted for presentation at the Sixth International Conference on AI ML Systems (AIMLSystems 2026), Lake Como, Italy, October 6-9, 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21344",
+      "title": "CESBench: Benchmarking Large Language Models on Cryptographic Engineering Security for IoT Devices",
+      "authors": [
+        "Wenquan Zhou",
+        "An Wang",
+        "Jing Liang",
+        "Peien Feng",
+        "Jingqi Zhang",
+        "Yaoling Ding",
+        "Liehuang Zhu"
+      ],
+      "summary": "For Internet of Things (IoT) devices, a secure algorithm alone is not enough: an attacker with physical access can attack the implementation directly, and its flaws are hard to fix once deployed. Large language models (LLMs) are now used to build and analyze such implementations. LLM benchmarks exist for cryptography and general cybersecurity, but none covers cryptographic engineering. In this paper, we present CESBench, 380 expert-written items across six sub-domains of cryptographic engineerin",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21344v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21344v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21332",
+      "title": "Routine Blood Tests Outperform CRP for Distinguishing Bacterial From Viral Infection in Children",
+      "authors": [
+        "Mihaela Demireva",
+        "Zhecho Mitev",
+        "Djuna Chinareva-Klimentova",
+        "Svetoslav Ivanov",
+        "Georgi Nalbantov",
+        "Dimitar Mitev"
+      ],
+      "summary": "Acute infectious diseases are among the leading causes of medical consultations and hospitalizations in children worldwide. These infections are predominantly caused by viruses or bacteria, yet differentiating between the two remains a common clinical challenge. As a result, pediatricians often default to the safer option of prescribing antibiotics contributing to the growing problem of antimicrobial resistance. The objective is to assess the additional predictive value of CBC towards determinin",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21332v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21332v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.21214",
+      "title": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
+      "authors": [
+        "Boyuan Zhao",
+        "Meng Ye"
+      ],
+      "summary": "Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and fatigue can also affect performance. Affective cognitive diagnosis therefore extends conventional cognitive diagnosis by incorporating affective states. Existing methods often assume that the cognitive diagnosis backbone has already explained ability, item, and concept effects, so the remaining errors can",
+      "published": "2026-09-18",
+      "publishedDate": {
+        "iso": "2026-09-18",
+        "year": 2026,
+        "month": 9,
+        "day": 18
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.21214v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.21214v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "33pages",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2609.20815",
       "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
@@ -451,406 +834,6 @@
         "cs.LG"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.04024",
-      "title": "Instruction Duplication as an Inference-Time Control Primitive",
-      "authors": [
-        "Victor Lavrenko"
-      ],
-      "summary": "Procedural instruction following is a basic requirement for controllable language-model systems, especially when generated trajectories are inspected or repaired downstream. We introduce instruction duplication, a minimal black-box inference-time control that repeats only the procedural instruction, without retraining or decoding changes. Across seven instruction-tuned models, 300 medical multiple-choice questions, eight placement conditions, and 16,800 scheduled generations, moving from one to ",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.04024v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.04024v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "7 pages, 2 tables. Code and frozen reproduction artifacts: https://github.com/victorlavrenko/answer-engineering/releases/tag/instruction-duplication-arxiv-v1",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.04014",
-      "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
-      "authors": [
-        "Chao Shen",
-        "Xinyuan Li",
-        "Yunfan Zhou",
-        "Jianguo Yao",
-        "Haibing Guan",
-        "Zhihai Wang",
-        "Xijun Li"
-      ],
-      "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Large Language Models (MLLMs) remain unreliable in continuous-valued measurement despite strong results on general multimodal benchmarks. Existing benchmarks expose this weakness but isolate measurement from realistic, knowledge-grounded settings, with limited situated context, specialized instruments, real-world noise, and matched diagnostic annotations, reduc",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.04014v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.04014v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.04013",
-      "title": "LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening",
-      "authors": [
-        "Muhammad Ashad Kabir",
-        "Sirajam Munira"
-      ],
-      "summary": "Early screening of chronic kidney disease (CKD) is critical for timely intervention, yet most machine learning (ML) and deep learning (DL) approaches require labeled data and model training, limiting their use in real-world screening settings. This study evaluates the effectiveness of large language models (LLMs) for CKD screening under zero-shot and few-shot in-context learning settings and compares them with traditional ML and DL methods. We propose a framework that uses clinically selected ta",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.04013v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.04013v1",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "Accepted at ICDM 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.04009",
-      "title": "The Blind Spot in 2D Infants' Pose Estimation:Robust Learning from Noisy Annotations",
-      "authors": [
-        "Emanuele Cardinale",
-        "Marco Proietti",
-        "Alessandro Cacciatore",
-        "Maria Francesca Spadea",
-        "Lucia Migliorelli",
-        "Sara Moccia"
-      ],
-      "summary": "Noisy annotations pose a significant challenge for supervised deep learning, as neural networks rely on large-scale, high-quality labeled data whose corruption can severely impair model performance. Although robustness to label noise has been extensively studied for classification tasks, it remains relatively underexplored in Pose Estimation (PE). This limitation becomes critical in clinical contexts, including neonatology, where PE of preterm infants is used to support the assessment of spontan",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.04009v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.04009v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.04007",
-      "title": "RobustSeiz: An Open-Source Framework for Benchmarking the Robustness of EEG Seizure Detection Models",
-      "authors": [
-        "Mohammad Mohammadi",
-        "Alireza Zarei"
-      ],
-      "summary": "Despite strong performance on held-out electroencephalography (EEG) data, seizure detectors may fail under real-world acquisition variability, artifacts, and adversarial inputs. We introduce RobustSeiz, an open-source, model-agnostic framework that provides a standardized, reproducible protocol for stress-testing and comparing seizure detectors under controlled, clinically motivated distribution shifts before deployment. We standardize four public scalp-EEG corpora (CHB-MIT, TUSZ, Siena, and Sei",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.04007v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.04007v1",
-      "categories": [
-        "cs.LG",
-        "eess.SP"
-      ],
-      "comments": "28 pages, 13 numbered figures, 9 tables; full-page graphical abstract and supplementary material included. Submitted to the Journal of the American Medical Informatics Association (JAMIA)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03967",
-      "title": "Investigating the Ability of Large Language Models to Analyze Recipes for Diabetes",
-      "authors": [
-        "Revathy Venkataramanan",
-        "Aditya Luthra",
-        "Venkatesan Nadimuthu",
-        "Amit Sheth"
-      ],
-      "summary": "Several studies have evaluated the ability of Large Language Models (LLMs) for meal planning, yielding positive outcomes. These models can process natural language inputs and leverage learned knowledge from their pretraining to generate meal plans. In this work, we investigate the ability of LLMs to analyze the suitability of given recipes for diabetes. The primary challenge for LLMs is to retrieve relevant dietary guidelines for diabetes, decompose recipes into ingredients and cooking methods, ",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03967v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03967v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03956",
-      "title": "RARF: Region-Aware Rectified Flows for 3D Brain MRI Inpainting",
-      "authors": [
-        "Tomas Guija-Valiente",
-        "Blanca Rodriguez-Gonzalez",
-        "Norberto Malpica",
-        "Angel Torrado-Carvajal"
-      ],
-      "summary": "Medical image inpainting has the potential to improve automated brain MRI analysis by reconstructing healthy tissue within pathological regions. We introduce RARF, a task-agnostic region-aware rectified flow framework for masked data generation. We instantiate the framework for 3D brain MRI inpainting as our submission to the BraTS Inpainting Challenge 2026. RARF restricts the stochastic interpolation process to the inpainting region, while the observed voxels remain fixed and provide patient-sp",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03956v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03956v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "11 pages, 2 figures. Preprint version corresponding to the initial submission prior to peer review, submitted as part of our participation in the BraTS 2026 Challenge. The final accepted version will be openly available in the official MICCAI proceedings on the conference website",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03937",
-      "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
-      "authors": [
-        "Yuchen He",
-        "Yueyang Cang",
-        "Zhiyuan Ning",
-        "Ningyu Wang",
-        "Li Shi"
-      ],
-      "summary": "Retrieval-augmented generation (RAG) complements parametric models with retrieved external evidence. The same idea is attractive for continuous-output regression, but directly reusing retrieved target values is often not robust when samples differ in output level, numerical scale, or local dynamics. Moreover, conventional forecasting pipelines generally use residuals for model optimization and error diagnosis, but do not retain individual historical residual examples as memory that can be access",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03937v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03937v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03851",
-      "title": "Pushing the (Decision) Boundaries: Dynamically Calibrating Differentially Private Noise to Explainability in Federated Learning",
-      "authors": [
-        "Michael Khavkin",
-        "Kichang Lee",
-        "Jaeho Jin",
-        "JeongGil Ko",
-        "Eran Toch"
-      ],
-      "summary": "Federated Learning (FL) with Differential Privacy (DP) is increasingly adopted to preserve data confidentiality in distributed machine learning. However, DP noise distorts learned representations and degrades explanation fidelity, limiting differentially private FL where trustworthy explanations are required, such as assistive clinical diagnosis. Prior work adapted DP noise with static feature-importance signals, restricting explainability to post hoc analysis and precluding noise calibration to",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03851v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03851v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "21 pages, 9 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03635",
-      "title": "Analysis of Prompt Engineering for Drug Toxicity Prediction",
-      "authors": [
-        "Mia MacGregor",
-        "Aakash Welgamage Don",
-        "Mark Bartlett"
-      ],
-      "summary": "Clinical trials in the UK can cost up to £1.3 million, with approximately 90% drug failure rate. Toxicity is a major contributing factor in drug failure. Testing is time and cost intensive. In recent years, the use of artificial intelligence has been increasingly explored to aid in the prediction of drug toxicity, with extensive use of large language models (LLMs). However, LLMs can show considerable variation when minor changes are made to prompts, which raises concerns about their sensitivity ",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03635v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03635v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "Accepted at the CIBB 2026 conference (https://cibb2026.teralab.ai/)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03535",
-      "title": "Feature Reconfiguration With Visual Prior for Medical Lesion Segmentation",
-      "authors": [
-        "Yinan Liu",
-        "Jiankang Hong",
-        "Zhen Gao",
-        "Ye Lu"
-      ],
-      "summary": "Lesion segmentation in medical images plays a critical role in clinical diagnosis and treatment planning. Despite significant advances, lesion segmentation remains challenging due to two major factors: (1) complex background interference; (2) diverse lesion morphology. Existing encoder-decoder based methods mainly focus on enhancing feature extraction or redesigning decoding strategies. However, they lack early prior guidance and feature reconfiguration during the encoding stage, limiting their ",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03535v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03535v1",
-      "categories": [
-        "cs.AI",
-        "eess.IV"
-      ],
-      "comments": "9 pages 10figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03527",
-      "title": "NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis",
-      "authors": [
-        "Yinan Liu",
-        "Hongtai Xia",
-        "Haoran Xu",
-        "Jiankang Hong",
-        "Jingkuan Song",
-        "Ye Luo"
-      ],
-      "summary": "Neonatal respiratory diseases are a major cause of neonatal morbidity and mortality, posing substantial challenges in clinical practice. Despite recent advances, existing Multimodal Large Language Models (MLLMs) face two key limitations in neonatal diagnosis: (1) domain gap arising from predominantly adult training data; (2) insufficient integration of multidimensional clinical context for accurate diagnosis. To address these challenges, we collect two real-world clinical datasets (NeoCXR and Ne",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03527v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03527v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "9 pages 10 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03507",
-      "title": "LongCounsel-8: A Benchmark Suite for Longitudinal Depression Tracking from Multi-Session Counseling Dialogues",
-      "authors": [
-        "Jiayi Li",
-        "Zhaomin Wu",
-        "Bingsheng He"
-      ],
-      "summary": "Tracking depression from multi-session counseling dialogues requires estimating both current symptom severity and how it changes across sessions. Yet progress on this task is constrained by the scarcity of longitudinal counseling data with standardized session-level depression labels. Existing resources typically provide either multi-session conversations without depression labels or labeled interviews in a single session. Building such a benchmark poses three challenges: maintaining longitudina",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03507v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03507v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "Dataset: https://huggingface.co/datasets/hiddensev/LongCounsel-8",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03320",
-      "title": "Beyond .WAV: Design and Software Verification of VocalCap, a Traceable Browser-Based Audio Capture System for Vocal Biomarker Research",
-      "authors": [
-        "Augusto Camargo"
-      ],
-      "summary": "Remote voice studies often retain a final audio file with limited evidence about how it was captured, transferred, processed, and accepted. This paper presents VocalCap, an institution-controlled, browser-based system for self-guided capture of voice and related acoustic signals by participants without technical training. A versioned protocol drives the workflow. Each accepted recording retains a browser-native object, a client-lossless Float32 WAV derived from the same MediaStream, and a server",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03320v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03320v1",
-      "categories": [
-        "cs.SD",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.03231",
-      "title": "The 2026 PNPL Competition: Word Classification and Efficient Cross-Subject Generalisation in LibriBrain100",
-      "authors": [
-        "Francesco Mantegna",
-        "Gereon Elvers",
-        "Dulhan Jayalath",
-        "Gilad Landau",
-        "Tasha Kim",
-        "Miran Özdogan",
-        "Luisa Kurth",
-        "Teyun Kwon",
-        "SungJun Cho",
-        "Benjamin Ballyk",
-        "Alex Fung",
-        "Anna Greer",
-        "Pratik Somaiya",
-        "Christian Herff",
-        "Yorguin Mantilla Ramos",
-        "Hamza Abdelhedi",
-        "Karim Jerbi",
-        "Greg Farquhar",
-        "Brendan Shillingford",
-        "Mark Woolrich",
-        "Oiwi Parker Jones"
-      ],
-      "summary": "The ambition of the 2025 PNPL competition (Landau et al., 2025) was to launch a multi-year curriculum for non-invasive speech decoding. Designed to progress from foundational tasks toward the linguistic complexity required for a practical brain-computer interface (BCI), it set the stage with speech detection and phoneme classification tasks. Winning submissions reached F1-macro scores of 95.6% and 73.6% on the respective tasks (Elvers et al., 2026), highly significant advances. This success was ",
-      "published": "2026-09-03",
-      "publishedDate": {
-        "iso": "2026-09-03",
-        "year": 2026,
-        "month": 9,
-        "day": 3
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.03231v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.03231v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "16 pages, 2 figures",
       "arxivVersion": "v1"
     }
   ]

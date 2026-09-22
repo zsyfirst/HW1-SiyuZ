@@ -14,11 +14,406 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-09-21T02:59:08.817Z",
-  "fetchedAt": "2026-09-21T02:59:08.818Z",
+  "lastUpdated": "2026-09-22T02:58:35.671Z",
+  "fetchedAt": "2026-09-22T02:58:35.672Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2609.24480",
+      "title": "Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards",
+      "authors": [
+        "Kalash Shah",
+        "Kunal Singh",
+        "Snehan J",
+        "Shreyas Singh"
+      ],
+      "summary": "Deploying Large Language Models (LLMs) in healthcare requires robust performance across two complementary dimensions - diagnostic reasoning: the convergent, evidence-driven task of inferring a patient's condition from clinical data to produce a diagnosis, and clinical healthcare reasoning: the broader, navigational judgment required to communicate, plan, and adapt across multi-turn clinical interactions where a single correct answer may not exist. Recent benchmarks such as HealthBench and MedXpe",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24480v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24480v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "18 pages, 5 Figures, Correspondence to kunal.singh@fractal.ai",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24453",
+      "title": "Predicting Postprandial Glycemic Response from Meal Images, Clinical Variables, and Gut Microbiome Information",
+      "authors": [
+        "Varvara Kondratyeva",
+        "Kamilia Zaripova",
+        "Nassir Navab",
+        "Azade Farshad"
+      ],
+      "summary": "Predicting postprandial glycemic response (PPGR) is fundamental to personalized nutrition and type 2 diabetes management, yet existing approaches typically rely on manually reported dietary intake, limiting their scalability in free-living settings. We propose a multimodal framework that replaces manual dietary logging with image-derived macronutrient estimates and integrates them with clinical variables and gut microbiome information for personalized PPGR prediction. The framework jointly perfo",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24453v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24453v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "11 pages (9 text + 2 references). This is a paper first submitted to MICCAI 2026 MultiTab workshop prior to peer review. The final revised version will be published in Springer LNCS proceedings after the MICCAI 2026 conference",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24432",
+      "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+      "authors": [
+        "Huanxin Sheng",
+        "Zhiling Ye",
+        "Haonan Wang",
+        "Jian Wang",
+        "Jinjie Gu",
+        "Jian Kang"
+      ],
+      "summary": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in information geometry and propose an information-efficiency ratio (IER) based on a signal-to-noise decomposition. IER characterizes relative gradient estimation error under an optimal scalar baseline. A",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24432v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24432v1",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24386",
+      "title": "Machine Learning-Based Prediction of Childhood Stunting in Bangladesh: Fairness and Temporal Robustness Assessment",
+      "authors": [
+        "Md Ahshanul Haque",
+        "Muhammad Ashad Kabir"
+      ],
+      "summary": "Childhood stunting remains a major public health concern in Bangladesh and reflects long-term growth failure influenced by child, maternal, household, socioeconomic, and health-service factors. This study used nationally representative Bangladesh Demographic and Health Survey data from 2007 to 2022 to develop machine learning models for population-level prediction of childhood stunting and to assess temporal robustness and subgroup fairness. Children aged 0-59 months with complete anthropometric",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24386v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24386v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Accepted to AusDM, 15 pages",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24370",
+      "title": "Prescriptive SVD-Inspired Attention via Spectral Energy Retention",
+      "authors": [
+        "Vasileios Arampatzakis",
+        "Vasileios Sevetlidis",
+        "George Pavlidis"
+      ],
+      "summary": "Self-attention is central to modern Transformer architectures, but its dense dot-product formulation makes it difficult to identify which internal directions are structurally important and which can be modified without disrupting the model. SVD-Inspired Attention (SVDA) addresses part of this problem by introducing a learned diagonal spectrum into the query-key score interaction, making latent attention directions explicitly inspectable through indicators such as spectral entropy, effective rank",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24370v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24370v1",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "comments": "Published in Transactions on Machine Learning Research (TMLR), 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24338",
+      "title": "Pharmacokinetic State Space Models for Unbiased Prediction of Haemodynamic Collapse",
+      "authors": [
+        "Rithin Nagaraj",
+        "Sudiksha Chindula",
+        "Bhaskarjyoti Das"
+      ],
+      "summary": "An Intraoperative Hypotension (IOH) event is a frequent complication during administration of general anaesthesia with serious downstream consequences, yet clinical management remains reactive and not predictive. Existing predictive models, however, ignore drug infusion history as a valuable signal for prediction despite its direct pharmacological relevance. Our model achieves an Area Under the Receiver Operating Characteristic curve (AUROC) of 0.7360 and an Area Under the Precision-Recall Curve",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24338v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24338v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Published in Springer Nature after presenting at the International Conference on AI in Healthcare, London",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24324",
+      "title": "Brain-Token Learning: Microstate-Based Tokenization and Multi-Scale Interaction for Long-Horizon EEG Sequence Modeling",
+      "authors": [
+        "Weishan Ye",
+        "Yue Pan",
+        "Li Zhang",
+        "Gan Huang",
+        "Zhen Liang"
+      ],
+      "summary": "Electroencephalography (EEG) provides a non-invasive window into dynamic brain activity, yet modeling long-horizon EEG sequences remains challenging due to their high temporal complexity, substantial variability across subjects, and the lack of biologically meaningful sequence representations. Existing tokenization strategies, such as fixed-window and patch-based representations, discretize EEG signals according to artificial temporal boundaries, which may disrupt intrinsic brain-state dynamics.",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24324v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24324v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24265",
+      "title": "Unsupervised Brain Anomaly Detection as a Bayesian Inverse Problem with Diffusion Prior",
+      "authors": [
+        "Hugues Roy",
+        "Reuben Dorent",
+        "Ninon Burgos"
+      ],
+      "summary": "Unsupervised anomaly detection (UAD) aims to localize abnormal regions in medical scans without pixel-level annotations. A typical strategy seeks to reconstruct a pseudo-healthy image that preserves subject-specific anatomy. Recently, diffusion models have been proposed to perform UAD. However, these methods rely on heuristic noise schedules or synthetic corruptions to balance subject-specificity and anomaly removal. In this work, we propose an alternative formulation of UAD as a Bayesian invers",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24265v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24265v1",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24101",
+      "title": "When More Evidence Hurts: Publication-Bias Drift and Principled Stopping for Biomedical Causal Search",
+      "authors": [
+        "Fred Sun",
+        "Shangqi Guo"
+      ],
+      "summary": "Automated biomedical evidence synthesis depends on retrieving published studies, but the biomedical literature is systematically skewed toward positive findings. Deeper retrieval can therefore make a system \\emph{more} likely to falsely infer benefit when the true effect is null. We formalise this phenomenon as \\emph{evidence drift} and prove that, under a standard publication-bias model, the false-positive probability on null-effect queries follows a strictly increasing large-sample envelope in",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24101v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24101v1",
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24090",
+      "title": "Incremental Consistency Execution for Autonomous Intelligent Systems",
+      "authors": [
+        "Cheng Li",
+        "Jiexiong Liu",
+        "Yixuan Chen",
+        "Ziheng Huang"
+      ],
+      "summary": "Long-horizon autonomous intelligent systems rely on heterogeneous components such as large language models, databases, external APIs, and rule engines, while their external states continuously change during execution. Re-executing the entire workflow after every change introduces substantial redundant computation. This paper proposes an incremental consistency execution method based on task fact contracts, field-level dependency masks, and state perturbation result invariant domains. After an in",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24090v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24090v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24057",
+      "title": "Representation-guided in-context learning for medical image interpretation with multimodal large language models",
+      "authors": [
+        "Minda Zhao",
+        "Fangyu Hu",
+        "Yan Luo",
+        "Yutong Yang",
+        "Jiahui Cai",
+        "Kaichen Zhou",
+        "Manling Li",
+        "Paul Liang",
+        "Yilun Du",
+        "Lucy Q. Shen",
+        "Mengyu Wang"
+      ],
+      "summary": "Medical image interpretation is central to diagnosis and care, yet adapting general-purpose multimodal large language models (MLLMs) often requires resource-intensive domain-specific fine-tuning. Here we introduce representation-guided in-context learning (RG-ICL), a training-free inference framework that retrieves query-aligned demonstrations using frozen encoders, without task-specific parameter updates. Across eight datasets spanning histopathology, radiology and retinal fundoscopy, RG-ICL im",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24057v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24057v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.24012",
+      "title": "Testing, not presuming, adequacy: calibrating generative social simulators against emergent network structure",
+      "authors": [
+        "Tengfei Shao",
+        "Chao Li",
+        "Xu Wang",
+        "Masayuki Goto"
+      ],
+      "summary": "Validation of generative social simulators often stops at face validity: emergent network structure is compared descriptively, without quantified parameter uncertainty or an adequacy check. We present an adequacy-aware calibration protocol that couples amortized posterior estimation with a synthetic identifiability assessment, a matched-sample-size adequacy check (prior-predictive reachability plus per-statistic posterior-predictive localization), a diagnosis-guided repair, and a statistic-held-",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.24012v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24012v1",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SI"
+      ],
+      "comments": "Accepted for publication in the Journal of Artificial Societies and Social Simulation (JASSS). 43 pages (34 main text, 9 supplementary information), 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.23999",
+      "title": "Misaligned Clinical Risk Classification and Cost Asymmetry in Open-Weight Large Language Models",
+      "authors": [
+        "Star S. D. Liu",
+        "Xiyu Ding",
+        "Robert B. Barrett",
+        "Alberto Santamaria-Pang",
+        "Nic Dobbins",
+        "Harold P. Lehmann"
+      ],
+      "summary": "How large language models (LLMs) integrate patient risk with clinical cost tradeoffs remains poorly understood. We investigated how four open-weight LLMs (Qwen-2.5-7B/32B and Llama-3.1-8B/70B) internally represent cost tradeoffs, how these representations relate to clinical predictions, and whether decisions shift as predicted by the specified cost direction and magnitude. Using a public diabetes dataset, we varied 11 false-negative (FN) to false-positive (FP) cost ratios across three phrasings ",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.23999v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.23999v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "Submitted to ML4H 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.23971",
+      "title": "UniK: Universal Knowledge Perception for Digital and Physical AI",
+      "authors": [
+        "Nirmit Desai",
+        "Kunal Sawarkar",
+        "Aditya Mahakali",
+        "Dongkon Lee",
+        "Kevin Park",
+        "Eric Song"
+      ],
+      "summary": "Two transformative classes of AI systems are reshaping how organizations operate: \\textit{digital AI}, which reasons over enterprise knowledge to power chatbots and agent workflows; and \\textit{physical AI}, which learns to control robots and autonomous systems from video, gameplay, and sensor telemetry. Both face the same foundational bottleneck: raw knowledge at scale, spanning heterogeneous modalities, locked in private corpora that existing AI infrastructure cannot access reliably or efficie",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.23971v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.23971v1",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "comments": "17 pages",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.23970",
+      "title": "Exponential Family Synthetic Controls",
+      "authors": [
+        "Hector Rodriguez-Deniz",
+        "David M. Blei"
+      ],
+      "summary": "We develop exponential family synthetic controls (EFSC), a distributional version of synthetic controls for a panel of datasets. Each cell of the panel corresponds to a dataset drawn from an exponential family whose natural parameters factorize probabilistically across units and times. We estimate the latent factors using black-box variational inference. This replaces the usual weighted-average view of synthetic controls with a flexible probabilistic model that operates on full distributions. We",
+      "published": "2026-09-21",
+      "publishedDate": {
+        "iso": "2026-09-21",
+        "year": 2026,
+        "month": 9,
+        "day": 21
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.23970v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.23970v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2609.22048",
       "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
@@ -400,440 +795,6 @@
         "cs.AI"
       ],
       "comments": "33pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20815",
-      "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
-      "authors": [
-        "Zahra Ghaffari",
-        "Massih Bahar",
-        "Mojgan Forootan",
-        "Ali Darvishi",
-        "Hamidreza Bolhasani"
-      ],
-      "summary": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these syndromes are essential for timely diagnosis, individualized patient management, and targeted surveillance strategies for affected families. However, public endoscopic datasets are largely organized around the individual sporadic polyp, and none links the polyposis phenotype to histopathology and ge",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20815v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20815v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20650",
-      "title": "Multi-center Medical Data Mining with FL-Net - A One-stop Shop for Federated Learning",
-      "authors": [
-        "Simon Süwer",
-        "Julian Klemm",
-        "Elisa Acitelli",
-        "Mathieu Almeida",
-        "Lucia Altucci",
-        "Zsolt Bagyura",
-        "Michelangela Barbieri",
-        "Zsolt-Zoltán Bedő",
-        "Rosaria Benedetti",
-        "Béla Bihari",
-        "Csongor Csalóka",
-        "Lucia Dicunta",
-        "Stanislav Ehrlich",
-        "Bjoern M. Eskofier",
-        "Sándor-József Fejér",
-        "Georg Fröwis",
-        "Walter Hötzendorfer",
-        "Alexandra Kautzky-Willer",
-        "Jens Johann Georg Lohmann",
-        "Marianna Maranghi",
-        "Lorenzo Marconi",
-        "Rudolf Mayer",
-        "Wouter Leonard Megchelenbrink",
-        "Monika Moga",
-        "Adham Mottalib",
-        "Sanjeev Mehta",
-        "Madeleine Müller",
-        "Thomas Nyström",
-        "Balázs-Attila Orbán",
-        "Paul O'Toole",
-        "Giuseppe Paolisso",
-        "Paolo Parini",
-        "Matteo Pedrelli",
-        "Enrico Petrillo",
-        "Philipp Poindl",
-        "Niklas Probul",
-        "Anastasia Pustozerova",
-        "Tanja Šarčević",
-        "Lukas Weilguny",
-        "Jan Baumbach",
-        "Andreas Maier"
-      ],
-      "summary": "Federated learning enables collaborative training without sharing patient-level data, but most studies remain simulations. Based on five requirements derived from the literature, we analyzed 14 FL frameworks and found that none fully satisfied these requirements. We present FL-Net, a novel federated clinical research framework to fulfill all requirements. It integrates modular data harmonization, data discovery, disclosure control, securely built versioned FL-Net-Tools and containerized federate",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20650v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20650v1",
-      "categories": [
-        "cs.LG",
-        "cs.CR",
-        "cs.DC"
-      ],
-      "comments": "69 pages, 8 figures, includes supplementary material",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20620",
-      "title": "A Simulation Platform for AUV Fault Recovery: Exploring LLM-Based Diagnostic Strategies",
-      "authors": [
-        "Khalid Halba",
-        "Kylie Cooper",
-        "James G. Bellingham"
-      ],
-      "summary": "Autonomous underwater vehicles (AUVs) operating beyond reliable communications must recover from failures without human intervention. We investigate an architecture in which conventional deterministic layered control autonomy manages normal operations, while an invokable large language model (LLM) serves as a diagnostic and recovery planner when onboard anomaly detection identifies performance outside expected limits. Because language models are stochastic, rigorous evaluation requires ensemble ",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20620v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20620v1",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "comments": "6 pages, 3 figures, 2 tables. Accepted for presentation at the 2026 IEEE/OES Autonomous Underwater Vehicles Symposium (AUV 2026), Southampton, UK. This is the author-accepted manuscript",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20535",
-      "title": "FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model",
-      "authors": [
-        "Zaynab Raounak",
-        "Camille LHermine",
-        "Zhiguo Zeng"
-      ],
-      "summary": "Deep learning predictive maintenance models suffer from poor transferability across machines and operating conditions, especially when labelled data are scarce and signals span five orders of magnitude in sampling frequency (1 Hz to ~100 kHz). We propose FreqCondNorm, a Transformer-based architecture that introduces a FiLM-style frequency-conditioned normalization layer to unify heterogeneous time-series within a single model. The architecture is pretrained on five public predictive maintenance ",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20535v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20535v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20507",
-      "title": "Radio Frequency Detection and Classification of Microplastics in Water",
-      "authors": [
-        "Jaden Tolbert",
-        "Md Saiful Islam",
-        "Pingshan Wang"
-      ],
-      "summary": "Micro- and nano-plastic particles (MPs/NPs) are ubiquitous environmental contaminants whose increasing abundance and potential health impacts have created an urgent need for rapid, label-free detection methods. As particle size decreases to the low-micrometer range, conventional optical and spectroscopic techniques become increasingly challenging because of limited throughput and/or complex sample preparation. In this work, we present a machine learning (ML)-assisted radio-frequency (RF) dielect",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20507v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20507v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20427",
-      "title": "When Do Language-Grounded Explanations Help? A Graph-Bottleneck for Farm Monitoring Interpretable Sheep Facial Pain",
-      "authors": [
-        "Alam Noor",
-        "Miguel Guti'errez Gait'an"
-      ],
-      "summary": "Automated pain recognition from facial expression could make continuous welfare assessment practical in sheep, but adoption depends on trust: a stockperson cannot act on a score that arrives without justification. We ground a model in the Sheep Pain Facial Expression Scale (SPFES) by letting each detected facial region attend over text embeddings of the clinical descriptors and then test whether the resulting explanations mean anything. They do not. Ablating an entire descriptor changes the pred",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20427v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20427v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20147",
-      "title": "Bridging Modalities on the Cortex: Surface-based MRI to PET Translation with a Diffusion Bridge",
-      "authors": [
-        "Yitong Li",
-        "Alexandra Samoylova",
-        "Fabian Bongratz",
-        "Timo Grimmer",
-        "Dennis M. Hedderich",
-        "Igor Yakushev",
-        "Christian Wachinger"
-      ],
-      "summary": "Cortical hypometabolism measured by Fluorodeoxyglucose Positron Emission Tomography (FDG-PET) is a highly sensitive biomarker for dementia diagnosis. However, high costs, radiation exposure, and limited accessibility constrain its clinical utility. While cross-modal synthesis from Magnetic Resonance Imaging (MRI) offers a promising alternative, existing volumetric generation methods do not explicitly account for the highly folded cortical geometry, where disease-related patterns predominantly re",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20147v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20147v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20067",
-      "title": "FCA-Guided Counterfactual Explanations for Multi-Modal Breast Cancer Diagnosis: A Framework Achieving Perfect Validity with Emergent Sparsity",
-      "authors": [
-        "Abdullahi Isa",
-        "Souley Boukari",
-        "Muhammad Aliyu"
-      ],
-      "summary": "Deep learning models for multi-modal breast cancer diagnosis achieve high predictive accuracy but remain clinically unacceptable without actionable, counterfactual explanations. Attribution-based methods (LIME, SHAP) are categorically inapplicable to this purpose, as they generate no alternative instances and thus cannot be evaluated on counterfactual quality metrics. This investigation provides empirical evidence that FCA-Guided Counterfactual (FCA-CF) framework that uses a Formal Concept Analy",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20067v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20067v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.20056",
-      "title": "MAGMA-GEN: Validated Recovery Supervision from Ambiguous Failures via Counterfactual Re-Execution",
-      "authors": [
-        "Loan Bernat",
-        "Matthieu Grard",
-        "Ariane Herbulot",
-        "Florent Lamiraux"
-      ],
-      "summary": "Hierarchical robotic systems executing long-horizon manipulation tasks must make high-level semantic decisions that orchestrate stochastic low-level skills. In this setting, failed rollouts are ambiguous: a poor downstream state may reflect an invalid high-level decision, partial observation, or a valid decision whose physical execution failed. Traditional supervised learning lacks data for such recovery states, while reinforcement learning struggles with sparse rewards and non-local credit assi",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.20056v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.20056v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.19987",
-      "title": "T2 estimation from MOLLI acquisitions",
-      "authors": [
-        "Catarina N Carvalho",
-        "Andreia S Gaspar",
-        "Rita G Nunes",
-        "Teresa M Correia"
-      ],
-      "summary": "Cardiac T1 and T2 quantitative magnetic resonance imaging (MRI) is a technique that provides characterization of a multitude of myocardial pathologies. However, each parameter requires its own specialized acquisition sequence, which may be time-consuming. In this work, we demonstrate that MOLLI, an acquisition sequence commonly used to perform T1 mapping, is also sensitive to T2, and can also be used for myocardial T2 mapping. Although MOLLI is not designed for T2 mapping, its signal evolution i",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.19987v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.19987v1",
-      "categories": [
-        "physics.med-ph",
-        "q-bio.QM"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.19970",
-      "title": "CellRFT: Reinforcement Fine-Tuning for Single-Cell Perturbation Modeling",
-      "authors": [
-        "Jie Yan",
-        "Li Liu",
-        "Hanze Guo",
-        "Jiaxin Hu",
-        "Houxin He",
-        "Xiaoning Qi",
-        "Haoran Wang",
-        "Cong Li",
-        "Zhong-Yuan Zhang",
-        "Yong Wang"
-      ],
-      "summary": "Predicting cellular responses to perturbations supports the study of gene function, disease mechanisms, and therapeutic strategies. Despite advances in single-cell perturbation modeling, existing models typically optimize surrogate losses that do not directly reflect the biological criteria used for evaluation, so better data fitting need not yield better biological predictions. To address this mismatch, we introduce \\textbf{CellRFT}, a reinforcement fine-tuning framework that uses biological ev",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.19970v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.19970v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.19913",
-      "title": "Digital Twins for Opinion Dynamics: A Generative LLM Framework for Social Networks",
-      "authors": [
-        "Omran Berjawi",
-        "Giuseppe Fenza",
-        "Rida Khatoun",
-        "Sherali Zeadally"
-      ],
-      "summary": "The study of opinion dynamics in social networks is one of the key challenges in computational social science with direct relevance to understanding political polarization, misinformation, and health responses. Current approaches focus on simplified mathematical models that ignore linguistic and contextual factors related to belief updates or use Large Language Model (LLM)-based simulations that have not been validated against real data. We present a framework based on the concept of a digital t",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.19913v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.19913v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.19892",
-      "title": "ClashBench: Conflicts Leading Agents to Seize and Harm",
-      "authors": [
-        "Yuejin Xie",
-        "Yu Li",
-        "Dadi Guo",
-        "Qingyu Liu",
-        "Yuqian Fu",
-        "Yanwei Fu",
-        "Yujiu Yang",
-        "Xia Hu",
-        "Dongrui Liu"
-      ],
-      "summary": "As agent systems become more widely used, multiple agent sessions increasingly run alongside pre-existing user tasks in the same environment, sharing resources with limited capacity or mutually exclusive states. This creates a safety risk: when granted sufficient privileges, an agent may resolve a resource conflict by terminating or otherwise disrupting an existing task rather than reporting it. In this work, we identify and formalize this failure mode, which we term destructive resource preempt",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.19892v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.19892v1",
-      "categories": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.19865",
-      "title": "Pretrained Medical Representations for the Practical Screening of Drug Repositioning Candidates",
-      "authors": [
-        "Yuhei Fujioka",
-        "Daitaro Misawa",
-        "Shingo Fukuma"
-      ],
-      "summary": "Representation learning from medical code sequences in electronic health records and medical claims data has been successful in various clinical applications, such as those regarding disease prediction. However, significant challenges remain in extending this approach to the discovery of scientific hypotheses. One reason is that many existing BERT-based models fail to adequately capture the hierarchical structure of medical codes and the complex interactions between diagnoses and treatments. To ",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.19865v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.19865v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted at ICML 2026 AI for Science Workshop",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.19842",
-      "title": "Beyond Flattened Tokens: Structure-Preserving EEG Decoding with Reusable TriDim Blocks",
-      "authors": [
-        "Shiyue Su",
-        "Song Wang",
-        "Zekai Zhan",
-        "Junjie Zeng",
-        "Ziling Lu",
-        "Zongsheng Li",
-        "Xinyuan Ye",
-        "Zhiyuan Ma",
-        "Xinke Shen",
-        "Quanying Liu"
-      ],
-      "summary": "Effective EEG decoding requires representations that preserve organization among channels, local waveform dynamics, and long-range temporal context. Existing EEG architectures often capture these structures using separate specialized modules or collapse them into a single token sequence, making it difficult to maintain their distinct roles and coordinate their interactions throughout the backbone. We propose TriDim, a reusable block that preserves the representation shape and keeps three EEG axe",
-      "published": "2026-09-17",
-      "publishedDate": {
-        "iso": "2026-09-17",
-        "year": 2026,
-        "month": 9,
-        "day": 17
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.19842v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.19842v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
       "arxivVersion": "v1"
     }
   ]

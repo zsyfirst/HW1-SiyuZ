@@ -14,11 +14,429 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-09-23T02:58:49.820Z",
-  "fetchedAt": "2026-09-23T02:58:49.820Z",
+  "lastUpdated": "2026-09-24T02:49:21.966Z",
+  "fetchedAt": "2026-09-24T02:49:21.966Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2609.28252",
+      "title": "Circadian Derived Features for Early Discrimination Across Insomnia Severity Levels: At Least 8 Weeks of Monitoring Are Needed for Clinically Meaningful Assessment",
+      "authors": [
+        "Soheil Saghafi",
+        "Thomas C. Neylan",
+        "Qiao Li",
+        "Samuel A. McLean",
+        "Gari D. Clifford"
+      ],
+      "summary": "Background: Wearable devices provide continuous, objective measures of daily activity and offer promise for assessing sleep disorders. However, the minimum monitoring duration needed to differentiate insomnia severity remains unclear. We investigated when wearable-derived behavioral features become informative for distinguishing Insomnia Severity Index (ISI) categories and examined the contribution of Activity Count (AC) and circadian-derived features. Methods: We analyzed wearable data from 2,3",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.28252v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.28252v1",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.28197",
+      "title": "PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety",
+      "authors": [
+        "Jiapeng Sun",
+        "Yujin Zhou",
+        "Han Zhu",
+        "Pengcheng Wen",
+        "Jiayi Zhou",
+        "Sirui Han",
+        "Yike Guo"
+      ],
+      "summary": "As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step workflows has become a critical challenge. While recent work has moved beyond single-turn evaluation toward multi-turn paradigms, key limitations persist: step-level methods treat actions in isolation, missing how risks accumulate, while trajectory-level evaluations operate post-hoc, offering no opportunity for timely intervention. To address these limitations",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.28197v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.28197v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "EMNLP 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.28110",
+      "title": "Field-of-View Extension in Dental Cone-Beam CT via Implicit Neural Representations and Diffusion Model-Based Refinement",
+      "authors": [
+        "Susanne Schaub",
+        "Florentin Bieder",
+        "Matheus L. Oliveira",
+        "Yulan Wang",
+        "Buyanbileg Sodnom-ish",
+        "Dorothea Dagassan-Berndt",
+        "Michael M. Bornstein",
+        "Philippe C. Cattin"
+      ],
+      "summary": "Dental cone-beam computed tomography (CBCT) systems often employ detector configurations that provide a truncated field of view (FOV) that only captures a small part of the patient's anatomy. In this work, we aim to reconstruct an extended FOV using projections of truncated FOV scans. To this end, we propose a three-stage framework that consists of (1) an implicit neural representation (INR) for estimating missing parts of the truncated projection data, (2) an iterative reconstruction for genera",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.28110v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.28110v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "Accepted at MICAD 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.28105",
+      "title": "Fed-ReMasker: Federated Tabular Imputation under Feature-Level Missingness",
+      "authors": [
+        "Ioannis Papathanail",
+        "Rooholla Poursoleymani",
+        "Lubnaa Abdur Rahman",
+        "Stavroula Georgia Mougiakakou"
+      ],
+      "summary": "Multi-center clinical studies and biomedical research collaborations increasingly seek to utilize data across centers to build models that generalize beyond any single center. This creates two distinct challenges: data protection regulations may restrict the sharing of raw patient data across institutions, while centers may collect only partially overlapping sets of features under different protocols. Federated learning enables collaborative model training without centralizing raw data. However,",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.28105v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.28105v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.28087",
+      "title": "Discovery of fully efficient fault indicators along a data-based diagnosis process",
+      "authors": [
+        "Igor Bezmaternykh",
+        "Louise Travé-Massuyès",
+        "Elodie Chanthery"
+      ],
+      "summary": "The integration of model-based and data-driven paradigms provides a powerful framework for fault diagnosis by combining the interpretability of analytical redundancy relations, i.e., input-output relations that are used as diagnosis indicators in model-based diagnosis, with the adaptability of learning techniques. DT4X is a recent diagnosis algorithm that uses symbolic regression to generate multivariate relations leveraging some properties of analytical redundancy relations and uses them as spl",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.28087v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.28087v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comments": "Submission accepted to IFAC WC 2026 (waiting for publication)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.28048",
+      "title": "TEMPS: Temporal Sentence Embeddings for Temporal Information Retrieval",
+      "authors": [
+        "Mourad Hassani",
+        "Julien Romero",
+        "Amel Bouzeghoub",
+        "Christian Jacquelinet"
+      ],
+      "summary": "Modern information retrieval (IR) systems rarely represent time, yet many information needs depend on it: in clinical, journalistic, and legal search, when an event occurred can decide whether a document is relevant. Dense retrievers and Retrieval-Augmented Generation (RAG) pipelines match queries to documents well on topic but poorly on time, so they surface content that is on-topic yet temporally wrong. We introduce Temporal Textual Similarity (TTS), a task that measures how well two anchored ",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.28048v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.28048v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27987",
+      "title": "PCQC: Privileged Counterfactual Question Credit for Multi-Turn Medical Dialogue",
+      "authors": [
+        "Chenxuan Li",
+        "Jiayi Wan",
+        "Xinrong Chen",
+        "Zhongyu Zhao",
+        "Xuecheng Shang",
+        "Peixing Wan"
+      ],
+      "summary": "Large language models (LLMs) have made substantial progress on medical question-answering, yet effective medical dialogue also requires learning to ask questions that uncover relevant patient information. To train such dialogue policies, a common pipeline combines supervised fine-tuning with reinforcement learning (RL) based on final diagnostic correctness. However, this outcome-based supervision does not directly distinguish the contributions of individual questions and provides no question-lev",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27987v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27987v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "19 pages, 4 figures, 13 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27710",
+      "title": "FFM-CP: Cross-Backbone Fusion of Vision-Language Foundation Models for Few-Shot Computational Pathology",
+      "authors": [
+        "Anh-Tien Nguyen",
+        "Trung DQ. Dang",
+        "Nghiem Tuong Diep",
+        "Bui Ngoc Han Nguyen",
+        "Tan-Ha Mai",
+        "Miriam Cindy Maurer",
+        "Phuong Hoa Nguyen",
+        "Thi Thuy Uyen Nguyen",
+        "Youngjun Park",
+        "Daniel Sonntag",
+        "Duy Minh Ho Nguyen",
+        "Anne-Christin Hauschild"
+      ],
+      "summary": "Pathology vision-language foundation models vary in performance across diseases and tasks, with no single model consistently performing best. The high cost of expert pathology annotation can also limit the labeled data available for task-specific adaptation. Combining complementary pretrained representations is a potential approach to these limitations, yet learning an effective fusion from few labeled examples remains challenging. We introduce Few-shot Fusion Foundation Models of Computational ",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27710v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27710v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27633",
+      "title": "Pheno-GS: Phenoscape-scale Geodesic Sinkhorn",
+      "authors": [
+        "Alistair Wilkinson",
+        "Christopher J. Tape",
+        "Smita Krishnaswamy"
+      ],
+      "summary": "High-throughput single-cell data is now collected across large patient cohorts. Understanding patient-level heterogeneity from cellular-level data motivates phenoscaping: embedding each single-cell distribution as a \"datapoint,\" with distances given by optimal transport (OT). Computing geometry-aware OT at this scale, between all pairs of patient datasets, remains an open challenge, since existing methods either rely on Euclidean ground metrics that distort manifold structure or fail under spars",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27633v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27633v1",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27607",
+      "title": "Can Jev Judge Radiology Reports? Evaluating a System One Model for Clinical Factuality",
+      "authors": [
+        "Jiaju Huang",
+        "Hao Yang",
+        "Xinyu Ma",
+        "Xinglong Liang",
+        "Kunyan Cai",
+        "Junqiang Ma",
+        "Shaobin Chen",
+        "Yue Sun",
+        "Tao Tan"
+      ],
+      "summary": "An AI-generated radiology report can resemble a physician's report while omitting an abnormality, adding an unsupported finding, or reversing its presence. Measuring these factual differences is essential for evaluating report generators. We study Jev, a System One decision model, as a simple, low-cost judge of agreement with physician-written reference reports. Our evaluator checks whether each statement is supported by the other report and combines these judgments in both directions to capture",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27607v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27607v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27571",
+      "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
+      "authors": [
+        "Weihang Ding",
+        "Junfei Zhan",
+        "Yueting Li",
+        "Qirong Guo"
+      ],
+      "summary": "Deployment requires an agent to turn application code into a running system whose services connect, become ready, and remain observable. FDE-Bench evaluates this capability with 136 deployment-configuration tasks spanning Docker images, multi-service Compose stacks, and Kubernetes, in greenfield and diagnose-and-repair modes. Agents submit declarative artifacts that are collected, rebuilt, and redeployed in a pristine environment. Four gated binary check layers measure build, readiness, behavior",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27571v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27571v1",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27523",
+      "title": "M3D-Net: Hierarchical Coordination of Spatial Context, Feature Reuse, and Differential Attention for Mammography Classification",
+      "authors": [
+        "Zheng Yu",
+        "Xinhang Li",
+        "Jiabao Gao",
+        "Boyang Wang",
+        "Xiang Li"
+      ],
+      "summary": "Breast image classification requires local detail and global tissue context, yet these cues can weaken as representations deepen. We present M3D-Net, a mammography encoder that hierarchically coordinates multi-scale coordinate attention, bounded dynamic feature reuse, and differential attention through resolution-aware operator placement. Within-stage retrieval preserves access to earlier features, coordinate-aware aggregation integrates local and global context, and differential attention opera",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27523v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27523v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "Submitted to IEEE ICASSP 2027; 5 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27517",
+      "title": "Not What You Meant: Can LLMs Follow a Specified Negation Semantics?",
+      "authors": [
+        "Qiming Bao",
+        "Agnieszka Mensfelt",
+        "Michael J. Witbrock",
+        "Kostas Stathis"
+      ],
+      "summary": "Negation does not carry a uniform interpretation across domains. In legal, regulatory, and medical reasoning, the intended interpretation depends on the reading in force -- open- versus closed-world, two- versus three-valued, and credulous versus skeptical. We study which reading of negation large language models adopt by default and whether they can override that preference when a different reading is explicitly specified. To this end, we introduce NAFBench, a procedural generator of solver-cer",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27517v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27517v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27511",
+      "title": "NV-Reason-CT: 3D Visual Language Model for CT Analysis",
+      "authors": [
+        "Andriy Myronenko",
+        "Dong Yang",
+        "Yucheng Tang",
+        "Baris Turkbey",
+        "Benjamin Simon",
+        "Stephanie Harmon",
+        "Rikhil Makwana",
+        "Mariam Aboian",
+        "Sena Azamat",
+        "Ibrahim Ethem Hamamci",
+        "Sezgin Er",
+        "Bjoern Menze",
+        "Marc Edgar",
+        "Yufan He",
+        "Pengfei Guo",
+        "Daguang Xu"
+      ],
+      "summary": "We present NV-Reason-CT, a generative vision--language model for chest and abdominal CT combining native 3D visual encoding with radiologist-guided reasoning. The model couples a native 3D vision transformer with a language model, passing all visual tokens and their explicit 3D coordinates into language decoding without further spatial token merging. This retains volumetric spatial information within the vision encoder and through the language model's positional encoding during joint processing ",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27511v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27511v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2609.27473",
+      "title": "Learning Where to Look: A Shared Relative-Alignment Module for Time-Series Forecasting and PPG-to-Vital-Sign Reconstruction",
+      "authors": [
+        "Ragamayi Puli",
+        "Shunya Nagashima"
+      ],
+      "summary": "PPG-to-vital-sign reconstruction turns a wrist-worn photoplethysmogram into clinical waveforms such as the ECG. Long-horizon multivariate time-series forecasting underpins planning in energy, weather, and traffic. Both generate a target sequence from a condition sequence, and current models hard-code where each target position reads it, as a same-position copy or seasonal recurrence, so neither transfers between tasks. We propose ROOSTER, one conditioning module that handles vital-sign reconstru",
+      "published": "2026-09-23",
+      "publishedDate": {
+        "iso": "2026-09-23",
+        "year": 2026,
+        "month": 9,
+        "day": 23
+      },
+      "arxivUrl": "http://arxiv.org/abs/2609.27473v1",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27473v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2609.26756",
       "title": "FleXray: Universal Clinical X-ray Segmentation",
@@ -422,401 +840,6 @@
         "cs.AI"
       ],
       "comments": "7 pages,2 tables, 2 figures. Submitted to EMBC 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24480",
-      "title": "Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards",
-      "authors": [
-        "Kalash Shah",
-        "Kunal Singh",
-        "Snehan J",
-        "Shreyas Singh"
-      ],
-      "summary": "Deploying Large Language Models (LLMs) in healthcare requires robust performance across two complementary dimensions - diagnostic reasoning: the convergent, evidence-driven task of inferring a patient's condition from clinical data to produce a diagnosis, and clinical healthcare reasoning: the broader, navigational judgment required to communicate, plan, and adapt across multi-turn clinical interactions where a single correct answer may not exist. Recent benchmarks such as HealthBench and MedXpe",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24480v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24480v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "comments": "18 pages, 5 Figures, Correspondence to kunal.singh@fractal.ai",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24453",
-      "title": "Predicting Postprandial Glycemic Response from Meal Images, Clinical Variables, and Gut Microbiome Information",
-      "authors": [
-        "Varvara Kondratyeva",
-        "Kamilia Zaripova",
-        "Nassir Navab",
-        "Azade Farshad"
-      ],
-      "summary": "Predicting postprandial glycemic response (PPGR) is fundamental to personalized nutrition and type 2 diabetes management, yet existing approaches typically rely on manually reported dietary intake, limiting their scalability in free-living settings. We propose a multimodal framework that replaces manual dietary logging with image-derived macronutrient estimates and integrates them with clinical variables and gut microbiome information for personalized PPGR prediction. The framework jointly perfo",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24453v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24453v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "11 pages (9 text + 2 references). This is a paper first submitted to MICCAI 2026 MultiTab workshop prior to peer review. The final revised version will be published in Springer LNCS proceedings after the MICCAI 2026 conference",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24432",
-      "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
-      "authors": [
-        "Huanxin Sheng",
-        "Zhiling Ye",
-        "Haonan Wang",
-        "Jian Wang",
-        "Jinjie Gu",
-        "Jian Kang"
-      ],
-      "summary": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in information geometry and propose an information-efficiency ratio (IER) based on a signal-to-noise decomposition. IER characterizes relative gradient estimation error under an optimal scalar baseline. A",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24432v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24432v1",
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24386",
-      "title": "Machine Learning-Based Prediction of Childhood Stunting in Bangladesh: Fairness and Temporal Robustness Assessment",
-      "authors": [
-        "Md Ahshanul Haque",
-        "Muhammad Ashad Kabir"
-      ],
-      "summary": "Childhood stunting remains a major public health concern in Bangladesh and reflects long-term growth failure influenced by child, maternal, household, socioeconomic, and health-service factors. This study used nationally representative Bangladesh Demographic and Health Survey data from 2007 to 2022 to develop machine learning models for population-level prediction of childhood stunting and to assess temporal robustness and subgroup fairness. Children aged 0-59 months with complete anthropometric",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24386v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24386v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted to AusDM, 15 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24370",
-      "title": "Prescriptive SVD-Inspired Attention via Spectral Energy Retention",
-      "authors": [
-        "Vasileios Arampatzakis",
-        "Vasileios Sevetlidis",
-        "George Pavlidis"
-      ],
-      "summary": "Self-attention is central to modern Transformer architectures, but its dense dot-product formulation makes it difficult to identify which internal directions are structurally important and which can be modified without disrupting the model. SVD-Inspired Attention (SVDA) addresses part of this problem by introducing a learned diagonal spectrum into the query-key score interaction, making latent attention directions explicitly inspectable through indicators such as spectral entropy, effective rank",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24370v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24370v1",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "comments": "Published in Transactions on Machine Learning Research (TMLR), 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24338",
-      "title": "Pharmacokinetic State Space Models for Unbiased Prediction of Haemodynamic Collapse",
-      "authors": [
-        "Rithin Nagaraj",
-        "Sudiksha Chindula",
-        "Bhaskarjyoti Das"
-      ],
-      "summary": "An Intraoperative Hypotension (IOH) event is a frequent complication during administration of general anaesthesia with serious downstream consequences, yet clinical management remains reactive and not predictive. Existing predictive models, however, ignore drug infusion history as a valuable signal for prediction despite its direct pharmacological relevance. Our model achieves an Area Under the Receiver Operating Characteristic curve (AUROC) of 0.7360 and an Area Under the Precision-Recall Curve",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24338v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24338v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Published in Springer Nature after presenting at the International Conference on AI in Healthcare, London",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24324",
-      "title": "Brain-Token Learning: Microstate-Based Tokenization and Multi-Scale Interaction for Long-Horizon EEG Sequence Modeling",
-      "authors": [
-        "Weishan Ye",
-        "Yue Pan",
-        "Li Zhang",
-        "Gan Huang",
-        "Zhen Liang"
-      ],
-      "summary": "Electroencephalography (EEG) provides a non-invasive window into dynamic brain activity, yet modeling long-horizon EEG sequences remains challenging due to their high temporal complexity, substantial variability across subjects, and the lack of biologically meaningful sequence representations. Existing tokenization strategies, such as fixed-window and patch-based representations, discretize EEG signals according to artificial temporal boundaries, which may disrupt intrinsic brain-state dynamics.",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24324v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24324v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24265",
-      "title": "Unsupervised Brain Anomaly Detection as a Bayesian Inverse Problem with Diffusion Prior",
-      "authors": [
-        "Hugues Roy",
-        "Reuben Dorent",
-        "Ninon Burgos"
-      ],
-      "summary": "Unsupervised anomaly detection (UAD) aims to localize abnormal regions in medical scans without pixel-level annotations. A typical strategy seeks to reconstruct a pseudo-healthy image that preserves subject-specific anatomy. Recently, diffusion models have been proposed to perform UAD. However, these methods rely on heuristic noise schedules or synthetic corruptions to balance subject-specificity and anomaly removal. In this work, we propose an alternative formulation of UAD as a Bayesian invers",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24265v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24265v1",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24101",
-      "title": "When More Evidence Hurts: Publication-Bias Drift and Principled Stopping for Biomedical Causal Search",
-      "authors": [
-        "Fred Sun",
-        "Shangqi Guo"
-      ],
-      "summary": "Automated biomedical evidence synthesis depends on retrieving published studies, but the biomedical literature is systematically skewed toward positive findings. Deeper retrieval can therefore make a system \\emph{more} likely to falsely infer benefit when the true effect is null. We formalise this phenomenon as \\emph{evidence drift} and prove that, under a standard publication-bias model, the false-positive probability on null-effect queries follows a strictly increasing large-sample envelope in",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24101v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24101v1",
-      "categories": [
-        "cs.AI",
-        "cs.IR"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24090",
-      "title": "Incremental Consistency Execution for Autonomous Intelligent Systems",
-      "authors": [
-        "Cheng Li",
-        "Jiexiong Liu",
-        "Yixuan Chen",
-        "Ziheng Huang"
-      ],
-      "summary": "Long-horizon autonomous intelligent systems rely on heterogeneous components such as large language models, databases, external APIs, and rule engines, while their external states continuously change during execution. Re-executing the entire workflow after every change introduces substantial redundant computation. This paper proposes an incremental consistency execution method based on task fact contracts, field-level dependency masks, and state perturbation result invariant domains. After an in",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24090v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24090v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24057",
-      "title": "Representation-guided in-context learning for medical image interpretation with multimodal large language models",
-      "authors": [
-        "Minda Zhao",
-        "Fangyu Hu",
-        "Yan Luo",
-        "Yutong Yang",
-        "Jiahui Cai",
-        "Kaichen Zhou",
-        "Manling Li",
-        "Paul Liang",
-        "Yilun Du",
-        "Lucy Q. Shen",
-        "Mengyu Wang"
-      ],
-      "summary": "Medical image interpretation is central to diagnosis and care, yet adapting general-purpose multimodal large language models (MLLMs) often requires resource-intensive domain-specific fine-tuning. Here we introduce representation-guided in-context learning (RG-ICL), a training-free inference framework that retrieves query-aligned demonstrations using frozen encoders, without task-specific parameter updates. Across eight datasets spanning histopathology, radiology and retinal fundoscopy, RG-ICL im",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24057v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24057v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.24012",
-      "title": "Testing, not presuming, adequacy: calibrating generative social simulators against emergent network structure",
-      "authors": [
-        "Tengfei Shao",
-        "Chao Li",
-        "Xu Wang",
-        "Masayuki Goto"
-      ],
-      "summary": "Validation of generative social simulators often stops at face validity: emergent network structure is compared descriptively, without quantified parameter uncertainty or an adequacy check. We present an adequacy-aware calibration protocol that couples amortized posterior estimation with a synthetic identifiability assessment, a matched-sample-size adequacy check (prior-predictive reachability plus per-statistic posterior-predictive localization), a diagnosis-guided repair, and a statistic-held-",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.24012v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.24012v1",
-      "categories": [
-        "cs.AI",
-        "cs.MA",
-        "cs.SI"
-      ],
-      "comments": "Accepted for publication in the Journal of Artificial Societies and Social Simulation (JASSS). 43 pages (34 main text, 9 supplementary information), 4 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.23999",
-      "title": "Misaligned Clinical Risk Classification and Cost Asymmetry in Open-Weight Large Language Models",
-      "authors": [
-        "Star S. D. Liu",
-        "Xiyu Ding",
-        "Robert B. Barrett",
-        "Alberto Santamaria-Pang",
-        "Nic Dobbins",
-        "Harold P. Lehmann"
-      ],
-      "summary": "How large language models (LLMs) integrate patient risk with clinical cost tradeoffs remains poorly understood. We investigated how four open-weight LLMs (Qwen-2.5-7B/32B and Llama-3.1-8B/70B) internally represent cost tradeoffs, how these representations relate to clinical predictions, and whether decisions shift as predicted by the specified cost direction and magnitude. Using a public diabetes dataset, we varied 11 false-negative (FN) to false-positive (FP) cost ratios across three phrasings ",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.23999v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.23999v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "Submitted to ML4H 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.23971",
-      "title": "UniK: Universal Knowledge Perception for Digital and Physical AI",
-      "authors": [
-        "Nirmit Desai",
-        "Kunal Sawarkar",
-        "Aditya Mahakali",
-        "Dongkon Lee",
-        "Kevin Park",
-        "Eric Song"
-      ],
-      "summary": "Two transformative classes of AI systems are reshaping how organizations operate: \\textit{digital AI}, which reasons over enterprise knowledge to power chatbots and agent workflows; and \\textit{physical AI}, which learns to control robots and autonomous systems from video, gameplay, and sensor telemetry. Both face the same foundational bottleneck: raw knowledge at scale, spanning heterogeneous modalities, locked in private corpora that existing AI infrastructure cannot access reliably or efficie",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.23971v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.23971v1",
-      "categories": [
-        "cs.AI",
-        "cs.CV",
-        "cs.IR",
-        "cs.LG"
-      ],
-      "comments": "17 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2609.23970",
-      "title": "Exponential Family Synthetic Controls",
-      "authors": [
-        "Hector Rodriguez-Deniz",
-        "David M. Blei"
-      ],
-      "summary": "We develop exponential family synthetic controls (EFSC), a distributional version of synthetic controls for a panel of datasets. Each cell of the panel corresponds to a dataset drawn from an exponential family whose natural parameters factorize probabilistically across units and times. We estimate the latent factors using black-box variational inference. This replaces the usual weighted-average view of synthetic controls with a flexible probabilistic model that operates on full distributions. We",
-      "published": "2026-09-21",
-      "publishedDate": {
-        "iso": "2026-09-21",
-        "year": 2026,
-        "month": 9,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2609.23970v1",
-      "pdfUrl": "https://arxiv.org/pdf/2609.23970v1",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "comments": "",
       "arxivVersion": "v1"
     }
   ]

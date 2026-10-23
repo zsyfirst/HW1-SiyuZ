@@ -14,11 +14,511 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-10-22T02:59:46.226Z",
-  "fetchedAt": "2026-10-22T02:59:46.226Z",
+  "lastUpdated": "2026-10-23T03:03:30.565Z",
+  "fetchedAt": "2026-10-23T03:03:30.565Z",
   "totalPapers": 30,
   "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2610.31659",
+      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+      "authors": [
+        "Sy-Tuyen Ho",
+        "Anirudh Satheesh",
+        "Soham Chawathe",
+        "Huy Nghiem",
+        "Yongkyun Lee",
+        "Andrew Adams Schoen",
+        "Furong Huang"
+      ],
+      "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a suspect model's generated outputs. Existing approaches often trade off verifiability, fidelity, robustness, and deployability. We introduce $\\textbf{SpectralCanary",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31659v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31659v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "NeurIPS 2026 Workshop on Attributing Model Behavior at Scale",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31606",
+      "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+      "authors": [
+        "Miguel Mochizuki Silva",
+        "Samuel Ismael",
+        "Mateus C. Dias",
+        "Thaís Gaudêncio",
+        "Yuri Malheiros",
+        "Barufaldi"
+      ],
+      "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens, overlaps of 0 to 20%, and f",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31606v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31606v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "18 pages, 3 figures, 6 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31586",
+      "title": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
+      "authors": [
+        "Miguel Fernandez-de-Retana",
+        "Unai Zulaika",
+        "Ruben Sanchez-Corcuera",
+        "Aritz Bilbao-Jayo",
+        "Aitor Almeida"
+      ],
+      "summary": "Accuracy on medical examinations is common evidence offered for the clinical use of language models, yet a health system that intends to run an open model on its own hardware needs to know considerably more: whether the model recognizes when it is likely to be wrong, whether medical fine-tuning improves this ability, whether its correct answers rest on sound clinical reasoning, or whether it actually uses the images it is given. We examine these questions for four open models of 8 to 27 billion ",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31586v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31586v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "comments": "13 pages, 8 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31538",
+      "title": "LACToS: Local Anomaly Detection via Conditional Typicality of Superpixels",
+      "authors": [
+        "Jihoon Hong",
+        "Alireza Kheirandish",
+        "Rohan Sanda",
+        "Sara Fridovich-Keil"
+      ],
+      "summary": "Local anomaly detection is the task of identifying spatially confined anomalous or out-of-distribution (OOD) regions within an otherwise in-distribution (ID) image. Most existing methods are designed for a specific context, with a strong focus on industrial defect detection, where they achieve excellent performance on well-established benchmarks. However, we observe that these methods can exhibit significant performance drops in other contexts, especially when the inlier distribution is multimod",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31538v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31538v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31519",
+      "title": "From Prompt Rules to Golden Data Model: Production-Scale Generation of Personalized, Compliant Pharmaceutical Claims",
+      "authors": [
+        "Suyash Mishra",
+        "Qiang Li",
+        "Subhabrata Adak",
+        "Upender Phogat",
+        "Srikanth Patil",
+        "Satyanarayan Pati"
+      ],
+      "summary": "Large language models (LLMs) are increasingly used to generate domain-specific commercial &amp; medical content (e.g., claims, statements, and promotional phrases) in regulated industries such as pharmaceuticals. However, ensuring its regulatory compliance, factual accuracy, and audience-specific personalization remains a major challenge. We report a production case study asking whether moving compliance and personalization signal from prompt-level rules into retrieval time structured context im",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31519v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31519v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31433",
+      "title": "Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation",
+      "authors": [
+        "Bin Hu",
+        "Yingbo Xiao"
+      ],
+      "summary": "KV cache compression for multimodal LLMs usually selects the visual tokens to keep once, at prefill, and reuses that selection for the whole generation. We show that this one-shot selection is severely limited on long-form generation: on detailed image description, even an oracle that selects with the attention of the uncompressed answer reaches only 0.44-0.52 ROUGE-L agreement with the uncompressed output, because the evidence the model reads moves as the description unfolds. Re-selecting whene",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31433v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31433v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "17 pages, 7 figures, 13 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31414",
+      "title": "Major Revision, Minor Accountability: LLMs as Reviewers of Published Articles in Top-Tier Journals",
+      "authors": [
+        "Bastien Le Guellec",
+        "Su Hwan Kim",
+        "Raphael Bentegeac",
+        "Aghiles Hamroun"
+      ],
+      "summary": "With the growth of scientific output, the peer review system is approaching a breaking point: reviewers are increasingly hard to secure, and turnaround times lengthen accordingly. LLM-assisted or LLM-generated peer review has been proposed as a remedy, but how such models would treat manuscripts already published in top-tier journals, the closest thing the current system has to a gold standard of scientific validity, is not known. Here we assembled a corpus of 200 articles, each released under a",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31414v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31414v1",
+      "categories": [
+        "cs.DL",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31328",
+      "title": "Deep Learning for Random Objects in Metric Spaces: Beyond Manifold Assumptions",
+      "authors": [
+        "Marcos Matabuena",
+        "Xiaokai Luo",
+        "Oscar Hernan Madrid Padilla"
+      ],
+      "summary": "Deep learning (DL) methods have substantially improved predictive performance across a wide range of downstream prediction tasks, enabling new discoveries in multiple domains. However, principled DL methods for non-Euclidean random objects remain relatively scarce, despite the growing importance of modern biomedical outcomes taking the form of probability distributions, random graphs, functions, and other random objects in metric spaces. Motivated by a new generation of digital and clinical biom",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31328v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31328v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST",
+        "stat.ME"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31323",
+      "title": "Bridging the Data Gap: Source-Informed Task-Space Transport for Few-Shot Diffusion",
+      "authors": [
+        "Jinjian Jiang",
+        "Jing Peng",
+        "Rehan Deen",
+        "Yu Cao",
+        "Ziquan Liu",
+        "Muhammad Salman Haleem",
+        "David Mguni"
+      ],
+      "summary": "Many deployments require a model to move rapidly from a data-rich source to a related target observed only sparsely. This is especially consequential where target data are difficult to collect, as in healthcare settings with persistent population or acquisition imbalances. Retraining or fine-tuning a high-capacity generator for every target is costly and can be statistically unreliable when target data are scarce. We introduce Meta-Diff, which instead learns a recurring source--target relation o",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31323v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31323v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31315",
+      "title": "The Value of System 1 Models in Medicine",
+      "authors": [
+        "Xiufeng Yang",
+        "Konstantinos Vrettos",
+        "Zeineb Ben Chaaben",
+        "Fabian Drexel",
+        "Jannik Lübberstedt",
+        "Johannes Moll",
+        "Anirudh Narayanan",
+        "Frederike Stumpf",
+        "Cosmin I. Bercea",
+        "Jiawen Wang",
+        "Evangelia E. Vassalou",
+        "Krischan Braitsch",
+        "Sebastian Ziegelmayer",
+        "Markus Graf",
+        "Marcus R. Makowski",
+        "Lisa Adams",
+        "Nassir Navab",
+        "Michail E. Klontzas",
+        "Keno Bressem"
+      ],
+      "summary": "Many clinical decisions are a choice among a few fixed options, taken quickly and in large numbers. Such decisions also need an uncertainty estimate to know when to defer to a clinician. Generative language models answer slowly in free text and state their confidence poorly. In contrast, System 1 models answer zero-shot with a probability for each answer. However, their performance across clinical tasks is unknown. Four System 1 models, two proprietary and two with open weights, were evaluated z",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31315v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31315v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "27 pages, 6 figures; includes Supplementary Appendix (3 figures, 5 tables)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31314",
+      "title": "When LLMs Forget What They Believe: Characterizing State Integrity Collapse in Long-Horizon Dialogues",
+      "authors": [
+        "Yancheng Zhu",
+        "Yifan Yuan"
+      ],
+      "summary": "Large language models can repeat an instruction while failing to keep obeying it. We study this recall-compliance dissociation in long-horizon dialogue and define State Integrity Collapse: a model preserves a stated constraint in memory but stops applying it to later turns. We introduce StateTrack-Bench, a controlled suite of conversations covering numerical, format, role/persona, factual-memory, and logical-rule constraints. Across seven provider-pinned model snapshots and five dialogue-depth p",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31314v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31314v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "Accepted at EMNLP 2026 Main Conference. 17 pages including appendices",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31276",
+      "title": "RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding",
+      "authors": [
+        "Jingxuan Xu",
+        "Zihang Xu",
+        "Yuechen Luo",
+        "Ziqi Miao",
+        "Wenqiang Zhu",
+        "Weihao Li",
+        "Junhao Fan",
+        "Xinshun Feng",
+        "Zhiyi Lai",
+        "Yanan Wu",
+        "Haoyang Huang",
+        "Ken Deng"
+      ],
+      "summary": "Long-horizon coding agents can observe a failure and generate a plausible critique yet continue along the same incorrect trajectory. We call this the Critique-to-Action Handoff Gap. We introduce RIPPLE, a recovery-oriented training framework that internalizes process-level guidance into a single self-recovering policy. A prefix-only teacher provides evidence-grounded recovery supervision without access to future actions or terminal outcomes. After lightweight distillation, reinforcement learning",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31276v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31276v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31216",
+      "title": "Local Discrimination of Binary Classifiers via Localized AUC Functional",
+      "authors": [
+        "Wenye Ren",
+        "Anna Győrffy-Kerekes",
+        "Tancredi Dorsi",
+        "Olga Demler"
+      ],
+      "summary": "Risk prediction models are frequently evaluated with AUC, which means that during evaluation we are blind to performance heterogeneity, which could lead to bad decision-making in clinics. In this work, we aim to change that by identifying patient cohorts for whom the risk prediction model might not be an accurate predictor. To separate these cohorts, we use a version of the weighted AUC, which we call Localized AUC or LAUC. Using this metric, we build a method that we coin LOCATOR. This method i",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31216v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31216v1",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.31066",
+      "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+      "authors": [
+        "Zhefan Rao",
+        "Meng Chu",
+        "Xuan Zhang",
+        "Jingfan Chen",
+        "Guohao Cai",
+        "Runyi Li",
+        "Shiyi Du",
+        "Ning Lu",
+        "Xu Huang",
+        "Zhixuan Chen",
+        "Feng Nie",
+        "Harold Haodong Chen",
+        "Hanwen Wang",
+        "Wen-Jie Shu",
+        "Yajing Bai",
+        "Xianfeng Wu",
+        "Xuanhua He",
+        "Shuhan Guo",
+        "Ziyue Ma",
+        "Ruichuan An",
+        "Long Bai",
+        "Miaosen Chai",
+        "Wenhao Chai",
+        "Jingye Chen",
+        "Qi Chen",
+        "Xuhang Chen",
+        "Wei Chow",
+        "Minghao Fu",
+        "Yunhao Gou",
+        "Haokun Gui",
+        "Dong Huang",
+        "Wei Huang",
+        "Zi Cheng Huang",
+        "Haibo Jin",
+        "Lingdong Kong",
+        "Leung Chun Ho",
+        "Tianqin Li",
+        "Yanheng Li",
+        "Jiayuan Liu",
+        "Jiyang Liu",
+        "Mingyu Liu",
+        "Shaoteng Liu",
+        "Xiaocheng Lu",
+        "Yawen Luo",
+        "Zeyu Qin",
+        "Tiancheng Shen",
+        "Yueqi Song",
+        "Zhaolong Su",
+        "Hengkai Tan",
+        "Tianhao Tang",
+        "Yiran Tao",
+        "Juncheng Wang",
+        "Qinghe Wang",
+        "Shangshang Wang",
+        "Yingying Wang",
+        "Fang Wu",
+        "Tiange Xiang",
+        "Qiushi Yang",
+        "Weicai Ye",
+        "Weichen Yu",
+        "Jiarui Zhang",
+        "Jize Zhang",
+        "Liuzhou Zhang",
+        "Renrui Zhang",
+        "Sheng Zhang",
+        "Wenhu Zhang",
+        "Junru Zhao",
+        "Lingting Zhu",
+        "Yuxin Zuo",
+        "Yutong Bai",
+        "Long Chen",
+        "Yang Deng",
+        "Ziqi Huang",
+        "Yeying Jin",
+        "Weijia Li",
+        "Kevin Qinghong Lin",
+        "Quande Liu",
+        "See-Kiong Ng",
+        "Hongliang Ren",
+        "Hongru Wang",
+        "Shujun Wang",
+        "Qifeng Chen",
+        "Haoxuan Che"
+      ],
+      "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and scientific domains. The Agent track compares 10 configurations on 1,088 items in ",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.31066v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31066v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.30989",
+      "title": "ColaBench: Evaluating Memory-Guided Knowledge Acquisition in Personal Agents",
+      "authors": [
+        "Wenjie Zhang",
+        "Zhichao Shi",
+        "Xuhui Jiang",
+        "Xiaojun Wu",
+        "Cehao Yang",
+        "Chengjin Xu",
+        "Xiaoning Song"
+      ],
+      "summary": "Personal agents need to draw on long-term interaction history to retrieve and apply external knowledge suited to a user's current request. Even an answer grounded in relevant documents can be unsuitable when it overlooks the user's circumstances. This creates two connected challenges: using historical conditions to identify the knowledge needed for a new request, and applying that knowledge to the user's situation. Existing benchmarks advance memory recall, personalized retrieval, and memory-gui",
+      "published": "2026-10-22",
+      "publishedDate": {
+        "iso": "2026-10-22",
+        "year": 2026,
+        "month": 10,
+        "day": 22
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.30989v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.30989v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "12 pages, 4 figures",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2610.30104",
       "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
@@ -430,415 +930,6 @@
         "cs.CL"
       ],
       "comments": "14 pages, 2 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28555",
-      "title": "Learning Computational Structure for Sample-Efficient Prediction",
-      "authors": [
-        "Hangyu Zhou",
-        "Constantine Dovrolis",
-        "Stephen Mussmann"
-      ],
-      "summary": "Statistical learning in high dimensions suffers from the curse of dimensionality. Fortunately, many functions of practical interest are compositionally sparse, meaning they admit a composition of local functions, each depending on only a few variables, allowing sample complexity to depend on local arity rather than ambient dimension. Yet realizing this benefit requires exploiting hidden compositional structure, which theory does not establish for practical gradient-based training. We study this ",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28555v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28555v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "36 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28517",
-      "title": "An Open Reliability Atlas of Sensitivity and Failure Modes in the Pulse Physiology Engine",
-      "authors": [
-        "Santino Nanini",
-        "Arnaud Wiedemann",
-        "Yassir Mamouni",
-        "Cyril Schweitzer",
-        "Philippe Jouvet",
-        "Michael Sauthier"
-      ],
-      "summary": "Pulse is an actively maintained open-source adult-physiology simulator, yet its maintainers report no formal sensitivity analysis of its operational inputs. We present the first open reliability atlas across its critical-care envelope: Morris elementary-effects sampling of seven inputs, four severity scenarios, male and female bodies (1,280 simulations). Sensitivity is skewed: three inputs carry a median 93% of each output's total. A four-flag classifier reveals failure modes: two operator-actio",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28517v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28517v1",
-      "categories": [
-        "q-bio.QM"
-      ],
-      "comments": "81 pages, 10 figures, 21 tables; main text followed by the Supplementary Information. Code: https://github.com/sadc-lab/pulse_reliability_atlas",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28507",
-      "title": "ECG for laboratory values:A comprehensive physiological and technical analysis",
-      "authors": [
-        "Walentin Palanchuk"
-      ],
-      "summary": "Laboratory measurements are essential for clinical decision making but typically require invasive blood sampling. Recent research suggests that ECG recordings may contain information beyond cardiac rhythm and provide information related to laboratory values. This thesis investigates NT-proBNP prediction from ECG recordings and patient metadata using a multimodal deep learning framework, while considering the physiological plausibility of ECG-based prediction. It also compares a 1-lead configurat",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28507v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28507v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "78 pages, 17 figures, source code under https://github.com/WPalanchuk/ECG-for-Labvalues",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28411",
-      "title": "Brain2Vec: A Self-Supervised 3D Foundation Model for Structural Brain MRI",
-      "authors": [
-        "Spiros Maggioros",
-        "Guray Erus",
-        "Gareth Harman",
-        "George Aidinis",
-        "Alexander Getka",
-        "Aristeidis Sotiras",
-        "Christos Davatzikos"
-      ],
-      "summary": "Deep learning models have become essential tools in medical imaging, yet training them end-to-end for diverse tasks remains challenging due to limited labeled data and computational constraints. To address this, we introduce Brain2Vec, a foundation model pre-trained on 74,425 T1-weighted Magnetic Resonance Imaging (MRI) scans pooled from multiple studies. Brain2Vec can serve both as a weight initialization backbone for fine-tuning downstream tasks and as a standalone feature extractor. We evalua",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28411v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28411v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28386",
-      "title": "VisualEvolve: A Skill Self-Evolution Framework for Visual Reasoning",
-      "authors": [
-        "Jiawei Wang",
-        "Yucun Li",
-        "Xueqi Li",
-        "Shenghao Wang",
-        "Xinquan Gong",
-        "Dan Zhang",
-        "Zheqi Lv",
-        "Yuquan Le",
-        "Shaozu Yuan",
-        "An Zhang",
-        "Da Cao",
-        "Tat-Seng Chua"
-      ],
-      "summary": "Visual tool use enables vision-language models (VLMs) to acquire task-relevant evidence, but its effectiveness can be limited by predefined visual operations and the tool-use strategies learned during training. Representing these operations and strategies as reusable external skills allows them to be refined through self-evolution without updating model parameters. However, skill refinement can introduce performance regressions. Meanwhile, inspecting accumulated task execution trajectories toget",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28386v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28386v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "29 pages, 9 figures. Project page: https://jiaweiwang-ai.github.io/VisualEvolve/",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28350",
-      "title": "Gated Prototype Transfer for Zero-Support Medical Vision Language Model",
-      "authors": [
-        "Sumaiya Fazal",
-        "Rizwan Qureshi",
-        "Laleh Behjat",
-        "Samira Ebrahimi Kahou"
-      ],
-      "summary": "Realistic few-shot adaptation of medical vision-language models (VLMs) can leave low-prevalence classes without any labeled support. The training-free SS- Text+ solver remains operational in this setting, but its zero-support prototypes receive no visual adaptation and fall back to a purely textual class prototype. We in- troduce Gated Knowledge-Guided Prototype Transfer (GProtoT), a pre-repulsion module that transfers supported-class visual residuals to missing classes using VLM similarity and ",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28350v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28350v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted to Symposium on Model Accountability, Sustainability and Healthcare 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28322",
-      "title": "Manifold-Informed Neural Networks for Low-Label ECG Electrolyte Inference",
-      "authors": [
-        "Juntang Wang",
-        "Hao Wu",
-        "Yihan Wang",
-        "Dongmian Zou",
-        "Shixin Xu"
-      ],
-      "summary": "Physics-informed neural networks (PINNs) supervise on the residual of a known differential operator. Many high-stakes inference problems admit no such operator: clinical signals, behavioral measurements, materials properties. We introduce the Manifold-Informed Neural Network (MINN), a PINN-parallel paradigm that replaces the physics operator residual with a manifold operator residual: a discrete Poisson equation $\\mathbf{L}_G \\mathbf{H} = s_φ(\\mathbf{x}, \\mathbf{m})$ on a $k$-nearest-neighbor gr",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28322v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28322v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "19 pages",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28266",
-      "title": "VGL-stGen: Learning a shared multimodal model for lung histology and spatial transcriptomics",
-      "authors": [
-        "Haenara Shin",
-        "Dongjoo Lee",
-        "Sungwoo Bae",
-        "Kwon Joong Na",
-        "Daeseung Lee",
-        "Hongyoon Choi"
-      ],
-      "summary": "VGL-stGen is a multimodal large language model adapted from a pretrained medical vision-language model using paired lung H&amp;E and spatial transcriptomics with single-cell references. Training integrates image-expression and expression-cell-type pairs, and gene-conditioned pseudo-labels transfer transcriptomic cell-type supervision to histology images. One deployed checkpoint supports thirteen evaluated tasks spanning tissue and cell-type classification, gene prediction and conditional express",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28266v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28266v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "q-bio.QM"
-      ],
-      "comments": "46 pages, 18 figures, 16 tables; appendix included",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28255",
-      "title": "Convergent Performance, Divergent Mechanisms in LoRA-Adapted Vision Foundation Models for Brain MRI",
-      "authors": [
-        "Cecilia Diana-Albelda",
-        "Fiona Kekwick",
-        "Raghav Mehta",
-        "Aleksandra Kulbaka",
-        "Paul M. Matthews",
-        "Jesus Bescos",
-        "Álvaro García-Martín",
-        "Wenjia Bai",
-        "Bernhard Kainz"
-      ],
-      "summary": "Adapting Vision Foundation Models (VFMs) to medical imaging via LoRA has become standard practice, yet model selection is guided almost entirely by downstream task metrics, treating backbones with similar performance as interchangeable. We investigate whether equal performance implies equal internal representational shift. We analyse four ViT-B/16 backbones, DINOv3, SigLIP2, MerMED-FM, and BiomedCLIP, pre-trained with different objectives (self-distillation vs. contrastive vision-language) and o",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28255v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28255v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "14 pages, 6 figures, Preprint submitted to Elsevier",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28173",
-      "title": "Africa-Papers: A 10-Billion-Token Multi-Domain Academic Corpus for African Foundation Language Models",
-      "authors": [
-        "Mich-Seth Owusu"
-      ],
-      "summary": "Large Language Models (LLMs) depend fundamentally on the diversity, depth, and factual rigor of their pre-training corpora. However, contemporary foundational pre-training datasets (such as The Pile, S2ORC, and Dolma) exhibit a severe structural omission: African scientific, medical, legal, and agricultural scholarship constitutes less than 0.5% of global pre-training tokens. Consequently, state-of-the-art models suffer from systematic failure modes when reasoning about tropical epidemiology, lo",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28173v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28173v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28083",
-      "title": "IECG: Weakly-Supervised Interpretability-Enhancing Foundation Model for Electrocardiogram",
-      "authors": [
-        "Huynh Dang Nguyen",
-        "Trong-Thang Pham",
-        "Anh-Thuan Do",
-        "Phuong-Nhi Dinh",
-        "Brijesh Patel",
-        "Ngan Le",
-        "Van Nguyen"
-      ],
-      "summary": "Electrocardiography (ECG) is a cornerstone of cardiac diagnosis, yet most machine learning methods for ECG analysis lack interpretability, limiting their clinical adoption. We present IECG, a weakly-supervised ECG foundation model that jointly performs diagnostic classification and abnormality localization without requiring manual abnormal region annotations, overcoming a long-standing bottleneck in interpretable ECG learning. Central to IECG is a weakly-supervised attention strategy that explic",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28083v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28083v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "Accepted in WACV 2027",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28081",
-      "title": "PULSE: Personalized Opportunistic Learning for Wearable Devices",
-      "authors": [
-        "Mattia Giovanni Campana",
-        "Dariush Salami",
-        "Hüseyin Yiğitler",
-        "Stephan Sigg"
-      ],
-      "summary": "Wearable devices increasingly support personalized health and well-being applications, but post-deployment data can differ substantially from those used for training, while purely local adaptation may be limited by the data available on a single device during real-world operation. Conventional federated and decentralized learning rely on recurrent communication and stable connectivity, whereas existing opportunistic approaches often exploit available encounters without adequately considering the",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28081v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28081v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.DC"
-      ],
-      "comments": "Submitted to IEEE PerCom 2027",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.28064",
-      "title": "Quantifying the Threat: A Bayesian Probabilistic Framework for Heavy Metal Health Risks among Children in the Densu Basin, Ghana",
-      "authors": [
-        "T. Ansah-Narh",
-        "G. Y. Afrifa",
-        "J. B. Tandoh",
-        "E. N. N. Nortey",
-        "D. Adjei",
-        "R. Opoku-Sarkordie",
-        "R. Davis"
-      ],
-      "summary": "Groundwater in Ghana's Densu River Basin remains a key domestic water source, but multi-metal contamination threatens children's health. Previous deterministic hazard index assessments provide limited treatment of uncertainty, co-exposure, and spatial variability. This study applies a Bayesian probabilistic framework for non-carcinogenic risk assessment using 94 groundwater samples and measurements of Fe, Mn, Ni, Pb, Cd, and As. A Bayesian regression model propagates parameter uncertainty and ac",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.28064v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.28064v1",
-      "categories": [
-        "stat.AP",
-        "cs.AI",
-        "cs.LG",
-        "physics.geo-ph",
-        "stat.ML"
-      ],
-      "comments": "59 pages, 7 figures, manuscript under peer review at Stochastic Environmental Research and Risk Assessment (SERRA)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.27965",
-      "title": "When Do Humans and Machines Truly Complement Each Other? Formal Conditions and Empirical Evidence for Human-AI Synergy",
-      "authors": [
-        "Andrea Campagner",
-        "Federico Cabitza",
-        "Vincenzo Crupi"
-      ],
-      "summary": "Can humans and artificial intelligence cooperate such that their combination yields greater accuracy than either agent alone? This result, termed \\emph{synergy} or \\emph{complementarity}, is notoriously difficult to achieve, even when both agents possess significant independent accuracy. In this paper, we present a formal framework to model human-AI interaction through the lens of reliance patterns, which characterize the joint correctness structure of human and algorithmic decisions. We derive ",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.27965v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.27965v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "This work has been submitted to, and is currently under review at, IEEE Transactions on Human-Machine Systems for possible publication. Copyright may be transferred without notice",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.27942",
-      "title": "APRIL: Ambiguity-Aware Expert Routing for Respiratory Sound Domain-Incremental Learning",
-      "authors": [
-        "Xinhong Li",
-        "Weiping Tu"
-      ],
-      "summary": "Automated respiratory sound classification enables continuous, non-invasive respiratory assessment, yet long-term deployment remains challenging due to domain shifts from evolving recording devices and acquisition periods. When privacy and governance regulations prohibit replaying historical data, sequential learning easily overwrites previously acquired knowledge. Preserving dedicated domain experts prevents parameter interference, but selecting the correct expert at inference is difficult unde",
-      "published": "2026-10-20",
-      "publishedDate": {
-        "iso": "2026-10-20",
-        "year": 2026,
-        "month": 10,
-        "day": 20
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.27942v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.27942v1",
-      "categories": [
-        "cs.SD",
-        "cs.AI"
-      ],
-      "comments": "",
       "arxivVersion": "v1"
     }
   ]

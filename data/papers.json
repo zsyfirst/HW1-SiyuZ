@@ -14,11 +14,461 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-10-31T03:47:36.247Z",
-  "fetchedAt": "2026-10-31T03:47:36.247Z",
+  "lastUpdated": "2026-11-01T03:56:30.909Z",
+  "fetchedAt": "2026-11-01T03:56:30.910Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2610.40556",
+      "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
+      "authors": [
+        "Qiaoyu Zheng",
+        "Weike Zhao",
+        "Yanjie Fan",
+        "Ye Cao",
+        "Mengqi Jiang",
+        "Xiao Zhou",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu",
+        "Yongguo Yu",
+        "Yanfeng Wang",
+        "Ya Zhang",
+        "Chaoyi Wu",
+        "Weidi Xie"
+      ],
+      "summary": "Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to the timely use of genomic information in clinical decision-making. To fill this gap, we developed ClinGeX, a large-language-model agent that composes 105 curated executable skills through task-specific retrieval and dependency-aware orchestration. On 223 tempo",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40556v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40556v1",
+      "categories": [
+        "cs.AI",
+        "q-bio.GN"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40536",
+      "title": "TRACER, a time-to-event EHR foundation model for disease detection across health systems",
+      "authors": [
+        "Mara Pleasure",
+        "Ekaterina Redekop",
+        "Vedrana Ivezic",
+        "Rushikesh Kulkarni",
+        "Aaron Chin",
+        "William Speier",
+        "Corey W. Arnold"
+      ],
+      "summary": "Foundation models trained on longitudinal electronic health records (EHRs) can predict clinical diagnoses years in the future, making them a potential tool for disease screening. We developed TRACER (Temporal Risk Assessment with Clinical EHR Representations), a decoder-based foundation model pretrained on data from over 4.5 million patients from four health systems, and evaluated it on 16 incident diseases at 1-, 2-, and 5-year horizons in more than 2 million patients from two health systems ex",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40536v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40536v1",
+      "categories": [
+        "cs.CE",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40476",
+      "title": "Training language models in simulation for psychiatric intake",
+      "authors": [
+        "Samuel Schmidgall",
+        "Tim Strother",
+        "Alex Bijamov",
+        "Min Woo Sun",
+        "Anil Palepu",
+        "Akshay Goel",
+        "Ulysse Marteau-Ferey",
+        "Théo Moutakanni",
+        "Yubin Kim",
+        "Joseph Breda",
+        "Christina Chen",
+        "Justin Chen",
+        "Paul Jhun",
+        "Andrew Marshall",
+        "Sarah Montgomery-Taylor",
+        "Eun Kyoung Hong",
+        "Shashank Ravi",
+        "Kameron C. Black",
+        "David J. H. Wu",
+        "Austin Schoeffler",
+        "John Lyon Havlik",
+        "Elizabeth C. Stade",
+        "Jared Moore",
+        "Johannes C. Eichstaedt",
+        "Logan Pierce",
+        "Jeff Jopling",
+        "Johannes Thrul",
+        "Thomas H. McCoy",
+        "Neguine Rezaii",
+        "Mark S. Chen",
+        "Ellen E. Fitzsimmons-Craft",
+        "Shirley Wang",
+        "Desmond C. Ong",
+        "Katharina Schultebraucks",
+        "Torrey Creed",
+        "Bhavna Daryani",
+        "Aleksandra Faust",
+        "S. Sara Mahdavi",
+        "Caroline Figueroa",
+        "Eric Lin",
+        "Kate H. Bentley",
+        "Ernest Lim",
+        "Zhihan Jiang",
+        "Xuhai \"Orson\" Xu",
+        "Daniel McDuff",
+        "John Torous",
+        "Yun Liu",
+        "Po-Hsuan Cameron Chen",
+        "Mike Schaekermann",
+        "Joelle Barral",
+        "Alvin Rajkomar",
+        "Tao Tu",
+        "Lin Yang",
+        "Isaac Galatzer-Levy",
+        "David Racz",
+        "Valentin Liévin"
+      ],
+      "summary": "In psychiatric practice, the clinical intake interview remains a primary diagnostic instrument, requiring the clinician to establish rapport while disentangling complex, overlapping presentations. Here, we show that multi-turn reinforcement learning (RL) in simulation environments improves language model performance on structured text-based psychiatric intake, spanning history-taking, differential diagnosis, and initial management planning. In a randomized, double-blind crossover study ($N = 60$",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40476v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40476v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "76 pages, 8 figures, 15 tables (27 pages main text, 7 main figures, 2 main tables)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40468",
+      "title": "Rural Readiness: Domain Generalization with Adversarially Chosen Domains",
+      "authors": [
+        "Cynthia Dwork",
+        "Andisheh Ghasemi",
+        "Lunjia Hu"
+      ],
+      "summary": "Predictive models trained at well-resourced data-rich institutions often fail when deployed in new populations. Motivated by the goal of building clinical diagnosis and decision-making algorithms for data-scarce rural populations using the general knowledge learned from data-rich hospitals, we formulate the fundamental question of \\emph{domain generalization with adversarially chosen domains}, which asks a learner to perform on any unseen target domain nearly as well as the worst hypothesis cons",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40468v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40468v1",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40436",
+      "title": "Yoga biomechanics through energy optimization: diverse kinematics and low-dimensional kinetics",
+      "authors": [
+        "Sriram Sekaripuram Muralidhar",
+        "Manoj Srinivasan"
+      ],
+      "summary": "Yoga is widely practiced for improving physical and mental health, yet the biomechanical demands of individual yoga poses remain poorly characterized. Existing experimental studies typically examine only a small number of poses or muscles, limiting their ability to guide pose selection for rehabilitation or exercise prescription. Here we present a computational framework for predicting whole-body joint torques and contact forces from two-dimensional images of yoga poses. The framework combines m",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40436v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40436v1",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40421",
+      "title": "Uncertainty-aware Feedback Loop Diagnosis: integrating reinforcement learning and conformal prediction for reliable wafer defect classification",
+      "authors": [
+        "Aleksandr Dekhovich",
+        "Carlas Smith",
+        "Oleg Soloviev"
+      ],
+      "summary": "Semiconductor manufacturing is a complex, multi-step process that requires both high precision and low operating costs. Therefore, detecting defects in a high-volume setting is an important component of wafer map analysis for reliable production. However, most state-of-the-art deep learning approaches require a full scan of the surface, which hinders the development of high-throughput inspection systems. To address this problem, we propose Uncertainty-aware Feedback Loop Diagnosis (UFLD), a nove",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40421v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40421v1",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40420",
+      "title": "NECA: Neighbor Event Curve Augmentation for Multi-Horizon ICU Deterioration Prediction",
+      "authors": [
+        "Chenyang Wang",
+        "Jiawei Theresa Tang",
+        "Xinran Liu",
+        "Xinyu Lu",
+        "Xulei Yang"
+      ],
+      "summary": "Early prediction of ICU organ dysfunction events supports timely clinical monitoring and intervention, but estimating short-term organ-specific risk from early ICU records remains challenging due to irregular measurements, heterogeneous clinical variables, and the need to predict risk across multiple future horizons. Existing supervised models usually treat each patient as an isolated sample and do not explicitly use the observed event timing of similar historical patients. We propose Neighbor E",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40420v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40420v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40379",
+      "title": "Agentic LLM reasoning in pediatric diabetes outcome prediction from multimodal medical records",
+      "authors": [
+        "Daniel Palacios",
+        "Guantong Qi",
+        "Anna Kadi",
+        "Natali Borrego",
+        "Sukru Aras",
+        "Michael L. Ferm",
+        "Elizabeth Kubota-Mishra",
+        "Maria J. Redondo",
+        "Zhandong Liu",
+        "Mustafa Tosur",
+        "Hu Chen"
+      ],
+      "summary": "Large language model (LLM) agents are proposed for clinical prediction but are untested in pediatrics, where cohorts are small and outcomes are uncommon. Using records from 2,489 youth with type 2 diabetes (T2D) and 4,018 with type 1 diabetes (T1D), spanning structured data, note-derived social determinants and, in T1D, continuous glucose monitoring data, we predicted seven T2D outcomes, four also in T1D, at 24 months from 18 months of follow-up. CEDAR (Clinical Evidence-Driven Agent for Risk-pr",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40379v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40379v1",
+      "categories": [
+        "q-bio.QM",
+        "cs.CL"
+      ],
+      "comments": "18 pages main text plus 40 pages Supplementary Information",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40370",
+      "title": "The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables",
+      "authors": [
+        "Behnam Moradi"
+      ],
+      "summary": "Large language model (LLM) agents for personal health read wearable data and recommend, but do not learn about the individual in a way that can be audited or falsified. We present EpiCoach, an agentic system that treats one athlete, a cross-country mountain biker, as the subject of accountable N-of-1 science. Claims about the athlete live in an evidence-gated hypothesis registry: each must issue a probabilistic prediction about a future session before it occurs, and its belief moves only through",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40370v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40370v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40327",
+      "title": "Radiology Guideline-derived Decision Graph for Efficient Clinical Decision Support",
+      "authors": [
+        "Xuewen Zhou",
+        "Zhen Chen"
+      ],
+      "summary": "Radiological risk stratification and management planning are essential downstream tasks in medical imaging. Automating these tasks is challenging because clinical guideline criteria are distributed across prose, tables, and cross-referenced definitions. We present Guideline-derived Decision Graph (GDGraph), a framework that decouples guideline compilation from case evaluation. During compilation, a large language model partitions guidelines into section-based chunks, extracts local decision subg",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40327v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40327v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40318",
+      "title": "Decision and System One models in rheumatology: accuracy and calibration on specialty-training examination questions and diagnostic case vignettes",
+      "authors": [
+        "Alfredo Madrid-García",
+        "Diego Benavent",
+        "Fabian Lechner",
+        "Phillip Kremer",
+        "Johannes Knitza",
+        "Beatriz Merino-Barbancho"
+      ],
+      "summary": "Objectives: To evaluate the accuracy and calibration of Decision and System One models on rheumatology examination questions and diagnostic vignettes. Methods: Two benchmarks were analysed: 172 rheumatology questions from Spanish specialty-training examinations (expanded RheumaMIR dataset) in Spanish and English, and 70 English diagnostic vignettes from RheumBench with 5-18 candidate diagnoses, 52 of which included the reference diagnosis. Four System One models (Jev 1.13, Clef, Microsoft-Decisi",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40318v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40318v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "28 pages, 2 figures, 2 tables; includes supplementary material (8 tables, 1 figure)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40246",
+      "title": "EnvOS: Auditing Computer-Use Agents When the World Moves On : Phenomenon-Based Task Construction, Certification, and Evidence-Based Evaluation",
+      "authors": [
+        "Ankush Kadu",
+        "Athira Gopal",
+        "Niharika Singh",
+        "Arpit Jain",
+        "Aswanth Krishnan"
+      ],
+      "summary": "Computer-use agents built on large language models (LLMs) work in software that can change while they act: an appointment moves, a policy is revised, a record is updated. Testing agents under such changes is harder than it looks. When an agent fails, the cause may be the agent, but it may also be a change that did not fire as intended, an update the agent never received, or a grader that scored the episode wrongly. We introduce EnvOS, a framework for building and certifying environments that cha",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40246v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40246v1",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "comments": "74 pages, 7 figures. Accepted at NeurIPS 2026 Workshops (AABA4ET and CL4FMAgents)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40162",
+      "title": "Fisher Contrastive Learning to Mitigate Feature Suppression: A Case Study in Acute Promyelocytic Leukemia Diagnosis",
+      "authors": [
+        "Shushan Wu",
+        "Yongkai Chen",
+        "Xilin Gong",
+        "Yufang Liu",
+        "Wenxuan Zhong",
+        "Ping Ma"
+      ],
+      "summary": "Self-supervised contrastive learning (SSCL) learns representations by contrasting augmented views of the same sample, but it can exhibit feature suppression, where dominant or easy-to-learn factors suppress other class-relevant signals, degrading the performance of representations, particularly in high-dimensional data with heterogeneous features. We introduce Fisher Contrastive Learning (FCL), which uses a regularized Fisher trace criterion to address feature suppression. FCL learns embeddings ",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40162v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40162v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "comments": "31 pages, including supplementary material; 3 figures and 2 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40151",
+      "title": "The generative paradox: the Anti-Prompt paradigm for human capability",
+      "authors": [
+        "Margarita Trifonov Vadim E. Levit"
+      ],
+      "summary": "Generative AI in education is usually judged by the output of human-AI teams. That focus overlooks a second outcome: what people can still understand, challenge, repair, and adapt when assistance changes or disappears. We call this tension the generative paradox and distinguish four manifestations: performance, assistance, ownership, and capability stock. We propose developmental function allocation, which complements operational function allocation and meaningful human control by treating retai",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40151v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40151v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "17 pages, 2 figures, 2 boxes",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2610.40110",
+      "title": "D-MOD: Diffusion mode estimation for accelerated MRI",
+      "authors": [
+        "Md Kawsar Ahmed",
+        "Mathews Jacob"
+      ],
+      "summary": "Diffusion models are powerful priors for accelerated MRI reconstruction, but most current methods are posterior samplers, which return a random draw from the posterior. A reproducible and high-quality reconstruction often requires averaging many samples, resulting in a high computational cost. We introduce D-MOD, a fast algorithm that instead provides a posterior mode. It uses a minorize-maximize algorithm on a lower bound of the smoothed log-posterior, which provably increases the objective. Ea",
+      "published": "2026-10-29",
+      "publishedDate": {
+        "iso": "2026-10-29",
+        "year": 2026,
+        "month": 10,
+        "day": 29
+      },
+      "arxivUrl": "http://arxiv.org/abs/2610.40110v1",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40110v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2610.31659",
       "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
@@ -517,419 +967,6 @@
         "cs.CL"
       ],
       "comments": "12 pages, 4 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.30104",
-      "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
-      "authors": [
-        "Sonja Topf",
-        "Ana Sanchez-Fernandez",
-        "Günter Klambauer"
-      ],
-      "summary": "Despite recent advances, current AI systems remain highly susceptible to domain shifts, particularly in biomedical imaging, where images are usually acquired under substantially different experimental conditions. Although recent domain adaptation methods have made substantial progress, significant performance gaps under domain shift persist. To measure progress in this regard, we introduce BatchBench, a leaderboard that evaluates and compares the robustness of AI systems on biomedical images fro",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.30104v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.30104v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.30076",
-      "title": "Circuits of LLM Classifiers",
-      "authors": [
-        "Hadi Khalaf",
-        "Sajani Vithana",
-        "Kunal Talreja",
-        "Haewon Jeong",
-        "Viveck R. Cadambe",
-        "Flavio Calmon"
-      ],
-      "summary": "Language models make it easy to build classifiers by simply prompting a model with the sample to classify. However, their predictions are neither deterministic nor uniformly reliable across samples. How can we combine predictions from different models to improve reliability? We view LLM classifiers as noisy measurement instruments of an underlying target label. Our goal is to maximize average classification accuracy at a given average query cost. To this end, we introduce circuits that organize ",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.30076v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.30076v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29985",
-      "title": "TIDE: Tree-Induced Fine-Grained Diagnostic Evaluation from Model Behaviors",
-      "authors": [
-        "Jiayi Chen",
-        "Hui Li",
-        "Yujiong Shen",
-        "Qiyuan Peng",
-        "Yanxin Li",
-        "Chenhao Huang",
-        "Shaofan Liu",
-        "Guoqiang Zhang",
-        "Junjie Ye",
-        "Shihan Dou",
-        "Ming Zhang",
-        "Maxm Pan",
-        "Tao Gui",
-        "Qi Zhang",
-        "Xuanjing Huang"
-      ],
-      "summary": "Benchmark performance is the dominant standard for comparing large language models (LLMs), typically summarized by a single aggregate score, such as accuracy, pass rate, or rubric score. This aggregate score provides limited information about a model's underlying capabilities, yet understanding these capabilities is crucial for model development and evaluation. To this end, we propose Tree-Induced Diagnostic Evaluation (TIDE), which recasts diagnostic evaluation as behavior-driven decision-tree ",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29985v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29985v1",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29927",
-      "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
-      "authors": [
-        "Yifan Sun",
-        "Naicheng Yu",
-        "Jiawen Gong",
-        "Jingyan Shen",
-        "Huan Zhang"
-      ],
-      "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful lo",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29927v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29927v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "Accepted at NeurIPS 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29812",
-      "title": "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents",
-      "authors": [
-        "Mohammed Saqlain"
-      ],
-      "summary": "Literature-searching language agents are becoming a standard component of scientific assistants for the life sciences, yet there is little controlled evidence on which parts of their harness matter. We run a controlled ablation on biomedical claim verification (SciFact) with the live PubMed API as the only tool. Holding the backbone and output format fixed, we compare four harnesses: closed-book answering, single-shot retrieval using the claim as the query, a ReAct-style agent that writes its ow",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29812v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29812v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.IR",
-        "cs.LG"
-      ],
-      "comments": "Accepted to the Agentic AI for Biological Discovery (AgenticLS) Workshop at NeurIPS 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29621",
-      "title": "Reliability-Aware Probabilistic Fusion for Multimodal Learning with Incomplete Evidence",
-      "authors": [
-        "Patitapaban Palo",
-        "Abhisek Tiwari",
-        "Mattia Carletti",
-        "Anshul Thakur",
-        "Xiao Gu",
-        "David A. Clifton"
-      ],
-      "summary": "Multimodal inputs may be missing or degraded, raising distinct questions of evidence availability and trust. We introduce a reliability-aware Gaussian Product-of-Experts (PoE) in which an input-dependent reliability weight tempers each modality's latent precision, while missing experts are omitted. We characterize how reliability and availability affect posterior information and expert influence. Across two clinical multimodal tasks, the full framework remains competitive with complete inputs an",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29621v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29621v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29616",
-      "title": "An interpretable deep learning method for early hepatocellular carcinoma diagnosis on multiphase CT",
-      "authors": [
-        "Emma Sarfati",
-        "Alexandre Bône",
-        "Pietro Gori",
-        "Sisi Yang",
-        "Marc-Michel Rohé",
-        "François Nicolas",
-        "Jeong-Min Lee",
-        "Jeong Hee Yoon",
-        "Maxime Ronot",
-        "Isabelle Bloch",
-        "Christophe Aubé"
-      ],
-      "summary": "Early diagnosis of hepatocellular carcinoma is critical to preserve access to curative treatment options. The Liver Imaging Reporting and Data System (LI-RADS) provides a standardized framework for non-invasive diagnosis on multiphase computed tomography, based on major visual imaging features. However, these features may be difficult to assess consistently, particularly in small liver lesions. We developed dLI-RADS, an interpretable artificial intelligence method designed to estimate the probab",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29616v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29616v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "Accepted at Scientific Reports",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29606",
-      "title": "Overview of CHIP 2026 Shared Task 1: Patient-Specific Phenotype Concept Recognition in Full-Text Biomedical Literature",
-      "authors": [
-        "Xuanlyu Zhu",
-        "Feng Tian",
-        "Yang Zhong",
-        "Pengqi Zheng",
-        "Xiwen Bi",
-        "Ling Luo",
-        "Yuanyuan Sun",
-        "Jian Wang",
-        "Lingfei Lin"
-      ],
-      "summary": "Automatic phenotype information extraction plays an important role in rare disease diagnosis, genotype-phenotype analysis, and precision medicine. However, accurately identifying phenotype concepts and determining their associations with specific patients remain challenging, particularly in full-text biomedical articles involving multiple patients and complex clinical descriptions. This paper presents an overview of CHIP 2026 Shared Task 1, which aims to promote the development of methods for pa",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29606v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29606v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29533",
-      "title": "Block Diffusion for Longitudinal EHR: Accuracy, Efficiency, and Representation Trade-offs",
-      "authors": [
-        "Ashvin Gupta",
-        "Joshua Placidi",
-        "Brendan Delaney",
-        "Alessandra Russo"
-      ],
-      "summary": "Autoregressive (AR) models have proved effective for zero-shot prediction from longitudinal electronic health records, but impose strictly sequential generation on trajectories containing temporally clustered and interdependent clinical events. We investigate block-based masked diffusion (BD) as an alternative on MIMIC-IV under matched tokenisation, context length, model capacity, and evaluation conditions. Across block sizes, BD exhibits a clear quality--efficiency trade-off, with small-block c",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29533v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29533v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29528",
-      "title": "Are Joint-Embedding Predictive Objectives Effective for Longitudinal EHRs?",
-      "authors": [
-        "Ashvin Gupta",
-        "Brendan Delaney",
-        "Alessandra Russo"
-      ],
-      "summary": "Masked language modelling (MLM) is the dominant pretraining objective for transformer encoders applied to longitudinal electronic health records (EHRs). However, reconstructing individual events may overemphasise noisy or weakly informative observations and does not explicitly encourage learning higher-level patient states. Joint-Embedding Predictive Architectures (JEPAs) instead learn by predicting representations in latent space and have shown strong performance in a variety of domains. In thi",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29528v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29528v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29515",
-      "title": "BRIDGE: An Acceptance Gate to Block False Improvements in Model Updates, with a Retrospective Clinical Evaluation",
-      "authors": [
-        "Dwi Sunaryono"
-      ],
-      "summary": "Models are updated repeatedly, and an update that looks better on validation data but not on new data is a false improvement that can misguide clinical decisions. The naive rule accepts every positive validation gain and is optimistic when the same data choose and judge the update. BRIDGE is a model-agnostic acceptance gate that decides each update from predictions and the available labels, with fixed settings. Each fold of the data judges the update chosen on the other folds (cross-fitting) to ",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29515v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29515v1",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "comments": "39 pages, 5 figures. Submitted to IEEE Access. Code and data: https://doi.org/10.5281/zenodo.23523985",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29399",
-      "title": "Learning Epidemic Threshold Equations from Simulation: REEBLRA, an Interpretable Bayesian Classification Framework for Reproduction Numbers",
-      "authors": [
-        "Jomar F. Rabajante",
-        "Norvin P. Bansilan",
-        "Maria Czarina T. Lagura-Arreza",
-        "Destiny SM. Lutero",
-        "Emerson R. Rico"
-      ],
-      "summary": "The basic reproduction number, $R_0$, is central to infectious-disease modelling, yet analytic expressions can be difficult to derive for high-dimensional, nonlinear, or structurally complex models. We introduce REEBLRA ($R_0$ Equation Estimation using Bayesian Logistic Regression Algorithm), an interpretable framework that learns explicit surrogate equations for epidemic thresholds from parameter--response data. Rather than directly regressing $R_0$, REEBLRA estimates $\\Pr\\{R_0(\\boldsymbolθ)&gt",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29399v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29399v1",
-      "categories": [
-        "q-bio.QM",
-        "q-bio.PE"
-      ],
-      "comments": "106 pages including Supplementary Information, 8 figures, 55 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29358",
-      "title": "Reading the Mask: Descriptor-Grounded BI-RADS Rationale Generation for Breast MRI Segmentation",
-      "authors": [
-        "Hrishikesh Singh",
-        "Aarti Sharma",
-        "Divyanshu Kumar",
-        "Millie Pant"
-      ],
-      "summary": "Deep learning based models accurately delineate tumours on dynamic contrast-enhanced MRI (DCE-MRI), but segmentation masks alone do not provide the rationales or reasoning used by radiologists to assess the lesion suspicion. This limits the explainability as well the clinical integration. We investigate whether clinically relevant descriptors can instead be derived from the segmentation masks and their dynamic contrast-enhancement series. We have used Breast Imaging Reporting and Data System (BI",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29358v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29358v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29322",
-      "title": "OpenMAP-HIE: Pathology Informed Score-based Diffusion Model for Unsupervised Neonatal Hypoxic-Ischemic Encephalopathy Lesion Segmentation",
-      "authors": [
-        "Pengyu Kan",
-        "Craig Jones",
-        "Kenichi Oishi"
-      ],
-      "summary": "Accurate localization of neonatal hypoxic--ischemic encephalopathy (HIE) lesions on apparent diffusion coefficient (ADC) images is clinically important but is limited by scarce expert annotations and substantial variation in lesion appearance. We propose OpenMAP-HIE, a pathology-informed score-based diffusion model for unsupervised HIE lesion localization without voxel-wise lesion supervision. A denoising diffusion model learns the healthy neonatal ADC distribution, while a ControlNet-based cond",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29322v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29322v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "22 pages, 4 figures, 9 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.29294",
-      "title": "Same Probabilities, Different Advice: Gain-Loss Framing Effects in High-Stakes LLM Decision Support",
-      "authors": [
-        "Yuyao Zhang",
-        "Yakun Cui",
-        "Han Zhu",
-        "Jinsong Lu",
-        "Yike Guo",
-        "Sirui Han"
-      ],
-      "summary": "Large language models (LLMs) are increasingly used to support consequential decisions, yet their reliability under equivalent representations of uncertainty remains unclear. Existing work has documented prompt sensitivity, cognitive biases, and confidence miscalibration, but it is still unknown whether high-stakes advice changes when the same probability is expressed through complementary gain and loss frames. We introduce FrameBench-HPS, a controlled benchmark of 2,880 prompts derived from 240 ",
-      "published": "2026-10-21",
-      "publishedDate": {
-        "iso": "2026-10-21",
-        "year": 2026,
-        "month": 10,
-        "day": 21
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.29294v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.29294v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "14 pages, 2 figures",
       "arxivVersion": "v1"
     }
   ]

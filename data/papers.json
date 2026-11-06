@@ -14,11 +14,464 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-11-05T04:50:26.860Z",
-  "fetchedAt": "2026-11-05T04:50:26.861Z",
+  "lastUpdated": "2026-11-06T04:48:20.573Z",
+  "fetchedAt": "2026-11-06T04:48:20.573Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2611.08433",
+      "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "authors": [
+        "Donghua Zhang",
+        "Zizheng Wang",
+        "Ze Dong",
+        "Yiding Feng",
+        "Siyu Qian"
+      ],
+      "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present MedGraph, a graph memory built for these three cases. Construction extracts dated facts from each sess",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08433v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08433v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "14 pages, 5 figures, 8 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08394",
+      "title": "Synthesis of Ovarian Cancer Multi-Omics Datasets: A Biology-Informed Evaluation Framework",
+      "authors": [
+        "Déborah Boyenval",
+        "Alina Malyutina",
+        "Jaana Oikkonen",
+        "Sammeli Liikkanen",
+        "Sampsa Hautaniemi"
+      ],
+      "summary": "Paired multi-omic cancer cohorts are costly to assemble and difficult to share, motivating synthetic cohorts as a complementary resource. As generative model development accelerates, we shift the focus from proposing yet another architecture to defining evaluation criteria that determine whether synthetic data preserve biologically relevant structure. We introduce a biology-informed and patient-disjoint framework for evaluating the generation of paired RNA expression and copy-number variation (C",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08394v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08394v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Accepted at the GenAI4Health Workshop at NeurIPS 2026 and in the Findings track of ML4H 2026. Both acceptances are non-archival",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08392",
+      "title": "Learning a patient world model for health system simulation in intensive care",
+      "authors": [
+        "Yingtai Li",
+        "Ruoyan Wang",
+        "Yu Li",
+        "Shaohua Kevin Zhou"
+      ],
+      "summary": "Designing healthcare strategies requires anticipating their clinical and operational consequences before implementation, a task that often relies on health system simulation. Such a simulation necessitates modeling how patient states evolve and generate care demands. However, conventional approaches typically tailor compact state transitions to a single policy question and omit history-dependent dynamics, thus requiring the redefinition of states and transitions when there is a new question that",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08392v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08392v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08369",
+      "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+      "authors": [
+        "Pengkai Wang",
+        "Wei-Wei Zhang",
+        "Yan Li",
+        "Min Tang",
+        "Zhitian Hou",
+        "Zeyu Liu",
+        "Guanghao Zhu",
+        "Yuanyi Wang",
+        "Yanggan Gu",
+        "Wenjun Wang",
+        "Minheng Ni",
+        "Congkai Xie",
+        "Zhijie Sang",
+        "Jianmin Wu",
+        "Ying Sun",
+        "Hongxia Yang"
+      ],
+      "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care. To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC). NPCBench mirrors specialist training, fr",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08369v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08369v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "comments": "Accepted at the 40th Conference on Neural Information Processing Systems (NeurIPS 2026), Evaluations and Datasets Track",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08352",
+      "title": "USB Gym: A Gymnasium Testbed for Closed-Loop Ultrasound View Matching",
+      "authors": [
+        "Thanapong Intharah",
+        "Zhichao Gao",
+        "Yiliang Liu",
+        "Hao Dong"
+      ],
+      "summary": "Background and Objective: Our main goal is ultrasound guidance: moving a probe until its image matches a target view. Published methods for each part of a guide are evaluated in separate simulators. We asked whether these methods, combined into one guide, are good enough. Methods: We built USB Gym, a testbed whose standard engine simulates ultrasound from public patient CT, with a network drawing organ textures from CT labels. Its guide has three replaceable parts (slots), an organ segmenter, a ",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08352v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08352v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "comments": "75 pages; supplementary material (62 pages) as an ancillary file. Submitted to Computer Methods and Programs in Biomedicine. Code: https://github.com/tohnperfect/USBGym",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08315",
+      "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+      "authors": [
+        "Ali Sarabadani",
+        "Kheirolah Rahsepar Fard",
+        "Tahereh Jeirani"
+      ],
+      "summary": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas, Brain Map, and GDPKG. We introduce a multitier query dataset to evaluate reasoning depth and factual accuracy under KG-aware (graph-grounded) and KG-agnostic conditions. Inter-ann",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08315v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08315v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08295",
+      "title": "Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation",
+      "authors": [
+        "Gabriel Parra",
+        "Kimia Khoshnami",
+        "Daniel S. Brown",
+        "Laura A. Hallock"
+      ],
+      "summary": "Robot-mediated rehabilitation has the potential to deliver high-intensity, individualized therapy, but existing systems (which have not consistently improved outcomes) typically prescribe kinematic trajectories rather than explicitly targeting the neuromotor activations thought to support recovery. To address this gap, and ultimately enable activation-optimizing rehabilitation robot behavior, we present a personalizable transformer-based model mapping individuals' muscle activations (as measured",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08295v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08295v1",
+      "categories": [
+        "cs.RO",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "comments": "Accepted for presentation and publication in the 2026 Conference on Robot Learning (CoRL). PMLR, 2026",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08154",
+      "title": "Interpretable Multimodal MRI-Clinical Fusion for Functional Outcome Prediction After Acute Ischemic Stroke",
+      "authors": [
+        "Sina Raeisadigh",
+        "Henning Müller",
+        "Abderrahmane Hedjoudje"
+      ],
+      "summary": "This study evaluates the added prognostic value of day-1 multimodal MRI for predicting three-month functional outcome after acute ischemic stroke (AIS). Sixty-six AIS patients with ADC, DWI, FLAIR, and clinical data were analyzed. Three-dimensional pretrained ResNet embeddings were extracted from each MRI modality, reduced using fold-isolated principal component analysis, and combined with structured clinical variables and ADC-derived lesion biomarkers. Linear support vector machines were evalua",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08154v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08154v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV",
+        "eess.IV"
+      ],
+      "comments": "5 pages, 2 figures, 1 table",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08054",
+      "title": "NutriVisRAG: Multimodal Exemplar Grounding for Nutrient Estimation with Vision-Language Models",
+      "authors": [
+        "Lubnaa Abdur Rahman",
+        "Ioannis Papathanail",
+        "Maria Panagiotou",
+        "Nefeli Dimitropoulou",
+        "Margret Harðardóttir",
+        "Elisabeth J. den Brok",
+        "Bastiaan E. de Galan",
+        "Stavroula Georgia Mougiakakou"
+      ],
+      "summary": "Diet is a major determinant of health, yet accurate dietary assessment from free-living meal images remains challenging. Existing retrieval-based Vision-Language Model (VLM) approaches to nutrient estimation typically rely on textual food representations, while, to our knowledge, direct grounding on visually similar annotated meals has not been investigated. We present NutriVisRAG, a retrieval-augmented generation framework that uses a vision encoder to retrieve similar meals with known nutritio",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08054v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08054v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.08021",
+      "title": "GTAFL: Addressing Test-Agnostic Long-Tailed Federated Learning in Medical Image",
+      "authors": [
+        "Guangyu Chen",
+        "Jingyun Zeng",
+        "Hui Jiang"
+      ],
+      "summary": "In healthcare, protecting patient privacy is crucial due to the sensitivity of medical data and its extensive accessibility. Federated Learning (FL) offers a decentralized and privacy-preserving training paradigm, making it an ideal solution for healthcare applications. A critical challenge in healthcare is that real-world medical data often exhibits long-tailed distributions in local and global views. Existing methods addressing long-tailed FL problem typically assume that the model will be eva",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.08021v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08021v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "Accepted for publication in IEEE Journal of Biomedical and Health Informatics (JBHI). 13 pages. Code: https://github.com/cgy-lavine/GTAFL",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.07995",
+      "title": "Leveraging deep generative modelling at the agent level in discrete-event simulations",
+      "authors": [
+        "Margherita Molaro",
+        "Matthew M. Graham",
+        "Oliver Watson",
+        "Rachel E. Murray-Watson",
+        "Martin Chalkley",
+        "Joseph H. Collins",
+        "Bingling She",
+        "Asif U. Tamuri",
+        "Timothy B. Hallett"
+      ],
+      "summary": "Emulators are often invoked to facilitate parameter inference in computationally intensive agent-based simulations (ABSs). Most approaches, however, require a large sample of pre-existing outputs on which such emulators can be trained. For computationally intensive simulations, this sample can be prohibitively expensive to generate. We propose a new approach to leverage emulators at the agent level in event-based ABSs to reduce the computational requirements of the simulation itself. We demonstr",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.07995v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07995v1",
+      "categories": [
+        "q-bio.QM",
+        "q-bio.PE"
+      ],
+      "comments": "Accepted for publication by the Journal of The Royal Society Interface",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.07950",
+      "title": "Leakage- and Label-Aware Benchmarking of Class-Imbalance Strategies for Multimodal Chest X-Ray and EHR Classification",
+      "authors": [
+        "Dang-Khoa Bui",
+        "Quang-Huy Tran",
+        "Minh-Khoi Nguyen-Bui",
+        "Duc-Tuan Ngo",
+        "Thanh-Trong Tran",
+        "Tuan-Khoi Nguyen",
+        "Hoang-Anh Ngo"
+      ],
+      "summary": "Benchmarks of class-imbalance strategies for multimodal chest X-ray (CXR) and electronic health record (EHR) prediction are often evaluated on record-level splits of cohorts in which one patient contributes several radiographs. We audit such a benchmark on 29,083 MIMIC-CXR radiographs of 10,479 patients with eight diagnosis targets. First, the record-split benchmark was misleading: a lookup table that copies the label of a development-set radiograph with the same EHR vector nearly matched the be",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.07950v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07950v1",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "comments": "10 pages, 1 figure, 6 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.07940",
+      "title": "CardioLM: A multilingual suite of small language models for the cardiology domain",
+      "authors": [
+        "Manuela-Daniela Danu",
+        "Miguel Rodríguez-Ortega",
+        "Alberto Becerra-Tome",
+        "Pablo Arancibia",
+        "Fernando Gallego-Donoso",
+        "Lorenzo Pratesi",
+        "Xi Bai",
+        "Andrei-Damian Dinescu",
+        "Salvador Lima-López",
+        "Andrea Guala",
+        "Saskia Haitjema",
+        "Jonas Mack",
+        "Michele Miranda",
+        "Wesam Al Nabki",
+        "Jan Rodríguez-Miret",
+        "Vasile George Marica",
+        "Vladimír Kincl",
+        "Kateřina Dostálová",
+        "Michael Andrej",
+        "Alicia Ujil",
+        "Corinne Allaart",
+        "Machteld Boonstra",
+        "Malin Overmars",
+        "Anoop Shah",
+        "Giovanna Ceroni",
+        "Jonathan Kossoff",
+        "Domenico D'Amario",
+        "Renzo Laborante",
+        "Antonio Iaconelli",
+        "Isabella Fumarulo",
+        "Jacopo Lenkowicz",
+        "Livia Lilli",
+        "Emma Weiss",
+        "Alex Scafa",
+        "Felix Lindberg",
+        "Milou Gamage",
+        "Eulàlia Farré-Maduell",
+        "Sébastien Bratières",
+        "Martin Krallinger",
+        "Bram van Es"
+      ],
+      "summary": "Background: Cardiovascular care generates large volumes of clinical free-text documentation in local languages. However, clinical natural language processing (NLP) resources remain concentrated in English, and no existing benchmark is cardiology-specific, multilingual, and broad in entity coverage. Methods: We present two contributions. The first is CardioCCC, a corpus of 508 cardiology case reports originally published in Spanish and extended to Czech, Dutch, English, Italian, Romanian, and Swe",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.07940v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07940v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "91 pages, 7 figures, 33 tables (9 in the main text, 23 in Appendix A, and 1 in Appendix B)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.07937",
+      "title": "Joint Modeling of Conditional Mean and Variability in Multilevel Functional Data: Application to Postprandial Glucose Trajectories in the AEGIS Study",
+      "authors": [
+        "Yang Xiao",
+        "Francisco Gude",
+        "Marcos Matabuena"
+      ],
+      "summary": "Functional data analysis provides a framework for studying time-varying associations between covariates and high-frequency biological signals. In digital health, participants often contribute repeated functional trajectories, yet existing multilevel regression methods largely focus on the conditional mean, overlooking variability and its role in biological heterogeneity. We propose a heteroskedastic functional mixed-effects regression framework that jointly models the conditional mean and varian",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.07937v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07937v1",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.AP",
+        "stat.ME"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.07935",
+      "title": "Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives",
+      "authors": [
+        "Jingsong Liu",
+        "Youssef Wally Han Li",
+        "Weiwei Zhou",
+        "Jing Dai",
+        "Elisabeth Wetzer",
+        "Peter J. Schüffler"
+      ],
+      "summary": "The growing adoption of digital pathology has rapidly expanded collections of hematoxylin-and-eosin whole-slide images, yet efficient navigation through these archives remains challenging, as metadata is often inconsistent or unavailable. Content-based image retrieval addresses this challenge by identifying similar cases directly from visual representations instead of manual annotations or metadata. Existing retrieval systems have demonstrated promising performance but largely rely on handcrafte",
+      "published": "2026-11-05",
+      "publishedDate": {
+        "iso": "2026-11-05",
+        "year": 2026,
+        "month": 11,
+        "day": 5
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.07935v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07935v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2610.40556",
       "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
@@ -467,506 +920,6 @@
         "cs.LG"
       ],
       "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31659",
-      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-      "authors": [
-        "Sy-Tuyen Ho",
-        "Anirudh Satheesh",
-        "Soham Chawathe",
-        "Huy Nghiem",
-        "Yongkyun Lee",
-        "Andrew Adams Schoen",
-        "Furong Huang"
-      ],
-      "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a suspect model's generated outputs. Existing approaches often trade off verifiability, fidelity, robustness, and deployability. We introduce $\\textbf{SpectralCanary",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31659v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31659v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "NeurIPS 2026 Workshop on Attributing Model Behavior at Scale",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31606",
-      "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
-      "authors": [
-        "Miguel Mochizuki Silva",
-        "Samuel Ismael",
-        "Mateus C. Dias",
-        "Thaís Gaudêncio",
-        "Yuri Malheiros",
-        "Barufaldi"
-      ],
-      "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens, overlaps of 0 to 20%, and f",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31606v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31606v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "18 pages, 3 figures, 6 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31586",
-      "title": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
-      "authors": [
-        "Miguel Fernandez-de-Retana",
-        "Unai Zulaika",
-        "Ruben Sanchez-Corcuera",
-        "Aritz Bilbao-Jayo",
-        "Aitor Almeida"
-      ],
-      "summary": "Accuracy on medical examinations is common evidence offered for the clinical use of language models, yet a health system that intends to run an open model on its own hardware needs to know considerably more: whether the model recognizes when it is likely to be wrong, whether medical fine-tuning improves this ability, whether its correct answers rest on sound clinical reasoning, or whether it actually uses the images it is given. We examine these questions for four open models of 8 to 27 billion ",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31586v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31586v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CY",
-        "cs.LG"
-      ],
-      "comments": "13 pages, 8 figures",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31538",
-      "title": "LACToS: Local Anomaly Detection via Conditional Typicality of Superpixels",
-      "authors": [
-        "Jihoon Hong",
-        "Alireza Kheirandish",
-        "Rohan Sanda",
-        "Sara Fridovich-Keil"
-      ],
-      "summary": "Local anomaly detection is the task of identifying spatially confined anomalous or out-of-distribution (OOD) regions within an otherwise in-distribution (ID) image. Most existing methods are designed for a specific context, with a strong focus on industrial defect detection, where they achieve excellent performance on well-established benchmarks. However, we observe that these methods can exhibit significant performance drops in other contexts, especially when the inlier distribution is multimod",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31538v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31538v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31519",
-      "title": "From Prompt Rules to Golden Data Model: Production-Scale Generation of Personalized, Compliant Pharmaceutical Claims",
-      "authors": [
-        "Suyash Mishra",
-        "Qiang Li",
-        "Subhabrata Adak",
-        "Upender Phogat",
-        "Srikanth Patil",
-        "Satyanarayan Pati"
-      ],
-      "summary": "Large language models (LLMs) are increasingly used to generate domain-specific commercial &amp; medical content (e.g., claims, statements, and promotional phrases) in regulated industries such as pharmaceuticals. However, ensuring its regulatory compliance, factual accuracy, and audience-specific personalization remains a major challenge. We report a production case study asking whether moving compliance and personalization signal from prompt-level rules into retrieval time structured context im",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31519v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31519v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31433",
-      "title": "Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation",
-      "authors": [
-        "Bin Hu",
-        "Yingbo Xiao"
-      ],
-      "summary": "KV cache compression for multimodal LLMs usually selects the visual tokens to keep once, at prefill, and reuses that selection for the whole generation. We show that this one-shot selection is severely limited on long-form generation: on detailed image description, even an oracle that selects with the attention of the uncompressed answer reaches only 0.44-0.52 ROUGE-L agreement with the uncompressed output, because the evidence the model reads moves as the description unfolds. Re-selecting whene",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31433v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31433v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "17 pages, 7 figures, 13 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31414",
-      "title": "Major Revision, Minor Accountability: LLMs as Reviewers of Published Articles in Top-Tier Journals",
-      "authors": [
-        "Bastien Le Guellec",
-        "Su Hwan Kim",
-        "Raphael Bentegeac",
-        "Aghiles Hamroun"
-      ],
-      "summary": "With the growth of scientific output, the peer review system is approaching a breaking point: reviewers are increasingly hard to secure, and turnaround times lengthen accordingly. LLM-assisted or LLM-generated peer review has been proposed as a remedy, but how such models would treat manuscripts already published in top-tier journals, the closest thing the current system has to a gold standard of scientific validity, is not known. Here we assembled a corpus of 200 articles, each released under a",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31414v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31414v1",
-      "categories": [
-        "cs.DL",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31328",
-      "title": "Deep Learning for Random Objects in Metric Spaces: Beyond Manifold Assumptions",
-      "authors": [
-        "Marcos Matabuena",
-        "Xiaokai Luo",
-        "Oscar Hernan Madrid Padilla"
-      ],
-      "summary": "Deep learning (DL) methods have substantially improved predictive performance across a wide range of downstream prediction tasks, enabling new discoveries in multiple domains. However, principled DL methods for non-Euclidean random objects remain relatively scarce, despite the growing importance of modern biomedical outcomes taking the form of probability distributions, random graphs, functions, and other random objects in metric spaces. Motivated by a new generation of digital and clinical biom",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31328v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31328v1",
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "math.ST",
-        "stat.ME"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31323",
-      "title": "Bridging the Data Gap: Source-Informed Task-Space Transport for Few-Shot Diffusion",
-      "authors": [
-        "Jinjian Jiang",
-        "Jing Peng",
-        "Rehan Deen",
-        "Yu Cao",
-        "Ziquan Liu",
-        "Muhammad Salman Haleem",
-        "David Mguni"
-      ],
-      "summary": "Many deployments require a model to move rapidly from a data-rich source to a related target observed only sparsely. This is especially consequential where target data are difficult to collect, as in healthcare settings with persistent population or acquisition imbalances. Retraining or fine-tuning a high-capacity generator for every target is costly and can be statistically unreliable when target data are scarce. We introduce Meta-Diff, which instead learns a recurring source--target relation o",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31323v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31323v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31315",
-      "title": "The Value of System 1 Models in Medicine",
-      "authors": [
-        "Xiufeng Yang",
-        "Konstantinos Vrettos",
-        "Zeineb Ben Chaaben",
-        "Fabian Drexel",
-        "Jannik Lübberstedt",
-        "Johannes Moll",
-        "Anirudh Narayanan",
-        "Frederike Stumpf",
-        "Cosmin I. Bercea",
-        "Jiawen Wang",
-        "Evangelia E. Vassalou",
-        "Krischan Braitsch",
-        "Sebastian Ziegelmayer",
-        "Markus Graf",
-        "Marcus R. Makowski",
-        "Lisa Adams",
-        "Nassir Navab",
-        "Michail E. Klontzas",
-        "Keno Bressem"
-      ],
-      "summary": "Many clinical decisions are a choice among a few fixed options, taken quickly and in large numbers. Such decisions also need an uncertainty estimate to know when to defer to a clinician. Generative language models answer slowly in free text and state their confidence poorly. In contrast, System 1 models answer zero-shot with a probability for each answer. However, their performance across clinical tasks is unknown. Four System 1 models, two proprietary and two with open weights, were evaluated z",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31315v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31315v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "27 pages, 6 figures; includes Supplementary Appendix (3 figures, 5 tables)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31314",
-      "title": "When LLMs Forget What They Believe: Characterizing State Integrity Collapse in Long-Horizon Dialogues",
-      "authors": [
-        "Yancheng Zhu",
-        "Yifan Yuan"
-      ],
-      "summary": "Large language models can repeat an instruction while failing to keep obeying it. We study this recall-compliance dissociation in long-horizon dialogue and define State Integrity Collapse: a model preserves a stated constraint in memory but stops applying it to later turns. We introduce StateTrack-Bench, a controlled suite of conversations covering numerical, format, role/persona, factual-memory, and logical-rule constraints. Across seven provider-pinned model snapshots and five dialogue-depth p",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31314v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31314v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "Accepted at EMNLP 2026 Main Conference. 17 pages including appendices",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31276",
-      "title": "RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding",
-      "authors": [
-        "Jingxuan Xu",
-        "Zihang Xu",
-        "Yuechen Luo",
-        "Ziqi Miao",
-        "Wenqiang Zhu",
-        "Weihao Li",
-        "Junhao Fan",
-        "Xinshun Feng",
-        "Zhiyi Lai",
-        "Yanan Wu",
-        "Haoyang Huang",
-        "Ken Deng"
-      ],
-      "summary": "Long-horizon coding agents can observe a failure and generate a plausible critique yet continue along the same incorrect trajectory. We call this the Critique-to-Action Handoff Gap. We introduce RIPPLE, a recovery-oriented training framework that internalizes process-level guidance into a single self-recovering policy. A prefix-only teacher provides evidence-grounded recovery supervision without access to future actions or terminal outcomes. After lightweight distillation, reinforcement learning",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31276v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31276v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31216",
-      "title": "Local Discrimination of Binary Classifiers via Localized AUC Functional",
-      "authors": [
-        "Wenye Ren",
-        "Anna Győrffy-Kerekes",
-        "Tancredi Dorsi",
-        "Olga Demler"
-      ],
-      "summary": "Risk prediction models are frequently evaluated with AUC, which means that during evaluation we are blind to performance heterogeneity, which could lead to bad decision-making in clinics. In this work, we aim to change that by identifying patient cohorts for whom the risk prediction model might not be an accurate predictor. To separate these cohorts, we use a version of the weighted AUC, which we call Localized AUC or LAUC. Using this metric, we build a method that we coin LOCATOR. This method i",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31216v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31216v1",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.31066",
-      "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
-      "authors": [
-        "Zhefan Rao",
-        "Meng Chu",
-        "Xuan Zhang",
-        "Jingfan Chen",
-        "Guohao Cai",
-        "Runyi Li",
-        "Shiyi Du",
-        "Ning Lu",
-        "Xu Huang",
-        "Zhixuan Chen",
-        "Feng Nie",
-        "Harold Haodong Chen",
-        "Hanwen Wang",
-        "Wen-Jie Shu",
-        "Yajing Bai",
-        "Xianfeng Wu",
-        "Xuanhua He",
-        "Shuhan Guo",
-        "Ziyue Ma",
-        "Ruichuan An",
-        "Long Bai",
-        "Miaosen Chai",
-        "Wenhao Chai",
-        "Jingye Chen",
-        "Qi Chen",
-        "Xuhang Chen",
-        "Wei Chow",
-        "Minghao Fu",
-        "Yunhao Gou",
-        "Haokun Gui",
-        "Dong Huang",
-        "Wei Huang",
-        "Zi Cheng Huang",
-        "Haibo Jin",
-        "Lingdong Kong",
-        "Leung Chun Ho",
-        "Tianqin Li",
-        "Yanheng Li",
-        "Jiayuan Liu",
-        "Jiyang Liu",
-        "Mingyu Liu",
-        "Shaoteng Liu",
-        "Xiaocheng Lu",
-        "Yawen Luo",
-        "Zeyu Qin",
-        "Tiancheng Shen",
-        "Yueqi Song",
-        "Zhaolong Su",
-        "Hengkai Tan",
-        "Tianhao Tang",
-        "Yiran Tao",
-        "Juncheng Wang",
-        "Qinghe Wang",
-        "Shangshang Wang",
-        "Yingying Wang",
-        "Fang Wu",
-        "Tiange Xiang",
-        "Qiushi Yang",
-        "Weicai Ye",
-        "Weichen Yu",
-        "Jiarui Zhang",
-        "Jize Zhang",
-        "Liuzhou Zhang",
-        "Renrui Zhang",
-        "Sheng Zhang",
-        "Wenhu Zhang",
-        "Junru Zhao",
-        "Lingting Zhu",
-        "Yuxin Zuo",
-        "Yutong Bai",
-        "Long Chen",
-        "Yang Deng",
-        "Ziqi Huang",
-        "Yeying Jin",
-        "Weijia Li",
-        "Kevin Qinghong Lin",
-        "Quande Liu",
-        "See-Kiong Ng",
-        "Hongliang Ren",
-        "Hongru Wang",
-        "Shujun Wang",
-        "Qifeng Chen",
-        "Haoxuan Che"
-      ],
-      "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and scientific domains. The Agent track compares 10 configurations on 1,088 items in ",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.31066v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.31066v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2610.30989",
-      "title": "ColaBench: Evaluating Memory-Guided Knowledge Acquisition in Personal Agents",
-      "authors": [
-        "Wenjie Zhang",
-        "Zhichao Shi",
-        "Xuhui Jiang",
-        "Xiaojun Wu",
-        "Cehao Yang",
-        "Chengjin Xu",
-        "Xiaoning Song"
-      ],
-      "summary": "Personal agents need to draw on long-term interaction history to retrieve and apply external knowledge suited to a user's current request. Even an answer grounded in relevant documents can be unsuitable when it overlooks the user's circumstances. This creates two connected challenges: using historical conditions to identify the knowledge needed for a new request, and applying that knowledge to the user's situation. Existing benchmarks advance memory recall, personalized retrieval, and memory-gui",
-      "published": "2026-10-22",
-      "publishedDate": {
-        "iso": "2026-10-22",
-        "year": 2026,
-        "month": 10,
-        "day": 22
-      },
-      "arxivUrl": "http://arxiv.org/abs/2610.30989v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.30989v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "comments": "12 pages, 4 figures",
       "arxivVersion": "v1"
     }
   ]

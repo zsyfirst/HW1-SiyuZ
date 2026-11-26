@@ -14,11 +14,527 @@
     "category": "Biomedical AI",
     "category_name": "Biomedical & Health AI Research"
   },
-  "lastUpdated": "2026-11-25T06:42:03.410Z",
-  "fetchedAt": "2026-11-25T06:42:03.411Z",
+  "lastUpdated": "2026-11-26T06:31:55.967Z",
+  "fetchedAt": "2026-11-26T06:31:55.967Z",
   "totalPapers": 30,
-  "newPapers": 0,
+  "newPapers": 15,
   "papers": [
+    {
+      "arxivId": "2611.34781",
+      "title": "Comparative Study of Deep Learning Architectures for Brain Tumour Classification",
+      "authors": [
+        "Prisha Gupta",
+        "Pradeep Kumar Gupta"
+      ],
+      "summary": "Accurate and early classification of brain tumours from magnetic resonance imaging (MRI) is essential for treatment planning, yet many published deep learning studies are trained and tested on small, single-source datasets, reporting accuracies that may not hold outside these datasets. This study compares six deep learning architectures for four-class classification (healthy, meningioma, glioma and pituitary tumour): a baseline convolutional neural network (CNN), an attention-based CNN, ShuffleN",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34781v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34781v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34739",
+      "title": "Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models",
+      "authors": [
+        "Ajmain Istiak Apon",
+        "Md Mehedi Hasan",
+        "Sejuti Rahman"
+      ],
+      "summary": "World models are evaluated by predicting future observations from actions. These evaluations assume that actions are prepared the same way as during training, but an unchecked mismatch can make a model appear less accurate than it is. We audit this assumption in Navigation World Models (NWM) and find three interacting differences between its training and rollout code. Correcting the inputs, without retraining, reduces mean visual prediction error by 42%, measured with DreamSim on the RECON navig",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34739v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34739v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "comments": "26 pages, 8 figures, 10 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34721",
+      "title": "Privileged On-Policy Distillation for Calibrated Alzheimer's Diagnosis With Missing Modalities",
+      "authors": [
+        "Vo Minh Khoi Nguyen",
+        "Dat Tien Chung",
+        "Quang Minh Khoa Le",
+        "Duc Khang Nguyen",
+        "Le Thien Phuc Nguyen",
+        "Hoang Thien Nguyen",
+        "Minh Huu Nhat Le",
+        "Phat K. Huynh",
+        "Cuong Tuan Nguyen",
+        "Thanh Huy Nguyen",
+        "Ulas Bagci"
+      ],
+      "summary": "Alzheimer's disease is diagnosed from clinical, biospecimen and imaging evidence, but few patients undergo every test. Because these modalities are complementary, a missing one has many plausible values. Most existing methods leave it out or train on one estimate, so their classifier never sees its other values, and the estimate is never checked against the diagnosis. We address both gaps with on-policy distillation: the model fills in the missing modalities itself, and teachers with information",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34721v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34721v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "11 pages, 3 figures, 4 tables. Submitted to IEEE Transactions on Medical Imaging",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34618",
+      "title": "Automated Batch-Variable Selection for ComBat-Based Radiomic Harmonization",
+      "authors": [
+        "Jose Lozano-Montoya",
+        "Gemma Urbanos",
+        "Carmen Prieto-de-la-Lastra",
+        "Emilio Soria-Olivas",
+        "Ana Jimenez-Pastor"
+      ],
+      "summary": "ComBat harmonizes multicentre radiomic features, but batch variables are usually chosen manually, without a standardized criterion across image acquisition parameters. We propose ParsiComBat, which selects acquisition parameters for ComBat, balancing batch-effect removal against feature-structure preservation and abstaining when technical variation is negligible. ParsiComBat ranks candidate acquisition parameters by batch effect, filters redundancy, and scores sequential ComBat corrections. We e",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34618v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34618v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "18 pages, 5 figures and 4 tables",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34575",
+      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "authors": [
+        "Sage-Med Team",
+        ":",
+        "Ming Hu",
+        "Cheng Tang",
+        "Wei Li",
+        "Rongbin Li",
+        "Feilong Tang",
+        "Junru Hu",
+        "Hongze Zhu",
+        "Qiujuan Yan",
+        "Huanze Tang",
+        "Shaocong Wei",
+        "Siyuan Yan",
+        "Min Cen",
+        "Zhongxing Xu",
+        "Zhonghua Wang",
+        "Lie Ju",
+        "Zhen Yu",
+        "Wenjie Li",
+        "Shiyan Su",
+        "Jing Hao",
+        "Jingyong Liang",
+        "Diping Song",
+        "Fang Yan",
+        "Chenglong Ma",
+        "Junzhi Ning",
+        "Haochen Xue",
+        "Zanting Ye",
+        "Chenrun Wang",
+        "Jinjie Wei",
+        "Yi Xin",
+        "Jianghan Shen",
+        "Siqi Luo",
+        "Jiyao Liu",
+        "Huidong Xie",
+        "Jun Zhao",
+        "Rulin Zhou",
+        "Longquan Jiang",
+        "Ziyan Huang",
+        "Ying Chen",
+        "Hanxiao Zhang",
+        "Junyang Wu",
+        "Mouxiao Bian",
+        "Jiashi Lin",
+        "Chenyu Wang",
+        "Qi Qin",
+        "Jie Huang",
+        "Yiling Zhou",
+        "Jiawei Chen",
+        "Kefan Wang",
+        "Jingjing Hua",
+        "Yaoyu Liu",
+        "Huihui Xu",
+        "Tianbin Li",
+        "Jin Ye",
+        "Ziyang Chen",
+        "Shujian Gao",
+        "Zilin Lu",
+        "Jiangtao Yan",
+        "Changkai Ji",
+        "Wenhao Tang",
+        "Xinyi Zeng",
+        "Yuxing Chen",
+        "Hongwei Yang",
+        "Rongzhao Zhang",
+        "Jinru Ding",
+        "Yingcheng Wu",
+        "Zhenfei Yin",
+        "Jinzhe Li",
+        "Lu Lu",
+        "Yun Zhong",
+        "Zhishan Lin",
+        "Bingli Wang",
+        "Xiaohan Ren",
+        "Jianmin Qian",
+        "Penghao Zhao",
+        "Zhongbo Tian",
+        "Zhenbang Zhou",
+        "Peiling Dai",
+        "Mengjing Zhao",
+        "Jingyu Zheng",
+        "Pinan Liu",
+        "Shiwei Li",
+        "Victoria Mar",
+        "Cristina Vico-Alonso",
+        "Qiang Wu",
+        "Xianming Liu",
+        "Lingtong Huang",
+        "Dili Song",
+        "Minghui Zhang",
+        "Wenlong Zhang",
+        "Qipeng Guo",
+        "Yuqiang Li",
+        "Nanqing Dong",
+        "Yun Gu",
+        "Qi Duan",
+        "Hongliang Ren",
+        "Hongming Shan",
+        "Yin Xie",
+        "Xiang An",
+        "Benyou Wang",
+        "Yueming Su",
+        "Yefeng Zheng",
+        "Zongyuan Ge",
+        "Chun-Mei Feng",
+        "Jie Xu",
+        "Yu Qiao",
+        "Junjun He",
+        "Yirong Chen"
+      ],
+      "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34575v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34575v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "101 pages",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34539",
+      "title": "EPPC-CARE: Staged Hierarchical Annotation of Communication Behaviors in Secure Patient-Provider Messages",
+      "authors": [
+        "Samah Fodeh",
+        "Sreeraj Ramachandran",
+        "Ganesh Puthiaraju",
+        "Sarah Schellhorn"
+      ],
+      "summary": "Objectives: Patient portal messages provide invaluable information about communication dynamics between patients and healthcare providers, but extracting it manually is labor-intensive. We developed and evaluated EPPC-CARE, an automated framework for identifying communication behaviors together with the supporting text for each classification. Materials and Methods: From 867 messages, we obtained 5,516 reference standard annotations. Each annotation is a triplet of communication-related text (sp",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34539v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34539v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "comments": "31 pages, 3 figures, 14 tables (includes Appendix / Supplementary Material)",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34493",
+      "title": "Auditing Identity and Timing Signals in Operational Logs",
+      "authors": [
+        "Andrew Hendel"
+      ],
+      "summary": "Models that predict events from operational logs, such as sepsis in ICU records or failures in hard drives, can score well by recognizing which patient or drive a record came from, or when it was recorded, instead of predicting the event. I introduce two simple audits that measure how much of this information a dataset carries before any event-prediction model is trained, and apply them to seven public datasets in six domains. One asks whether a classifier can tell that two records came from the",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34493v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34493v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "comments": "28 pages. Supplementary code and results included. WhoWhen library: https://github.com/mojolearn/whowhen",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34310",
+      "title": "Interpretable identification of constitutive parameter field for three-dimensional heterogeneous and graded hyperelastic materials from full-field displacements",
+      "authors": [
+        "Kanhaiya Lal Chaurasiya",
+        "Vaskar Halder",
+        "Prajyot Patil",
+        "Gaurav Navnath Shinde",
+        "Debashish Das",
+        "Akshay Joshi"
+      ],
+      "summary": "The inverse problem of identifying spatially varying material properties of heterogeneous solids using experimentally available displacement fields and boundary reaction forces alone remains challenging. Being able to characterize heterogeneous and graded solids would be advantageous in the design and manufacturing of functionally graded materials and composites. Additionally, an efficient technique for identifying heterogeneous material properties from in vivo measurements would be useful in bi",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34310v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34310v1",
+      "categories": [
+        "cs.LG",
+        "cond-mat.mtrl-sci",
+        "math.PR",
+        "physics.comp-ph"
+      ],
+      "comments": "",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34258",
+      "title": "Train-Only-Constrained LM for Synthetic Clinical Trajectories: Leak-Safe Calibration and Auditable Dynamics",
+      "authors": [
+        "Yaser Kord",
+        "Moritz Hess"
+      ],
+      "summary": "Simulating clinical time series necessitates temporal realism, calibration that preserves model integrity, and privacy transparency. We present a train-only, constrained language-model pipeline that factorizes generation. A compact GPT-style language model learns cross-biomarker co-occurrence through quantile tokens, and temporal directions are enforced by 3x3 per-biomarker Markov transitions fit on TRAIN, allowing dynamics to be audited. We fit a monotone quantile map (QMap) on TRAIN only (SYN(",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34258v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34258v1",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "comments": "Preprint (pre-review version, 6 pages, 2 figures). Accepted at SECURE AI4H@AAAI 2026, Singapore. Extended version to appear in Springer CCIS vol. 3004 (2027): https://link.springer.com/book/9789819239238",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34250",
+      "title": "MedSkill-E$^{2}$: Evaluating and Evolving Skills for Medical Agents",
+      "authors": [
+        "Jingjing Hua",
+        "Shaocong Wei",
+        "Jianghan Shen",
+        "Junzhi Ning",
+        "Min Cen",
+        "Cheng Tang",
+        "Ziyan Huang",
+        "Jiepeng Li",
+        "Fengshuo Liu",
+        "Kangkun Mao",
+        "Mouxiao Bian",
+        "Yirong Chen",
+        "Ming Hu",
+        "Jiyao Liu"
+      ],
+      "summary": "Large language model (LLM) agents increasingly use skills to access domain knowledge and complete real-world tasks. We observe that even when a skill specifies the rules and procedures needed for a task, agents may fail to apply them effectively during autonomous execution, a phenomenon we call skill Enable But Underuse (EBU). This issue is particularly consequential in medical tasks, where overlooking a single critical constraint can yield a plausible but incorrect result. To evaluate and addre",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34250v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34250v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "comments": "42 pages,including appendices",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34247",
+      "title": "Did the Model Forecast It, or Already Know It? Evaluating Large Language Models for Novel Drug-Target Prioritisation with a Temporal Knowledge-Graph Oracle",
+      "authors": [
+        "Pui Chung Siu",
+        "Yuan Liang",
+        "Claudia Cabrera",
+        "Mani Mudaliar",
+        "Arkaitz Zubiaga"
+      ],
+      "summary": "AI systems increasingly help decide which drug targets enter costly clinical trials. We recast each target-disease hypothesis as a dated event, the pair's first clinical trial. This lets us test whether a language model can forecast such events after its training cutoff, rather than recall events before it. We rebuild a dated biomedical knowledge graph as it stood at the end of each year from 2020 up to its newest version. We then ask six open language models, with and without this graph, which ",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34247v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34247v1",
+      "categories": [
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "comments": "14 pages, 7 figures, 5 tables. Accepted at the NeurIPS 2026 Workshop on AI for Drug Discovery: Bridging the Translation Gap (AI4DD). Code and data: https://github.com/jackysiupuichung/forecast-or-know",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34230",
+      "title": "Weakly Conditioned Diffusion Model Augmentation for Prostate Segmentation",
+      "authors": [
+        "Chibike Ugbam",
+        "Muhammad Bilal",
+        "Jia Wu",
+        "Shafaq Murad",
+        "Rizwan Qureshi",
+        "Hazrat Ali"
+      ],
+      "summary": "Deep learning models for prostate MRI segmentation often struggle to generalize when trained on limited heterogeneous data, leading to boundary errors and over-segmentation. We present an augmentation framework using mask-conditioned synthetic and diverse T2-weighted MRI volumes to improve boundary precision and reduce over-segmentation. We employ a 2.5D weakly mask-conditioned denoising diffusion probabilistic model (DDPM) via channel concatenation. The diffusion model conditions on stacks of a",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34230v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34230v1",
+      "categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comments": "15 pages, preprint",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34169",
+      "title": "Multi-view fnirs identifies neurophysiological subtypes in post-stroke aphasia",
+      "authors": [
+        "Zijian Kang",
+        "Bingbing Lin",
+        "Jinglei Ni",
+        "Meifang Tian",
+        "Wai Ting Siok",
+        "Jia Huang",
+        "Nizhuan Wang"
+      ],
+      "summary": "Post-stroke aphasia is clinically heterogeneous, and conventional classifications may not capture differences in brain functional organisation. We tested whether resting-state and task-based functional near-infrared spectroscopy (fNIRS) could identify neurophysiological subgroups alongside clinical assessment.Seventy-nine patients underwent unsupervised clustering using three fNIRS feature views: resting-state activity and connectivity, language-task activation, and rest-to-task connectivity rec",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34169v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34169v1",
+      "categories": [
+        "q-bio.NC",
+        "cs.AI"
+      ],
+      "comments": "30 pages, 4 tables, 7 figures",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34166",
+      "title": "Cell-Type-Specific Expression Is Hard to Predict from Bulk, but It Is Still Useful",
+      "authors": [
+        "Gadi Naveh",
+        "Amit Miller",
+        "Gal Keinan"
+      ],
+      "summary": "Single-cell-informed deconvolution provides cell-type-resolved features for clinical bulk RNA cohorts. Most existing methods predict the proportions $π_k$ of the $K$ constituent cell types (CTs). Fewer predict cell-type-specific expression (CTSE) $μ_{kg}$ of gene $g$ in CT $k$, which can capture cell states that proportions miss, but recent benchmarks find it much harder. We explain this gap with closed-form accuracy bounds. For CTSE, we derive an $R^2$ ceiling for per-gene linear estimators. Fo",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34166v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34166v1",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM",
+        "stat.ML"
+      ],
+      "comments": "Accepted at the NeurIPS 2026 Workshop on AI for Drug Discovery (AI4DD). 5 pages main text, 28 pages total",
+      "arxivVersion": "v1"
+    },
+    {
+      "arxivId": "2611.34152",
+      "title": "Lost in the Grid: Where Multimodal LLMs Fail Between Seeing and Planning",
+      "authors": [
+        "Luoxi Zhang",
+        "Tianyi Tan",
+        "Jiawei Liu",
+        "Xingyu Zeng",
+        "Min Yang",
+        "Shiwen Ni"
+      ],
+      "summary": "Multimodal large language models (MLLMs) excel at static visual understanding and are increasingly applied to spatial planning, where a model interprets a visual layout and outputs an action sequence to reach a goal. Grid games are a common testbed for this ability because their rules are explicit and a solver can verify every move. Yet existing benchmarks mostly report end-to-end success rates, which hide whether a failure stems from visual perception, rule application, or multi-step planning. ",
+      "published": "2026-11-25",
+      "publishedDate": {
+        "iso": "2026-11-25",
+        "year": 2026,
+        "month": 11,
+        "day": 25
+      },
+      "arxivUrl": "http://arxiv.org/abs/2611.34152v1",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34152v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comments": "31 pages, 32 figures, 29 tables. Code: https://github.com/suat-llm/GridProbe",
+      "arxivVersion": "v1"
+    },
     {
       "arxivId": "2611.24877",
       "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
@@ -427,459 +943,6 @@
       "pdfUrl": "https://arxiv.org/pdf/2611.23856v1",
       "categories": [
         "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08433",
-      "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
-      "authors": [
-        "Donghua Zhang",
-        "Zizheng Wang",
-        "Ze Dong",
-        "Yiding Feng",
-        "Siyu Qian"
-      ],
-      "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present MedGraph, a graph memory built for these three cases. Construction extracts dated facts from each sess",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08433v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08433v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "14 pages, 5 figures, 8 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08394",
-      "title": "Synthesis of Ovarian Cancer Multi-Omics Datasets: A Biology-Informed Evaluation Framework",
-      "authors": [
-        "Déborah Boyenval",
-        "Alina Malyutina",
-        "Jaana Oikkonen",
-        "Sammeli Liikkanen",
-        "Sampsa Hautaniemi"
-      ],
-      "summary": "Paired multi-omic cancer cohorts are costly to assemble and difficult to share, motivating synthetic cohorts as a complementary resource. As generative model development accelerates, we shift the focus from proposing yet another architecture to defining evaluation criteria that determine whether synthetic data preserve biologically relevant structure. We introduce a biology-informed and patient-disjoint framework for evaluating the generation of paired RNA expression and copy-number variation (C",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08394v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08394v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted at the GenAI4Health Workshop at NeurIPS 2026 and in the Findings track of ML4H 2026. Both acceptances are non-archival",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08392",
-      "title": "Learning a patient world model for health system simulation in intensive care",
-      "authors": [
-        "Yingtai Li",
-        "Ruoyan Wang",
-        "Yu Li",
-        "Shaohua Kevin Zhou"
-      ],
-      "summary": "Designing healthcare strategies requires anticipating their clinical and operational consequences before implementation, a task that often relies on health system simulation. Such a simulation necessitates modeling how patient states evolve and generate care demands. However, conventional approaches typically tailor compact state transitions to a single policy question and omit history-dependent dynamics, thus requiring the redefinition of states and transitions when there is a new question that",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08392v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08392v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08369",
-      "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
-      "authors": [
-        "Pengkai Wang",
-        "Wei-Wei Zhang",
-        "Yan Li",
-        "Min Tang",
-        "Zhitian Hou",
-        "Zeyu Liu",
-        "Guanghao Zhu",
-        "Yuanyi Wang",
-        "Yanggan Gu",
-        "Wenjun Wang",
-        "Minheng Ni",
-        "Congkai Xie",
-        "Zhijie Sang",
-        "Jianmin Wu",
-        "Ying Sun",
-        "Hongxia Yang"
-      ],
-      "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care. To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC). NPCBench mirrors specialist training, fr",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08369v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08369v1",
-      "categories": [
-        "cs.AI"
-      ],
-      "comments": "Accepted at the 40th Conference on Neural Information Processing Systems (NeurIPS 2026), Evaluations and Datasets Track",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08352",
-      "title": "USB Gym: A Gymnasium Testbed for Closed-Loop Ultrasound View Matching",
-      "authors": [
-        "Thanapong Intharah",
-        "Zhichao Gao",
-        "Yiliang Liu",
-        "Hao Dong"
-      ],
-      "summary": "Background and Objective: Our main goal is ultrasound guidance: moving a probe until its image matches a target view. Published methods for each part of a guide are evaluated in separate simulators. We asked whether these methods, combined into one guide, are good enough. Methods: We built USB Gym, a testbed whose standard engine simulates ultrasound from public patient CT, with a network drawing organ textures from CT labels. Its guide has three replaceable parts (slots), an organ segmenter, a ",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08352v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08352v1",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "comments": "75 pages; supplementary material (62 pages) as an ancillary file. Submitted to Computer Methods and Programs in Biomedicine. Code: https://github.com/tohnperfect/USBGym",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08315",
-      "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
-      "authors": [
-        "Ali Sarabadani",
-        "Kheirolah Rahsepar Fard",
-        "Tahereh Jeirani"
-      ],
-      "summary": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas, Brain Map, and GDPKG. We introduce a multitier query dataset to evaluate reasoning depth and factual accuracy under KG-aware (graph-grounded) and KG-agnostic conditions. Inter-ann",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08315v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08315v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08295",
-      "title": "Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation",
-      "authors": [
-        "Gabriel Parra",
-        "Kimia Khoshnami",
-        "Daniel S. Brown",
-        "Laura A. Hallock"
-      ],
-      "summary": "Robot-mediated rehabilitation has the potential to deliver high-intensity, individualized therapy, but existing systems (which have not consistently improved outcomes) typically prescribe kinematic trajectories rather than explicitly targeting the neuromotor activations thought to support recovery. To address this gap, and ultimately enable activation-optimizing rehabilitation robot behavior, we present a personalizable transformer-based model mapping individuals' muscle activations (as measured",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08295v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08295v1",
-      "categories": [
-        "cs.RO",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "comments": "Accepted for presentation and publication in the 2026 Conference on Robot Learning (CoRL). PMLR, 2026",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08154",
-      "title": "Interpretable Multimodal MRI-Clinical Fusion for Functional Outcome Prediction After Acute Ischemic Stroke",
-      "authors": [
-        "Sina Raeisadigh",
-        "Henning Müller",
-        "Abderrahmane Hedjoudje"
-      ],
-      "summary": "This study evaluates the added prognostic value of day-1 multimodal MRI for predicting three-month functional outcome after acute ischemic stroke (AIS). Sixty-six AIS patients with ADC, DWI, FLAIR, and clinical data were analyzed. Three-dimensional pretrained ResNet embeddings were extracted from each MRI modality, reduced using fold-isolated principal component analysis, and combined with structured clinical variables and ADC-derived lesion biomarkers. Linear support vector machines were evalua",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08154v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08154v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV",
-        "eess.IV"
-      ],
-      "comments": "5 pages, 2 figures, 1 table",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08054",
-      "title": "NutriVisRAG: Multimodal Exemplar Grounding for Nutrient Estimation with Vision-Language Models",
-      "authors": [
-        "Lubnaa Abdur Rahman",
-        "Ioannis Papathanail",
-        "Maria Panagiotou",
-        "Nefeli Dimitropoulou",
-        "Margret Harðardóttir",
-        "Elisabeth J. den Brok",
-        "Bastiaan E. de Galan",
-        "Stavroula Georgia Mougiakakou"
-      ],
-      "summary": "Diet is a major determinant of health, yet accurate dietary assessment from free-living meal images remains challenging. Existing retrieval-based Vision-Language Model (VLM) approaches to nutrient estimation typically rely on textual food representations, while, to our knowledge, direct grounding on visually similar annotated meals has not been investigated. We present NutriVisRAG, a retrieval-augmented generation framework that uses a vision encoder to retrieve similar meals with known nutritio",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08054v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08054v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.08021",
-      "title": "GTAFL: Addressing Test-Agnostic Long-Tailed Federated Learning in Medical Image",
-      "authors": [
-        "Guangyu Chen",
-        "Jingyun Zeng",
-        "Hui Jiang"
-      ],
-      "summary": "In healthcare, protecting patient privacy is crucial due to the sensitivity of medical data and its extensive accessibility. Federated Learning (FL) offers a decentralized and privacy-preserving training paradigm, making it an ideal solution for healthcare applications. A critical challenge in healthcare is that real-world medical data often exhibits long-tailed distributions in local and global views. Existing methods addressing long-tailed FL problem typically assume that the model will be eva",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.08021v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.08021v1",
-      "categories": [
-        "cs.LG"
-      ],
-      "comments": "Accepted for publication in IEEE Journal of Biomedical and Health Informatics (JBHI). 13 pages. Code: https://github.com/cgy-lavine/GTAFL",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.07995",
-      "title": "Leveraging deep generative modelling at the agent level in discrete-event simulations",
-      "authors": [
-        "Margherita Molaro",
-        "Matthew M. Graham",
-        "Oliver Watson",
-        "Rachel E. Murray-Watson",
-        "Martin Chalkley",
-        "Joseph H. Collins",
-        "Bingling She",
-        "Asif U. Tamuri",
-        "Timothy B. Hallett"
-      ],
-      "summary": "Emulators are often invoked to facilitate parameter inference in computationally intensive agent-based simulations (ABSs). Most approaches, however, require a large sample of pre-existing outputs on which such emulators can be trained. For computationally intensive simulations, this sample can be prohibitively expensive to generate. We propose a new approach to leverage emulators at the agent level in event-based ABSs to reduce the computational requirements of the simulation itself. We demonstr",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.07995v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.07995v1",
-      "categories": [
-        "q-bio.QM",
-        "q-bio.PE"
-      ],
-      "comments": "Accepted for publication by the Journal of The Royal Society Interface",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.07950",
-      "title": "Leakage- and Label-Aware Benchmarking of Class-Imbalance Strategies for Multimodal Chest X-Ray and EHR Classification",
-      "authors": [
-        "Dang-Khoa Bui",
-        "Quang-Huy Tran",
-        "Minh-Khoi Nguyen-Bui",
-        "Duc-Tuan Ngo",
-        "Thanh-Trong Tran",
-        "Tuan-Khoi Nguyen",
-        "Hoang-Anh Ngo"
-      ],
-      "summary": "Benchmarks of class-imbalance strategies for multimodal chest X-ray (CXR) and electronic health record (EHR) prediction are often evaluated on record-level splits of cohorts in which one patient contributes several radiographs. We audit such a benchmark on 29,083 MIMIC-CXR radiographs of 10,479 patients with eight diagnosis targets. First, the record-split benchmark was misleading: a lookup table that copies the label of a development-set radiograph with the same EHR vector nearly matched the be",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.07950v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.07950v1",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "comments": "10 pages, 1 figure, 6 tables",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.07940",
-      "title": "CardioLM: A multilingual suite of small language models for the cardiology domain",
-      "authors": [
-        "Manuela-Daniela Danu",
-        "Miguel Rodríguez-Ortega",
-        "Alberto Becerra-Tome",
-        "Pablo Arancibia",
-        "Fernando Gallego-Donoso",
-        "Lorenzo Pratesi",
-        "Xi Bai",
-        "Andrei-Damian Dinescu",
-        "Salvador Lima-López",
-        "Andrea Guala",
-        "Saskia Haitjema",
-        "Jonas Mack",
-        "Michele Miranda",
-        "Wesam Al Nabki",
-        "Jan Rodríguez-Miret",
-        "Vasile George Marica",
-        "Vladimír Kincl",
-        "Kateřina Dostálová",
-        "Michael Andrej",
-        "Alicia Ujil",
-        "Corinne Allaart",
-        "Machteld Boonstra",
-        "Malin Overmars",
-        "Anoop Shah",
-        "Giovanna Ceroni",
-        "Jonathan Kossoff",
-        "Domenico D'Amario",
-        "Renzo Laborante",
-        "Antonio Iaconelli",
-        "Isabella Fumarulo",
-        "Jacopo Lenkowicz",
-        "Livia Lilli",
-        "Emma Weiss",
-        "Alex Scafa",
-        "Felix Lindberg",
-        "Milou Gamage",
-        "Eulàlia Farré-Maduell",
-        "Sébastien Bratières",
-        "Martin Krallinger",
-        "Bram van Es"
-      ],
-      "summary": "Background: Cardiovascular care generates large volumes of clinical free-text documentation in local languages. However, clinical natural language processing (NLP) resources remain concentrated in English, and no existing benchmark is cardiology-specific, multilingual, and broad in entity coverage. Methods: We present two contributions. The first is CardioCCC, a corpus of 508 cardiology case reports originally published in Spanish and extended to Czech, Dutch, English, Italian, Romanian, and Swe",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.07940v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.07940v1",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "comments": "91 pages, 7 figures, 33 tables (9 in the main text, 23 in Appendix A, and 1 in Appendix B)",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.07937",
-      "title": "Joint Modeling of Conditional Mean and Variability in Multilevel Functional Data: Application to Postprandial Glucose Trajectories in the AEGIS Study",
-      "authors": [
-        "Yang Xiao",
-        "Francisco Gude",
-        "Marcos Matabuena"
-      ],
-      "summary": "Functional data analysis provides a framework for studying time-varying associations between covariates and high-frequency biological signals. In digital health, participants often contribute repeated functional trajectories, yet existing multilevel regression methods largely focus on the conditional mean, overlooking variability and its role in biological heterogeneity. We propose a heteroskedastic functional mixed-effects regression framework that jointly models the conditional mean and varian",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.07937v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.07937v1",
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "stat.AP",
-        "stat.ME"
-      ],
-      "comments": "",
-      "arxivVersion": "v1"
-    },
-    {
-      "arxivId": "2611.07935",
-      "title": "Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives",
-      "authors": [
-        "Jingsong Liu",
-        "Youssef Wally Han Li",
-        "Weiwei Zhou",
-        "Jing Dai",
-        "Elisabeth Wetzer",
-        "Peter J. Schüffler"
-      ],
-      "summary": "The growing adoption of digital pathology has rapidly expanded collections of hematoxylin-and-eosin whole-slide images, yet efficient navigation through these archives remains challenging, as metadata is often inconsistent or unavailable. Content-based image retrieval addresses this challenge by identifying similar cases directly from visual representations instead of manual annotations or metadata. Existing retrieval systems have demonstrated promising performance but largely rely on handcrafte",
-      "published": "2026-11-05",
-      "publishedDate": {
-        "iso": "2026-11-05",
-        "year": 2026,
-        "month": 11,
-        "day": 5
-      },
-      "arxivUrl": "http://arxiv.org/abs/2611.07935v1",
-      "pdfUrl": "https://arxiv.org/pdf/2611.07935v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
       ],
       "comments": "",
       "arxivVersion": "v1"
